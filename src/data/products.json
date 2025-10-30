@@ -1,0 +1,324 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Athletic Running Shoes",
+      "price": 89.99,
+      "originalPrice": 129.99,
+      "category": "Footwear",
+      "badge": "Sale",
+      "description": "Premium athletic running shoes designed for maximum comfort and performance. Features breathable mesh upper and responsive cushioning.",
+      "sizes": ["7", "8", "9", "10", "11", "12"],
+      "colors": ["Black", "White", "Gray", "Blue"],
+      "images": [
+        "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800",
+        "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=800",
+        "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=800"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Casual Leather Belt",
+      "price": 24.99,
+      "originalPrice": null,
+      "category": "Accessories",
+      "badge": null,
+      "description": "Classic leather belt with stylish buckle. Perfect for casual and formal occasions.",
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": ["Brown", "Black", "Tan"],
+      "images": [
+        "https://images.unsplash.com/photo-1624222247344-550fb60583bb?w=800",
+        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800",
+        "https://images.unsplash.com/photo-1564859228273-274232fdb516?w=800"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Premium Baseball Cap",
+      "price": 19.99,
+      "originalPrice": null,
+      "category": "Accessories",
+      "badge": null,
+      "description": "Comfortable and stylish baseball cap with adjustable strap. Made from high-quality cotton.",
+      "sizes": ["One Size"],
+      "colors": ["Black", "Navy", "White", "Red"],
+      "images": [
+        "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=800",
+        "https://images.unsplash.com/photo-1575428652377-a2d80e2277fc?w=800",
+        "https://images.unsplash.com/photo-1589310243389-96a5483213a8?w=800"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Denim Jacket",
+      "price": 79.99,
+      "originalPrice": 99.99,
+      "category": "Clothing",
+      "badge": "New",
+      "description": "Classic denim jacket with modern fit. Features button closure and multiple pockets.",
+      "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+      "colors": ["Blue", "Black", "Light Blue"],
+      "images": [
+        "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?w=800",
+        "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=800",
+        "https://images.unsplash.com/photo-1543508282-6319a3e2621f?w=800"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Cotton T-Shirt",
+      "price": 14.99,
+      "originalPrice": null,
+      "category": "Clothing",
+      "badge": null,
+      "description": "Soft and comfortable 100% cotton t-shirt. Perfect for everyday wear.",
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "colors": ["White", "Black", "Gray", "Navy", "Red"],
+      "images": [
+        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800",
+        "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=800",
+        "https://images.unsplash.com/photo-1622445275576-721325763afe?w=800"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Sports Backpack",
+      "price": 49.99,
+      "originalPrice": null,
+      "category": "Accessories",
+      "badge": null,
+      "description": "Durable sports backpack with multiple compartments. Water-resistant material.",
+      "sizes": ["One Size"],
+      "colors": ["Black", "Navy", "Gray"],
+      "images": [
+        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800",
+        "https://images.unsplash.com/photo-1581605405669-fcdf81165afa?w=800",
+        "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?w=800"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Classic Hoodie",
+      "price": 44.99,
+      "originalPrice": null,
+      "category": "Clothing",
+      "badge": null,
+      "description": "Cozy hoodie with soft fleece lining. Features adjustable drawstring hood and kangaroo pocket.",
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "colors": ["Black", "Gray", "Navy", "White"],
+      "images": [
+        "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=800",
+        "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=800",
+        "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=800"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Leather Sneakers",
+      "price": 99.99,
+      "originalPrice": 139.99,
+      "category": "Footwear",
+      "badge": "Sale",
+      "description": "Premium leather sneakers with cushioned insole. Perfect blend of style and comfort.",
+      "sizes": ["7", "8", "9", "10", "11", "12"],
+      "colors": ["White", "Black", "Brown"],
+      "images": [
+        "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=800",
+        "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=800",
+        "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=800"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Designer Sunglasses",
+      "price": 149.99,
+      "originalPrice": null,
+      "category": "Accessories",
+      "badge": "New",
+      "description": "Stylish designer sunglasses with UV protection. Perfect for any season.",
+      "sizes": ["One Size"],
+      "colors": ["Black", "Tortoise", "Gold"],
+      "images": [
+        "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=800",
+        "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=800",
+        "https://images.unsplash.com/photo-1577803645773-f96470509666?w=800"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Slim Fit Jeans",
+      "price": 59.99,
+      "originalPrice": null,
+      "category": "Clothing",
+      "badge": null,
+      "description": "Modern slim fit jeans with stretch comfort. Classic 5-pocket design.",
+      "sizes": ["28", "30", "32", "34", "36", "38"],
+      "colors": ["Dark Blue", "Light Blue", "Black"],
+      "images": [
+        "https://images.unsplash.com/photo-1542272604-787c3835535d?w=800",
+        "https://images.unsplash.com/photo-1604176354204-9268737828e4?w=800",
+        "https://images.unsplash.com/photo-1475178626620-a4d074967452?w=800"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Fashion Wristwatch",
+      "price": 199.99,
+      "originalPrice": 249.99,
+      "category": "Fashion",
+      "badge": "Sale",
+      "description": "Elegant fashion wristwatch with leather strap. Water-resistant design.",
+      "sizes": ["One Size"],
+      "colors": ["Silver", "Gold", "Rose Gold"],
+      "images": [
+        "https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=800",
+        "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?w=800",
+        "https://images.unsplash.com/photo-1434056886845-dac89ffe9b56?w=800"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Canvas Sneakers",
+      "price": 39.99,
+      "originalPrice": null,
+      "category": "Footwear",
+      "badge": null,
+      "description": "Classic canvas sneakers for everyday wear. Lightweight and breathable.",
+      "sizes": ["6", "7", "8", "9", "10", "11"],
+      "colors": ["White", "Black", "Navy", "Red"],
+      "images": [
+        "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=800",
+        "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=800",
+        "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=800"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Leather Wallet",
+      "price": 34.99,
+      "originalPrice": null,
+      "category": "Accessories",
+      "badge": null,
+      "description": "Genuine leather wallet with multiple card slots. Slim and elegant design.",
+      "sizes": ["One Size"],
+      "colors": ["Brown", "Black", "Tan"],
+      "images": [
+        "https://images.unsplash.com/photo-1627123424574-724758594e93?w=800",
+        "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=800",
+        "https://images.unsplash.com/photo-1614009303461-5c7ccf7cf0a9?w=800"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Fashion Scarf",
+      "price": 29.99,
+      "originalPrice": null,
+      "category": "Fashion",
+      "badge": null,
+      "description": "Soft and stylish fashion scarf. Perfect accessory for any outfit.",
+      "sizes": ["One Size"],
+      "colors": ["Red", "Blue", "Gray", "Pink"],
+      "images": [
+        "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?w=800",
+        "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=800",
+        "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=800"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Sport Joggers",
+      "price": 49.99,
+      "originalPrice": null,
+      "category": "Clothing",
+      "badge": null,
+      "description": "Comfortable sport joggers with elastic waistband. Perfect for gym or casual wear.",
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "colors": ["Black", "Gray", "Navy"],
+      "images": [
+        "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=800",
+        "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=800",
+        "https://images.unsplash.com/photo-1555689502-c4b22d76c56f?w=800"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Formal Dress Shoes",
+      "price": 119.99,
+      "originalPrice": null,
+      "category": "Footwear",
+      "badge": "New",
+      "description": "Classic formal dress shoes with leather upper. Perfect for business or special occasions.",
+      "sizes": ["7", "8", "9", "10", "11", "12"],
+      "colors": ["Black", "Brown"],
+      "images": [
+        "https://images.unsplash.com/photo-1614252369475-531eba835eb1?w=800",
+        "https://images.unsplash.com/photo-1533867617858-e7b97e060509?w=800",
+        "https://images.unsplash.com/photo-1582897085656-c636d006a246?w=800"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Designer Handbag",
+      "price": 299.99,
+      "originalPrice": 399.99,
+      "category": "Fashion",
+      "badge": "Sale",
+      "description": "Luxury designer handbag with premium materials. Spacious interior with multiple compartments.",
+      "sizes": ["One Size"],
+      "colors": ["Black", "Brown", "Beige"],
+      "images": [
+        "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=800",
+        "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=800",
+        "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=800"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Polo Shirt",
+      "price": 34.99,
+      "originalPrice": null,
+      "category": "Clothing",
+      "badge": null,
+      "description": "Classic polo shirt with breathable fabric. Perfect for casual or smart-casual occasions.",
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "colors": ["White", "Navy", "Black", "Red"],
+      "images": [
+        "https://images.unsplash.com/photo-1607345366928-199ea26cfe3e?w=800",
+        "https://images.unsplash.com/photo-1626497764746-6dc36546d304?w=800",
+        "https://images.unsplash.com/photo-1586363104862-3a5e2ab60d99?w=800"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Stylish Necktie",
+      "price": 24.99,
+      "originalPrice": null,
+      "category": "Fashion",
+      "badge": null,
+      "description": "Elegant silk necktie with modern patterns. Perfect finishing touch for formal wear.",
+      "sizes": ["One Size"],
+      "colors": ["Blue", "Red", "Black", "Gray"],
+      "images": [
+        "https://images.unsplash.com/photo-1589756823695-278bc0b47958?w=800",
+        "https://images.unsplash.com/photo-1599043513900-ed6fe01d3833?w=800",
+        "https://images.unsplash.com/photo-1617114919297-3c7c3f948750?w=800"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Winter Boots",
+      "price": 139.99,
+      "originalPrice": null,
+      "category": "Footwear",
+      "badge": "New",
+      "description": "Insulated winter boots with waterproof exterior. Perfect for cold weather.",
+      "sizes": ["7", "8", "9", "10", "11", "12"],
+      "colors": ["Black", "Brown", "Gray"],
+      "images": [
+        "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?w=800",
+        "https://images.unsplash.com/photo-1638247025967-b4e38f787b76?w=800",
+        "https://images.unsplash.com/photo-1579338559194-a162d19bf842?w=800"
+      ]
+    }
+  ]
+}
