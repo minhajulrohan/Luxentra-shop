@@ -14,6 +14,8 @@ const Payment = () => {
   const [paymentMethod, setPaymentMethod] = useState("card");
   const [cardNumber, setCardNumber] = useState("");
   const [acceptedTerms, setAcceptedTerms] = useState(false);
+  const [paypalEmail, setPaypalEmail] = useState("");
+  const [paypalPassword, setPaypalPassword] = useState("");
 
   const formatCardNumber = (value: string) => {
     const cleaned = value.replace(/\s/g, "");
@@ -36,7 +38,7 @@ const Payment = () => {
     });
 
     setTimeout(() => {
-      navigate("/shop");
+      navigate("/home");
     }, 2000);
   };
 
@@ -222,6 +224,9 @@ const Payment = () => {
                           type="email"
                           placeholder=""
                           className="mt-1.5"
+                          value={paypalEmail}
+                          onChange={(e) => setPaypalEmail(e.target.value)}
+                          required
                         />
                       </div>
 
@@ -232,6 +237,9 @@ const Payment = () => {
                           type="password"
                           placeholder=""
                           className="mt-1.5"
+                          value={paypalPassword}
+                          onChange={(e) => setPaypalPassword(e.target.value)}
+                          required
                         />
                       </div>
 
@@ -239,6 +247,7 @@ const Payment = () => {
                         <Button
                           type="submit"
                           className="w-full bg-accent hover:bg-accent/90 text-accent-foreground font-semibold"
+                          disabled={!paypalEmail || !paypalPassword}
                         >
                           Pay Now »
                         </Button>
