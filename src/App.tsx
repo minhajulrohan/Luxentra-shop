@@ -14,7 +14,13 @@ import Contact from "./pages/Contact";
 import Checkout from "./pages/Checkout";
 import NotFound from "./pages/NotFound";
 import OrderSuccess from "./pages/OrderSuccess";
-import Payment from "./pages/payment"
+import Payment from "./pages/payment";
+import About from "./pages/About";
+import PrivacyPolicy from "./pages/Privacypolicy";
+import TermsConditions from "./pages/Termsconditions";
+import Auth from "./pages/auth/Auth";
+
+
 
 const queryClient = new QueryClient();
 
@@ -35,7 +41,12 @@ const App = () => (
             <Route path="/contact" element={<Contact />} />
             <Route path="/checkout" element={<Checkout />} />
             <Route path="/order-success" element={<OrderSuccess />} />
-            <Route path="payment" element={<Payment />} />
+            <Route path="/payment" element={<Payment />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/privacypolicy" element={<PrivacyPolicy />} />
+            <Route path="/termsconditions" element={<TermsConditions />} />
+            <Route path="auth" element={<Auth />} />
+
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

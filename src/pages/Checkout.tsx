@@ -7,6 +7,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { toast } from "sonner";
 import { ArrowLeft } from "lucide-react";
+import ScrollToTopButton from "@/components/Button";
 
 interface CartItem {
   id: number;
@@ -236,6 +237,7 @@ const handleSubmit = (e: React.FormEvent) => {
         </div>
       </main>
       <Footer />
+      <ScrollToTopButton />
     </div>
   );
 };

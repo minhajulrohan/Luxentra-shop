@@ -40,21 +40,21 @@ const Header = () => {
               <span className="text-primary">Luxentra</span> Shop
             </Link>
             <nav className="hidden md:flex items-center gap-6">
-              <Link to="/" className="text-sm font-medium hover:text-primary transition-colors">
+              <Link to="/" className="text-sm font-md-bold hover:text-primary transition-colors">
                 Home
               </Link>
-              <Link to="/shop" className="text-sm font-medium hover:text-primary transition-colors">
+              <Link to="/shop" className="text-1xl font-bold hover:text-primary transition-colors">
                 Shop All Product 
               </Link>
-              <Link to="/category/footwear" className="text-sm font-medium hover:text-primary transition-colors">
-                Categories
+              <Link to="/about" className="text-sm font-medium hover:text-primary transition-colors">
+                About
               </Link>
               <Link to="/blog" className="text-sm font-medium hover:text-primary transition-colors">
                 Blog
               </Link>
-              <a href="#footer" className="text-sm font-medium hover:text-primary transition-colors">
+              <Link to="/contact" className="text-sm font-medium hover:text-primary transition-colors">
                 Contact
-              </a>
+              </Link>
             </nav>
           </div>
 

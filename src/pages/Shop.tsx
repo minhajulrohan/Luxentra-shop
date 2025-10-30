@@ -11,6 +11,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import ScrollToTopButton from "@/components/Button";
 
 const Shop = () => {
   const [sortBy, setSortBy] = useState("featured");
@@ -107,6 +108,7 @@ const Shop = () => {
       </main>
 
       <Footer />
+      <ScrollToTopButton />
     </div>
   );
 };

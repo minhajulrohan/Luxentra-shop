@@ -7,6 +7,7 @@ import ProductCard from "@/components/ProductCard";
 import CategoryCard from "@/components/CategoryCard";
 import Footer from "@/components/Footer";
 import productsData from "@/data/products.json";
+import ScrollToTopButton from "@/components/Button";
 
 const Index = () => {
   const products = productsData.products;
@@ -137,6 +138,7 @@ const Index = () => {
       </main>
 
       <Footer />
+      <ScrollToTopButton />
     </div>
   );
 };

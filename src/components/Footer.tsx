@@ -42,13 +42,8 @@ const Footer = () => {
             <h4 className="font-semibold mb-4">Company</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+                <Link to="/about" className="text-muted-foreground hover:text-primary transition-colors">
                   About us
-                </a>
-              </li>
-              <li>
-                <Link to="/shop" className="text-muted-foreground hover:text-primary transition-colors">
-                  Shop
                 </Link>
               </li>
               <li>
@@ -62,14 +57,14 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+                <Link to="/privacypolicy" className="text-muted-foreground hover:text-primary transition-colors">
                   Privacy policy
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+                <Link to="/termsconditions" className="text-muted-foreground hover:text-primary transition-colors">
                   Terms & conditions
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -114,29 +109,19 @@ const Footer = () => {
             <h4 className="font-semibold mb-4">Customers</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+                <Link to="/auth" className="text-muted-foreground hover:text-primary transition-colors">
                   Log in
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                  Register
-                </a>
-              </li>
-              <li>
-                <Link to="/contact" className="text-muted-foreground hover:text-primary transition-colors">
-                  Contact us
                 </Link>
               </li>
               <li>
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                  Support hub
-                </a>
+                <Link to="#" className="text-muted-foreground hover:text-primary transition-colors">
+                  Register
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                  Preferences
-                </a>
+                <Link to="#" className="text-muted-foreground hover:text-primary transition-colors">
+                  Support hub
+                </Link>
               </li>
             </ul>
           </div>
@@ -176,7 +161,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-muted-foreground text-sm">Copyright © 2009-2024 | All Rights Reserved</p>
+          <p className="text-muted-foreground text-sm">Copyright © 2022-2025 | All Rights Reserved</p>
           <div className="flex items-center gap-3 flex-wrap justify-center">
             <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Visa.svg" alt="Visa" className="h-8" />
             <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Mastercard_2019_logo.svg" alt="Mastercard" className="h-8" />

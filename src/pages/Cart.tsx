@@ -7,6 +7,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { Minus, Plus, Trash2, ShoppingBag, ArrowLeft } from "lucide-react";
 import { toast } from "sonner";
+import ScrollToTopButton from "@/components/Button";
 
 interface CartItem {
   id: number;
@@ -249,6 +250,7 @@ const Cart = () => {
       </main>
 
       <Footer />
+      <ScrollToTopButton />
     </div>
   );
 };

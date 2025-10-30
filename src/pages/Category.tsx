@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import productsData from "@/data/products.json";
+import ScrollToTopButton from "@/components/Button";
 
 const Category = () => {
   const { category } = useParams<{ category: string }>();
@@ -52,6 +53,7 @@ const Category = () => {
       </main>
 
       <Footer />
+      <ScrollToTopButton />
     </div>
   );
 };

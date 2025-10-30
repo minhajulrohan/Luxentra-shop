@@ -9,6 +9,7 @@ import { ShoppingCart, Heart, Minus, Plus, ArrowLeft } from "lucide-react";
 import ProductCard from "@/components/ProductCard";
 import productsData from "@/data/products.json";
 import { toast } from "sonner";
+import ScrollToTopButton from "@/components/Button";
 
 interface Product {
   id: number;
@@ -271,6 +272,7 @@ const ProductDetail = () => {
       </main>
 
       <Footer />
+      <ScrollToTopButton />
     </div>
   );
 };

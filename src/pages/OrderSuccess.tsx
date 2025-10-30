@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 // এখানে Lucide-react থেকে একটি আইকন ব্যবহার করা হয়েছে
 import { CheckCircle, Home, ShoppingBag } from "lucide-react";
+import ScrollToTopButton from "@/components/Button";
 
 const OrderSuccess = () => {
   const navigate = useNavigate();
@@ -61,6 +62,7 @@ const OrderSuccess = () => {
         </div>
       </main>
       <Footer />
+      <ScrollToTopButton />
     </div>
   );
 };
