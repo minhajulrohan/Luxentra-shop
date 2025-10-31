@@ -19,6 +19,7 @@ import About from "./pages/About";
 import PrivacyPolicy from "./pages/Privacypolicy";
 import TermsConditions from "./pages/Termsconditions";
 import Auth from "./pages/auth/Auth";
+import BlogDetail from "./pages/BlogDetail";
 
 
 
@@ -45,6 +46,7 @@ const App = () => (
             <Route path="/about" element={<About />} />
             <Route path="/privacypolicy" element={<PrivacyPolicy />} />
             <Route path="/termsconditions" element={<TermsConditions />} />
+            <Route path="/blogDetails/:id" element={<BlogDetail />} />
             <Route path="auth" element={<Auth />} />
 
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

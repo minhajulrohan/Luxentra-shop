@@ -319,6 +319,22 @@
         "https://images.unsplash.com/photo-1638247025967-b4e38f787b76?w=800",
         "https://images.unsplash.com/photo-1579338559194-a162d19bf842?w=800"
       ]
+    },
+    {
+      "id": 21,
+      "name": "Formal Dress Shoes",
+      "price": 119.99,
+      "originalPrice": null,
+      "category": "Footwear",
+      "badge": "New",
+      "description": "Classic formal dress shoes with leather upper. Perfect for business or special occasions.",
+      "sizes": ["7", "8", "9", "10", "11", "12"],
+      "colors": ["Black", "Brown"],
+      "images": [
+        "https://images.unsplash.com/photo-1614252369475-531eba835eb1?w=800",
+        "https://images.unsplash.com/photo-1533867617858-e7b97e060509?w=800",
+        "https://images.unsplash.com/photo-1582897085656-c636d006a246?w=800"
+      ]
     }
   ]
 }

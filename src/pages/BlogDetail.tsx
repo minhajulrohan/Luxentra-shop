@@ -3,12 +3,16 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft, Calendar, User } from "lucide-react";
-import productsData from "@/data/products.json";
+// ✅ সমাধান: Blog.jsx ফাইল থেকে blogPosts অ্যারেটি ইম্পোর্ট করা হলো।
+import { blogPosts } from "./Blog"; 
 
 const BlogDetail = () => {
   const { id } = useParams();
-  const blog = productsData.blogs.find((b) => b.id === id);
+  
+  // ✅ সমাধান: URL থেকে আসা স্ট্রিং id কে parseInt() দিয়ে নাম্বারে পরিবর্তন করে খোঁজা হচ্ছে।
+  const blog = blogPosts.find((b) => b.id === parseInt(id));
 
+  // --- (Blog Not Found Logic) ---
   if (!blog) {
     return (
       <div className="min-h-screen flex flex-col">
@@ -23,6 +27,7 @@ const BlogDetail = () => {
       </div>
     );
   }
+  // ------------------------------
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -79,15 +84,9 @@ const BlogDetail = () => {
           <div className="mt-12 pt-8 border-t">
             <h3 className="text-xl font-bold mb-4">Share this article</h3>
             <div className="flex gap-3">
-              <Button variant="outline" size="sm">
-                Share on Twitter
-              </Button>
-              <Button variant="outline" size="sm">
-                Share on Facebook
-              </Button>
-              <Button variant="outline" size="sm">
-                Copy Link
-              </Button>
+              <Button variant="outline" size="sm">Share on Twitter</Button>
+              <Button variant="outline" size="sm">Share on Facebook</Button>
+              <Button variant="outline" size="sm">Copy Link</Button>
             </div>
           </div>
         </article>
