@@ -16,7 +16,7 @@ import mensChino from "../assets/mens-chino.jpg"
 const categories = [
   {
     title: "Men's Winter Collection",
-    href: "#mens-winter",
+    href: "/menswinter",
     image: mensWinter,
   },
   {

@@ -20,6 +20,8 @@ import PrivacyPolicy from "./pages/Privacypolicy";
 import TermsConditions from "./pages/Termsconditions";
 import Auth from "./pages/auth/Auth";
 import BlogDetail from "./pages/BlogDetail";
+import Menswinter from "./pages/Menswinter";
+import MenswinterProductdetails from "./pages/winterproduct/MenswinterProductdetails";
 
 
 
@@ -47,6 +49,11 @@ const App = () => (
             <Route path="/privacypolicy" element={<PrivacyPolicy />} />
             <Route path="/termsconditions" element={<TermsConditions />} />
             <Route path="/blogDetails/:id" element={<BlogDetail />} />
+            {/* Populer Category Route */}
+            <Route path="/menswinter" element={<Menswinter />} />
+
+            {/* Populer Product Card page to Details page Router */}
+            <Route path="/menswinter/menswinterpd/:id" element={<MenswinterProductdetails />} />
             <Route path="auth" element={<Auth />} />
 
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
