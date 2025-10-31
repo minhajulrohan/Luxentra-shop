@@ -1,0 +1,36 @@
+{
+  "womensproducts": [
+    {
+      "id": 1,
+      "name":"WOMENS HOODIE JACKET",
+      "price": 29.00,
+      "originalPrice": 34.00,
+      "category": "WomensWinter",
+      "badge": "Available",
+      "description": "The color is the same as the picture. However, it may slightly differ due to lighting. ",
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "colors": [],
+      "images": [
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F7193dc47809949679a21e7dd2bd1b222.png&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fb99db9490ba04bcf9e90186e90b2820a.png&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F00fffc8a216a4791b7b3bc7caeb06f21.png&w=1080&q=75"
+      ]
+    },
+ {
+      "id": 2,
+      "name":"WOMENS HOODIE JACKET",
+      "price": 29.00,
+      "originalPrice": 34.00,
+      "category": "WomensWinter",
+      "badge": "Available",
+      "description": "The color is the same as the picture. However, it may slightly differ due to lighting. ",
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "colors": [],
+      "images": [
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F7193dc47809949679a21e7dd2bd1b222.png&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fb99db9490ba04bcf9e90186e90b2820a.png&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F00fffc8a216a4791b7b3bc7caeb06f21.png&w=1080&q=75"
+      ]
+    }
+  ]
+}

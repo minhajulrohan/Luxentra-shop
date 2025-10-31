@@ -6,12 +6,12 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ShoppingCart, Heart, Minus, Plus, ArrowLeft } from "lucide-react";
-import MenswinproductCard from "@/components/Menswinter/MenswinproductCard"
-import MenswinterProductData from "@/data/menswinterpd.json"
+import WomensproductCard from "@/components/Womenproduct/WomensproductCard";
+import WomensproductData from "@/data/womensproduct.json"
 import { toast } from "sonner";
 import ScrollToTopButton from "@/components/Button";
 
-interface winterproduct {
+interface womensproducts {
   id: number;
   name: string;
   price: number;
@@ -24,21 +24,21 @@ interface winterproduct {
   images: string[];
 }
 
-const MenswinterProductdetails = () => {
+const WomenswinterproductDetails = () => {
   const { id } = useParams();
   const navigate = useNavigate();
-  const [winterproduct, setwinterproduct] = useState<winterproduct | null>(null);
+  const [womensproducts, setwomensproducts] = useState<womensproducts | null>(null);
   const [selectedImage, setSelectedImage] = useState(0);
   const [selectedSize, setSelectedSize] = useState("");
   const [selectedColor, setSelectedColor] = useState("");
   const [quantity, setQuantity] = useState(1);
 
   useEffect(() => {
-    const foundProduct = MenswinterProductData.winterproduct.find(
+    const foundProduct = WomensproductData.womensproducts.find(
       (p) => p.id === Number(id)
     );
     if (foundProduct) {
-      setwinterproduct(foundProduct as winterproduct);
+      setwomensproducts(foundProduct as womensproducts);
       setSelectedColor(foundProduct.colors[0]);
       setSelectedSize(foundProduct.sizes[0]);
     }
@@ -46,7 +46,7 @@ const MenswinterProductdetails = () => {
 
   const handleAddToCart = () => {
     const cartItem = {
-      ...winterproduct,
+      ...womensproducts,
       selectedSize,
       selectedColor,
       quantity,
@@ -55,7 +55,7 @@ const MenswinterProductdetails = () => {
     const existingCart = JSON.parse(localStorage.getItem("cart") || "[]");
     const existingItemIndex = existingCart.findIndex(
       (item: any) =>
-        item.id === winterproduct?.id &&
+        item.id === womensproducts?.id &&
         item.selectedSize === selectedSize &&
         item.selectedColor === selectedColor
     );
@@ -76,7 +76,7 @@ const MenswinterProductdetails = () => {
     navigate("/cart");
   };
 
-  if (!winterproduct) {
+  if (!womensproducts) {
     return (
       <div className="min-h-screen flex flex-col">
         <Header />
@@ -88,8 +88,8 @@ const MenswinterProductdetails = () => {
     );
   }
 
-  const relatedProducts = MenswinterProductData.winterproduct
-    .filter((p) => p.category === winterproduct.category && p.id !== winterproduct.id)
+  const relatedProducts = WomensproductData.womensproducts
+    .filter((p) => p.category === womensproducts.category && p.id !== womensproducts.id)
     .slice(0, 4);
 
   return (
@@ -100,7 +100,7 @@ const MenswinterProductdetails = () => {
         <Button
           variant="ghost"
           className="mb-6"
-          onClick={() => navigate("/menswinter")}
+          onClick={() => navigate("/womenswinter")}
         >
           <ArrowLeft className="w-4 h-4 mr-2" />
           Back to Shop
@@ -111,13 +111,13 @@ const MenswinterProductdetails = () => {
           <div className="space-y-4">
             <Card className="overflow-hidden">
               <img
-                src={winterproduct.images[selectedImage]}
-                alt={winterproduct.name}
+                src={womensproducts.images[selectedImage]}
+                alt={womensproducts.name}
                 className="w-full h-[500px] object-cover"
               />
             </Card>
             <div className="grid grid-cols-3 gap-4">
-              {winterproduct.images.map((image, index) => (
+              {womensproducts.images.map((image, index) => (
                 <Card
                   key={index}
                   className={`overflow-hidden cursor-pointer transition-all ${
@@ -129,7 +129,7 @@ const MenswinterProductdetails = () => {
                 >
                   <img
                     src={image}
-                    alt={`${winterproduct.name} ${index + 1}`}
+                    alt={`${womensproducts.name} ${index + 1}`}
                     className="w-full h-32 object-cover"
                   />
                 </Card>
@@ -140,33 +140,33 @@ const MenswinterProductdetails = () => {
           {/* Product Info Section */}
           <div className="space-y-6">
             <div>
-              {winterproduct.badge && (
+              {womensproducts.badge && (
                 <Badge className="mb-2 bg-accent text-accent-foreground">
-                  {winterproduct.badge}
+                  {womensproducts.badge}
                 </Badge>
               )}
-              <h1 className="text-4xl font-bold mb-2">{winterproduct.name}</h1>
-              <p className="text-muted-foreground">{winterproduct.category}</p>
+              <h1 className="text-4xl font-bold mb-2">{womensproducts.name}</h1>
+              <p className="text-muted-foreground">{womensproducts.category}</p>
             </div>
 
             <div className="flex items-center gap-4">
               <span className="text-3xl font-bold text-primary">
-                ${winterproduct.price.toFixed(2)}
+                ${womensproducts.price.toFixed(2)}
               </span>
-              {winterproduct.originalPrice && (
+              {womensproducts.originalPrice && (
                 <span className="text-xl text-muted-foreground line-through">
-                  ${winterproduct.originalPrice.toFixed(2)}
+                  ${womensproducts.originalPrice.toFixed(2)}
                 </span>
               )}
             </div>
 
-            <p className="text-lg leading-relaxed">{winterproduct.description}</p>
+            <p className="text-lg leading-relaxed">{womensproducts.description}</p>
 
             {/* Color Selection */}
             <div>
               <h3 className="font-semibold mb-3">Color</h3>
               <div className="flex flex-wrap gap-2">
-                {winterproduct.colors.map((color) => (
+                {womensproducts.colors.map((color) => (
                   <Button
                     key={color}
                     variant={selectedColor === color ? "default" : "outline"}
@@ -182,7 +182,7 @@ const MenswinterProductdetails = () => {
             <div>
               <h3 className="font-semibold mb-3">Size</h3>
               <div className="flex flex-wrap gap-2">
-                {winterproduct.sizes.map((size) => (
+                {womensproducts.sizes.map((size) => (
                   <Button
                     key={size}
                     variant={selectedSize === size ? "default" : "outline"}
@@ -256,7 +256,7 @@ const MenswinterProductdetails = () => {
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
               {relatedProducts.map((relatedProduct) => (
-                <MenswinproductCard
+                <WomensproductCard
                   key={relatedProduct.id}
                   id={relatedProduct.id}
                   name={relatedProduct.name}
@@ -277,4 +277,4 @@ const MenswinterProductdetails = () => {
   );
 };
 
-export default MenswinterProductdetails;
+export default WomenswinterproductDetails;

@@ -21,7 +21,7 @@ const categories = [
   },
   {
     title: "Women's Winter Collection",
-    href: "#womens-winter",
+    href: "/womenswinter",
     image: womensWinter,
   },
   {

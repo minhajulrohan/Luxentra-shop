@@ -22,6 +22,11 @@ import Auth from "./pages/auth/Auth";
 import BlogDetail from "./pages/BlogDetail";
 import Menswinter from "./pages/Menswinter";
 import MenswinterProductdetails from "./pages/winterproduct/MenswinterProductdetails";
+import Womensproduct from "./pages/Womensproduct";
+import WomenswinterproductDetails from "./pages/winterproduct/WomenswinterproductDetails";
+
+
+
 
 
 
@@ -51,9 +56,15 @@ const App = () => (
             <Route path="/blogDetails/:id" element={<BlogDetail />} />
             {/* Populer Category Route */}
             <Route path="/menswinter" element={<Menswinter />} />
+            <Route path="/womenswinter" element={<Womensproduct />} />
+
 
             {/* Populer Product Card page to Details page Router */}
             <Route path="/menswinter/menswinterpd/:id" element={<MenswinterProductdetails />} />
+            <Route path="/womenswinter/:id" element={<WomenswinterproductDetails />} />
+
+
+
             <Route path="auth" element={<Auth />} />
 
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
