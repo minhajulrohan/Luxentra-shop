@@ -8,6 +8,8 @@ import CategoryCard from "@/components/CategoryCard";
 import Footer from "@/components/Footer";
 import productsData from "@/data/products.json";
 import ScrollToTopButton from "@/components/Button";
+import PopularCategories from "@/components/PopularCategories";
+
 
 const Index = () => {
   const products = productsData.products;
@@ -39,8 +41,8 @@ const Index = () => {
     <div className="min-h-screen flex flex-col">
       <Header />
       <Hero />
+      <PopularCategories />
       <Features />
-
       <main className="flex-1">
         {/* Featured Products Section */}
         <section className="container mx-auto px-4 py-16">
@@ -54,7 +56,7 @@ const Index = () => {
             </Link>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {products.slice(0, 8).map((product) => (
+            {products.slice(0, 200).map((product) => (
               <ProductCard
                 key={product.id}
                 id={product.id}
