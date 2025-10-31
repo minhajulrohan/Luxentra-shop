@@ -2,6 +2,70 @@
   "products": [
     {
       "id": 1,
+      "name": "Skincare Gift Sets for Women ",
+      "price": 23.99,
+      "originalPrice": 25.00,
+      "category": "Fashion",
+      "badge": "Limited Stock",
+      "description": "Sakura Skin Care Sets & kits - 6-Step Skincare Routine - Cleanser,Toner,Lotion,Serum,Eye Serum,Essence Serum - Gifts for Teenage Girls - Vegan&Cruelty-free 6PCS ",
+      "sizes": [],
+      "colors": [],
+      "images": [
+        "https://m.media-amazon.com/images/I/71027FXf9CL._AC_SL1500_.jpg",
+        "https://ruperhat.com/wp-content/uploads/2023/02/Laikou-Japan-Sakura-Skincar.jpg",
+        "https://static-01.daraz.com.bd/p/626f24a407038806355e1408a4720f6f.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Body Lotion, Powder Scent ",
+      "price": 12.25,
+      "originalPrice": 25.00,
+      "category": "Fashion",
+      "badge": "Offers 15%",
+      "description": "Our soothing body lotion moisturizes skin with natural ingredients like aloe, sunflower seed oil, avocado oil, and olive oil. Beneficial botanicals of arnica, lavender, chamomile, calendula and vitamin E pamper and protect skin. Rich, creamy formula that absorbs quickly and leaves your skin hydrated and silky smooth instantly. Fresh and clean signature powder scent from 100% natural essential oils. 8 fl. oz. ",
+      "sizes": [],
+      "colors": [],
+      "images": [
+        "https://www.goodforyougirls.com/products/body-lotion-natural-powder-scent",
+        "https://www.goodforyougirls.com/cdn/shop/products/HD_BCT_grande.jpg?v=1725540955"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Shower & Glow Body Care Combo (Rajkonna Lotion + Lux Bodywash)",
+      "price": 23.99,
+      "originalPrice": 25.00,
+      "category": "Fashion",
+      "badge": "Available Stock",
+      "description": "1. Rajkonna Brightening Body Lotion Super Moisture 300.0 ml 2. Lux Body Wash Magical Orchid 245.0 ml (Free Loofah) ",
+      "sizes": [],
+      "colors": [],
+      "images": [
+        "https://bk.shajgoj.com/storage/2025/10/35925.jpeg",
+        "https://bk.shajgoj.com/storage/2024/11/rajkonna-brightening-body-lotion-super-moisture.jpg",
+        "https://bk.shajgoj.com/storage/2024/12/lux-body-wash-magical-orchid-2450-ml-f9i5.jpg",
+        "https://bk.shajgoj.com/storage/2025/01/3866.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Christian Dean Secret Tone Up Sun Cream",
+      "price": 5.00,
+      "originalPrice": 7.00,
+      "category": "Fashion",
+      "badge": "Available Stock",
+      "description": "Christian Dean Secret tone-up sun cream is your ultimate skincare solution for achieving a vibrant and glowing complexion. With its SPF50+ PA+++ formula, this sun cream provides superior protection against harmful UV rays while giving your skin a subtle, light pink shade that perfectly blends with your natural skin tone.",
+      "sizes": [],
+      "colors": [],
+      "images": [
+        "https://bk.shajgoj.com/storage/2024/12/13680.jpg",
+        "https://bk.shajgoj.com/storage/2024/07/christian-dean-secret-tone-up-sun-cream.jpg",
+        "https://bk.shajgoj.com/storage/2024/07/christian-dean-secret-tone-up-sun-cream1.jpg"
+      ]
+    },
+    {
+      "id": 5,
       "name": "Athletic Running Shoes",
       "price": 89.99,
       "originalPrice": 129.99,
@@ -17,7 +81,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": 6,
       "name": "Casual Leather Belt",
       "price": 24.99,
       "originalPrice": null,
@@ -33,7 +97,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": 7,
       "name": "Premium Baseball Cap",
       "price": 19.99,
       "originalPrice": null,
@@ -49,7 +113,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": 8,
       "name": "Denim Jacket",
       "price": 79.99,
       "originalPrice": 99.99,
@@ -65,7 +129,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 9,
       "name": "Cotton T-Shirt",
       "price": 14.99,
       "originalPrice": null,
@@ -81,7 +145,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": 10,
       "name": "Sports Backpack",
       "price": 49.99,
       "originalPrice": null,
@@ -97,7 +161,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": 12,
       "name": "Classic Hoodie",
       "price": 44.99,
       "originalPrice": null,
@@ -113,7 +177,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": 13,
       "name": "Leather Sneakers",
       "price": 99.99,
       "originalPrice": 139.99,
@@ -129,7 +193,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 14,
       "name": "Designer Sunglasses",
       "price": 149.99,
       "originalPrice": null,
@@ -145,7 +209,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 15,
       "name": "Slim Fit Jeans",
       "price": 59.99,
       "originalPrice": null,
@@ -161,7 +225,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 16,
       "name": "Fashion Wristwatch",
       "price": 199.99,
       "originalPrice": 249.99,
@@ -177,7 +241,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 17,
       "name": "Canvas Sneakers",
       "price": 39.99,
       "originalPrice": null,
@@ -193,7 +257,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 18,
       "name": "Leather Wallet",
       "price": 34.99,
       "originalPrice": null,
@@ -209,7 +273,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": 19,
       "name": "Fashion Scarf",
       "price": 29.99,
       "originalPrice": null,
@@ -225,7 +289,7 @@
       ]
     },
     {
-      "id": 15,
+      "id": 20,
       "name": "Sport Joggers",
       "price": 49.99,
       "originalPrice": null,
@@ -238,86 +302,6 @@
         "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=800",
         "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=800",
         "https://images.unsplash.com/photo-1555689502-c4b22d76c56f?w=800"
-      ]
-    },
-    {
-      "id": 16,
-      "name": "Formal Dress Shoes",
-      "price": 119.99,
-      "originalPrice": null,
-      "category": "Footwear",
-      "badge": "New",
-      "description": "Classic formal dress shoes with leather upper. Perfect for business or special occasions.",
-      "sizes": ["7", "8", "9", "10", "11", "12"],
-      "colors": ["Black", "Brown"],
-      "images": [
-        "https://images.unsplash.com/photo-1614252369475-531eba835eb1?w=800",
-        "https://images.unsplash.com/photo-1533867617858-e7b97e060509?w=800",
-        "https://images.unsplash.com/photo-1582897085656-c636d006a246?w=800"
-      ]
-    },
-    {
-      "id": 17,
-      "name": "Designer Handbag",
-      "price": 299.99,
-      "originalPrice": 399.99,
-      "category": "Fashion",
-      "badge": "Sale",
-      "description": "Luxury designer handbag with premium materials. Spacious interior with multiple compartments.",
-      "sizes": ["One Size"],
-      "colors": ["Black", "Brown", "Beige"],
-      "images": [
-        "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=800",
-        "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=800",
-        "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=800"
-      ]
-    },
-    {
-      "id": 18,
-      "name": "Polo Shirt",
-      "price": 34.99,
-      "originalPrice": null,
-      "category": "Clothing",
-      "badge": null,
-      "description": "Classic polo shirt with breathable fabric. Perfect for casual or smart-casual occasions.",
-      "sizes": ["S", "M", "L", "XL", "XXL"],
-      "colors": ["White", "Navy", "Black", "Red"],
-      "images": [
-        "https://images.unsplash.com/photo-1607345366928-199ea26cfe3e?w=800",
-        "https://images.unsplash.com/photo-1626497764746-6dc36546d304?w=800",
-        "https://images.unsplash.com/photo-1586363104862-3a5e2ab60d99?w=800"
-      ]
-    },
-    {
-      "id": 19,
-      "name": "Stylish Necktie",
-      "price": 24.99,
-      "originalPrice": null,
-      "category": "Fashion",
-      "badge": null,
-      "description": "Elegant silk necktie with modern patterns. Perfect finishing touch for formal wear.",
-      "sizes": ["One Size"],
-      "colors": ["Blue", "Red", "Black", "Gray"],
-      "images": [
-        "https://images.unsplash.com/photo-1589756823695-278bc0b47958?w=800",
-        "https://images.unsplash.com/photo-1599043513900-ed6fe01d3833?w=800",
-        "https://images.unsplash.com/photo-1617114919297-3c7c3f948750?w=800"
-      ]
-    },
-    {
-      "id": 20,
-      "name": "Winter Boots",
-      "price": 139.99,
-      "originalPrice": null,
-      "category": "Footwear",
-      "badge": "New",
-      "description": "Insulated winter boots with waterproof exterior. Perfect for cold weather.",
-      "sizes": ["7", "8", "9", "10", "11", "12"],
-      "colors": ["Black", "Brown", "Gray"],
-      "images": [
-        "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?w=800",
-        "https://images.unsplash.com/photo-1638247025967-b4e38f787b76?w=800",
-        "https://images.unsplash.com/photo-1579338559194-a162d19bf842?w=800"
       ]
     },
     {
@@ -334,6 +318,169 @@
         "https://images.unsplash.com/photo-1614252369475-531eba835eb1?w=800",
         "https://images.unsplash.com/photo-1533867617858-e7b97e060509?w=800",
         "https://images.unsplash.com/photo-1582897085656-c636d006a246?w=800"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Designer Handbag",
+      "price": 299.99,
+      "originalPrice": 399.99,
+      "category": "Fashion",
+      "badge": "Sale",
+      "description": "Luxury designer handbag with premium materials. Spacious interior with multiple compartments.",
+      "sizes": ["One Size"],
+      "colors": ["Black", "Brown", "Beige"],
+      "images": [
+        "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=800",
+        "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=800",
+        "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=800"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Polo Shirt",
+      "price": 34.99,
+      "originalPrice": null,
+      "category": "Clothing",
+      "badge": null,
+      "description": "Classic polo shirt with breathable fabric. Perfect for casual or smart-casual occasions.",
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "colors": ["White", "Navy", "Black", "Red"],
+      "images": [
+        "https://images.unsplash.com/photo-1607345366928-199ea26cfe3e?w=800",
+        "https://images.unsplash.com/photo-1626497764746-6dc36546d304?w=800",
+        "https://images.unsplash.com/photo-1586363104862-3a5e2ab60d99?w=800"
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Stylish Necktie",
+      "price": 24.99,
+      "originalPrice": null,
+      "category": "Fashion",
+      "badge": null,
+      "description": "Elegant silk necktie with modern patterns. Perfect finishing touch for formal wear.",
+      "sizes": ["One Size"],
+      "colors": ["Blue", "Red", "Black", "Gray"],
+      "images": [
+        "https://images.unsplash.com/photo-1589756823695-278bc0b47958?w=800",
+        "https://images.unsplash.com/photo-1599043513900-ed6fe01d3833?w=800",
+        "https://images.unsplash.com/photo-1617114919297-3c7c3f948750?w=800"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Winter Boots",
+      "price": 139.99,
+      "originalPrice": null,
+      "category": "Footwear",
+      "badge": "New",
+      "description": "Insulated winter boots with waterproof exterior. Perfect for cold weather.",
+      "sizes": ["7", "8", "9", "10", "11", "12"],
+      "colors": ["Black", "Brown", "Gray"],
+      "images": [
+        "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?w=800",
+        "https://images.unsplash.com/photo-1638247025967-b4e38f787b76?w=800",
+        "https://images.unsplash.com/photo-1579338559194-a162d19bf842?w=800"
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Formal Dress Shoes",
+      "price": 119.99,
+      "originalPrice": null,
+      "category": "Footwear",
+      "badge": "New",
+      "description": "Classic formal dress shoes with leather upper. Perfect for business or special occasions.",
+      "sizes": ["7", "8", "9", "10", "11", "12"],
+      "colors": ["Black", "Brown"],
+      "images": [
+        "https://images.unsplash.com/photo-1614252369475-531eba835eb1?w=800",
+        "https://images.unsplash.com/photo-1533867617858-e7b97e060509?w=800",
+        "https://images.unsplash.com/photo-1582897085656-c636d006a246?w=800"
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Original BOYA M1 Microphone for Smartphone, DSLR, Laptop, MacBook ",
+      "price": 10.99,
+      "originalPrice": 15.30,
+      "category": "Microphone",
+      "badge": "New",
+      "description": "Official Original BOYA M1 Comes with 19.6 Feet Long Cable Authenticity Checking Hologram & Scratch Code Made in China 6 Months Warranty",
+      "sizes": [],
+      "colors": ["Black"],
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg1yNn1Nb-wksyMeTWR9du2XknBV2_nHpjrw&s",
+        "https://www.bdshop.com/pub/media/catalog/product/cache/3ce43e8bb160f52e76adb2b0bdd9b58d/o/r/original-boya-m1-microphone-for-smartphone.jpeg"
+      ]
+    },
+    {
+      "id": 28,
+      "name": "BASEUS Bowie P1x Wireless Neckband 25 Hours Playtime",
+      "price": 17.99,
+      "originalPrice": 20.30,
+      "category": "Earphone",
+      "badge": "New",
+      "description": "    Brand: Baseus Model: Bowie P1x Bluetooth 5.3 technology for instant, stable, and reliable signal transmission Ultra-low latency of just 0.06s for perfect video and audio synchronization Up to 25 hours of playtime on a single charge 1.5 hours of fast charging7 days repalcement warranty",
+      "sizes": [],
+      "colors": ["Black"],
+      "images": [
+        "https://www.bdshop.com/pub/media/catalog/product/cache/3ce43e8bb160f52e76adb2b0bdd9b58d/1/6/1687426311.jpg"
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Coffee Joom Kaftan Abaya",
+      "price": 15.00,
+      "originalPrice": 20.00,
+      "category": "Women's Dress",
+      "badge": "New",
+      "description": "FREE DELIVERY at TK.8000 purchase Product color may slightly vary, depending on your device's screen resolution",
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "colors": ["Brown"],
+      "images": [
+        "https://www.lerevecraze.com/wp-content/uploads/2025/10/eb35018d-bd09-41c4-83b5-47c96ef550fa.jpg",
+        "https://www.lerevecraze.com/wp-content/uploads/2025/10/26a41123-c661-4d38-a684-3964d1bf5535.jpg",
+        "https://www.lerevecraze.com/wp-content/uploads/2025/10/318962bb-568c-4a66-8cbc-7c63373ed0fa.jpg",
+        "https://www.lerevecraze.com/wp-content/uploads/2025/10/6b5d25b5-ed3e-43c2-bb03-ea6e4545b4a3.jpg",
+        "https://www.lerevecraze.com/wp-content/uploads/2025/10/a22c05ee-579d-4178-b2d0-015744f91aac.jpg"
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Off-white Jacquard A-line Long Tunic",
+      "price": 48.00,
+      "originalPrice": 55.00,
+      "category": "Women's Dress",
+      "badge": "New",
+      "description": "FREE DELIVERY at TK.8000 purchase Product color may slightly vary, depending on your device's screen resolution",
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "colors": ["White"],
+      "images": [
+        "https://www.lerevecraze.com/wp-content/uploads/2025/10/ad0352e3-605b-430e-abcd-ab96656431eb.jpg",
+        "https://www.lerevecraze.com/wp-content/uploads/2025/10/13123d74-3368-4a2e-aca0-9cdadc471fc6.jpg",
+        "https://www.lerevecraze.com/wp-content/uploads/2025/10/24173de5-84e3-4010-8a5b-9d5f2e059060.jpg",
+        "https://www.lerevecraze.com/wp-content/uploads/2025/10/f7ecc72f-8726-4dfc-bc9e-513442fea512.jpg",
+        "https://www.lerevecraze.com/wp-content/uploads/2025/10/f3a9bdc4-190f-4835-95e9-ed3977830792.jpg"
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Black Georgette A-line Tunic",
+      "price": 20.00,
+      "originalPrice": 23.00,
+      "category": "Women's Dress",
+      "badge": "Available Stock",
+      "description": "Fabric Georgette Fit Regular Neck/Collar High neckline Sleeve Three Quarter Sleeve Style A-Line Wash Care Wash separately in mild detergent",
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "colors": ["Black"],
+      "images": [
+        "https://www.lerevecraze.com/wp-content/uploads/2025/10/57508965-0d93-4510-b284-ffb3cbcfd548.jpg",
+        "https://www.lerevecraze.com/wp-content/uploads/2025/10/15b4329d-abd2-405d-9596-0f2ae714e7e1.jpg",
+        "https://www.lerevecraze.com/wp-content/uploads/2025/10/a896daef-c642-457b-a8d7-5a39ea825a5a.jpg",
+        "https://www.lerevecraze.com/wp-content/uploads/2025/10/0facc49b-8607-4699-99a6-f5bde18710cb.jpg",
+        "https://www.lerevecraze.com/wp-content/uploads/2025/10/0d5ffafb-03ee-4ad8-b97a-bc63a9b68247.jpg"
       ]
     }
   ]
