@@ -120,7 +120,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link to="#" className="text-muted-foreground hover:text-primary transition-colors">
-                  Support hub
+                  Email: support@luxentra-shop.xyz
                 </Link>
               </li>
             </ul>

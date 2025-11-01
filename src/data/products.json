@@ -482,6 +482,39 @@
         "https://www.lerevecraze.com/wp-content/uploads/2025/10/0facc49b-8607-4699-99a6-f5bde18710cb.jpg",
         "https://www.lerevecraze.com/wp-content/uploads/2025/10/0d5ffafb-03ee-4ad8-b97a-bc63a9b68247.jpg"
       ]
+    },
+    {
+      "id": 32,
+      "name":"WOMENS HOODIE JACKET",
+      "price": 29.00,
+      "originalPrice": 34.00,
+      "category": "WomensWinter",
+      "badge": "Available",
+      "description": "The color is the same as the picture. However, it may slightly differ due to lighting. ",
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "colors": [],
+      "images": [
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F7193dc47809949679a21e7dd2bd1b222.png&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fb99db9490ba04bcf9e90186e90b2820a.png&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F00fffc8a216a4791b7b3bc7caeb06f21.png&w=1080&q=75",
+        "https://prod.saralifestyle.com/Images/Products/VariationWisetImage/202d36729ce74995b42833ff0e6a9282.gif"
+      ]
+    },
+ {
+      "id": 33,
+      "name":"WOMENS HOODIE JACKET",
+      "price": 29.00,
+      "originalPrice": 34.00,
+      "category": "WomensWinter",
+      "badge": "Available",
+      "description": "The color is the same as the picture. However, it may slightly differ due to lighting. ",
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "colors": [],
+      "images": [
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F78d9430bb0864c0d9c29daa847eb47fe.png&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F37cdcddf9fb24271a44d1c3f973c909d.png&w=1080&q=75",
+        "https://prod.saralifestyle.com/Images/Products/VariationWisetImage/6cb4f74896bb4ae2bb2c97ece896b7cd.gif"
+      ]
     }
   ]
 }
