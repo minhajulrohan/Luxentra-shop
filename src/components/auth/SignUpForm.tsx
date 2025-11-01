@@ -5,19 +5,14 @@ import * as z from "zod";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { Eye, EyeOff, CalendarIcon } from "lucide-react";
+import { Eye, EyeOff } from "lucide-react";
 import { toast } from "sonner";
-import { format } from "date-fns";
-import { Calendar } from "@/components/ui/calendar";
-import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
+import { supabase } from "@/integrations/supabase/client";
+import { useNavigate } from "react-router-dom";
 
 const signUpSchema = z.object({
-  firstName: z.string().min(1, "First name is required").max(50),
-  lastName: z.string().min(1, "Last name is required").max(50),
+  fullName: z.string().min(1, "Full name is required").max(100),
   email: z.string().email("Invalid email address"),
-  dateOfBirth: z.date({
-    required_error: "Date of birth is required",
-  }),
   password: z.string().min(6, "Password must be at least 6 characters"),
   confirmPassword: z.string().min(6, "Please confirm your password"),
 }).refine((data) => data.password === data.confirmPassword, {
@@ -34,20 +29,40 @@ interface SignUpFormProps {
 export const SignUpForm = ({ onToggle }: SignUpFormProps) => {
   const [showPassword, setShowPassword] = useState(false);
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
-  const [date, setDate] = useState<Date>();
+  const [isLoading, setIsLoading] = useState(false);
+  const navigate = useNavigate();
 
   const {
     register,
     handleSubmit,
-    setValue,
     formState: { errors },
   } = useForm<SignUpFormData>({
     resolver: zodResolver(signUpSchema),
   });
 
-  const onSubmit = (data: SignUpFormData) => {
-    console.log("Sign up data:", data);
-    toast.success("Account created successfully!");
+  const onSubmit = async (data: SignUpFormData) => {
+    setIsLoading(true);
+    try {
+      const { error } = await supabase.auth.signUp({
+        email: data.email,
+        password: data.password,
+        options: {
+          emailRedirectTo: `${window.location.origin}/`,
+          data: {
+            full_name: data.fullName,
+          },
+        },
+      });
+
+      if (error) throw error;
+
+      toast.success("Account created successfully! You can now log in.");
+      onToggle();
+    } catch (error: any) {
+      toast.error(error.message || "Failed to create account. Please try again.");
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   return (
@@ -76,35 +91,20 @@ export const SignUpForm = ({ onToggle }: SignUpFormProps) => {
       </div>
 
       <form onSubmit={handleSubmit(onSubmit)} className="space-y-5">
-        <div className="grid grid-cols-2 gap-3">
-          <div>
-            <Label htmlFor="firstName" className="text-sm text-muted-foreground mb-2 block">
-              First Name
-            </Label>
-            <Input
-              id="firstName"
-              placeholder="Raj"
-              className="h-12 rounded-xl bg-input border-0"
-              {...register("firstName")}
-            />
-            {errors.firstName && (
-              <p className="text-destructive text-xs mt-1">{errors.firstName.message}</p>
-            )}
-          </div>
-          <div>
-            <Label htmlFor="lastName" className="text-sm text-muted-foreground mb-2 block">
-              Last Name
-            </Label>
-            <Input
-              id="lastName"
-              placeholder="Sarkar"
-              className="h-12 rounded-xl bg-input border-0"
-              {...register("lastName")}
-            />
-            {errors.lastName && (
-              <p className="text-destructive text-xs mt-1">{errors.lastName.message}</p>
-            )}
-          </div>
+        <div>
+          <Label htmlFor="fullName" className="text-sm text-muted-foreground mb-2 block">
+            Full Name
+          </Label>
+          <Input
+            id="fullName"
+            placeholder="Enter your full name"
+            className="h-12 rounded-xl bg-input border-0"
+            {...register("fullName")}
+            disabled={isLoading}
+          />
+          {errors.fullName && (
+            <p className="text-destructive text-xs mt-1">{errors.fullName.message}</p>
+          )}
         </div>
 
         <div>
@@ -114,45 +114,13 @@ export const SignUpForm = ({ onToggle }: SignUpFormProps) => {
           <Input
             id="email"
             type="email"
-            placeholder="sarkarraj0766@gmail.com"
+            placeholder="Enter your email"
             className="h-12 rounded-xl bg-input border-0"
             {...register("email")}
+            disabled={isLoading}
           />
           {errors.email && (
             <p className="text-destructive text-xs mt-1">{errors.email.message}</p>
-          )}
-        </div>
-
-        <div>
-          <Label className="text-sm text-muted-foreground mb-2 block">
-            Birth of date
-          </Label>
-          <Popover>
-            <PopoverTrigger asChild>
-              <Button
-                variant="outline"
-                className="w-full h-12 rounded-xl bg-input border-0 justify-start text-left font-normal"
-              >
-                <CalendarIcon className="mr-2 h-4 w-4" />
-                {date ? format(date, "dd/MM/yyyy") : <span>15/06/2000</span>}
-              </Button>
-            </PopoverTrigger>
-            <PopoverContent className="w-auto p-0" align="start">
-              <Calendar
-                mode="single"
-                selected={date}
-                onSelect={(newDate) => {
-                  setDate(newDate);
-                  if (newDate) {
-                    setValue("dateOfBirth", newDate);
-                  }
-                }}
-                initialFocus
-              />
-            </PopoverContent>
-          </Popover>
-          {errors.dateOfBirth && (
-            <p className="text-destructive text-xs mt-1">{errors.dateOfBirth.message}</p>
           )}
         </div>
 
@@ -164,9 +132,10 @@ export const SignUpForm = ({ onToggle }: SignUpFormProps) => {
             <Input
               id="password"
               type={showPassword ? "text" : "password"}
-              placeholder="(454) 726-0592"
+              placeholder="Enter your password"
               className="h-12 rounded-xl bg-input border-0 pr-12"
               {...register("password")}
+              disabled={isLoading}
             />
             <button
               type="button"
@@ -183,15 +152,16 @@ export const SignUpForm = ({ onToggle }: SignUpFormProps) => {
 
         <div>
           <Label htmlFor="confirmPassword" className="text-sm text-muted-foreground mb-2 block">
-            Set Password
+            Confirm Password
           </Label>
           <div className="relative">
             <Input
               id="confirmPassword"
               type={showConfirmPassword ? "text" : "password"}
-              placeholder="••••••"
+              placeholder="Confirm your password"
               className="h-12 rounded-xl bg-input border-0 pr-12"
               {...register("confirmPassword")}
+              disabled={isLoading}
             />
             <button
               type="button"
@@ -206,8 +176,12 @@ export const SignUpForm = ({ onToggle }: SignUpFormProps) => {
           )}
         </div>
 
-        <Button type="submit" className="w-full h-12 rounded-full text-base font-semibold">
-          Sign Up
+        <Button 
+          type="submit" 
+          className="w-full h-12 rounded-full text-base font-semibold"
+          disabled={isLoading}
+        >
+          {isLoading ? "Creating account..." : "Sign Up"}
         </Button>
       </form>
     </div>

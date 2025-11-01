@@ -9,9 +9,11 @@ import { Checkbox } from "@/components/ui/checkbox";
 import { Eye, EyeOff } from "lucide-react";
 import { SocialLogin } from "./SocialLogin";
 import { toast } from "sonner";
+import { supabase } from "@/integrations/supabase/client";
+import { useNavigate } from "react-router-dom";
 
 const loginSchema = z.object({
-  identifier: z.string().min(1, "Phone number or email is required"),
+  email: z.string().email("Please enter a valid email address"),
   password: z.string().min(6, "Password must be at least 6 characters"),
   rememberMe: z.boolean().optional(),
 });
@@ -23,8 +25,9 @@ interface LoginFormProps {
 }
 
 export const LoginForm = ({ onToggle }: LoginFormProps) => {
-  const [loginMethod, setLoginMethod] = useState<"phone" | "email">("phone");
   const [showPassword, setShowPassword] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
+  const navigate = useNavigate();
 
   const {
     register,
@@ -34,9 +37,23 @@ export const LoginForm = ({ onToggle }: LoginFormProps) => {
     resolver: zodResolver(loginSchema),
   });
 
-  const onSubmit = (data: LoginFormData) => {
-    console.log("Login data:", data);
-    toast.success("Login functionality would be implemented here!");
+  const onSubmit = async (data: LoginFormData) => {
+    setIsLoading(true);
+    try {
+      const { error } = await supabase.auth.signInWithPassword({
+        email: data.email,
+        password: data.password,
+      });
+
+      if (error) throw error;
+
+      toast.success("Logged in successfully!");
+      navigate("/");
+    } catch (error: any) {
+      toast.error(error.message || "Failed to log in. Please check your credentials.");
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   return (
@@ -46,39 +63,21 @@ export const LoginForm = ({ onToggle }: LoginFormProps) => {
         <p className="text-muted-foreground text-sm">Login to access your account</p>
       </div>
 
-      <div className="flex gap-2 mb-6">
-        <Button
-          type="button"
-          variant={loginMethod === "phone" ? "default" : "secondary"}
-          className="flex-1 rounded-full"
-          onClick={() => setLoginMethod("phone")}
-        >
-          Phone Number
-        </Button>
-        <Button
-          type="button"
-          variant={loginMethod === "email" ? "default" : "secondary"}
-          className="flex-1 rounded-full"
-          onClick={() => setLoginMethod("email")}
-        >
-          Email
-        </Button>
-      </div>
-
       <form onSubmit={handleSubmit(onSubmit)} className="space-y-5">
         <div>
-          <Label htmlFor="identifier" className="text-sm text-muted-foreground mb-2 block">
-            {loginMethod === "phone" ? "Phone Number" : "Email"}
+          <Label htmlFor="email" className="text-sm text-muted-foreground mb-2 block">
+            Email
           </Label>
           <Input
-            id="identifier"
-            type={loginMethod === "phone" ? "tel" : "email"}
-            placeholder={loginMethod === "phone" ? "+880177547701" : "Enter your email"}
+            id="email"
+            type="email"
+            placeholder="Enter your email"
             className="h-12 rounded-xl bg-input border-0"
-            {...register("identifier")}
+            {...register("email")}
+            disabled={isLoading}
           />
-          {errors.identifier && (
-            <p className="text-destructive text-xs mt-1">{errors.identifier.message}</p>
+          {errors.email && (
+            <p className="text-destructive text-xs mt-1">{errors.email.message}</p>
           )}
         </div>
 
@@ -93,6 +92,7 @@ export const LoginForm = ({ onToggle }: LoginFormProps) => {
               placeholder="••••••"
               className="h-12 rounded-xl bg-input border-0 pr-12"
               {...register("password")}
+              disabled={isLoading}
             />
             <button
               type="button"
@@ -122,8 +122,12 @@ export const LoginForm = ({ onToggle }: LoginFormProps) => {
           </button>
         </div>
 
-        <Button type="submit" className="w-full h-12 rounded-full text-base font-semibold">
-          Log In
+        <Button 
+          type="submit" 
+          className="w-full h-12 rounded-full text-base font-semibold"
+          disabled={isLoading}
+        >
+          {isLoading ? "Logging in..." : "Log In"}
         </Button>
       </form>
 
