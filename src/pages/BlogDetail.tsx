@@ -3,8 +3,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft, Calendar, User } from "lucide-react";
-// ✅ সমাধান: Blog.jsx ফাইল থেকে blogPosts অ্যারেটি ইম্পোর্ট করা হলো।
-import { blogPosts } from "./Blog"; 
+import { blogPosts } from "./Blog";
 
 const BlogDetail = () => {
   const { id } = useParams();
