@@ -52,11 +52,8 @@ const ProductListPage = () => {
                       originalPrice={product.originalPrice}
                       image={product.images[0]}
                       badge={product.badge}
-<<<<<<< HEAD
                       categorySlug={categorySlug} 
                       productSlug={product.slug}
-=======
->>>>>>> 8d12f9e49552048412b4bd26b84aaf48724cedc1
                     />
                   </Link>
                 ))}
