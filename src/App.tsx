@@ -26,6 +26,9 @@ import MenswinterProductdetails from "./pages/winterproduct/MenswinterProductdet
 import Womensproduct from "./pages/Womensproduct";
 import WomenswinterproductDetails from "./pages/winterproduct/WomenswinterproductDetails";
 import Profile from "./pages/Profile";
+import CategoryListPage from "./pages/products/CategoryListPage";
+import ProductListPage from "./pages/products/ProductListPage";
+import ProductDetailsPage from "./pages/products/ProductDetailsPage";
 
 
 const queryClient = new QueryClient();
@@ -61,6 +64,11 @@ const App = () => (
             {/* Populer Product Card page to Details page Router */}
             <Route path="/menswinter/menswinterpd/:id" element={<MenswinterProductdetails />} />
             <Route path="/womenswinter/:id" element={<WomenswinterproductDetails />} />
+
+            {/* Standardized Product Routing */}
+            <Route path="/products" element={<CategoryListPage />} />
+            <Route path="/products/:categorySlug" element={<ProductListPage />} />
+            <Route path="/products/:categorySlug/:productSlug" element={<ProductDetailsPage />} />
 
             <Route path="/auth" element={<Auth />} />
             <Route path="/profile" element={<Profile />} />
