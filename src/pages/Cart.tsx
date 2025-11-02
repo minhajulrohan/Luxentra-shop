@@ -13,7 +13,7 @@ interface CartItem {
   id: number;
   name: string;
   price: number;
-  images: string[];
+  images: string[]; // ধরে নেওয়া হলো ProductDetailsPage এই ফরম্যাট সেভ করে
   selectedSize: string;
   selectedColor: string;
   quantity: number;
@@ -24,6 +24,7 @@ const Cart = () => {
   const [cartItems, setCartItems] = useState<CartItem[]>([]);
 
   const loadCart = () => {
+    // JSON.parse(null) দিলে এরর হয়, তাই || "[]" ব্যবহার করা জরুরি।
     const cart = JSON.parse(localStorage.getItem("cart") || "[]");
     setCartItems(cart);
   };
@@ -35,12 +36,17 @@ const Cart = () => {
       loadCart();
     };
     
+    // গ্লোবাল ইভেন্ট লিসেনার সেটআপ করা
     window.addEventListener("cartUpdated", handleCartUpdate);
     return () => window.removeEventListener("cartUpdated", handleCartUpdate);
   }, []);
 
   const updateQuantity = (index: number, newQuantity: number) => {
-    if (newQuantity < 1) return;
+    if (newQuantity < 1) {
+      // কোয়ান্টিটি ০ বা মাইনাস হলে, আইটেমটি রিমুভ করে দেওয়া উচিত
+      removeItem(index); 
+      return;
+    }
     
     const updatedCart = [...cartItems];
     updatedCart[index].quantity = newQuantity;
@@ -65,13 +71,14 @@ const Cart = () => {
   const tax = subtotal * 0.1;
   const total = subtotal + shipping + tax;
 
+  // Checkout বাটনে ক্লিক করার হ্যান্ডলার
   const handleCheckout = () => {
     if (cartItems.length === 0) {
       toast.error("Your cart is empty");
       return;
     }
-    toast.success("Proceeding to checkout...");
-    // Here you would navigate to checkout page
+    // toast.success("Proceeding to checkout..."); // এটি Checkout পেইজে দরকার নেই
+    navigate("/checkout"); // ✅ Checkout পেইজে নেভিগেট করা
   };
 
   if (cartItems.length === 0) {
@@ -119,7 +126,8 @@ const Cart = () => {
                 <CardContent className="p-6">
                   <div className="flex gap-6">
                     <img
-                      src={item.images[0]}
+                      // ✅ সুরক্ষিত রেন্ডারিং: নিশ্চিত করা হলো যে images অ্যারেতে অন্তত একটি উপাদান আছে
+                      src={item.images && item.images.length > 0 ? item.images[0] : 'https://via.placeholder.com/128x128?text=No+Image'}
                       alt={item.name}
                       className="w-32 h-32 object-cover rounded-md"
                     />
@@ -230,7 +238,7 @@ const Cart = () => {
                   variant="shop"
                   size="lg"
                   className="w-full mt-6"
-                  onClick={() => navigate("/checkout")}
+                  onClick={handleCheckout} // ✅ সংশোধিত: handleCheckout ফাংশন ব্যবহার করা হয়েছে
                 >
                   Proceed to Checkout
                 </Button>

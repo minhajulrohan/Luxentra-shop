@@ -11,6 +11,9 @@ import ScrollToTopButton from "@/components/Button";
 import { useWishlist } from "@/hooks/useWishlist";
 
 const ProductDetailsPage = () => {
+  // -----------------------------------------------------------
+  // 1. Hooks, Context & Data Fetching
+  // -----------------------------------------------------------
   const { categorySlug, productSlug } = useParams<{ 
     categorySlug: string; 
     productSlug: string;
@@ -24,11 +27,15 @@ const ProductDetailsPage = () => {
     (p) => p.slug === productSlug && p.categorySlug === categorySlug
   );
 
+  // -----------------------------------------------------------
+  // 2. State Management
+  // -----------------------------------------------------------
   const [selectedImage, setSelectedImage] = useState(0);
   const [selectedSize, setSelectedSize] = useState<string>("");
   const [selectedColor, setSelectedColor] = useState<string>("");
   const [quantity, setQuantity] = useState(1);
 
+  // Early Exit / Product Not Found Guard Clause
   if (!product) {
     return (
       <div className="min-h-screen flex flex-col">
@@ -51,23 +58,34 @@ const ProductDetailsPage = () => {
 
   const isWishlisted = isInWishlist(String(product.id));
 
-  const handleAddToCart = () => {
+  // -----------------------------------------------------------
+  // 3. Core Logic Functions (Handlers)
+  // -----------------------------------------------------------
+  
+  /**
+   * Checks for required selections (size/color) and adds the item to the cart (localStorage).
+   * @returns {boolean} True if item was added successfully, false otherwise.
+   */
+  const addItemToCart = () => {
+    // Selection Check: Size
     if (product.sizes.length > 0 && !selectedSize) {
       toast({
         title: "Please select a size",
         variant: "destructive",
       });
-      return;
+      return false;
     }
 
+    // Selection Check: Color
     if (product.colors.length > 0 && !selectedColor) {
       toast({
         title: "Please select a color",
         variant: "destructive",
       });
-      return;
+      return false;
     }
 
+    // Cart Logic
     const cart = JSON.parse(localStorage.getItem("cart") || "[]");
     const cartItem = {
       id: product.id,
@@ -93,11 +111,29 @@ const ProductDetailsPage = () => {
     }
 
     localStorage.setItem("cart", JSON.stringify(cart));
+    
+    return true; // Success
+  };
 
-    toast({
-      title: "Added to cart",
-      description: `${product.name} has been added to your cart.`,
-    });
+  const handleAddToCart = () => {
+    if (addItemToCart()) {
+      toast({
+        title: "Added to cart",
+        description: `${product.name} has been added to your cart.`,
+      });
+    }
+  };
+
+  const handleAddToOrder = () => {
+    // Uses the same validation and cart logic, then navigates to checkout
+    if (addItemToCart()) {
+      // In a real application, you might use 'navigate('/checkout')' here
+      toast({
+        title: "Order Process Started",
+        description: `Proceeding to checkout with ${product.name}.`,
+      });
+      navigate("/checkout");
+    }
   };
 
   const handleWishlistToggle = () => {
@@ -119,6 +155,9 @@ const ProductDetailsPage = () => {
   const incrementQuantity = () => setQuantity((prev) => prev + 1);
   const decrementQuantity = () => setQuantity((prev) => (prev > 1 ? prev - 1 : 1));
 
+  // -----------------------------------------------------------
+  // 4. Component Rendering (JSX)
+  // -----------------------------------------------------------
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
@@ -261,6 +300,10 @@ const ProductDetailsPage = () => {
                   <Button onClick={handleAddToCart} className="flex-1">
                     <ShoppingCart className="mr-2 h-5 w-5" />
                     Add to Cart
+                  </Button>
+                  <Button onClick={handleAddToOrder} className="flex-1">
+                    <ShoppingCart className="mr-2 h-5 w-5" />
+                    Order Now
                   </Button>
                   <Button
                     variant={isWishlisted ? "default" : "outline"}
