@@ -12,7 +12,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { toast } from "sonner";
 import { Camera, Plus, MapPin, Heart, ShoppingCart, Trash2 } from "lucide-react";
-import productsData from "@/data/products.json";
+import allProductsData from "@/data/allProducts.json";
 
 interface Profile {
   full_name: string;
@@ -240,7 +240,7 @@ const Profile = () => {
     toast.success("Added to cart!");
   };
 
-  const wishlistProducts = productsData.products.filter((product) =>
+  const wishlistProducts = allProductsData.products.filter((product) =>
     wishlistItems.includes(product.id.toString())
   );
 
