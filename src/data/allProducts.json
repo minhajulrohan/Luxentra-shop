@@ -597,6 +597,7 @@
         "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F5d98593a4066449bbbbdf57d65f8e445.png&w=1080&q=75",
         "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F69595de5c8444ce0856f004829108445.png&w=1080&q=75"
       ]
+<<<<<<< HEAD
     },
     {
       "id": 35,
@@ -615,6 +616,8 @@
         "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F274932ec565b45ab80eb39200bd4f50e.png&w=1080&q=75",
         "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fc8e2e71777d64f23960c4379c146413e.png&w=1080&q=75"
       ]
+=======
+>>>>>>> 8d12f9e49552048412b4bd26b84aaf48724cedc1
     }
   ]
 }
