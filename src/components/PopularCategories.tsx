@@ -16,17 +16,17 @@ import mensChino from "../assets/mens-chino.jpg"
 const categories = [
   {
     title: "Men's Winter Collection",
-    href: "/menswinter",
+    href: "/products/mens-winter",
     image: mensWinter,
   },
   {
     title: "Women's Winter Collection",
-    href: "/womenswinter",
+    href: "/products/womens-winter",
     image: womensWinter,
   },
   {
     title: "Kids Winter Collection",
-    href: "#kids-winter",
+    href: "/products/kids-winter",
     image: kidsWinter,
   },
   {

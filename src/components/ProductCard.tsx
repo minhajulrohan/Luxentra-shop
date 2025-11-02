@@ -11,16 +11,18 @@ interface ProductCardProps {
   originalPrice?: number | null;
   image: string;
   badge?: string | null;
+  categorySlug: string; 
+  productSlug: string;
 }
 
-const ProductCard = ({ id, name, price, originalPrice, image, badge }: ProductCardProps) => {
+const ProductCard = ({ id, name, price, originalPrice, image, badge, categorySlug, productSlug }: ProductCardProps) => {
   const handleQuickAdd = (e: React.MouseEvent) => {
     e.preventDefault();
     toast.success("Added to cart!");
   };
 
   return (
-    <Link to={`/product/${id}`}>
+    <Link to={`/products/${categorySlug}/${productSlug}`}>
       <Card className="card-hover overflow-hidden group border">
         <div className="relative overflow-hidden bg-secondary/20">
           {badge && (

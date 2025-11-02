@@ -6,13 +6,13 @@ import Features from "@/components/Features";
 import ProductCard from "@/components/ProductCard";
 import CategoryCard from "@/components/CategoryCard";
 import Footer from "@/components/Footer";
-import productsData from "@/data/products.json";
+import allProductsData from "@/data/allProducts.json";
 import ScrollToTopButton from "@/components/Button";
 import PopularCategories from "@/components/PopularCategories";
 
 
 const Index = () => {
-  const products = productsData.products;
+  const products = allProductsData.products;
 
   const categories = [
     {
@@ -65,6 +65,8 @@ const Index = () => {
                 originalPrice={product.originalPrice}
                 image={product.images[0]}
                 badge={product.badge}
+                categorySlug={product.categorySlug} 
+                productSlug={product.slug}
               />
             ))}
           </div>
@@ -80,31 +82,31 @@ const Index = () => {
               </div>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-              <Link to="/category/footwear">
+              <Link to="/products/footwear">
                 <CategoryCard
                   name="Footwear"
-                  count={productsData.products.filter(p => p.category === "Footwear").length}
+                  count={allProductsData.products.filter(p => p.category === "Footwear").length}
                   image="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800"
                 />
               </Link>
-              <Link to="/category/accessories">
+              <Link to="/products/accessories">
                 <CategoryCard
                   name="Accessories"
-                  count={productsData.products.filter(p => p.category === "Accessories").length}
+                  count={allProductsData.products.filter(p => p.category === "Accessories").length}
                   image="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800"
                 />
               </Link>
-              <Link to="/category/clothing">
+              <Link to="/products/clothing">
                 <CategoryCard
                   name="Clothing"
-                  count={productsData.products.filter(p => p.category === "Clothing").length}
+                  count={allProductsData.products.filter(p => p.category === "Clothing").length}
                   image="https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=800"
                 />
               </Link>
-              <Link to="/category/fashion">
+              <Link to="/products/fashion">
                 <CategoryCard
                   name="Fashion"
-                  count={productsData.products.filter(p => p.category === "Fashion").length}
+                  count={allProductsData.products.filter(p => p.category === "Fashion").length}
                   image="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800"
                 />
               </Link>
@@ -133,6 +135,8 @@ const Index = () => {
                 originalPrice={product.originalPrice}
                 image={product.images[0]}
                 badge={product.badge}
+                categorySlug={product.categorySlug} 
+                productSlug={product.slug}
               />
             ))}
           </div>

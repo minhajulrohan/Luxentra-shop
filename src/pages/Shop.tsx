@@ -3,7 +3,7 @@ import { useSearchParams } from "react-router-dom";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
-import productsData from "@/data/products.json";
+import allProductsData from "@/data/allProducts.json";
 import {
   Select,
   SelectContent,
@@ -19,9 +19,9 @@ const Shop = () => {
   const [searchParams] = useSearchParams();
   const searchQuery = searchParams.get("search") || "";
 
-  const categories = ["all", ...new Set(productsData.products.map(p => p.category))];
+  const categories = ["all", ...new Set(allProductsData.products.map(p => p.category))];
 
-  let filteredProducts = productsData.products;
+  let filteredProducts = allProductsData.products;
 
   if (searchQuery) {
     filteredProducts = filteredProducts.filter(p => 
@@ -100,6 +100,8 @@ const Shop = () => {
                   originalPrice={product.originalPrice}
                   image={product.images[0]}
                   badge={product.badge}
+                  categorySlug={product.categorySlug} 
+                  productSlug={product.slug}
                 />
               ))}
             </div>

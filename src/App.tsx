@@ -7,9 +7,7 @@ import { ThemeProvider } from "next-themes";
 import { AuthProvider } from "./hooks/useAuth";
 import Index from "./pages/Index";
 import Shop from "./pages/Shop";
-import Category from "./pages/Category";
 import Blog from "./pages/Blog";
-import ProductDetail from "./pages/ProductDetail";
 import Cart from "./pages/Cart";
 import Contact from "./pages/Contact";
 import Checkout from "./pages/Checkout";
@@ -21,11 +19,10 @@ import PrivacyPolicy from "./pages/Privacypolicy";
 import TermsConditions from "./pages/Termsconditions";
 import Auth from "./pages/auth/Auth";
 import BlogDetail from "./pages/BlogDetail";
-import Menswinter from "./pages/Menswinter";
-import MenswinterProductdetails from "./pages/winterproduct/MenswinterProductdetails";
-import Womensproduct from "./pages/Womensproduct";
-import WomenswinterproductDetails from "./pages/winterproduct/WomenswinterproductDetails";
 import Profile from "./pages/Profile";
+import CategoryListPage from "./pages/products/CategoryListPage";
+import ProductListPage from "./pages/products/ProductListPage";
+import ProductDetailsPage from "./pages/products/ProductDetailsPage";
 
 
 const queryClient = new QueryClient();
@@ -41,9 +38,7 @@ const App = () => (
             <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/shop" element={<Shop />} />
-            <Route path="/category/:category" element={<Category />} />
             <Route path="/blog" element={<Blog />} />
-            <Route path="/product/:id" element={<ProductDetail />} />
             <Route path="/cart" element={<Cart />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/checkout" element={<Checkout />} />
@@ -53,14 +48,11 @@ const App = () => (
             <Route path="/privacypolicy" element={<PrivacyPolicy />} />
             <Route path="/termsconditions" element={<TermsConditions />} />
             <Route path="/blogDetails/:id" element={<BlogDetail />} />
-            {/* Populer Category Route */}
-            <Route path="/menswinter" element={<Menswinter />} />
-            <Route path="/womenswinter" element={<Womensproduct />} />
-
-
-            {/* Populer Product Card page to Details page Router */}
-            <Route path="/menswinter/menswinterpd/:id" element={<MenswinterProductdetails />} />
-            <Route path="/womenswinter/:id" element={<WomenswinterproductDetails />} />
+            
+            {/* Standardized Product Routing */}
+            <Route path="/products" element={<CategoryListPage />} />
+            <Route path="/products/:categorySlug" element={<ProductListPage />} />
+            <Route path="/products/:categorySlug/:productSlug" element={<ProductDetailsPage />} />
 
             <Route path="/auth" element={<Auth />} />
             <Route path="/profile" element={<Profile />} />
