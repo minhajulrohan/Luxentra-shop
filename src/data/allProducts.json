@@ -615,6 +615,39 @@
         "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F274932ec565b45ab80eb39200bd4f50e.png&w=1080&q=75",
         "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fc8e2e71777d64f23960c4379c146413e.png&w=1080&q=75"
       ]
+    },
+    {
+      "id": 36,
+      "slug": "smart-watches",
+      "name": "Oraimo Watch 5 Lite 2.01 HD IP68 Smart Watch",
+      "price": 18.55,
+      "originalPrice": 22.00,
+      "category": "Smart-Watches",
+      "categorySlug": "smart-watches",
+      "badge": "Available online only",
+      "description": "This is a Good Product ",
+      "sizes": [""],
+      "colors": ["Pink"],
+      "images": [
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fca41c1828fe94e9aab376ecc1e5aabee.png&w=1080&q=75"
+      ]
+    },
+    {
+      "id": 37,
+      "slug": "shahara-skin",
+      "name": "This Is Luxentra Product ",
+      "price": 7.00,
+      "originalPrice": 9.00,
+      "category": "Shahara Skins",
+      "categorySlug": "shahara-skin",
+      "badge": "Available online only",
+      "description": "This is a Good Product ",
+      "sizes": [""],
+      "colors": ["Pink"],
+      "images": [
+        "https://ponds.in/cdn/shop/articles/Winter_Skincare_Routine_for_Combination_Skin.png?v=1738748159",
+        "https://post.healthline.com/wp-content/uploads/2021/10/1587874-13-Best-Natural-Skin-Care-Products-1296x728-Header-81b9bf.jpg"
+      ]
     }
   ]
 }

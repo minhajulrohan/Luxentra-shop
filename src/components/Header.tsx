@@ -15,6 +15,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { Sheet, SheetContent, SheetTrigger, SheetClose } from "@/components/ui/sheet";
+import { Navbar } from "./Navbar";
 
 const Header = () => {
   const [cartCount, setCartCount] = useState(0);
@@ -46,7 +47,7 @@ const Header = () => {
 
   return (
     <header className="border-b sticky top-0 bg-background z-50">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 border-b sticky top-0 bg-background z-50">
         <div className="flex items-center justify-between py-4">
           <div className="flex items-center gap-8">
             <Link to="/" className="text-2xl font-bold">
@@ -220,7 +221,9 @@ const Header = () => {
             </Sheet>
           </div>
         </div>
+        
       </div>
+      <Navbar />
     </header>
   );
 };

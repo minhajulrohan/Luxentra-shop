@@ -36,7 +36,7 @@ const categories = [
   },
   {
     title: "Smart Watches",
-    href: "#smart-watches",
+    href: "/products/smart-watches",
     image: smartwatch,
   },
   {

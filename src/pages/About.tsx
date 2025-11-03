@@ -6,6 +6,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ScrollToTopButton from "@/components/Button";
 
+
 const About = () => {
   const [countersVisible, setCountersVisible] = useState(false);
 

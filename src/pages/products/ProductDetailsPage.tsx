@@ -369,7 +369,7 @@ const ProductDetailsPage = () => {
             <div className="mt-12">
               <Tabs defaultValue="description" className="w-full">
                 <TabsList className="grid w-full grid-cols-3">
-                  <TabsTrigger value="description">Description</TabsTrigger>
+                  <TabsTrigger value="description">Product Details</TabsTrigger>
                   <TabsTrigger value="reviews">Reviews</TabsTrigger>
                   <TabsTrigger value="chat">
                     <MessageCircle className="w-4 h-4 mr-2" />
@@ -380,7 +380,7 @@ const ProductDetailsPage = () => {
                 <TabsContent value="description" className="mt-6">
                   <Card>
                     <CardContent className="pt-6">
-                      <h3 className="text-xl font-semibold mb-4">Product Description</h3>
+                      <h3 className="text-xl font-bold mb-4">Product Details</h3>
                       <p className="text-muted-foreground leading-relaxed">
                         {product.description}
                       </p>
