@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { toast } from "sonner";
+import { useWishlist } from "@/hooks/useWishlist";
 
 // Cart.jsx এর সাথে সামঞ্জস্যপূর্ণ ইন্টারফেস
 interface CartItem {
@@ -27,6 +28,7 @@ interface ProductCardProps {
 }
 
 const ProductCard = ({ id, name, price, originalPrice, image, badge, categorySlug, productSlug }: ProductCardProps) => {
+  const { addToWishlist, isInWishlist } = useWishlist();
 
   const handleQuickAdd = (e: React.MouseEvent) => {
     e.preventDefault();
@@ -93,10 +95,10 @@ const ProductCard = ({ id, name, price, originalPrice, image, badge, categorySlu
               className="rounded-full shadow-md"
               onClick={(e) => {
                 e.preventDefault();
-                toast.success("Added to wishlist!");
+                addToWishlist(String(id));
               }}
             >
-              <Heart className="w-4 h-4" />
+              <Heart className={`w-4 h-4 ${isInWishlist(String(id)) ? 'fill-current text-red-500' : ''}`} />
             </Button>
           </div>
         </div>
