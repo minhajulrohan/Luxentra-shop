@@ -59,6 +59,131 @@ export type Database = {
         }
         Relationships: []
       }
+      order_items: {
+        Row: {
+          created_at: string | null
+          id: string
+          order_id: string
+          price: number
+          product_id: string
+          product_image: string | null
+          product_name: string
+          quantity: number
+          selected_color: string | null
+          selected_size: string | null
+        }
+        Insert: {
+          created_at?: string | null
+          id?: string
+          order_id: string
+          price: number
+          product_id: string
+          product_image?: string | null
+          product_name: string
+          quantity: number
+          selected_color?: string | null
+          selected_size?: string | null
+        }
+        Update: {
+          created_at?: string | null
+          id?: string
+          order_id?: string
+          price?: number
+          product_id?: string
+          product_image?: string | null
+          product_name?: string
+          quantity?: number
+          selected_color?: string | null
+          selected_size?: string | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "order_items_order_id_fkey"
+            columns: ["order_id"]
+            isOneToOne: false
+            referencedRelation: "orders"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      orders: {
+        Row: {
+          address_line1: string
+          address_line2: string | null
+          city: string
+          country: string
+          created_at: string | null
+          email: string
+          full_name: string
+          id: string
+          order_number: string
+          order_status: Database["public"]["Enums"]["order_status"]
+          payment_method: string | null
+          payment_status: Database["public"]["Enums"]["payment_status"]
+          phone: string
+          shipping_cost: number
+          state: string
+          subtotal: number
+          tax: number
+          total: number
+          tracking_number: string | null
+          tracking_url: string | null
+          updated_at: string | null
+          user_id: string
+          zip_code: string
+        }
+        Insert: {
+          address_line1: string
+          address_line2?: string | null
+          city: string
+          country?: string
+          created_at?: string | null
+          email: string
+          full_name: string
+          id?: string
+          order_number: string
+          order_status?: Database["public"]["Enums"]["order_status"]
+          payment_method?: string | null
+          payment_status?: Database["public"]["Enums"]["payment_status"]
+          phone: string
+          shipping_cost?: number
+          state: string
+          subtotal: number
+          tax?: number
+          total: number
+          tracking_number?: string | null
+          tracking_url?: string | null
+          updated_at?: string | null
+          user_id: string
+          zip_code: string
+        }
+        Update: {
+          address_line1?: string
+          address_line2?: string | null
+          city?: string
+          country?: string
+          created_at?: string | null
+          email?: string
+          full_name?: string
+          id?: string
+          order_number?: string
+          order_status?: Database["public"]["Enums"]["order_status"]
+          payment_method?: string | null
+          payment_status?: Database["public"]["Enums"]["payment_status"]
+          phone?: string
+          shipping_cost?: number
+          state?: string
+          subtotal?: number
+          tax?: number
+          total?: number
+          tracking_number?: string | null
+          tracking_url?: string | null
+          updated_at?: string | null
+          user_id?: string
+          zip_code?: string
+        }
+        Relationships: []
+      }
       profiles: {
         Row: {
           avatar_url: string | null
@@ -118,10 +243,16 @@ export type Database = {
       [_ in never]: never
     }
     Functions: {
-      [_ in never]: never
+      generate_order_number: { Args: never; Returns: string }
     }
     Enums: {
-      [_ in never]: never
+      order_status:
+        | "pending"
+        | "processing"
+        | "shipped"
+        | "delivered"
+        | "cancelled"
+      payment_status: "pending" | "completed" | "failed"
     }
     CompositeTypes: {
       [_ in never]: never
@@ -248,6 +379,15 @@ export type CompositeTypes<
 
 export const Constants = {
   public: {
-    Enums: {},
+    Enums: {
+      order_status: [
+        "pending",
+        "processing",
+        "shipped",
+        "delivered",
+        "cancelled",
+      ],
+      payment_status: ["pending", "completed", "failed"],
+    },
   },
 } as const
