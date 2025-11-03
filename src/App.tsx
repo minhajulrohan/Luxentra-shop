@@ -20,6 +20,7 @@ import TermsConditions from "./pages/Termsconditions";
 import Auth from "./pages/auth/Auth";
 import BlogDetail from "./pages/BlogDetail";
 import Profile from "./pages/Profile";
+import Wishlist from "./pages/Wishlist";
 import CategoryListPage from "./pages/products/CategoryListPage";
 import ProductListPage from "./pages/products/ProductListPage";
 import ProductDetailsPage from "./pages/products/ProductDetailsPage";
@@ -56,6 +57,7 @@ const App = () => (
 
             <Route path="/auth" element={<Auth />} />
             <Route path="/profile" element={<Profile />} />
+            <Route path="/wishlist" element={<Wishlist />} />
 
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />

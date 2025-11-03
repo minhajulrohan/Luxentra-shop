@@ -1,14 +1,18 @@
 import { useState } from "react";
 import { useParams, Link, useNavigate } from "react-router-dom";
-import { ShoppingCart, Heart, Minus, Plus } from "lucide-react";
+import { ShoppingCart, Heart, Minus, Plus, MessageCircle } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { useToast } from "@/hooks/use-toast";
 import { Badge } from "@/components/ui/badge";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Card, CardContent } from "@/components/ui/card";
+import { Textarea } from "@/components/ui/textarea";
 import allProductsData from "@/data/allProducts.json";
 import ScrollToTopButton from "@/components/Button";
 import { useWishlist } from "@/hooks/useWishlist";
+import { useAuth } from "@/hooks/useAuth";
 
 const ProductDetailsPage = () => {
   // -----------------------------------------------------------
@@ -21,6 +25,7 @@ const ProductDetailsPage = () => {
   const navigate = useNavigate();
   const { toast } = useToast();
   const { addToWishlist, removeFromWishlist, isInWishlist } = useWishlist();
+  const { user } = useAuth();
   
   // Find product by slug
   const product = allProductsData.products.find(
@@ -34,6 +39,8 @@ const ProductDetailsPage = () => {
   const [selectedSize, setSelectedSize] = useState<string>("");
   const [selectedColor, setSelectedColor] = useState<string>("");
   const [quantity, setQuantity] = useState(1);
+  const [reviewText, setReviewText] = useState("");
+  const [chatMessage, setChatMessage] = useState("");
 
   // Early Exit / Product Not Found Guard Clause
   if (!product) {
@@ -154,6 +161,46 @@ const ProductDetailsPage = () => {
 
   const incrementQuantity = () => setQuantity((prev) => prev + 1);
   const decrementQuantity = () => setQuantity((prev) => (prev > 1 ? prev - 1 : 1));
+
+  const handleReviewSubmit = () => {
+    if (!user) {
+      toast({
+        title: "Please login",
+        description: "You need to be logged in to submit a review.",
+        variant: "destructive",
+      });
+      return;
+    }
+    if (!reviewText.trim()) {
+      toast({
+        title: "Review required",
+        description: "Please write a review before submitting.",
+        variant: "destructive",
+      });
+      return;
+    }
+    toast({
+      title: "Review submitted",
+      description: "Thank you for your review!",
+    });
+    setReviewText("");
+  };
+
+  const handleChatSubmit = () => {
+    if (!chatMessage.trim()) {
+      toast({
+        title: "Message required",
+        description: "Please type a message before sending.",
+        variant: "destructive",
+      });
+      return;
+    }
+    toast({
+      title: "Message sent",
+      description: "Our team will respond to your inquiry soon.",
+    });
+    setChatMessage("");
+  };
 
   // -----------------------------------------------------------
   // 4. Component Rendering (JSX)
@@ -316,6 +363,110 @@ const ProductDetailsPage = () => {
                   </Button>
                 </div>
               </div>
+            </div>
+
+            {/* Product Details Tabs */}
+            <div className="mt-12">
+              <Tabs defaultValue="description" className="w-full">
+                <TabsList className="grid w-full grid-cols-3">
+                  <TabsTrigger value="description">Description</TabsTrigger>
+                  <TabsTrigger value="reviews">Reviews</TabsTrigger>
+                  <TabsTrigger value="chat">
+                    <MessageCircle className="w-4 h-4 mr-2" />
+                    Chat
+                  </TabsTrigger>
+                </TabsList>
+                
+                <TabsContent value="description" className="mt-6">
+                  <Card>
+                    <CardContent className="pt-6">
+                      <h3 className="text-xl font-semibold mb-4">Product Description</h3>
+                      <p className="text-muted-foreground leading-relaxed">
+                        {product.description}
+                      </p>
+                      <div className="mt-6 space-y-2">
+                        <h4 className="font-semibold">Product Features:</h4>
+                        <ul className="list-disc list-inside space-y-1 text-muted-foreground">
+                          <li>High-quality materials and construction</li>
+                          <li>Carefully designed for comfort and style</li>
+                          <li>Available in multiple sizes and colors</li>
+                          <li>Easy care and maintenance</li>
+                        </ul>
+                      </div>
+                    </CardContent>
+                  </Card>
+                </TabsContent>
+
+                <TabsContent value="reviews" className="mt-6">
+                  <Card>
+                    <CardContent className="pt-6">
+                      <h3 className="text-xl font-semibold mb-4">Customer Reviews</h3>
+                      {user ? (
+                        <div className="space-y-4">
+                          <div>
+                            <label className="block text-sm font-medium mb-2">
+                              Write Your Review
+                            </label>
+                            <Textarea
+                              placeholder="Share your experience with this product..."
+                              value={reviewText}
+                              onChange={(e) => setReviewText(e.target.value)}
+                              rows={4}
+                              className="w-full"
+                            />
+                          </div>
+                          <Button onClick={handleReviewSubmit}>
+                            Submit Review
+                          </Button>
+                          <div className="mt-6 pt-6 border-t">
+                            <p className="text-muted-foreground text-sm">
+                              No reviews yet. Be the first to review this product!
+                            </p>
+                          </div>
+                        </div>
+                      ) : (
+                        <div className="text-center py-8">
+                          <p className="text-muted-foreground mb-4">
+                            Please log in to write a review
+                          </p>
+                          <Link to="/auth">
+                            <Button>Login</Button>
+                          </Link>
+                        </div>
+                      )}
+                    </CardContent>
+                  </Card>
+                </TabsContent>
+
+                <TabsContent value="chat" className="mt-6">
+                  <Card>
+                    <CardContent className="pt-6">
+                      <h3 className="text-xl font-semibold mb-4">Ask a Question</h3>
+                      <p className="text-muted-foreground mb-4">
+                        Have questions about this product? Send us a message and we'll get back to you soon!
+                      </p>
+                      <div className="space-y-4">
+                        <div>
+                          <label className="block text-sm font-medium mb-2">
+                            Your Message
+                          </label>
+                          <Textarea
+                            placeholder="Type your question here..."
+                            value={chatMessage}
+                            onChange={(e) => setChatMessage(e.target.value)}
+                            rows={4}
+                            className="w-full"
+                          />
+                        </div>
+                        <Button onClick={handleChatSubmit}>
+                          <MessageCircle className="w-4 h-4 mr-2" />
+                          Send Message
+                        </Button>
+                      </div>
+                    </CardContent>
+                  </Card>
+                </TabsContent>
+              </Tabs>
             </div>
           </div>
         </section>
