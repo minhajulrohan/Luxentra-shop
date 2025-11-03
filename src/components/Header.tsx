@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { ShoppingCart, Search, Heart, Menu, Moon, Sun, User, LogOut } from "lucide-react";
+import { Heart, Menu, Search, ShoppingCart, User, Package, Moon, Sun, LogOut } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useTheme } from "next-themes";
@@ -14,7 +14,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetTrigger, SheetClose } from "@/components/ui/sheet";
 
 const Header = () => {
   const [cartCount, setCartCount] = useState(0);
@@ -190,13 +190,26 @@ const Header = () => {
                   >
                     Contact
                   </Link>
-                  <Link 
-                    to="/wishlist" 
-                    className="text-lg font-medium hover:text-primary transition-colors"
-                    onClick={() => setMobileMenuOpen(false)}
-                  >
-                    Wishlist
-                  </Link>
+              <SheetClose asChild>
+                <Link
+                  to="/wishlist"
+                  className="flex items-center gap-3 px-4 py-3 hover:bg-accent rounded-md transition-colors"
+                  onClick={() => setMobileMenuOpen(false)}
+                >
+                  <Heart className="h-5 w-5" />
+                  <span>Wishlist</span>
+                </Link>
+              </SheetClose>
+              <SheetClose asChild>
+                <Link
+                  to="/orders"
+                  className="flex items-center gap-3 px-4 py-3 hover:bg-accent rounded-md transition-colors"
+                  onClick={() => setMobileMenuOpen(false)}
+                >
+                  <Package className="h-5 w-5" />
+                  <span>My Orders</span>
+                </Link>
+              </SheetClose>
                   {!user && (
                     <Link to="/auth" onClick={() => setMobileMenuOpen(false)}>
                       <Button className="w-full mt-4">Login</Button>

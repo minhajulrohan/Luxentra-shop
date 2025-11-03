@@ -9,11 +9,13 @@ import Index from "./pages/Index";
 import Shop from "./pages/Shop";
 import Blog from "./pages/Blog";
 import Cart from "./pages/Cart";
-import Contact from "./pages/Contact";
 import Checkout from "./pages/Checkout";
-import NotFound from "./pages/NotFound";
-import OrderSuccess from "./pages/OrderSuccess";
 import Payment from "./pages/payment";
+import OrderSuccess from "./pages/OrderSuccess";
+import Orders from "./pages/Orders";
+import TrackOrder from "./pages/TrackOrder";
+import NotFound from "./pages/NotFound";
+import Contact from "./pages/Contact";
 import About from "./pages/About";
 import PrivacyPolicy from "./pages/Privacypolicy";
 import TermsConditions from "./pages/Termsconditions";
@@ -43,8 +45,10 @@ const App = () => (
             <Route path="/cart" element={<Cart />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/checkout" element={<Checkout />} />
-            <Route path="/order-success" element={<OrderSuccess />} />
             <Route path="/payment" element={<Payment />} />
+            <Route path="/order-success/:orderNumber" element={<OrderSuccess />} />
+            <Route path="/orders" element={<Orders />} />
+            <Route path="/track-order/:orderNumber" element={<TrackOrder />} />
             <Route path="/about" element={<About />} />
             <Route path="/privacypolicy" element={<PrivacyPolicy />} />
             <Route path="/termsconditions" element={<TermsConditions />} />
