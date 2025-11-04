@@ -269,11 +269,11 @@ const ProductDetailsPage = () => {
                   )}
                   <div className="flex items-center gap-4">
                     <span className="text-3xl font-bold text-primary">
-                      ${product.price.toFixed(2)}
+                      ${typeof product.price === 'string' ? parseFloat(product.price).toFixed(2) : product.price.toFixed(2)}
                     </span>
                     {product.originalPrice && (
                       <span className="text-xl text-muted-foreground line-through">
-                        ${product.originalPrice.toFixed(2)}
+                        ${typeof product.originalPrice === 'string' ? parseFloat(product.originalPrice).toFixed(2) : product.originalPrice.toFixed(2)}
                       </span>
                     )}
                   </div>
@@ -368,33 +368,108 @@ const ProductDetailsPage = () => {
             {/* Product Details Tabs */}
             <div className="mt-12">
               <Tabs defaultValue="description" className="w-full">
-                <TabsList className="grid w-full grid-cols-3">
-                  <TabsTrigger value="description">Product Details</TabsTrigger>
-                  <TabsTrigger value="reviews">Reviews</TabsTrigger>
-                  <TabsTrigger value="chat">
-                    <MessageCircle className="w-4 h-4 mr-2" />
-                    Chat
-                  </TabsTrigger>
+                <TabsList className="grid w-full grid-cols-5 h-auto">
+                  <TabsTrigger value="description" className="uppercase text-xs md:text-sm py-3">Description</TabsTrigger>
+                  <TabsTrigger value="usage" className="uppercase text-xs md:text-sm py-3">Use Information</TabsTrigger>
+                  <TabsTrigger value="reviews" className="uppercase text-xs md:text-sm py-3">Reviews</TabsTrigger>
+                  <TabsTrigger value="bengali" className="uppercase text-xs md:text-sm py-3">Bengali</TabsTrigger>
+                  <TabsTrigger value="disclaimer" className="uppercase text-xs md:text-sm py-3">Disclaimer</TabsTrigger>
                 </TabsList>
                 
                 <TabsContent value="description" className="mt-6">
-                  <Card>
-                    <CardContent className="pt-6">
-                      <h3 className="text-xl font-bold mb-4">Product Details</h3>
-                      <p className="text-muted-foreground leading-relaxed">
-                        {product.Desclaimer}
+                  <div className="space-y-8">
+                    {/* Main Description */}
+                    <div>
+                      <p className="text-muted-foreground leading-relaxed mb-6">
+                        {product.description}
                       </p>
-                      <div className="mt-6 space-y-2">
-                        <h4 className="font-semibold">Product Features:</h4>
-                        <ul className="list-disc list-inside space-y-1 text-muted-foreground">
-                          <li>High-quality materials and construction</li>
-                          <li>Carefully designed for comfort and style</li>
-                          <li>Available in multiple sizes and colors</li>
-                          <li>Easy care and maintenance</li>
+                    </div>
+
+                    {/* Features Section */}
+                    <div className="bg-secondary/20 p-6 rounded-lg">
+                      <h3 className="text-xl font-bold mb-4">Features</h3>
+                      <ul className="grid md:grid-cols-2 gap-3">
+                        <li className="flex items-start gap-2">
+                          <span className="text-primary mt-1">•</span>
+                          <span className="text-muted-foreground">High-quality materials and construction</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <span className="text-primary mt-1">•</span>
+                          <span className="text-muted-foreground">Dermatologically tested</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <span className="text-primary mt-1">•</span>
+                          <span className="text-muted-foreground">Suitable for all skin types</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <span className="text-primary mt-1">•</span>
+                          <span className="text-muted-foreground">Cruelty-free and eco-friendly</span>
+                        </li>
+                      </ul>
+                    </div>
+
+                    {/* Active Ingredients */}
+                    <div>
+                      <h3 className="text-xl font-bold mb-4">Active Ingredients</h3>
+                      <div className="bg-card border rounded-lg p-6">
+                        <ul className="space-y-2">
+                          <li className="flex items-center gap-2">
+                            <span className="w-2 h-2 rounded-full bg-primary"></span>
+                            <span className="text-muted-foreground">Vitamin C - Brightening and anti-aging properties</span>
+                          </li>
+                          <li className="flex items-center gap-2">
+                            <span className="w-2 h-2 rounded-full bg-primary"></span>
+                            <span className="text-muted-foreground">Hyaluronic Acid - Deep hydration and moisture retention</span>
+                          </li>
+                          <li className="flex items-center gap-2">
+                            <span className="w-2 h-2 rounded-full bg-primary"></span>
+                            <span className="text-muted-foreground">Natural Extracts - Nourishing and soothing</span>
+                          </li>
                         </ul>
                       </div>
-                    </CardContent>
-                  </Card>
+                    </div>
+                  </div>
+                </TabsContent>
+
+                <TabsContent value="usage" className="mt-6">
+                  <div className="space-y-6">
+                    <h3 className="text-2xl font-bold">How to Use</h3>
+                    
+                    <div className="grid md:grid-cols-3 gap-6">
+                      {/* Step 1 */}
+                      <Card>
+                        <CardContent className="pt-6 text-center">
+                          <div className="mb-4 text-4xl font-bold text-primary">1</div>
+                          <h4 className="font-semibold mb-2">Wash and Pat</h4>
+                          <p className="text-sm text-muted-foreground">
+                            Wash your face with cleanser and dry your face with a clean towel, leave it damp.
+                          </p>
+                        </CardContent>
+                      </Card>
+
+                      {/* Step 2 */}
+                      <Card>
+                        <CardContent className="pt-6 text-center">
+                          <div className="mb-4 text-4xl font-bold text-primary">2</div>
+                          <h4 className="font-semibold mb-2">Apply</h4>
+                          <p className="text-sm text-muted-foreground">
+                            Squeeze your serum and disperse it between your palms and rub them together and direct it to your face.
+                          </p>
+                        </CardContent>
+                      </Card>
+
+                      {/* Step 3 */}
+                      <Card>
+                        <CardContent className="pt-6 text-center">
+                          <div className="mb-4 text-4xl font-bold text-primary">3</div>
+                          <h4 className="font-semibold mb-2">Absorb</h4>
+                          <p className="text-sm text-muted-foreground">
+                            Wait 60 seconds for the serum to absorb into the skin and pat the rest of your face. Wait for 1 to 2 minutes to dry then cover with a moisturizer.
+                          </p>
+                        </CardContent>
+                      </Card>
+                    </div>
+                  </div>
                 </TabsContent>
 
                 <TabsContent value="reviews" className="mt-6">
@@ -438,30 +513,43 @@ const ProductDetailsPage = () => {
                   </Card>
                 </TabsContent>
 
-                <TabsContent value="chat" className="mt-6">
+                <TabsContent value="bengali" className="mt-6">
                   <Card>
                     <CardContent className="pt-6">
-                      <h3 className="text-xl font-semibold mb-4">Ask a Question</h3>
-                      <p className="text-muted-foreground mb-4">
-                        Have questions about this product? Send us a message and we'll get back to you soon!
+                      <h3 className="text-xl font-bold mb-4">পণ্যের বিবরণ</h3>
+                      <p className="text-muted-foreground leading-relaxed">
+                        {product.description}
                       </p>
-                      <div className="space-y-4">
-                        <div>
-                          <label className="block text-sm font-medium mb-2">
-                            Your Message
-                          </label>
-                          <Textarea
-                            placeholder="Type your question here..."
-                            value={chatMessage}
-                            onChange={(e) => setChatMessage(e.target.value)}
-                            rows={4}
-                            className="w-full"
-                          />
+                      <div className="mt-6">
+                        <h4 className="font-semibold mb-3">বৈশিষ্ট্য:</h4>
+                        <ul className="space-y-2 text-muted-foreground">
+                          <li>• উচ্চ মানের উপাদান এবং নির্মাণ</li>
+                          <li>• ত্বকের জন্য নিরাপদ এবং পরীক্ষিত</li>
+                          <li>• সব ধরনের ত্বকের জন্য উপযুক্ত</li>
+                          <li>• প্রাকৃতিক উপাদান সমৃদ্ধ</li>
+                        </ul>
+                      </div>
+                    </CardContent>
+                  </Card>
+                </TabsContent>
+
+                <TabsContent value="disclaimer" className="mt-6">
+                  <Card>
+                    <CardContent className="pt-6">
+                      <h3 className="text-xl font-bold mb-4">Disclaimer</h3>
+                      <div className="space-y-4 text-muted-foreground">
+                        <p className="leading-relaxed">
+                          {product.Desclaimer || "This product is for external use only. Avoid contact with eyes. If irritation occurs, discontinue use and consult a healthcare professional."}
+                        </p>
+                        <div className="bg-secondary/20 p-4 rounded-lg">
+                          <h4 className="font-semibold text-foreground mb-2">Important Notes:</h4>
+                          <ul className="space-y-1 list-disc list-inside">
+                            <li>Keep out of reach of children</li>
+                            <li>Store in a cool, dry place</li>
+                            <li>Use within 12 months of opening</li>
+                            <li>Perform a patch test before first use</li>
+                          </ul>
                         </div>
-                        <Button onClick={handleChatSubmit}>
-                          <MessageCircle className="w-4 h-4 mr-2" />
-                          Send Message
-                        </Button>
                       </div>
                     </CardContent>
                   </Card>

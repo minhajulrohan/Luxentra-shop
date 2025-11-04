@@ -46,12 +46,12 @@ const ProductListPage = () => {
                     to={`/products/${categorySlug}/${product.slug}`}
                   >
                     <ProductCard
-                      id={product.id}
-                      name={product.name}
-                      price={product.price}
-                      originalPrice={product.originalPrice}
-                      image={product.images[0]}
-                      badge={product.badge}
+                id={product.id}
+                name={product.name}
+                price={typeof product.price === 'string' ? parseFloat(product.price) : product.price}
+                originalPrice={product.originalPrice ? (typeof product.originalPrice === 'string' ? parseFloat(product.originalPrice) : product.originalPrice) : undefined}
+                image={product.images[0]}
+                badge={product.badge}
                       categorySlug={categorySlug} 
                       productSlug={product.slug}
                     />
