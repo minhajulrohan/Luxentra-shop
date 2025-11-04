@@ -405,7 +405,7 @@ const ProductDetailsPage = () => {
                     {/* Active Ingredients */}
                     {(product as any).ingredients && (product as any).ingredients.length > 0 && (
                       <div>
-                        <h3 className="text-xl font-bold mb-4">Active Ingredients</h3>
+                        <h3 className="text-xl font-bold mb-4">Active Informations</h3>
                         <div className="bg-card border rounded-lg p-6">
                           <ul className="space-y-3">
                             {(product as any).ingredients.map((ingredient: any, index: number) => (
