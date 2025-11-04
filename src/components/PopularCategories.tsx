@@ -31,7 +31,7 @@ const categories = [
   },
   {
     title: "Women's Top Wear",
-    href: "#womens-tops",
+    href: "/products/womens-tops",
     image: womensTopwear,
   },
   {
@@ -41,12 +41,12 @@ const categories = [
   },
   {
     title: "In-Ear/Earbuds",
-    href: "#earbuds",
+    href: "/products/earbuds",
     image: earbuds,
   },
   {
     title: "Mens Chino Pant",
-    href: "#mens-chino",
+    href: "/products/mens-chino",
     image: mensChino,
   },
 ];

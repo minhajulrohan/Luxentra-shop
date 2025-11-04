@@ -53,8 +53,8 @@ const Checkout = () => {
     (sum, item) => sum + item.price * item.quantity,
     0
   );
-  const shipping = 10;
-  const tax = subtotal * 0.1;
+  const shipping = subtotal > 10000 ? 0 : 120;
+  const tax = subtotal * 0.015;
   const total = subtotal + shipping + tax;
 
   const handleInputChange = useCallback((e: React.ChangeEvent<HTMLInputElement>) => {
@@ -245,19 +245,19 @@ const Checkout = () => {
               <div className="border-t pt-4 space-y-3">
                 <div className="flex justify-between">
                   <span>Subtotal</span>
-                  <span>${subtotal.toFixed(2)}</span>
+                  <span>TK {subtotal.toFixed(2)}</span>
                 </div>
                 <div className="flex justify-between">
                   <span>Shipping</span>
-                  <span>${shipping.toFixed(2)}</span>
+                  <span>TK {shipping.toFixed(2)}</span>
                 </div>
                 <div className="flex justify-between">
                   <span>Tax</span>
-                  <span>${tax.toFixed(2)}</span>
+                  <span>TK {tax.toFixed(2)}</span>
                 </div>
                 <div className="flex justify-between font-bold text-lg border-t pt-2">
                   <span>Total</span>
-                  <span>${total.toFixed(2)}</span>
+                  <span>TK {total.toFixed(2)}</span>
                 </div>
               </div>
             </div>

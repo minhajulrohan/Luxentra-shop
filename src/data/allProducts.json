@@ -20,7 +20,7 @@
     },
         {
       "id": 2,
-      "slug": "3W Clinic Intensive UV Sunblock Cream",
+      "slug": "3W-Clinic-Intensive-UV-Sunblock-Cream",
       "name": "3W Clinic Intensive UV Sunblock Cream SPF50+ Pa+++ - 70ml",
       "price": 499.00,
       "originalPrice": 950.00,
@@ -156,7 +156,7 @@
     },
       {
       "id": 7,
-      "slug": "Balance Vitamin C Brightening Serum - 30ml",
+      "slug": "Balance-Vitamin-C-Brightening-Serum-30ml",
       "name": "Balance Vitamin C Brightening Serum - 30ml",
       "price": 1250.00 ,
       "originalPrice": 1450.00,
@@ -278,7 +278,7 @@
     },
 {
       "id": 7,
-      "slug": "Balance Vitamin C Brightening Serum - 30ml",
+      "slug": "Balance-Vitamin-C-Brightening-Serum-30ml",
       "name": "Balance Vitamin C Brightening Serum - 30ml",
       "price": 1250.00 ,
       "originalPrice": 1450.00,
@@ -343,7 +343,7 @@
     },
     {
       "id": 9,
-      "slug": "The Body Shop Oils of life Intensely Revitalising Facial Oil - 30ml",
+      "slug": "The-Body-Shop-Oils-of-life-Intensely-Revitalising-Facial-Oil-30ml",
       "name": "The Body Shop Oils of life Intensely Revitalising Facial Oil - 30ml",
       "price": 3050.00 ,
       "originalPrice": 3450.00,
@@ -405,7 +405,7 @@
     },
 {
       "id": 10,
-      "slug": "Neutrogena Ultra Sheer Dry-Touch Sunscreen",
+      "slug": "Neutrogena-Ultra-Sheer-Dry-Touch-Sunscreen",
       "name": "Neutrogena Ultra Sheer Dry-Touch Sunscreen SPF 55 - 147ml",
       "price": 2590.00 ,
       "originalPrice": 2950.00,
@@ -461,7 +461,7 @@
     },
     {
       "id": 11,
-      "slug": "Simple Kind To Skin Hydrating Light Moisturiser - 125ml",
+      "slug": "SimpleKindToSkinHydratingLightMoisturiser125ml",
       "name": "Simple Kind To Skin Hydrating Light Moisturiser - 125ml",
       "price": 750.00 ,
       "originalPrice": 950.00,
@@ -527,7 +527,7 @@
     },
       {
       "id": 12,
-      "slug": "MENS BIKER JACKET",
+      "slug": "MENSBIKERJACKET",
       "name": "MENS BIKER JACKET",
       "price": 1990.00 ,
       "originalPrice": 2250.00,
@@ -594,7 +594,7 @@
     },
       {
       "id": 13,
-      "slug": "MENS SHACKET - REGULAR FIT",
+      "slug": "MENS SHACKET-REGULARFIT",
       "name": "MENS SHACKET - REGULAR FIT",
       "price": 1290.00 ,
       "originalPrice": 1500.00,
@@ -661,7 +661,7 @@
     },
       {
       "id": 14,
-      "slug": "MENS DENIM SHIRT",
+      "slug": "MENSDENIMSHIRT",
       "name": "MENS DENIM SHIRT",
       "price":  1490.00 ,
       "originalPrice": 1500.00,
@@ -729,7 +729,7 @@
     },
       {
       "id": 15,
-      "slug": "MENS BLAZER - REGULAR FIT",
+      "slug": "MENSBLAZER-REGULARFIT",
       "name": "MENS BLAZER - REGULAR FIT",
       "price": 4345.00 ,
       "originalPrice": 4500.00,
@@ -798,7 +798,7 @@
     },
       {
       "id": 16,
-      "slug": "MENS HIGH NECK JACKET",
+      "slug": "MENSHIGHNECKJACKET",
       "name": "MENS HIGH NECK JACKET",
       "price": 2190.00 ,
       "originalPrice": 2190.00,
@@ -866,7 +866,7 @@
     },
           {
       "id": 17,
-      "slug": "WOMENS HOODIE JACKET",
+      "slug": "WOMENSHOODIEJACKET",
       "name": "WOMENS HOODIE JACKET",
       "price": 1290.00 ,
       "originalPrice": 1500.00,
@@ -932,7 +932,7 @@
     },
           {
       "id": 17,
-      "slug": "WOMENS HOODIE JACKETS",
+      "slug": "WOMENSHOODIEJACKETS",
       "name": "WOMENS HOODIE JACKET",
       "price": 2605.00 ,
       "originalPrice": 2605.00,
@@ -999,7 +999,7 @@
     },
 {
       "id": 18,
-      "slug": "WOMENS JACKET",
+      "slug": "WOMENSJACKET",
       "name": "WOMENS JACKET",
       "price": 1890.00 ,
       "originalPrice": 1890.00,
@@ -1066,7 +1066,7 @@
     },
 {
       "id": 19,
-      "slug": "WOMENS JACKET3",
+      "slug": "WOMENSJACKET3",
       "name": "WOMENS JACKET",
       "price": 2605.00 ,
       "originalPrice": 2605.00,
@@ -1133,7 +1133,7 @@
     },
 {
       "id": 19,
-      "slug": "WOMENS SUIT SET",
+      "slug": "WOMENS-SUITSET",
       "name": "WOMENS SUIT SET",
       "price":  5310.00 ,
       "originalPrice":  5310.00,
@@ -1200,7 +1200,7 @@
     },
 {
       "id": 19,
-      "slug": "WOMENS PONCHO",
+      "slug": "WOMENS-PONCHO",
       "name": "WOMENS PONCHO",
       "price":   2090.00 ,
       "originalPrice":   2090.00,
@@ -1266,7 +1266,7 @@
     },
   {
       "id": 20,
-      "slug": "WOMENS DENIM KURTI - REGULAR FIT",
+      "slug": "WOMENS-DENIM-KURTI-REGULAR-FIT",
       "name": "WOMENS DENIM KURTI - REGULAR FIT",
       "price":   2090.00 ,
       "originalPrice":   2090.00,
@@ -1331,6 +1331,525 @@
       "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F4afd436936e04ae2bf61f6a6ef5aaebd.png&w=1080&q=75",
       "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Ffc75d2976c044000bb7cb2bbe4b37f33.png&w=1080&q=75",
       "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fdce6d0fc64274da59fd0bd6fcf103b78.png&w=1080&q=75"
+      ]
+    },
+{
+      "id": 19,
+      "slug": "WOMENS-PONCHO",
+      "name": "WOMENS PONCHO",
+      "price":   2090.00 ,
+      "originalPrice":   2090.00,
+      "category": "Womens winter",
+      "categorySlug": "womens-winter",
+      "badge": " Available",
+      "description": "",
+      "Desclaimer": "ইনবক্স এ মেসেজ করার পরিবর্তে, সরাসরি আমাদের Website এ অর্ডার করলে পণ্য পাওয়ার নিশ্চয়তা বেশি থাকে। কারন, আপনার মেসেজটি আমাদের এজেন্ট পড়ার পূর্বে অন্য ক্রেতা Website থেকে কিনে স্টক আউট করে দিতে পারে। লাক্সেন্ট্রা-শপ সবসময় সঠিক স্টক ওয়েবসাইট এ আপডেট করে থাকার চেষ্টা করে। এর পরেও যে কোনো কারণে ওয়েবসাইট এ পণ্যটির  সঠিক স্টক আপডেট করা না থাকলে আমরা আপনাকে দ্রুত কল করে জানিয়ে দিবো যেন আপনি আপনার ডেলিভারি সম্পর্কে দ্রুত সিদ্ধান্ত নিতে পারেন। তাই অতি জরুরী অবস্থার প্রেক্ষিতে অনুগ্রহ করে আমাদের আগে কল করে নিশ্চিত হউন পণ্য টি এখনো স্টক এ আছে কিনা। অন্যথায় কোনো কারণে ডেলিভারি বিলম্ব হলে আমরা দায়ী থাকবো না।",
+      "features": [
+        "Brand: Luxentra",
+        "Fabric: Tencel Denim",
+        "Gender: Female",
+        "Color: Indigo",
+        "Fit type : Regular fit",
+        "Length: Long",
+        "Addition: Auto Embroidery",
+        "Collar/ Neck: Blazer Collar",
+        "Sleeve: Full Sleeve"
+      ],
+      "ingredients": [
+        {
+          "name": "Note: The color is the same as the picture. However, it may slightly differ due to lighting",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["FREE SIZE"],
+      "colors": ["Indigo"],
+      "images": [
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F2c4ea64effda4b94946325eafdd3fcd0.png&w=1080&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F014b793d87564067ad914f0364bd78c5.png&w=1080&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F6dc124db256346cbba4d0619c4e22f74.png&w=1080&q=75"
+      ]
+    },
+  {
+      "id": 20,
+      "slug": "BOYS-FORMAL-UIT-SET",
+      "name": "BOYS FORMAL SUIT SET",
+      "price":   4150.00 ,
+      "originalPrice":  "",
+      "category": "Kids winter",
+      "categorySlug": "kids-winter",
+      "badge": " Available",
+      "description": "",
+      "Desclaimer": "ইনবক্স এ মেসেজ করার পরিবর্তে, সরাসরি আমাদের Website এ অর্ডার করলে পণ্য পাওয়ার নিশ্চয়তা বেশি থাকে। কারন, আপনার মেসেজটি আমাদের এজেন্ট পড়ার পূর্বে অন্য ক্রেতা Website থেকে কিনে স্টক আউট করে দিতে পারে। লাক্সেন্ট্রা-শপ সবসময় সঠিক স্টক ওয়েবসাইট এ আপডেট করে থাকার চেষ্টা করে। এর পরেও যে কোনো কারণে ওয়েবসাইট এ পণ্যটির  সঠিক স্টক আপডেট করা না থাকলে আমরা আপনাকে দ্রুত কল করে জানিয়ে দিবো যেন আপনি আপনার ডেলিভারি সম্পর্কে দ্রুত সিদ্ধান্ত নিতে পারেন। তাই অতি জরুরী অবস্থার প্রেক্ষিতে অনুগ্রহ করে আমাদের আগে কল করে নিশ্চিত হউন পণ্য টি এখনো স্টক এ আছে কিনা। অন্যথায় কোনো কারণে ডেলিভারি বিলম্ব হলে আমরা দায়ী থাকবো না।",
+      "features": [
+        "Brand: Luxentra",
+        "Fabric: Cotton - Synthetic Blend",
+        "Gender: Male",
+        "Color: Dark Navy",
+        "Fit type : Regular fit",
+        "Length: Long",
+        "Addition: Manual Embroidery",
+        "Collar/ Neck: Blazer Collar ",
+        "Sleeve: Full Sleeve"
+      ],
+      "ingredients": [
+        {
+          "name": "Note: The color is the same as the picture. However, it may slightly differ due to lighting",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["6/7 Y"],
+      "colors": ["Dark Navy"],
+      "images": [
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fb1a5f5c500ad4ca4b07222c3dfa0a6eb.png&w=1080&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F252ef9ec0c8c4cc6bc658af279bf3ba5.png&w=1080&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F63bdbdd517b84ba4a86c29c87df41029.png&w=1080&q=75"
+      ]
+    },
+{
+      "id": 19,
+      "slug": "WOMENS-PONCHO",
+      "name": "WOMENS PONCHO",
+      "price":   2090.00 ,
+      "originalPrice":   2090.00,
+      "category": "Womens winter",
+      "categorySlug": "womens-winter",
+      "badge": " Available",
+      "description": "",
+      "Desclaimer": "ইনবক্স এ মেসেজ করার পরিবর্তে, সরাসরি আমাদের Website এ অর্ডার করলে পণ্য পাওয়ার নিশ্চয়তা বেশি থাকে। কারন, আপনার মেসেজটি আমাদের এজেন্ট পড়ার পূর্বে অন্য ক্রেতা Website থেকে কিনে স্টক আউট করে দিতে পারে। লাক্সেন্ট্রা-শপ সবসময় সঠিক স্টক ওয়েবসাইট এ আপডেট করে থাকার চেষ্টা করে। এর পরেও যে কোনো কারণে ওয়েবসাইট এ পণ্যটির  সঠিক স্টক আপডেট করা না থাকলে আমরা আপনাকে দ্রুত কল করে জানিয়ে দিবো যেন আপনি আপনার ডেলিভারি সম্পর্কে দ্রুত সিদ্ধান্ত নিতে পারেন। তাই অতি জরুরী অবস্থার প্রেক্ষিতে অনুগ্রহ করে আমাদের আগে কল করে নিশ্চিত হউন পণ্য টি এখনো স্টক এ আছে কিনা। অন্যথায় কোনো কারণে ডেলিভারি বিলম্ব হলে আমরা দায়ী থাকবো না।",
+      "features": [
+        "Brand: Luxentra",
+        "Fabric: Tencel Denim",
+        "Gender: Female",
+        "Color: Indigo",
+        "Fit type : Regular fit",
+        "Length: Long",
+        "Addition: Auto Embroidery",
+        "Collar/ Neck: Blazer Collar",
+        "Sleeve: Full Sleeve"
+      ],
+      "ingredients": [
+        {
+          "name": "Note: The color is the same as the picture. However, it may slightly differ due to lighting",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["FREE SIZE"],
+      "colors": ["Indigo"],
+      "images": [
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F2c4ea64effda4b94946325eafdd3fcd0.png&w=1080&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F014b793d87564067ad914f0364bd78c5.png&w=1080&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F6dc124db256346cbba4d0619c4e22f74.png&w=1080&q=75"
+      ]
+    },
+  {
+      "id": 21,
+      "slug": "GIRLS-FROCK-REGULAR-FIT",
+      "name": "GIRLS FROCK - REGULAR FIT",
+      "price":   990.00 ,
+      "originalPrice":  "",
+      "category": "Kids winter",
+      "categorySlug": "kids-winter",
+      "badge": " Available",
+      "description": "",
+      "Desclaimer": "ইনবক্স এ মেসেজ করার পরিবর্তে, সরাসরি আমাদের Website এ অর্ডার করলে পণ্য পাওয়ার নিশ্চয়তা বেশি থাকে। কারন, আপনার মেসেজটি আমাদের এজেন্ট পড়ার পূর্বে অন্য ক্রেতা Website থেকে কিনে স্টক আউট করে দিতে পারে। লাক্সেন্ট্রা-শপ সবসময় সঠিক স্টক ওয়েবসাইট এ আপডেট করে থাকার চেষ্টা করে। এর পরেও যে কোনো কারণে ওয়েবসাইট এ পণ্যটির  সঠিক স্টক আপডেট করা না থাকলে আমরা আপনাকে দ্রুত কল করে জানিয়ে দিবো যেন আপনি আপনার ডেলিভারি সম্পর্কে দ্রুত সিদ্ধান্ত নিতে পারেন। তাই অতি জরুরী অবস্থার প্রেক্ষিতে অনুগ্রহ করে আমাদের আগে কল করে নিশ্চিত হউন পণ্য টি এখনো স্টক এ আছে কিনা। অন্যথায় কোনো কারণে ডেলিভারি বিলম্ব হলে আমরা দায়ী থাকবো না।",
+      "features": [
+        "Brand: Luxentra",
+        "Fabric: Cotton",
+        "Gender: Girls",
+        "Color: Salmon Pink Printed",
+        "Fit type : Regular fit",
+        "Length: Long",
+        "Addition: Manual Embroidery",
+        "Collar/ Neck: Blazer Collar ",
+        "Sleeve:  Half Sleeve"
+      ],
+      "ingredients": [
+        {
+          "name": "Note: The color is the same as the picture. However, it may slightly differ due to lighting",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["6/7 Y"],
+      "colors": ["Salmon Pink Printed"],
+      "images": [
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F70ac0468c152429896aa2370ad57ba24.png&w=1080&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Ff06cc39873414f719ed7ea13eee1e69c.png&w=1080&q=75"
+      ]
+    },
+      {
+      "id": 22,
+      "slug": "Womens-Ethnic",
+      "name": "Womens Ethnic",
+      "price":   2550.00 ,
+      "originalPrice":  "",
+      "category": "Womens tops",
+      "categorySlug": "womens-tops",
+      "badge": " Available",
+      "description": "",
+      "Desclaimer": "ইনবক্স এ মেসেজ করার পরিবর্তে, সরাসরি আমাদের Website এ অর্ডার করলে পণ্য পাওয়ার নিশ্চয়তা বেশি থাকে। কারন, আপনার মেসেজটি আমাদের এজেন্ট পড়ার পূর্বে অন্য ক্রেতা Website থেকে কিনে স্টক আউট করে দিতে পারে। লাক্সেন্ট্রা-শপ সবসময় সঠিক স্টক ওয়েবসাইট এ আপডেট করে থাকার চেষ্টা করে। এর পরেও যে কোনো কারণে ওয়েবসাইট এ পণ্যটির  সঠিক স্টক আপডেট করা না থাকলে আমরা আপনাকে দ্রুত কল করে জানিয়ে দিবো যেন আপনি আপনার ডেলিভারি সম্পর্কে দ্রুত সিদ্ধান্ত নিতে পারেন। তাই অতি জরুরী অবস্থার প্রেক্ষিতে অনুগ্রহ করে আমাদের আগে কল করে নিশ্চিত হউন পণ্য টি এখনো স্টক এ আছে কিনা। অন্যথায় কোনো কারণে ডেলিভারি বিলম্ব হলে আমরা দায়ী থাকবো না।",
+      "features": [
+        "Brand: Luxentra",
+        "Fabric: SYNTHETIC",
+        "Gender: Female",
+        "Color:  Red printed",
+        "Fit Type: Regular Fit",
+        "Length: Long",
+        "Addition: Manual Embroidery",
+        "Collar/ Neck: RounD Collar ",
+        "Sleeve: Quarter Sleeve"
+      ],
+      "ingredients": [
+        {
+          "name": "Note: The color is the same as the picture. However, it may slightly differ due to lighting",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "colors": ["Red"],
+      "images": [
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F7a93672a0f7340aea101211e3a7d0fec.png&w=1080&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Ffa7fb01e533c4c8fa672becebafcf7f1.png&w=1080&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F5849981a4de14f64a38833db8055f237.png&w=1080&q=75"
+      ]
+    },
+{
+      "id": 23,
+      "slug": "COLMI-P28",
+      "name": "COLMI P28 Plus Bluetooth Calling Smart Watch",
+      "price":    2200.00 ,
+      "originalPrice":  "",
+      "category": "Smart watches",
+      "categorySlug": "smart-watches",
+      "badge": " Available",
+      "description": "",
+      "Desclaimer": "ইনবক্স এ মেসেজ করার পরিবর্তে, সরাসরি আমাদের Website এ অর্ডার করলে পণ্য পাওয়ার নিশ্চয়তা বেশি থাকে। কারন, আপনার মেসেজটি আমাদের এজেন্ট পড়ার পূর্বে অন্য ক্রেতা Website থেকে কিনে স্টক আউট করে দিতে পারে। লাক্সেন্ট্রা-শপ সবসময় সঠিক স্টক ওয়েবসাইট এ আপডেট করে থাকার চেষ্টা করে। এর পরেও যে কোনো কারণে ওয়েবসাইট এ পণ্যটির  সঠিক স্টক আপডেট করা না থাকলে আমরা আপনাকে দ্রুত কল করে জানিয়ে দিবো যেন আপনি আপনার ডেলিভারি সম্পর্কে দ্রুত সিদ্ধান্ত নিতে পারেন। তাই অতি জরুরী অবস্থার প্রেক্ষিতে অনুগ্রহ করে আমাদের আগে কল করে নিশ্চিত হউন পণ্য টি এখনো স্টক এ আছে কিনা। অন্যথায় কোনো কারণে ডেলিভারি বিলম্ব হলে আমরা দায়ী থাকবো না।",
+      "features": [
+        "Brand: COLMI",
+        "Model: P28 Plus",
+        "Display: '1.9' HD IPS Touch Display",
+        "Color:  Black",
+        "Resolution: 240x284 pixel",
+        "Battery Capacity: 240mAh",
+        "Waterproof level: IP68"
+      ],
+      "ingredients": [
+        {
+          "name": "Note: The color is the same as the picture. However, it may slightly differ due to lighting",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": [],
+      "colors": ["Black"],
+      "images": [
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fb0df65fa93524808a6b9d19f10048c3e.png&w=1080&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fc80415bcc0f34134a0d343426fc6be4d.png&w=1080&q=75"
+      ]
+    },
+      {
+      "id": 24,
+      "slug": "Hoco-EQ6-Shadow-True-Wireless-BT-Earbuds",
+      "name": "Hoco EQ6 Shadow True Wireless BT Earbuds",
+      "price":     1675.00 ,
+      "originalPrice":  "",
+      "category": "Earbuds",
+      "categorySlug": "earbuds",
+      "badge": " Available",
+      "description": "",
+      "Desclaimer": "ইনবক্স এ মেসেজ করার পরিবর্তে, সরাসরি আমাদের Website এ অর্ডার করলে পণ্য পাওয়ার নিশ্চয়তা বেশি থাকে। কারন, আপনার মেসেজটি আমাদের এজেন্ট পড়ার পূর্বে অন্য ক্রেতা Website থেকে কিনে স্টক আউট করে দিতে পারে। লাক্সেন্ট্রা-শপ সবসময় সঠিক স্টক ওয়েবসাইট এ আপডেট করে থাকার চেষ্টা করে। এর পরেও যে কোনো কারণে ওয়েবসাইট এ পণ্যটির  সঠিক স্টক আপডেট করা না থাকলে আমরা আপনাকে দ্রুত কল করে জানিয়ে দিবো যেন আপনি আপনার ডেলিভারি সম্পর্কে দ্রুত সিদ্ধান্ত নিতে পারেন। তাই অতি জরুরী অবস্থার প্রেক্ষিতে অনুগ্রহ করে আমাদের আগে কল করে নিশ্চিত হউন পণ্য টি এখনো স্টক এ আছে কিনা। অন্যথায় কোনো কারণে ডেলিভারি বিলম্ব হলে আমরা দায়ী থাকবো না।",
+      "features": [
+        "Brand: COLMI",
+        "Bluetooth Version : 5.3 (Chip: JL AC6973D4)",
+        "Battery Capacity : 320mAh (Charging Case), 40mAh (Each Earbud)",
+        "Usage Time :  7 hours (Music & Calls)",
+        "Standby Time : 2180 hours",
+        "Size & Weight : 62 × 53 × 28.5mm ",
+        "Additional Features : Master-slave switching, summon Siri "
+      ],
+      "ingredients": [
+        {
+          "name": "Key Features of EQ6",
+          "benefit": " Bluetooth 5.3 for Uninterrupted Connectivity"
+        },
+        {
+          "name": "Equipped with Bluetooth 5.3, the Hoco EQ6 Shadow ensures faster pairing, stable connections, and lower latency, providing crystal-clear audio and call quality. ",
+          "benefit": "Extended Battery Life for All-Day Use"
+        },
+        {
+          "name": "7 hours of continuous playback on a single charge",
+          "benefit": " Standby time of up to 180 hours, Reliable 320mAh charging case for on-the-go power"
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": [],
+      "colors": ["Black"],
+      "images": [
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fb6a05904a0e54a0aa86ccbd5f6b954e6.png&w=1080&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Faeb9070c7a254670bac1d9ff4ea56e73.png&w=1080&q=75"
+      ]
+    },
+    {
+      "id": 25,
+      "slug": "MENS-CHINO-PANT-SLIM-FIT",
+      "name": "MENS CHINO PANT - SLIM FIT",
+      "price":    1099.00 ,
+      "originalPrice":  "",
+      "category": "MENS CHINO",
+      "categorySlug": "mens-chino",
+      "badge": " Available",
+      "description": "",
+      "Desclaimer": "ইনবক্স এ মেসেজ করার পরিবর্তে, সরাসরি আমাদের Website এ অর্ডার করলে পণ্য পাওয়ার নিশ্চয়তা বেশি থাকে। কারন, আপনার মেসেজটি আমাদের এজেন্ট পড়ার পূর্বে অন্য ক্রেতা Website থেকে কিনে স্টক আউট করে দিতে পারে। লাক্সেন্ট্রা-শপ সবসময় সঠিক স্টক ওয়েবসাইট এ আপডেট করে থাকার চেষ্টা করে। এর পরেও যে কোনো কারণে ওয়েবসাইট এ পণ্যটির  সঠিক স্টক আপডেট করা না থাকলে আমরা আপনাকে দ্রুত কল করে জানিয়ে দিবো যেন আপনি আপনার ডেলিভারি সম্পর্কে দ্রুত সিদ্ধান্ত নিতে পারেন। তাই অতি জরুরী অবস্থার প্রেক্ষিতে অনুগ্রহ করে আমাদের আগে কল করে নিশ্চিত হউন পণ্য টি এখনো স্টক এ আছে কিনা। অন্যথায় কোনো কারণে ডেলিভারি বিলম্ব হলে আমরা দায়ী থাকবো না।",
+      "features": [
+        "Brand: Luxentra",
+        "Fabric: Nylon & Spandex",
+        "Gender: Male",
+        "Color:  Mid NIght Navy",
+        "Fit Type: Slim Fit",
+        "Length: Long",
+        "Addition: Manual Embroidery"
+      ],
+      "ingredients": [
+        {
+          "name": "Note: The color is the same as the picture. However, it may slightly differ due to lighting",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["28", "32", "34", "36","38", "40"],
+      "colors": ["Red"],
+      "images": [
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F34b1fde60eab4748b518b781413f2e62.png&w=1080&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F5cc6703e4e814ceb9a7e4e8f95065a24.png&w=1080&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fe5a6d5a51ded47d8880ef8ad1d77ea38.png&w=1080&q=75"
       ]
     }
   ]

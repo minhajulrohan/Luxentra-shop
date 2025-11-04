@@ -106,10 +106,10 @@ const ProductCard = ({ id, name, price, originalPrice, image, badge, categorySlu
           <h3 className="font-semibold mb-2 line-clamp-1">{name}</h3>
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
-              <span className="text-lg font-bold text-primary">${price.toFixed(2)}</span>
+              <span className="text-lg font-bold text-primary">TK {price.toFixed(2)}</span>
               {originalPrice && (
                 <span className="text-sm text-muted-foreground line-through">
-                  ${originalPrice.toFixed(2)}
+                  TK {originalPrice.toFixed(2)}
                 </span>
               )}
             </div>

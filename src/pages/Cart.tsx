@@ -67,8 +67,8 @@ const Cart = () => {
     (sum, item) => sum + item.price * item.quantity,
     0
   );
-  const shipping = subtotal > 50 ? 0 : 5.99;
-  const tax = subtotal * 0.1;
+  const shipping = subtotal > 10000 ? 0 : 120;
+  const tax = subtotal * 0.015;
   const total = subtotal + shipping + tax;
 
   // Checkout বাটনে ক্লিক করার হ্যান্ডলার
@@ -147,7 +147,7 @@ const Cart = () => {
                       
                       <div className="flex items-center justify-between mt-4">
                         <span className="text-2xl font-bold text-primary">
-                          ${item.price.toFixed(2)}
+                          TK {item.price.toFixed(2)}
                         </span>
                         
                         <div className="flex items-center gap-4">
@@ -203,19 +203,19 @@ const Cart = () => {
                 <div className="space-y-4">
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">Subtotal</span>
-                    <span className="font-semibold">${subtotal.toFixed(2)}</span>
+                    <span className="font-semibold">TK {subtotal.toFixed(2)}</span>
                   </div>
                   
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">Shipping</span>
                     <span className="font-semibold">
-                      {shipping === 0 ? "FREE" : `$${shipping.toFixed(2)}`}
+                      {shipping === 0 ? "FREE" : `TK ${shipping.toFixed(2)}`}
                     </span>
                   </div>
                   
                   <div className="flex justify-between">
-                    <span className="text-muted-foreground">Tax (10%)</span>
-                    <span className="font-semibold">${tax.toFixed(2)}</span>
+                    <span className="text-muted-foreground">Tax (1.5%)</span>
+                    <span className="font-semibold">TK {tax.toFixed(2)}</span>
                   </div>
                   
                   <Separator />
@@ -223,14 +223,14 @@ const Cart = () => {
                   <div className="flex justify-between text-lg">
                     <span className="font-bold">Total</span>
                     <span className="font-bold text-primary text-2xl">
-                      ${total.toFixed(2)}
+                      TK {total.toFixed(2)}
                     </span>
                   </div>
                 </div>
                 
                 {subtotal < 50 && (
                   <p className="text-sm text-muted-foreground mt-4 p-3 bg-secondary rounded-md">
-                    Add ${(50 - subtotal).toFixed(2)} more for free shipping!
+                    Add TK {(50 - subtotal).toFixed(2)} more for free shipping!
                   </p>
                 )}
                 

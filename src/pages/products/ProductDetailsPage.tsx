@@ -202,6 +202,33 @@ const ProductDetailsPage = () => {
     setChatMessage("");
   };
 
+// -----------------------------------------------------------
+  // ✅ 2.1. WhatsApp Logic
+  // -----------------------------------------------------------
+  const whatsappNumber = "8801788517930"; // আপনার হোয়াটসঅ্যাপ ফোন নম্বর (কান্ট্রি কোড সহ)
+
+  const getWhatsappLink = () => {
+    // বর্তমান পণ্যের URL তৈরি করা হলো। 
+    // যদি আপনি নির্দিষ্ট Route ব্যবহার করেন, তবে এটি সঠিকভাবে URL দেবে।
+    const productLink = window.location.href; 
+    const productName = product.name; 
+    
+    // সিলেকশনগুলো মেসেজে অন্তর্ভুক্ত করা হলো
+    const selectedOptions = 
+      (product.sizes.length > 0 && selectedSize ? `Size: ${selectedSize}, ` : "") +
+      (product.colors.length > 0 && selectedColor ? `Color: ${selectedColor}, ` : "");
+    
+    const message = 
+      `আমি এই প্রোডাক্টটি অর্ডার করতে চাই।\n` +
+      `প্রোডাক্ট: ${productName} (Quantity: ${quantity})\n` +
+      (selectedOptions ? `অপশন: ${selectedOptions}\n` : "") +
+      `লিংক: ${productLink}`;
+
+    const encodedMessage = encodeURIComponent(message);
+
+    return `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
+  };
+
   // -----------------------------------------------------------
   // 4. Component Rendering (JSX)
   // -----------------------------------------------------------
@@ -269,11 +296,11 @@ const ProductDetailsPage = () => {
                   )}
                   <div className="flex items-center gap-4">
                     <span className="text-3xl font-bold text-primary">
-                      ${typeof product.price === 'string' ? parseFloat(product.price).toFixed(2) : product.price.toFixed(2)}
+                      TK {typeof product.price === 'string' ? parseFloat(product.price).toFixed(2) : product.price.toFixed(2)}
                     </span>
                     {product.originalPrice && (
                       <span className="text-xl text-muted-foreground line-through">
-                        ${typeof product.originalPrice === 'string' ? parseFloat(product.originalPrice).toFixed(2) : product.originalPrice.toFixed(2)}
+                       TK {typeof product.originalPrice === 'string' ? parseFloat(product.originalPrice).toFixed(2) : product.originalPrice.toFixed(2)}
                       </span>
                     )}
                   </div>
@@ -361,7 +388,19 @@ const ProductDetailsPage = () => {
                       className={`h-5 w-5 ${isWishlisted ? "fill-current" : ""}`}
                     />
                   </Button>
+
                 </div>
+                {/* ✅ সংশোধিত হোয়াটসঅ্যাপ বাটন: সরাসরি <a> ট্যাগ এবং ডাইনামিক লিংক ব্যবহার করা হয়েছে */}
+                <button className="w-full mt-3 bg-[#25D366] text-white py-2 rounded-md hover:bg-[#1da851] transition-colors font-semibold">
+                  <Link 
+                    to={getWhatsappLink()} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="w-full block"
+                >
+                    অর্ডার করুন হোয়াটসঅ্যাপে 💬
+                </Link>
+                </button>
               </div>
             </div>
 

@@ -31,9 +31,9 @@ const categories = [
 const navLinks = [
   { name: "Marketplace", href: "/shop" },
   { name: "Shahara's Skin", href: "/products/shahara-skin" },
-  { name: "Womens", "href": "#womens" },
-  { name: "Mens", href: "#mens" },
-  { name: "Kids", href: "#kids" },
+  { name: "Womens", "href": "/products/womens-winter" },
+  { name: "Mens", href: "/products/mens-winter" },
+  { name: "Kids", href: "/products/kids-winter" },
   { name: "DHEU", href: "#dheu" },
   { name: "BAG DEALS", href: "#bag-deals" },
   { name: "CutTheCost-20%", href: "#cut-cost" },
