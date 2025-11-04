@@ -67,7 +67,7 @@
       "https://www.banglashoppers.com/media/catalog/product/cache/17d62ae9753e745b200d9b2c6206ffeb/8/8/8809317118123_1.jpg"
       ]
     },
-        {
+    {
       "id": 5,
       "slug": "Roots-Of-Strength-Firming-Shaping-Serum",
       "name": "The Body Shop - Roots Of Strength Firming Shaping Serum - 30ml",
@@ -76,7 +76,55 @@
       "category": "Shahara's Skin",
       "categorySlug": "shahara-skin",
       "badge": " Limited Stock ",
-      "description": "ngredients: Aqua/Water/Eau, Glycerin, Dicaprylyl Carbonate, Alcohol Denat., Acacia Senegal Gum, Glyceryl Stearate, Mannose, Microcrystalline Cellulose, Benzyl Alcohol, Zea Mays Starch/Corn Starch, Glycine Soja Oil/Soybean Oil, Carrageenan, Parfum/Fragrance, Arginine, Salicylic Acid, Cellulose Gum, Ruscus Aculeatus Root Extract, Sodium Hyaluronate, Xanthan Gum, Zingiber Officinale Root Extract/Ginger Root Extract, Phospholipids, Adenosine, Panax Ginseng Root Extract, Limonene, Linalool, Citral, Tocopherol, Geraniol, Citronellol, Citric Acid.",
+      "description": "A lightweight firming serum that helps to visibly lift and shape facial contours. Formulated with ginger root extract and ginseng, this serum energizes skin while providing anti-aging benefits.",
+      "Desclaimer": "ইনবক্স এ মেসেজ করার পরিবর্তে, সরাসরি আমাদের Website এ অর্ডার করলে পণ্য পাওয়ার নিশ্চয়তা বেশি থাকে। কারন, আপনার মেসেজটি আমাদের এজেন্ট পড়ার পূর্বে অন্য ক্রেতা Website থেকে কিনে স্টক আউট করে দিতে পারে। লাক্সেন্ট্রা-শপ সবসময় সঠিক স্টক ওয়েবসাইট এ আপডেট করে থাকার চেষ্টা করে। এর পরেও যে কোনো কারণে ওয়েবসাইট এ পণ্যটির  সঠিক স্টক আপডেট করা না থাকলে আমরা আপনাকে দ্রুত কল করে জানিয়ে দিবো যেন আপনি আপনার ডেলিভারি সম্পর্কে দ্রুত সিদ্ধান্ত নিতে পারেন। তাই অতি জরুরী অবস্থার প্রেক্ষিতে অনুগ্রহ করে আমাদের আগে কল করে নিশ্চিত হউন পণ্য টি এখনো স্টক এ আছে কিনা। অন্যথায় কোনো কারণে ডেলিভারি বিলম্ব হলে আমরা দায়ী থাকবো না।",
+      "features": [
+        "Visibly lifts and firms facial contours",
+        "Lightweight, fast-absorbing formula",
+        "Energizes and revitalizes skin",
+        "Suitable for all skin types",
+        "Dermatologically tested",
+        "Cruelty-free and vegan"
+      ],
+      "ingredients": [
+        {
+          "name": "Ginger Root Extract",
+          "benefit": "Energizes skin and provides antioxidant protection"
+        },
+        {
+          "name": "Ginseng Extract",
+          "benefit": "Helps improve skin elasticity and firmness"
+        },
+        {
+          "name": "Hyaluronic Acid",
+          "benefit": "Deep hydration and moisture retention"
+        }
+      ],
+      "fullIngredients": "Aqua/Water/Eau, Glycerin, Dicaprylyl Carbonate, Alcohol Denat., Acacia Senegal Gum, Glyceryl Stearate, Mannose, Microcrystalline Cellulose, Benzyl Alcohol, Zea Mays Starch/Corn Starch, Glycine Soja Oil/Soybean Oil, Carrageenan, Parfum/Fragrance, Arginine, Salicylic Acid, Cellulose Gum, Ruscus Aculeatus Root Extract, Sodium Hyaluronate, Xanthan Gum, Zingiber Officinale Root Extract/Ginger Root Extract, Phospholipids, Adenosine, Panax Ginseng Root Extract, Limonene, Linalool, Citral, Tocopherol, Geraniol, Citronellol, Citric Acid.",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Cleanse",
+          "description": "Wash your face with cleanser and pat dry with a clean towel, leaving it slightly damp."
+        },
+        {
+          "step": 2,
+          "title": "Apply",
+          "description": "Dispense 2-3 drops of serum into your palms and gently press into your face and neck."
+        },
+        {
+          "step": 3,
+          "title": "Absorb",
+          "description": "Wait 60 seconds for the serum to absorb, then follow with your moisturizer."
+        }
+      ],
+      "bengaliDescription": "একটি হালকা ফার্মিং সিরাম যা মুখের কনট্যুর দৃশ্যমানভাবে উত্তোলন এবং আকৃতি দিতে সাহায্য করে। আদা মূল এবং জিনসেং দিয়ে তৈরি, এই সিরাম ত্বককে শক্তিশালী করে এবং অ্যান্টি-এজিং সুবিধা প্রদান করে।",
+      "bengaliFeatures": [
+        "মুখের কনট্যুর দৃশ্যমানভাবে উত্তোলন এবং দৃঢ় করে",
+        "হালকা, দ্রুত শোষণযোগ্য ফর্মুলা",
+        "ত্বককে শক্তিশালী এবং পুনরুজ্জীবিত করে",
+        "সব ধরনের ত্বকের জন্য উপযুক্ত"
+      ],
       "sizes": [],
       "colors": [],
       "images": [

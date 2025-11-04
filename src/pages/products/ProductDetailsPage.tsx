@@ -379,55 +379,60 @@ const ProductDetailsPage = () => {
                 <TabsContent value="description" className="mt-6">
                   <div className="space-y-8">
                     {/* Main Description */}
-                    <div>
-                      <p className="text-muted-foreground leading-relaxed mb-6">
-                        {product.description}
-                      </p>
-                    </div>
+                    {product.description && (
+                      <div>
+                        <p className="text-muted-foreground leading-relaxed mb-6">
+                          {product.description}
+                        </p>
+                      </div>
+                    )}
 
                     {/* Features Section */}
-                    <div className="bg-secondary/20 p-6 rounded-lg">
-                      <h3 className="text-xl font-bold mb-4">Features</h3>
-                      <ul className="grid md:grid-cols-2 gap-3">
-                        <li className="flex items-start gap-2">
-                          <span className="text-primary mt-1">•</span>
-                          <span className="text-muted-foreground">High-quality materials and construction</span>
-                        </li>
-                        <li className="flex items-start gap-2">
-                          <span className="text-primary mt-1">•</span>
-                          <span className="text-muted-foreground">Dermatologically tested</span>
-                        </li>
-                        <li className="flex items-start gap-2">
-                          <span className="text-primary mt-1">•</span>
-                          <span className="text-muted-foreground">Suitable for all skin types</span>
-                        </li>
-                        <li className="flex items-start gap-2">
-                          <span className="text-primary mt-1">•</span>
-                          <span className="text-muted-foreground">Cruelty-free and eco-friendly</span>
-                        </li>
-                      </ul>
-                    </div>
-
-                    {/* Active Ingredients */}
-                    <div>
-                      <h3 className="text-xl font-bold mb-4">Active Ingredients</h3>
-                      <div className="bg-card border rounded-lg p-6">
-                        <ul className="space-y-2">
-                          <li className="flex items-center gap-2">
-                            <span className="w-2 h-2 rounded-full bg-primary"></span>
-                            <span className="text-muted-foreground">Vitamin C - Brightening and anti-aging properties</span>
-                          </li>
-                          <li className="flex items-center gap-2">
-                            <span className="w-2 h-2 rounded-full bg-primary"></span>
-                            <span className="text-muted-foreground">Hyaluronic Acid - Deep hydration and moisture retention</span>
-                          </li>
-                          <li className="flex items-center gap-2">
-                            <span className="w-2 h-2 rounded-full bg-primary"></span>
-                            <span className="text-muted-foreground">Natural Extracts - Nourishing and soothing</span>
-                          </li>
+                    {(product as any).features && (product as any).features.length > 0 && (
+                      <div className="bg-secondary/20 p-6 rounded-lg">
+                        <h3 className="text-xl font-bold mb-4">Features</h3>
+                        <ul className="grid md:grid-cols-2 gap-3">
+                          {(product as any).features.map((feature: string, index: number) => (
+                            <li key={index} className="flex items-start gap-2">
+                              <span className="text-primary mt-1">•</span>
+                              <span className="text-muted-foreground">{feature}</span>
+                            </li>
+                          ))}
                         </ul>
                       </div>
-                    </div>
+                    )}
+
+                    {/* Active Ingredients */}
+                    {(product as any).ingredients && (product as any).ingredients.length > 0 && (
+                      <div>
+                        <h3 className="text-xl font-bold mb-4">Active Ingredients</h3>
+                        <div className="bg-card border rounded-lg p-6">
+                          <ul className="space-y-3">
+                            {(product as any).ingredients.map((ingredient: any, index: number) => (
+                              <li key={index} className="flex items-start gap-2">
+                                <span className="w-2 h-2 rounded-full bg-primary mt-2"></span>
+                                <div>
+                                  <span className="font-semibold text-foreground">{ingredient.name}</span>
+                                  <span className="text-muted-foreground"> - {ingredient.benefit}</span>
+                                </div>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      </div>
+                    )}
+
+                    {/* Full Ingredients List */}
+                    {(product as any).fullIngredients && (
+                      <div>
+                        <h3 className="text-xl font-bold mb-4">Full Ingredients</h3>
+                        <div className="bg-secondary/10 p-4 rounded-lg">
+                          <p className="text-sm text-muted-foreground leading-relaxed">
+                            {(product as any).fullIngredients}
+                          </p>
+                        </div>
+                      </div>
+                    )}
                   </div>
                 </TabsContent>
 
@@ -435,40 +440,25 @@ const ProductDetailsPage = () => {
                   <div className="space-y-6">
                     <h3 className="text-2xl font-bold">How to Use</h3>
                     
-                    <div className="grid md:grid-cols-3 gap-6">
-                      {/* Step 1 */}
-                      <Card>
-                        <CardContent className="pt-6 text-center">
-                          <div className="mb-4 text-4xl font-bold text-primary">1</div>
-                          <h4 className="font-semibold mb-2">Wash and Pat</h4>
-                          <p className="text-sm text-muted-foreground">
-                            Wash your face with cleanser and dry your face with a clean towel, leave it damp.
-                          </p>
-                        </CardContent>
-                      </Card>
-
-                      {/* Step 2 */}
-                      <Card>
-                        <CardContent className="pt-6 text-center">
-                          <div className="mb-4 text-4xl font-bold text-primary">2</div>
-                          <h4 className="font-semibold mb-2">Apply</h4>
-                          <p className="text-sm text-muted-foreground">
-                            Squeeze your serum and disperse it between your palms and rub them together and direct it to your face.
-                          </p>
-                        </CardContent>
-                      </Card>
-
-                      {/* Step 3 */}
-                      <Card>
-                        <CardContent className="pt-6 text-center">
-                          <div className="mb-4 text-4xl font-bold text-primary">3</div>
-                          <h4 className="font-semibold mb-2">Absorb</h4>
-                          <p className="text-sm text-muted-foreground">
-                            Wait 60 seconds for the serum to absorb into the skin and pat the rest of your face. Wait for 1 to 2 minutes to dry then cover with a moisturizer.
-                          </p>
-                        </CardContent>
-                      </Card>
-                    </div>
+                    {(product as any).howToUse && (product as any).howToUse.length > 0 ? (
+                      <div className="grid md:grid-cols-3 gap-6">
+                        {(product as any).howToUse.map((step: any) => (
+                          <Card key={step.step}>
+                            <CardContent className="pt-6 text-center">
+                              <div className="mb-4 text-4xl font-bold text-primary">{step.step}</div>
+                              <h4 className="font-semibold mb-2">{step.title}</h4>
+                              <p className="text-sm text-muted-foreground">
+                                {step.description}
+                              </p>
+                            </CardContent>
+                          </Card>
+                        ))}
+                      </div>
+                    ) : (
+                      <div className="text-center py-8 text-muted-foreground">
+                        <p>Usage instructions will be available soon.</p>
+                      </div>
+                    )}
                   </div>
                 </TabsContent>
 
@@ -517,18 +507,19 @@ const ProductDetailsPage = () => {
                   <Card>
                     <CardContent className="pt-6">
                       <h3 className="text-xl font-bold mb-4">পণ্যের বিবরণ</h3>
-                      <p className="text-muted-foreground leading-relaxed">
-                        {product.description}
+                      <p className="text-muted-foreground leading-relaxed mb-6">
+                        {(product as any).bengaliDescription || product.description}
                       </p>
-                      <div className="mt-6">
-                        <h4 className="font-semibold mb-3">বৈশিষ্ট্য:</h4>
-                        <ul className="space-y-2 text-muted-foreground">
-                          <li>• উচ্চ মানের উপাদান এবং নির্মাণ</li>
-                          <li>• ত্বকের জন্য নিরাপদ এবং পরীক্ষিত</li>
-                          <li>• সব ধরনের ত্বকের জন্য উপযুক্ত</li>
-                          <li>• প্রাকৃতিক উপাদান সমৃদ্ধ</li>
-                        </ul>
-                      </div>
+                      {(product as any).bengaliFeatures && (product as any).bengaliFeatures.length > 0 && (
+                        <div className="mt-6">
+                          <h4 className="font-semibold mb-3">বৈশিষ্ট্য:</h4>
+                          <ul className="space-y-2 text-muted-foreground">
+                            {(product as any).bengaliFeatures.map((feature: string, index: number) => (
+                              <li key={index}>• {feature}</li>
+                            ))}
+                          </ul>
+                        </div>
+                      )}
                     </CardContent>
                   </Card>
                 </TabsContent>
