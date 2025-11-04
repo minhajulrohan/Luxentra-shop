@@ -382,7 +382,7 @@ const ProductDetailsPage = () => {
                     <CardContent className="pt-6">
                       <h3 className="text-xl font-bold mb-4">Product Details</h3>
                       <p className="text-muted-foreground leading-relaxed">
-                        {product.description}
+                        {product.Desclaimer}
                       </p>
                       <div className="mt-6 space-y-2">
                         <h4 className="font-semibold">Product Features:</h4>
