@@ -568,8 +568,8 @@ const ProductDetailsPage = () => {
                     <CardContent className="pt-6">
                       <h3 className="text-xl font-bold mb-4">Disclaimer</h3>
                       <div className="space-y-4 text-muted-foreground">
-                        <p className="leading-relaxed">
-                          {product.Desclaimer || "This product is for external use only. Avoid contact with eyes. If irritation occurs, discontinue use and consult a healthcare professional."}
+                        <p className="leading-relaxed">আপনি চাইলে আমাদের হোয়াটসঅ্যাপ থেকে অর্ডার কনফার্ম করতে পারেন, এবং সরাসরি আমাদের Website এ অর্ডার করলে পণ্য পাওয়ার নিশ্চয়তা বেশি থাকে। কারন, আপনার মেসেজটি আমাদের এজেন্ট পড়ার পূর্বে অন্য ক্রেতা Website থেকে কিনে স্টক আউট করে দিতে পারে। লাক্সেন্ট্রা-শপ সবসময় সঠিক স্টক ওয়েবসাইট এ আপডেট করে থাকার চেষ্টা করে। এর পরেও যে কোনো কারণে ওয়েবসাইট এ পণ্যটির  সঠিক স্টক আপডেট করা না থাকলে আমরা আপনাকে দ্রুত কল করে জানিয়ে দিবো যেন আপনি আপনার ডেলিভারি সম্পর্কে দ্রুত সিদ্ধান্ত নিতে পারেন। তাই অতি জরুরী অবস্থার প্রেক্ষিতে অনুগ্রহ করে আমাদের আগে কল করে নিশ্চিত হউন পণ্য টি এখনো স্টক এ আছে কিনা। অন্যথায় কোনো কারণে ডেলিভারি বিলম্ব হলে আমরা দায়ী থাকবো না।,
+                          
                         </p>
                         <div className="bg-secondary/20 p-4 rounded-lg">
                           <h4 className="font-semibold text-foreground mb-2">Important Notes:</h4>
