@@ -13,6 +13,7 @@ import allProductsData from "@/data/allProducts.json";
 import ScrollToTopButton from "@/components/Button";
 import { useWishlist } from "@/hooks/useWishlist";
 import { useAuth } from "@/hooks/useAuth";
+import { RelatedProducts } from "@/components/RelatedProducts";
 
 const ProductDetailsPage = () => {
   // -----------------------------------------------------------
@@ -588,6 +589,11 @@ const ProductDetailsPage = () => {
             </div>
           </div>
         </section>
+
+        <RelatedProducts 
+          currentProduct={product} 
+          allProducts={allProductsData.products}
+        />
       </main>
 
       <Footer />

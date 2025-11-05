@@ -59,6 +59,54 @@ export type Database = {
         }
         Relationships: []
       }
+      coupons: {
+        Row: {
+          code: string
+          created_at: string | null
+          discount_type: string
+          discount_value: number
+          id: string
+          is_active: boolean | null
+          max_discount_amount: number | null
+          min_purchase_amount: number | null
+          updated_at: string | null
+          usage_limit: number | null
+          used_count: number | null
+          valid_from: string | null
+          valid_until: string | null
+        }
+        Insert: {
+          code: string
+          created_at?: string | null
+          discount_type: string
+          discount_value: number
+          id?: string
+          is_active?: boolean | null
+          max_discount_amount?: number | null
+          min_purchase_amount?: number | null
+          updated_at?: string | null
+          usage_limit?: number | null
+          used_count?: number | null
+          valid_from?: string | null
+          valid_until?: string | null
+        }
+        Update: {
+          code?: string
+          created_at?: string | null
+          discount_type?: string
+          discount_value?: number
+          id?: string
+          is_active?: boolean | null
+          max_discount_amount?: number | null
+          min_purchase_amount?: number | null
+          updated_at?: string | null
+          usage_limit?: number | null
+          used_count?: number | null
+          valid_from?: string | null
+          valid_until?: string | null
+        }
+        Relationships: []
+      }
       order_items: {
         Row: {
           created_at: string | null
@@ -112,6 +160,8 @@ export type Database = {
           address_line2: string | null
           city: string
           country: string
+          coupon_code: string | null
+          coupon_discount: number | null
           created_at: string | null
           email: string
           full_name: string
@@ -137,6 +187,8 @@ export type Database = {
           address_line2?: string | null
           city: string
           country?: string
+          coupon_code?: string | null
+          coupon_discount?: number | null
           created_at?: string | null
           email: string
           full_name: string
@@ -162,6 +214,8 @@ export type Database = {
           address_line2?: string | null
           city?: string
           country?: string
+          coupon_code?: string | null
+          coupon_discount?: number | null
           created_at?: string | null
           email?: string
           full_name?: string

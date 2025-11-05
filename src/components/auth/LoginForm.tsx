@@ -46,25 +46,16 @@ export const LoginForm = ({ onToggle }: LoginFormProps) => {
       });
 
       if (error) {
-        // Check if it's an email confirmation error
-        if (error.message.includes('Email not confirmed')) {
-          toast.error("Please verify your email before logging in. Check your inbox for the verification link.");
-        } else {
-          toast.error(error.message || "Failed to log in. Please check your credentials.");
-        }
+        toast.error(error.message || "Failed to log in. Please check your credentials.");
         throw error;
       }
 
-      if (!signInData.user?.email_confirmed_at) {
-        await supabase.auth.signOut();
-        toast.error("Please verify your email before logging in. Check your inbox for the verification link.");
-        return;
+      if (signInData.user) {
+        toast.success("Logged in successfully!");
+        navigate("/");
       }
-
-      toast.success("Logged in successfully!");
-      navigate("/");
     } catch (error: any) {
-      // Error already handled above
+      console.error('Login error:', error);
     } finally {
       setIsLoading(false);
     }

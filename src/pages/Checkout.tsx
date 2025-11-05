@@ -26,6 +26,9 @@ const Checkout = () => {
   const { user } = useAuth();
   const [cartItems, setCartItems] = useState<CartItem[]>([]);
   const [loading, setLoading] = useState(false);
+  const [couponCode, setCouponCode] = useState("");
+  const [appliedCoupon, setAppliedCoupon] = useState<any>(null);
+  const [couponLoading, setCouponLoading] = useState(false);
   const [formData, setFormData] = useState({
     fullName: "",
     email: "",
@@ -55,12 +58,80 @@ const Checkout = () => {
   );
   const shipping = subtotal > 10000 ? 0 : 120;
   const tax = subtotal * 0.015;
-  const total = subtotal + shipping + tax;
+  
+  // Calculate coupon discount
+  let couponDiscount = 0;
+  if (appliedCoupon) {
+    if (appliedCoupon.discount_type === 'percentage') {
+      couponDiscount = (subtotal * appliedCoupon.discount_value) / 100;
+      if (appliedCoupon.max_discount_amount) {
+        couponDiscount = Math.min(couponDiscount, appliedCoupon.max_discount_amount);
+      }
+    } else {
+      couponDiscount = appliedCoupon.discount_value;
+    }
+  }
+  
+  const total = subtotal + shipping + tax - couponDiscount;
 
   const handleInputChange = useCallback((e: React.ChangeEvent<HTMLInputElement>) => {
     const { id, value } = e.target;
     setFormData(prev => ({ ...prev, [id]: value }));
   }, []);
+
+  const handleApplyCoupon = async () => {
+    if (!couponCode.trim()) {
+      toast.error("Please enter a coupon code");
+      return;
+    }
+
+    setCouponLoading(true);
+    try {
+      const { data: coupon, error } = await supabase
+        .from('coupons')
+        .select('*')
+        .eq('code', couponCode.toUpperCase())
+        .eq('is_active', true)
+        .single();
+
+      if (error || !coupon) {
+        toast.error("Invalid coupon code");
+        return;
+      }
+
+      // Check if coupon is still valid
+      if (coupon.valid_until && new Date(coupon.valid_until) < new Date()) {
+        toast.error("This coupon has expired");
+        return;
+      }
+
+      // Check minimum purchase amount
+      if (coupon.min_purchase_amount && subtotal < coupon.min_purchase_amount) {
+        toast.error(`Minimum purchase of TK ${coupon.min_purchase_amount} required`);
+        return;
+      }
+
+      // Check usage limit
+      if (coupon.usage_limit && coupon.used_count >= coupon.usage_limit) {
+        toast.error("This coupon has reached its usage limit");
+        return;
+      }
+
+      setAppliedCoupon(coupon);
+      toast.success("Coupon applied successfully!");
+    } catch (error) {
+      console.error('Error applying coupon:', error);
+      toast.error("Failed to apply coupon");
+    } finally {
+      setCouponLoading(false);
+    }
+  };
+
+  const handleRemoveCoupon = () => {
+    setAppliedCoupon(null);
+    setCouponCode("");
+    toast.success("Coupon removed");
+  };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -100,6 +171,8 @@ const Checkout = () => {
           shipping_cost: shipping,
           tax,
           total,
+          coupon_code: appliedCoupon?.code || null,
+          coupon_discount: couponDiscount,
           order_status: 'pending',
           payment_status: 'pending'
         })
@@ -242,6 +315,37 @@ const Checkout = () => {
                 ))}
               </div>
               
+              {/* Coupon Code Section */}
+              <div className="border-t pt-4 mb-4">
+                <Label htmlFor="coupon" className="mb-2 block">Coupon Code</Label>
+                <div className="flex gap-2">
+                  <Input
+                    id="coupon"
+                    value={couponCode}
+                    onChange={(e) => setCouponCode(e.target.value.toUpperCase())}
+                    placeholder="Enter coupon code"
+                    disabled={!!appliedCoupon}
+                  />
+                  {appliedCoupon ? (
+                    <Button 
+                      type="button" 
+                      variant="outline" 
+                      onClick={handleRemoveCoupon}
+                    >
+                      Remove
+                    </Button>
+                  ) : (
+                    <Button 
+                      type="button" 
+                      onClick={handleApplyCoupon}
+                      disabled={couponLoading}
+                    >
+                      {couponLoading ? "Checking..." : "Apply"}
+                    </Button>
+                  )}
+                </div>
+              </div>
+
               <div className="border-t pt-4 space-y-3">
                 <div className="flex justify-between">
                   <span>Subtotal</span>
@@ -255,6 +359,12 @@ const Checkout = () => {
                   <span>Tax</span>
                   <span>TK {tax.toFixed(2)}</span>
                 </div>
+                {appliedCoupon && (
+                  <div className="flex justify-between text-green-600">
+                    <span>Coupon Discount ({appliedCoupon.code})</span>
+                    <span>-TK {couponDiscount.toFixed(2)}</span>
+                  </div>
+                )}
                 <div className="flex justify-between font-bold text-lg border-t pt-2">
                   <span>Total</span>
                   <span>TK {total.toFixed(2)}</span>
