@@ -40,17 +40,31 @@ export const LoginForm = ({ onToggle }: LoginFormProps) => {
   const onSubmit = async (data: LoginFormData) => {
     setIsLoading(true);
     try {
-      const { error } = await supabase.auth.signInWithPassword({
+      const { data: signInData, error } = await supabase.auth.signInWithPassword({
         email: data.email,
         password: data.password,
       });
 
-      if (error) throw error;
+      if (error) {
+        // Check if it's an email confirmation error
+        if (error.message.includes('Email not confirmed')) {
+          toast.error("Please verify your email before logging in. Check your inbox for the verification link.");
+        } else {
+          toast.error(error.message || "Failed to log in. Please check your credentials.");
+        }
+        throw error;
+      }
+
+      if (!signInData.user?.email_confirmed_at) {
+        await supabase.auth.signOut();
+        toast.error("Please verify your email before logging in. Check your inbox for the verification link.");
+        return;
+      }
 
       toast.success("Logged in successfully!");
       navigate("/");
     } catch (error: any) {
-      toast.error(error.message || "Failed to log in. Please check your credentials.");
+      // Error already handled above
     } finally {
       setIsLoading(false);
     }

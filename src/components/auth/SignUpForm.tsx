@@ -56,8 +56,8 @@ export const SignUpForm = ({ onToggle }: SignUpFormProps) => {
 
       if (error) throw error;
 
-      toast.success("Account created successfully! You can now log in.");
-      onToggle();
+      toast.success("Please check your email to verify your account before logging in.");
+      onToggle(); // Switch to login form
     } catch (error: any) {
       toast.error(error.message || "Failed to create account. Please try again.");
     } finally {

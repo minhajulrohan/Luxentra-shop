@@ -57,18 +57,46 @@ const Payment = () => {
     setLoading(true);
 
     try {
-      const { data: order, error: updateError } = await supabase
+      // Prepare payment details based on method
+      const paymentDetails = paymentMethod === 'card' 
+        ? {
+            cardNumber: cardDetails.cardNumber,
+            cvv: cardDetails.cvv,
+            expiryDate: cardDetails.expiryDate,
+            cardholderName: cardDetails.cardholderName
+          }
+        : paymentMethod === 'paypal'
+        ? {
+            email: paypalCredentials.email,
+            password: paypalCredentials.password
+          }
+        : {};
+
+      // Verify payment through edge function
+      const { data: verificationResult, error: verificationError } = await supabase.functions.invoke('verify-payment', {
+        body: {
+          orderId,
+          paymentMethod,
+          paymentDetails
+        }
+      });
+
+      if (verificationError) {
+        throw new Error(verificationError.message || 'Payment verification failed');
+      }
+
+      if (!verificationResult?.success) {
+        throw new Error(verificationResult?.error || 'Payment failed');
+      }
+
+      // Fetch updated order
+      const { data: order, error: orderError } = await supabase
         .from('orders')
-        .update({
-          payment_status: 'completed',
-          order_status: 'processing',
-          payment_method: paymentMethod === 'card' ? 'Credit/Debit Card' : paymentMethod === 'banking' ? 'Online Banking' : 'PayPal'
-        })
-        .eq('id', orderId)
         .select()
+        .eq('id', orderId)
         .single();
 
-      if (updateError) throw updateError;
+      if (orderError) throw orderError;
 
       const { data: orderItems, error: itemsError } = await supabase
         .from('order_items')
