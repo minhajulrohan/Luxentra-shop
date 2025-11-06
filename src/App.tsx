@@ -27,6 +27,9 @@ import Wishlist from "./pages/Wishlist";
 import CategoryListPage from "./pages/products/CategoryListPage";
 import ProductListPage from "./pages/products/ProductListPage";
 import ProductDetailsPage from "./pages/products/ProductDetailsPage";
+import TestConnection from "./test/TestConnection";
+
+
 
 
 const queryClient = new QueryClient();
@@ -59,13 +62,16 @@ const App = () => (
             <Route path="/products" element={<CategoryListPage />} />
             <Route path="/products/:categorySlug" element={<ProductListPage />} />
             <Route path="/products/:categorySlug/:productSlug" element={<ProductDetailsPage />} />
-
+            
+            {/* Auth Route */}
             <Route path="/auth" element={<Auth />} />
             <Route path="/profile" element={<Profile />} />
             <Route path="/wishlist" element={<Wishlist />} />
+            <Route path="/test" element={ <TestConnection />} />
+              
 
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-            <Route path="*" element={<NotFound />} />
+              <Route path="*" element={<NotFound />} />
             </Routes>
             <MobileBottomNav />
           </AuthProvider>

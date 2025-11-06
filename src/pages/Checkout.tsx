@@ -56,7 +56,7 @@ const Checkout = () => {
     (sum, item) => sum + item.price * item.quantity,
     0
   );
-  const shipping = subtotal > 10000 ? 0 : 120;
+  const shipping = subtotal > 9999 ? 0 : 120;
   const tax = subtotal * 0.015;
   
   // Calculate coupon discount
