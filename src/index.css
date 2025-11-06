@@ -95,6 +95,13 @@ All colors MUST be HSL.
   body {
     @apply bg-background text-foreground font-sans antialiased;
   }
+
+  /* Add bottom padding on mobile to prevent content from being hidden by fixed bottom nav */
+  @media (max-width: 768px) {
+    body {
+      padding-bottom: 4rem;
+    }
+  }
 }
 
 @layer utilities {
@@ -104,5 +111,15 @@ All colors MUST be HSL.
   
   .card-hover {
     @apply transition-all duration-300 hover:shadow-lg hover:-translate-y-1;
+  }
+
+  /* Utility class to hide scrollbar while maintaining scroll functionality */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
   }
 }
