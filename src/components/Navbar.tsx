@@ -34,10 +34,10 @@ const navLinks = [
   { name: "Womens", "href": "/products/womens-winter" },
   { name: "Mens", href: "/products/mens-winter" },
   { name: "Kids", href: "/products/kids-winter" },
-  { name: "DHEU", href: "#dheu" },
-  { name: "BAG DEALS", href: "#bag-deals" },
-  { name: "CutTheCost-20%", href: "#cut-cost" },
-  { name: "Best Deals", href: "#best-deals" }
+  { name: "Dayli Needs", href: "/products/Dayli-Needs" },
+  { name: "BEST DEALS", href: "/products/BEST-DEALS" },
+  { name: "Healty & Beuty", href: "/products/Healty-Beuty" },
+  { name: "Luxentra FOOD", href: "/products/FOOD" }
 ];
 
 export function Navbar() {

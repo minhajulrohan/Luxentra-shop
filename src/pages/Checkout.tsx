@@ -15,7 +15,7 @@ interface CartItem {
   id: number;
   name: string;
   price: number;
-  image: string;
+  images?: string[];
   selectedSize?: string;
   selectedColor?: string;
   quantity: number;
@@ -185,7 +185,7 @@ const Checkout = () => {
         order_id: order.id,
         product_id: String(item.id),
         product_name: item.name,
-        product_image: item.image,
+        product_image: item.images && item.images.length > 0 ? item.images[0] : '',
         quantity: item.quantity,
         price: item.price,
         selected_size: item.selectedSize,
@@ -297,7 +297,7 @@ const Checkout = () => {
                 {cartItems.map((item, index) => (
                   <div key={index} className="flex gap-4">
                     <img
-                      src={item.image}
+                      src={item.images && item.images.length > 0 ? item.images[0] : 'https://via.placeholder.com/64x64?text=No+Image'}
                       alt={item.name}
                       className="w-16 h-16 object-cover rounded"
                     />
@@ -310,7 +310,7 @@ const Checkout = () => {
                         <p className="text-xs text-muted-foreground">Size: {item.selectedSize}</p>
                       )}
                     </div>
-                    <p className="font-semibold">${(item.price * item.quantity).toFixed(2)}</p>
+                    <p className="font-semibold">TK {(item.price * item.quantity).toFixed(2)}</p>
                   </div>
                 ))}
               </div>

@@ -273,7 +273,7 @@
       ]
     },
 {
-      "id": 7,
+      "id": 9,
       "slug": "Balance-Vitamin-C-Brightening-Serum-30ml",
       "name": "Balance Vitamin C Brightening Serum - 30ml",
       "price": 1250.00 ,
@@ -917,7 +917,7 @@
       ]
     },
           {
-      "id": 17,
+      "id": 18,
       "slug": "WOMENSHOODIEJACKETS",
       "name": "WOMENS HOODIE JACKET",
       "price": 2605.00 ,
@@ -983,7 +983,7 @@
       ]
     },
 {
-      "id": 18,
+      "id": 19,
       "slug": "WOMENSJACKET",
       "name": "WOMENS JACKET",
       "price": 1890.00 ,
@@ -1049,73 +1049,7 @@
       ]
     },
 {
-      "id": 19,
-      "slug": "WOMENSJACKET3",
-      "name": "WOMENS JACKET",
-      "price": 2605.00 ,
-      "originalPrice": 2605.00,
-      "category": "Womens winter",
-      "categorySlug": "womens-winter",
-      "badge": " Available",
-      "description": "",
-      "features": [
-        "Brand: Luxentra",
-        "Fabric: Synthetic",
-        "Gender: Female",
-        "Color: Pink",
-        "Fit type : Regular fit",
-        "Length: Long",
-        "Addition: Auto Embroidery",
-        "Collar/ Neck: Hoodie Collar ",
-        "Sleeve: Full Sleeve"
-      ],
-      "ingredients": [
-        {
-          "name": "Note: The color is the same as the picture. However, it may slightly differ due to lighting",
-          "benefit": ""
-        },
-        {
-          "name": "",
-          "benefit": ""
-        },
-        {
-          "name": "",
-          "benefit": " "
-        }
-      ],
-      "fullIngredients": "",
-      "howToUse": [
-        {
-          "step": 1,
-          "title": "Step - 1",
-          "description": ""
-        },
-        {
-          "step": 2,
-          "title": "Step - 2",
-          "description": ""
-        },
-        {
-          "step": 3,
-          "title": "Step - 3",
-          "description": ""
-        }
-      ],
-      "bengaliDescription": "",
-      "bengaliFeatures": [
-        ""
-      ],
-      "sizes": ["S", "", "", "", "XXL"],
-      "colors": ["Pink"],
-      "images": [
-      "https://prod.saralifestyle.com/Images/Products/VariationWisetImage/dd88a8f75c724b85b190442a76badeb6.gif",
-      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fb77be39a37244dcdb470df3425a46169.png&w=1080&q=75",
-      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fa3ac864c795f4fb09b5682abe675774f.png&w=1080&q=75",
-      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F6bb12c94579c4aa7a55fabfafca5b97b.png&w=1080&q=75"
-      ]
-    },
-{
-      "id": 19,
+      "id": 20,
       "slug": "WOMENS-SUITSET",
       "name": "WOMENS SUIT SET",
       "price":  5310.00 ,
@@ -1180,206 +1114,8 @@
       "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fd9d60a7c7f5f46dbb2018554a083f6cc.png&w=1080&q=75"
       ]
     },
-{
-      "id": 19,
-      "slug": "WOMENS-PONCHO",
-      "name": "WOMENS PONCHO",
-      "price":   2090.00 ,
-      "originalPrice":   2090.00,
-      "category": "Womens winter",
-      "categorySlug": "womens-winter",
-      "badge": " Available",
-      "description": "",
-      "features": [
-        "Brand: Luxentra",
-        "Fabric: Tencel Denim",
-        "Gender: Female",
-        "Color: Indigo",
-        "Fit type : Regular fit",
-        "Length: Long",
-        "Addition: Auto Embroidery",
-        "Collar/ Neck: Blazer Collar",
-        "Sleeve: Full Sleeve"
-      ],
-      "ingredients": [
-        {
-          "name": "Note: The color is the same as the picture. However, it may slightly differ due to lighting",
-          "benefit": ""
-        },
-        {
-          "name": "",
-          "benefit": ""
-        },
-        {
-          "name": "",
-          "benefit": " "
-        }
-      ],
-      "fullIngredients": "",
-      "howToUse": [
-        {
-          "step": 1,
-          "title": "Step - 1",
-          "description": ""
-        },
-        {
-          "step": 2,
-          "title": "Step - 2",
-          "description": ""
-        },
-        {
-          "step": 3,
-          "title": "Step - 3",
-          "description": ""
-        }
-      ],
-      "bengaliDescription": "",
-      "bengaliFeatures": [
-        ""
-      ],
-      "sizes": ["FREE SIZE"],
-      "colors": ["Indigo"],
-      "images": [
-      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F2c4ea64effda4b94946325eafdd3fcd0.png&w=1080&q=75",
-      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F014b793d87564067ad914f0364bd78c5.png&w=1080&q=75",
-      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F6dc124db256346cbba4d0619c4e22f74.png&w=1080&q=75"
-      ]
-    },
   {
-      "id": 20,
-      "slug": "WOMENS-DENIM-KURTI-REGULAR-FIT",
-      "name": "WOMENS DENIM KURTI - REGULAR FIT",
-      "price":   2090.00 ,
-      "originalPrice":   2090.00,
-      "category": "Womens winter",
-      "categorySlug": "womens-winter",
-      "badge": " Available",
-      "description": "",
-      "features": [
-        "Brand: Luxentra",
-        "Fabric: Tencel Denim",
-        "Gender: Female",
-        "Color: Indigo",
-        "Fit type : Regular fit",
-        "Length: Long",
-        "Addition: Manual Embroidery",
-        "Collar/ Neck: Band Collar ",
-        "Sleeve: Quarter Sleeve"
-      ],
-      "ingredients": [
-        {
-          "name": "Note: The color is the same as the picture. However, it may slightly differ due to lighting",
-          "benefit": ""
-        },
-        {
-          "name": "",
-          "benefit": ""
-        },
-        {
-          "name": "",
-          "benefit": " "
-        }
-      ],
-      "fullIngredients": "",
-      "howToUse": [
-        {
-          "step": 1,
-          "title": "Step - 1",
-          "description": ""
-        },
-        {
-          "step": 2,
-          "title": "Step - 2",
-          "description": ""
-        },
-        {
-          "step": 3,
-          "title": "Step - 3",
-          "description": ""
-        }
-      ],
-      "bengaliDescription": "",
-      "bengaliFeatures": [
-        ""
-      ],
-      "sizes": ["S", "M", "L", "XL", "XXL"],
-      "colors": ["Indigo"],
-      "images": [
-      "https://prod.saralifestyle.com/Images/Products/VariationWisetImage/0fa5c73135214b20b4b8dec982ce482d.gif",
-      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Ffff7f569877a49899d534326bd4d24c4.png&w=1080&q=75",
-      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F6dc124db256346cbba4d0619c4e22f74.png&w=1080&q=75",
-      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F4afd436936e04ae2bf61f6a6ef5aaebd.png&w=1080&q=75",
-      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Ffc75d2976c044000bb7cb2bbe4b37f33.png&w=1080&q=75",
-      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fdce6d0fc64274da59fd0bd6fcf103b78.png&w=1080&q=75"
-      ]
-    },
-{
-      "id": 19,
-      "slug": "WOMENS-PONCHO",
-      "name": "WOMENS PONCHO",
-      "price":   2090.00 ,
-      "originalPrice":   2090.00,
-      "category": "Womens winter",
-      "categorySlug": "womens-winter",
-      "badge": " Available",
-      "description": "",
-      "features": [
-        "Brand: Luxentra",
-        "Fabric: Tencel Denim",
-        "Gender: Female",
-        "Color: Indigo",
-        "Fit type : Regular fit",
-        "Length: Long",
-        "Addition: Auto Embroidery",
-        "Collar/ Neck: Blazer Collar",
-        "Sleeve: Full Sleeve"
-      ],
-      "ingredients": [
-        {
-          "name": "Note: The color is the same as the picture. However, it may slightly differ due to lighting",
-          "benefit": ""
-        },
-        {
-          "name": "",
-          "benefit": ""
-        },
-        {
-          "name": "",
-          "benefit": " "
-        }
-      ],
-      "fullIngredients": "",
-      "howToUse": [
-        {
-          "step": 1,
-          "title": "Step - 1",
-          "description": ""
-        },
-        {
-          "step": 2,
-          "title": "Step - 2",
-          "description": ""
-        },
-        {
-          "step": 3,
-          "title": "Step - 3",
-          "description": ""
-        }
-      ],
-      "bengaliDescription": "",
-      "bengaliFeatures": [
-        ""
-      ],
-      "sizes": ["FREE SIZE"],
-      "colors": ["Indigo"],
-      "images": [
-      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F2c4ea64effda4b94946325eafdd3fcd0.png&w=1080&q=75",
-      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F014b793d87564067ad914f0364bd78c5.png&w=1080&q=75",
-      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F6dc124db256346cbba4d0619c4e22f74.png&w=1080&q=75"
-      ]
-    },
-  {
-      "id": 20,
+      "id": 22,
       "slug": "BOYS-FORMAL-UIT-SET",
       "name": "BOYS FORMAL SUIT SET",
       "price":   4150.00 ,
@@ -1443,73 +1179,8 @@
       "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F63bdbdd517b84ba4a86c29c87df41029.png&w=1080&q=75"
       ]
     },
-{
-      "id": 19,
-      "slug": "WOMENS-PONCHO",
-      "name": "WOMENS PONCHO",
-      "price":   2090.00 ,
-      "originalPrice":   2090.00,
-      "category": "Womens winter",
-      "categorySlug": "womens-winter",
-      "badge": " Available",
-      "description": "",
-      "features": [
-        "Brand: Luxentra",
-        "Fabric: Tencel Denim",
-        "Gender: Female",
-        "Color: Indigo",
-        "Fit type : Regular fit",
-        "Length: Long",
-        "Addition: Auto Embroidery",
-        "Collar/ Neck: Blazer Collar",
-        "Sleeve: Full Sleeve"
-      ],
-      "ingredients": [
-        {
-          "name": "Note: The color is the same as the picture. However, it may slightly differ due to lighting",
-          "benefit": ""
-        },
-        {
-          "name": "",
-          "benefit": ""
-        },
-        {
-          "name": "",
-          "benefit": " "
-        }
-      ],
-      "fullIngredients": "",
-      "howToUse": [
-        {
-          "step": 1,
-          "title": "Step - 1",
-          "description": ""
-        },
-        {
-          "step": 2,
-          "title": "Step - 2",
-          "description": ""
-        },
-        {
-          "step": 3,
-          "title": "Step - 3",
-          "description": ""
-        }
-      ],
-      "bengaliDescription": "",
-      "bengaliFeatures": [
-        ""
-      ],
-      "sizes": ["FREE SIZE"],
-      "colors": ["Indigo"],
-      "images": [
-      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F2c4ea64effda4b94946325eafdd3fcd0.png&w=1080&q=75",
-      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F014b793d87564067ad914f0364bd78c5.png&w=1080&q=75",
-      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F6dc124db256346cbba4d0619c4e22f74.png&w=1080&q=75"
-      ]
-    },
   {
-      "id": 21,
+      "id": 24,
       "slug": "GIRLS-FROCK-REGULAR-FIT",
       "name": "GIRLS FROCK - REGULAR FIT",
       "price":   990.00 ,
@@ -1573,7 +1244,7 @@
       ]
     },
       {
-      "id": 22,
+      "id": 25,
       "slug": "Womens-Ethnic",
       "name": "Womens Ethnic",
       "price":   2550.00 ,
@@ -1638,7 +1309,7 @@
       ]
     },
 {
-      "id": 23,
+      "id": 26,
       "slug": "COLMI-P28",
       "name": "COLMI P28 Plus Bluetooth Calling Smart Watch",
       "price":    2200.00 ,
@@ -1700,7 +1371,7 @@
       ]
     },
       {
-      "id": 24,
+      "id": 27,
       "slug": "Hoco-EQ6-Shadow-True-Wireless-BT-Earbuds",
       "name": "Hoco EQ6 Shadow True Wireless BT Earbuds",
       "price":     1675.00 ,
@@ -1762,7 +1433,7 @@
       ]
     },
     {
-      "id": 25,
+      "id": 28,
       "slug": "MENS-CHINO-PANT-SLIM-FIT",
       "name": "MENS CHINO PANT - SLIM FIT",
       "price":    1099.00 ,
@@ -1825,7 +1496,7 @@
       ]
     },
     {
-      "id": 26,
+      "id": 29,
       "slug": " NewRegular-Fit-Cable-Knit-Sweater-Vest",
       "name": " New Regular Fit Cable-Knit Sweater Vest",
       "price":    995.00 ,
@@ -1883,7 +1554,7 @@
       ]
     },
     {
-      "id": 27,
+      "id": 30,
       "slug": "Regular-Fit-Cold-Dye-Polo-Shirt",
       "name": "Regular Fit Cold Dye Polo ShirtT",
       "price":2295.00,
@@ -1939,8 +1610,8 @@
       "https://www.yellowclothing.net/cdn/shop/files/DSC2413_e64e80e1-8996-4892-af37-66393e856d65.jpg?v=1759141258"
       ]
     },
-       {
-      "id": 28,
+ {
+      "id": 31,
       "slug": " NewRegular-Fit-Waffle-Knit-Sweater2",
       "name": " New Regular Fit Waffle-Knit Sweater",
       "price":1800.00,
@@ -1998,7 +1669,7 @@
       ]
     },
        {
-      "id": 29,
+      "id": 32,
       "slug": " New-Boys-Woven-Shirt",
       "name": " New Boys Woven Shirt (6-8 Years)",
       "price": 1295.00,
@@ -2056,7 +1727,7 @@
       ]
     },
      {
-      "id": 30,
+      "id": 33,
       "slug": "BoysPolo1",
       "name": "Boys Polo (2-4 Years)",
       "price": 995.00,
@@ -2114,7 +1785,7 @@
       ]
     },
 {
-      "id": 31,
+      "id": 34,
       "slug": "Boys-Panjabi-1",
       "name": "Boys Panjabi (8-15 Years)",
       "price": 2200.00,

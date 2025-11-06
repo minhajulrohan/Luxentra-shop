@@ -47,7 +47,8 @@ export const LoginForm = ({ onToggle }: LoginFormProps) => {
 
       if (error) {
         toast.error(error.message || "Failed to log in. Please check your credentials.");
-        throw error;
+        setIsLoading(false);
+        return;
       }
 
       if (signInData.user) {
@@ -56,6 +57,7 @@ export const LoginForm = ({ onToggle }: LoginFormProps) => {
       }
     } catch (error: any) {
       console.error('Login error:', error);
+      toast.error("An unexpected error occurred. Please try again.");
     } finally {
       setIsLoading(false);
     }

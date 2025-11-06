@@ -61,15 +61,19 @@ const Shop = () => {
 
         <section className="py-8">
           <div className="container mx-auto px-4">
-            <div className="flex flex-wrap gap-4 items-center justify-between mb-8">
-              <div className="flex items-center gap-4">
+            <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-center justify-between mb-8">
+              <div className="flex items-center gap-4 w-full sm:w-auto">
                 <Select value={filterCategory} onValueChange={setFilterCategory}>
-                  <SelectTrigger className="w-[180px]">
-                    <SelectValue placeholder="Category" />
+                  <SelectTrigger className="w-full sm:w-[220px] h-12 bg-background border-2 border-primary">
+                    <SelectValue placeholder="All Categories" />
                   </SelectTrigger>
-                  <SelectContent>
+                  <SelectContent className="max-h-[300px] bg-background border shadow-lg z-50">
                     {categories.map(cat => (
-                      <SelectItem key={cat} value={cat}>
+                      <SelectItem 
+                        key={cat} 
+                        value={cat}
+                        className="cursor-pointer hover:bg-accent"
+                      >
                         {cat === "all" ? "All Categories" : cat}
                       </SelectItem>
                     ))}
@@ -78,14 +82,14 @@ const Shop = () => {
               </div>
 
               <Select value={sortBy} onValueChange={setSortBy}>
-                <SelectTrigger className="w-[180px]">
+                <SelectTrigger className="w-full sm:w-[220px] h-12 bg-background border-2">
                   <SelectValue placeholder="Sort by" />
                 </SelectTrigger>
-                <SelectContent>
-                  <SelectItem value="featured">Featured</SelectItem>
-                  <SelectItem value="price-low">Price: Low to High</SelectItem>
-                  <SelectItem value="price-high">Price: High to Low</SelectItem>
-                  <SelectItem value="name">Name: A to Z</SelectItem>
+                <SelectContent className="bg-background border shadow-lg z-50">
+                  <SelectItem value="featured" className="cursor-pointer hover:bg-accent">Featured</SelectItem>
+                  <SelectItem value="price-low" className="cursor-pointer hover:bg-accent">Price: Low to High</SelectItem>
+                  <SelectItem value="price-high" className="cursor-pointer hover:bg-accent">Price: High to Low</SelectItem>
+                  <SelectItem value="name" className="cursor-pointer hover:bg-accent">Name: A to Z</SelectItem>
                 </SelectContent>
               </Select>
             </div>
