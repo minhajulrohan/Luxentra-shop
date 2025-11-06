@@ -285,7 +285,7 @@ const Checkout = () => {
                 size="lg"
                 disabled={loading}
               >
-                {loading ? "Creating Order..." : `Proceed to Payment - $${total.toFixed(2)}`}
+                {loading ? "Creating Order..." : `Proceed to Payment - TK ${total.toFixed(2)}`}
               </Button>
             </form>
           </div>

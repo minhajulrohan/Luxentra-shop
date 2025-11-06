@@ -3,6 +3,7 @@ import { Home, Grid, Menu, ShoppingCart, User, Heart, Package } from "lucide-rea
 import { useEffect, useState } from "react";
 import { Sheet, SheetContent, SheetTrigger, SheetClose } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
+import products from "../data/allProducts.json"
 
 export function MobileBottomNav() {
   const location = useLocation();
@@ -23,20 +24,22 @@ export function MobileBottomNav() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const navItems = [
-    { name: "Home", href: "/", icon: Home },
-    { name: "Category", href: "/shop", icon: Grid },
-    { name: "Cart", href: "/cart", icon: ShoppingCart, badge: cartCount },
-    { name: "Account", href: "/profile", icon: User },
+    { name: "HOME", href: "/", icon: Home },
+    { name: "BEAST DEALS", href: "/products/BEST-DEALS", icon: Grid },
+    { name: "CART", href: "/cart", icon: ShoppingCart, badge: cartCount },
+    { name: "ACCOUNTS", href: "/profile", icon: User },
   ];
 
   const menuItems = [
-    { name: "Home", href: "/" },
-    { name: "Shop All Product", href: "/shop" },
-    { name: "About", href: "/about" },
-    { name: "Blog", href: "/blog" },
-    { name: "Contact", href: "/contact" },
-    { name: "Wishlist", href: "/wishlist", icon: Heart },
-    { name: "My Orders", href: "/orders", icon: Package },
+  { name: "Marketplace", href: "/shop" },
+  { name: "Shahara's Skin", href: "/products/shahara-skin" },
+  { name: "Womens", "href": "/products/womens-winter" },
+  { name: "Mens", href: "/products/mens-winter" },
+  { name: "Kids", href: "/products/kids-winter" },
+  { name: "Dayli Needs", href: "/products/Dayli-Needs" },
+  { name: "BEST DEALS", href: "/products/BEST-DEALS" },
+  { name: "Healty & Beuty", href: "/products/Healty-Beuty" },
+  { name: "Luxentra FOOD", href: "/products/FOOD" }
   ];
 
   const isActive = (href: string) => {
@@ -78,7 +81,7 @@ export function MobileBottomNav() {
           <SheetTrigger asChild>
             <button className="flex flex-col items-center justify-center flex-1 h-full gap-1 transition-colors text-muted-foreground hover:text-foreground">
               <Menu className="h-6 w-6" />
-              <span className="text-xs font-medium">Menu</span>
+              <span className="text-xs font-medium">CATEGORY</span>
             </button>
           </SheetTrigger>
           <SheetContent side="left" className="w-[280px]">
