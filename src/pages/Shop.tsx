@@ -61,13 +61,13 @@ const Shop = () => {
 
         <section className="py-8">
           <div className="container mx-auto px-4">
-            <div className="flex flex-wrap gap-4 items-center justify-between mb-8">
-              <div className="flex items-center gap-4">
+            <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-center justify-between mb-8">
+              <div className="flex items-center gap-4 w-full sm:w-auto">
                 <Select value={filterCategory} onValueChange={setFilterCategory}>
-                  <SelectTrigger className="w-[180px]">
+                  <SelectTrigger className="w-full sm:w-[180px]">
                     <SelectValue placeholder="Category" />
                   </SelectTrigger>
-                  <SelectContent>
+                  <SelectContent className="max-h-[300px]">
                     {categories.map(cat => (
                       <SelectItem key={cat} value={cat}>
                         {cat === "all" ? "All Categories" : cat}
@@ -78,7 +78,7 @@ const Shop = () => {
               </div>
 
               <Select value={sortBy} onValueChange={setSortBy}>
-                <SelectTrigger className="w-[180px]">
+                <SelectTrigger className="w-full sm:w-[180px]">
                   <SelectValue placeholder="Sort by" />
                 </SelectTrigger>
                 <SelectContent>
