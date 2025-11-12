@@ -28,6 +28,7 @@ import CategoryListPage from "./pages/products/CategoryListPage";
 import ProductListPage from "./pages/products/ProductListPage";
 import ProductDetailsPage from "./pages/products/ProductDetailsPage";
 import TestConnection from "./test/TestConnection";
+import AdminDashboard from "./pages/admin/AdminDashboard";
 
 
 
@@ -67,6 +68,7 @@ const App = () => (
             <Route path="/auth" element={<Auth />} />
             <Route path="/profile" element={<Profile />} />
             <Route path="/wishlist" element={<Wishlist />} />
+            <Route path="/admin" element={<AdminDashboard />} />
             <Route path="/test" element={ <TestConnection />} />
               
 

@@ -31,15 +31,17 @@ export function MobileBottomNav() {
   ];
 
   const menuItems = [
-  { name: "Marketplace", href: "/shop" },
-  { name: "Shahara's Skin", href: "/products/shahara-skin" },
-  { name: "Womens", "href": "/products/womens-winter" },
-  { name: "Mens", href: "/products/mens-winter" },
-  { name: "Kids", href: "/products/kids-winter" },
-  { name: "Dayli Needs", href: "/products/Dayli-Needs" },
-  { name: "BEST DEALS", href: "/products/BEST-DEALS" },
-  { name: "Healty & Beuty", href: "/products/Healty-Beuty" },
-  { name: "Luxentra FOOD", href: "/products/FOOD" }
+    { name: "Marketplace", href: "/shop" },
+    { name: "Shahara's Skin", href: "/products/shahara-skin" },
+    { name: "Womens", href: "/products/womens-winter" },
+    { name: "Mens", href: "/products/mens-winter" },
+    { name: "Kids", href: "/products/kids-winter" },
+    { name: "Daily Needs", href: "/products/Dayli-Needs" },
+    { name: "BEST DEALS", href: "/products/BEST-DEALS" },
+    { name: "Health & Beauty", href: "/products/Healty-Beuty" },
+    { name: "Luxentra FOOD", href: "/products/FOOD" },
+    { name: "Wishlist", href: "/wishlist" },
+    { name: "My Orders", href: "/orders" },
   ];
 
   const isActive = (href: string) => {
@@ -93,7 +95,6 @@ export function MobileBottomNav() {
                     className="flex items-center gap-3 px-4 py-3 hover:bg-accent rounded-md transition-colors text-lg font-medium"
                     onClick={() => setMenuOpen(false)}
                   >
-                    {item.icon && <item.icon className="h-5 w-5" />}
                     <span>{item.name}</span>
                   </Link>
                 </SheetClose>

@@ -10,8 +10,7 @@ import { Eye, EyeOff } from "lucide-react";
 import { SocialLogin } from "./SocialLogin";
 import { toast } from "sonner";
 import { supabase } from "@/integrations/supabase/client";
-import { Link, useNavigate } from "react-router-dom";
-
+import { useNavigate } from "react-router-dom";
 
 const loginSchema = z.object({
   email: z.string().email("Please enter a valid email address"),
@@ -40,25 +39,23 @@ export const LoginForm = ({ onToggle }: LoginFormProps) => {
 
   const onSubmit = async (data: LoginFormData) => {
     setIsLoading(true);
-    const shouldRemember = data.rememberMe;
-    const sessionDuration = shouldRemember ? 60 * 60 * 24 * 30 : 60 * 60 * 24 * 1; // 30 দিন vs 1 দিন (উদাহরণ)
     try {
       const { data: signInData, error } = await supabase.auth.signInWithPassword({
         email: data.email,
         password: data.password,
-        options: { // options অবজেক্ট যোগ করুন
-          expiresIn: sessionDuration, 
-        }
       });
+
       if (error) {
         toast.error(error.message || "Failed to log in. Please check your credentials.");
-        setIsLoading(false);
         return;
       }
 
-      if (signInData.user) {
+      if (signInData.user && signInData.session) {
         toast.success("Logged in successfully!");
-        navigate("/");
+        // Give session time to establish
+        setTimeout(() => {
+          navigate("/");
+        }, 100);
       }
     } catch (error: any) {
       console.error('Login error:', error);
@@ -126,9 +123,7 @@ export const LoginForm = ({ onToggle }: LoginFormProps) => {
               Remember me
             </Label>
           </div>
-
           <button
-           
             type="button"
             className="text-sm text-muted-foreground hover:text-foreground transition-colors"
           >

@@ -17,6 +17,10 @@ import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { Sheet, SheetContent, SheetTrigger, SheetClose } from "@/components/ui/sheet";
 import { Navbar } from "./Navbar";
 
+// ⚠️ STEP 1: DEFINE THE ADMIN EMAIL ADDRESS
+// REPLACE THIS WITH THE ACTUAL EMAIL USED FOR YOUR ADMIN ACCOUNT
+const ADMIN_EMAIL = "minhajulislamrohan123@gmail.com"; 
+
 const Header = () => {
   const [cartCount, setCartCount] = useState(0);
   const [searchQuery, setSearchQuery] = useState("");
@@ -24,6 +28,9 @@ const Header = () => {
   const navigate = useNavigate();
   const { theme, setTheme } = useTheme();
   const { user, signOut } = useAuth();
+  
+  // STEP 2: CHECK IF THE LOGGED-IN USER IS THE ADMIN
+  const isAdmin = user && user.email === ADMIN_EMAIL;
 
   const updateCartCount = () => {
     const cart = JSON.parse(localStorage.getItem("cart") || "[]");
@@ -69,6 +76,12 @@ const Header = () => {
               <Link to="/contact" className="text-sm font-medium hover:text-primary transition-colors">
                 Contact
               </Link>
+              {/* STEP 3A: Conditionally render Admin link in Desktop Nav */}
+              {isAdmin && (
+                <Link to="/admin" className="text-sm font-medium hover:text-primary transition-colors">
+                  Admin
+                </Link>
+              )}
             </nav>
           </div>
 
@@ -134,6 +147,13 @@ const Header = () => {
                     <User className="mr-2 h-4 w-4" />
                     Profile
                   </DropdownMenuItem>
+                  {/* STEP 3B: Conditionally render Admin link in User Dropdown */}
+                  {isAdmin && (
+                    <DropdownMenuItem onClick={() => navigate("/admin")}>
+                        <Package className="mr-2 h-4 w-4" />
+                        Admin Dashboard
+                    </DropdownMenuItem>
+                  )}
                   <DropdownMenuItem onClick={signOut}>
                     <LogOut className="mr-2 h-4 w-4" />
                     Logout
@@ -191,26 +211,37 @@ const Header = () => {
                   >
                     Contact
                   </Link>
-              <SheetClose asChild>
-                <Link
-                  to="/wishlist"
-                  className="flex items-center gap-3 px-4 py-3 hover:bg-accent rounded-md transition-colors"
-                  onClick={() => setMobileMenuOpen(false)}
-                >
-                  <Heart className="h-5 w-5" />
-                  <span>Wishlist</span>
-                </Link>
-              </SheetClose>
-              <SheetClose asChild>
-                <Link
-                  to="/orders"
-                  className="flex items-center gap-3 px-4 py-3 hover:bg-accent rounded-md transition-colors"
-                  onClick={() => setMobileMenuOpen(false)}
-                >
-                  <Package className="h-5 w-5" />
-                  <span>My Orders</span>
-                </Link>
-              </SheetClose>
+                  {/* STEP 3C: Conditionally render Admin link in Mobile Menu */}
+                  {isAdmin && (
+                    <Link 
+                      to="/admin" 
+                      className="text-lg font-medium hover:text-primary transition-colors"
+                      onClick={() => setMobileMenuOpen(false)}
+                    >
+                      Admin
+                    </Link>
+                  )}
+                  
+                  <SheetClose asChild>
+                    <Link
+                      to="/wishlist"
+                      className="flex items-center gap-3 px-4 py-3 hover:bg-accent rounded-md transition-colors"
+                      onClick={() => setMobileMenuOpen(false)}
+                    >
+                      <Heart className="h-5 w-5" />
+                      <span>Wishlist</span>
+                    </Link>
+                  </SheetClose>
+                  <SheetClose asChild>
+                    <Link
+                      to="/orders"
+                      className="flex items-center gap-3 px-4 py-3 hover:bg-accent rounded-md transition-colors"
+                      onClick={() => setMobileMenuOpen(false)}
+                    >
+                      <Package className="h-5 w-5" />
+                      <span>My Orders</span>
+                    </Link>
+                  </SheetClose>
                   {!user && (
                     <Link to="/auth" onClick={() => setMobileMenuOpen(false)}>
                       <Button className="w-full mt-4">Login</Button>
