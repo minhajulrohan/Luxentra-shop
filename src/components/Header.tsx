@@ -76,6 +76,14 @@ const Header = () => {
               <Link to="/contact" className="text-sm font-medium hover:text-primary transition-colors">
                 Contact
               </Link>
+              
+              {/* ADDED: My Orders link in Desktop Nav (Conditionally visible if user is logged in) */}
+              {user && (
+                <Link to="/orders" className="text-sm font-medium hover:text-primary transition-colors">
+                  My Orders
+                </Link>
+              )}
+              
               {/* STEP 3A: Conditionally render Admin link in Desktop Nav */}
               {isAdmin && (
                 <Link to="/admin" className="text-sm font-medium hover:text-primary transition-colors">
@@ -86,6 +94,7 @@ const Header = () => {
           </div>
 
           <div className="flex items-center gap-4">
+            {/* Search Form */}
             <form onSubmit={handleSearch} className="hidden lg:flex items-center gap-2 border rounded-md px-3 py-2 w-64">
               <Search className="w-4 h-4 text-muted-foreground" />
               <Input
@@ -97,6 +106,7 @@ const Header = () => {
               />
             </form>
             
+            {/* Theme Toggle */}
             <Button 
               variant="ghost" 
               size="icon" 
@@ -105,12 +115,14 @@ const Header = () => {
               {theme === "dark" ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
             </Button>
 
+            {/* Wishlist */}
             <Link to="/wishlist">
               <Button variant="ghost" size="icon" className="hidden md:inline-flex">
                 <Heart className="w-5 h-5" />
               </Button>
             </Link>
             
+            {/* Cart */}
             <Link to="/cart">
               <Button variant="ghost" size="icon" className="relative">
                 <ShoppingCart className="w-5 h-5" />
@@ -122,6 +134,7 @@ const Header = () => {
               </Button>
             </Link>
 
+            {/* User Dropdown / Login Button */}
             {user ? (
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
@@ -147,6 +160,13 @@ const Header = () => {
                     <User className="mr-2 h-4 w-4" />
                     Profile
                   </DropdownMenuItem>
+                  
+                  {/* ADDED: My Orders link in User Dropdown */}
+                  <DropdownMenuItem onClick={() => navigate("/orders")}>
+                    <Package className="mr-2 h-4 w-4" />
+                    My Orders
+                  </DropdownMenuItem>
+                  
                   {/* STEP 3B: Conditionally render Admin link in User Dropdown */}
                   {isAdmin && (
                     <DropdownMenuItem onClick={() => navigate("/admin")}>
@@ -168,6 +188,7 @@ const Header = () => {
               </Link>
             )}
 
+            {/* Mobile Menu */}
             <Sheet open={mobileMenuOpen} onOpenChange={setMobileMenuOpen}>
               <SheetTrigger asChild>
                 <Button variant="ghost" size="icon" className="md:hidden">
@@ -222,26 +243,33 @@ const Header = () => {
                     </Link>
                   )}
                   
-                  <SheetClose asChild>
-                    <Link
-                      to="/wishlist"
-                      className="flex items-center gap-3 px-4 py-3 hover:bg-accent rounded-md transition-colors"
-                      onClick={() => setMobileMenuOpen(false)}
-                    >
-                      <Heart className="h-5 w-5" />
-                      <span>Wishlist</span>
-                    </Link>
-                  </SheetClose>
-                  <SheetClose asChild>
-                    <Link
-                      to="/orders"
-                      className="flex items-center gap-3 px-4 py-3 hover:bg-accent rounded-md transition-colors"
-                      onClick={() => setMobileMenuOpen(false)}
-                    >
-                      <Package className="h-5 w-5" />
-                      <span>My Orders</span>
-                    </Link>
-                  </SheetClose>
+                  <div className="mt-4 border-t pt-4"> {/* Separator for utilities */}
+                      {/* MOVED/UPDATED: My Orders link in Mobile Menu (now a full button/link) */}
+                      {user && (
+                          <SheetClose asChild>
+                              <Link
+                                  to="/orders"
+                                  className="flex items-center gap-3 px-4 py-3 hover:bg-accent rounded-md transition-colors"
+                                  onClick={() => setMobileMenuOpen(false)}
+                              >
+                                  <Package className="h-5 w-5" />
+                                  <span>My Orders</span>
+                              </Link>
+                          </SheetClose>
+                      )}
+                      
+                      <SheetClose asChild>
+                          <Link
+                            to="/wishlist"
+                            className="flex items-center gap-3 px-4 py-3 hover:bg-accent rounded-md transition-colors"
+                            onClick={() => setMobileMenuOpen(false)}
+                          >
+                            <Heart className="h-5 w-5" />
+                            <span>Wishlist</span>
+                          </Link>
+                      </SheetClose>
+                  </div>
+                  
                   {!user && (
                     <Link to="/auth" onClick={() => setMobileMenuOpen(false)}>
                       <Button className="w-full mt-4">Login</Button>

@@ -112,7 +112,7 @@ export const OrderManagement = () => {
         <TableHeader>
           <TableRow>
             <TableHead>Order #</TableHead>
-            <TableHead>Customer</TableHead>
+            <TableHead>Customer Name</TableHead>
             <TableHead>Email</TableHead>
             <TableHead>Total (TK)</TableHead>
             <TableHead>Payment</TableHead>

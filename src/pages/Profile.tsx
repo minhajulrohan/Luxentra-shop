@@ -13,6 +13,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { toast } from "sonner";
 import { Camera, Plus, MapPin, Heart, ShoppingCart, Trash2 } from "lucide-react";
 import allProductsData from "@/data/allProducts.json";
+import Orders from "./Orders";
 
 interface Profile {
   full_name: string;
@@ -503,7 +504,6 @@ const Profile = () => {
           </CardContent>
         </Card>
       </main>
-
       <Footer />
     </div>
   );

@@ -130,7 +130,7 @@ const Orders = () => {
                         </CardDescription>
                       </div>
                       <div className="text-right">
-                        <p className="text-2xl font-bold text-primary">${order.total.toFixed(2)}</p>
+                        <p className="text-2xl font-bold text-primary">TK {order.total.toFixed(2)}</p>
                       </div>
                     </div>
                   </CardHeader>
