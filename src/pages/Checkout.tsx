@@ -56,7 +56,7 @@ const Checkout = () => {
     (sum, item) => sum + item.price * item.quantity,
     0
   );
-  const shipping = subtotal > 9999 ? 0 : 120;
+  const shipping = subtotal > 5999 ? 0 : 120;
   const tax = subtotal * 0.015;
   
   // Calculate coupon discount
@@ -192,16 +192,22 @@ const Checkout = () => {
         selected_color: item.selectedColor
       }));
 
-      const { error: itemsError } = await supabase
-        .from('order_items')
-        .insert(orderItems);
+      // Save bill summary for payment page
+      const billSummary = {
+      subTotal: subtotal,
+      discount: couponDiscount,
+      shippingCharge: shipping,
+      total: total,
+        };
 
-      if (itemsError) throw itemsError;
+sessionStorage.setItem('finalBillSummary', JSON.stringify(billSummary));
 
-      sessionStorage.setItem('currentOrderId', order.id);
-      
-      toast.success("Order created successfully!");
-      navigate("/payment");
+// Save order ID
+sessionStorage.setItem('currentOrderId', order.id);
+
+toast.success("Order created successfully!");
+navigate("/payment");
+
     } catch (error: any) {
       console.error('Error creating order:', error);
       toast.error(error.message || "Failed to create order");

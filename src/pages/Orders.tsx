@@ -10,16 +10,27 @@ import { useAuth } from "@/hooks/useAuth";
 import { toast } from "sonner";
 import { Package, Truck, CheckCircle, XCircle, Clock } from "lucide-react";
 
+// Add these fields to your Order interface in OrderSuccess.tsx
 interface Order {
   id: string;
   order_number: string;
+  full_name: string;
+  email: string;
   total: number;
-  order_status: string;
-  payment_status: string;
+  subtotal: number;       // Needed for breakdown
+  shipping_cost: number;  // Needed for breakdown
+  tax: number;            // Needed for breakdown
+  coupon_discount: number;// Needed for breakdown
   created_at: string;
-  tracking_number?: string;
+  order_status: string;
+  payment_method: string; // Crucial for Invoice
+  // Shipping Address Details
+  phone: string;
+  address_line1: string;
+  city: string;
+  state: string;
+  zip_code: string;
 }
-
 const Orders = () => {
   const { user } = useAuth();
   const navigate = useNavigate();

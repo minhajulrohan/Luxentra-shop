@@ -67,7 +67,7 @@ const Cart = () => {
     (sum, item) => sum + item.price * item.quantity,
     0
   );
-  const shipping = subtotal > 10000 ? 0 : 120;
+  const shipping = subtotal > 5999 ? 0 : 120;
   const tax = subtotal * 0.015;
   const total = subtotal + shipping + tax;
 
