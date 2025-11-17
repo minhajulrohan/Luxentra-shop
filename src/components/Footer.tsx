@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="bg-secondary/30 border-t mt-16">
-      <div className="container mx-auto px-4 py-12">
+    <footer className="bg-secondary/30 border-t mt-8">
+      <div className="container mx-auto px-4 py-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           <div>
             <h3 className="text-2xl font-bold mb-4">
@@ -24,16 +24,16 @@ const Footer = () => {
             </div>
             <div className="flex gap-2">
               <Button variant="outline" size="icon">
-                <Facebook className="w-4 h-4" />
+                <Facebook className="w-5 h-5" />
               </Button>
               <Button variant="outline" size="icon">
-                <Twitter className="w-4 h-4" />
+                <Twitter className="w-5 h-5" />
               </Button>
               <Button variant="outline" size="icon">
-                <Instagram className="w-4 h-4" />
+                <Instagram className="w-5 h-5" />
               </Button>
               <Button variant="outline" size="icon">
-                <Youtube className="w-4 h-4" />
+                <Youtube className="w-5 h-5" />
               </Button>
             </div>
           </div>

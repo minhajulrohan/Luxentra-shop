@@ -45,7 +45,7 @@ const Index = () => {
       <Features />
       <main className="flex-1">
         {/* Featured Products Section */}
-        <section className="container mx-auto px-4 py-16">
+        <section className="container mx-auto px-4 py-8">
           <div className="flex items-center justify-between mb-8">
             <div>
               <h2 className="text-3xl font-bold mb-2">Featured Products</h2>
@@ -73,7 +73,7 @@ const Index = () => {
         </section>
 
         {/* Categories Section */}
-        <section className="bg-secondary/20 py-16">
+        <section className="bg-secondary/20 py-5">
           <div className="container mx-auto px-4">
             <div className="flex items-center justify-between mb-8">
               <div>
@@ -115,7 +115,7 @@ const Index = () => {
         </section>
 
         {/* Best Sellers Section */}
-        <section className="container mx-auto px-4 py-16">
+        <section className="container mx-auto px-4 py-5">
           <div className="flex items-center justify-between mb-8">
             <div>
               <h2 className="text-3xl font-bold mb-2">Best Sellers</h2>

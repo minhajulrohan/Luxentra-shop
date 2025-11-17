@@ -74,7 +74,7 @@ const PopularCategories = () => {
   }, [emblaApi]);
 
   return (
-    <section className="w-full py-12 md:py-16 lg:py-20">
+    <section className="w-full py-10 md:py-10 lg:py-10">
       <div className="container mx-auto px-4 md:px-6">
         <div className="mb-8 flex items-center justify-between">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-foreground">

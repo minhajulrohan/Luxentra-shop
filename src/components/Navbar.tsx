@@ -35,9 +35,9 @@ const navLinks = [
   { name: "Mens", href: "/products/mens-winter" },
   { name: "Kids", href: "/products/kids-winter" },
   { name: "Dayli Needs", href: "/products/Dayli-Needs" },
-  { name: "BEST DEALS", href: "/products/BEST-DEALS" },
+  { name: "BAG DEALS", href: "/products/BAG-DEALS" },
   { name: "Healty & Beuty", href: "/products/Healty-Beuty" },
-  { name: "Luxentra FOOD", href: "/products/FOOD" }
+  { name: "Grocerry Shop", href: "/products/Grocerry-Shop" }
 ];
 
 export function Navbar() {

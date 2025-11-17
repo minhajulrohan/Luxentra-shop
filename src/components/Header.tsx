@@ -60,12 +60,9 @@ const Header = () => {
             <Link to="/" className="text-2xl font-bold">
               <span className="text-primary">Luxentra</span> Shop
             </Link>
-            <nav className="hidden md:flex items-center gap-6">
+            <nav className="hidden md:flex items-center justify-center  gap-6 flex-1">
               <Link to="/" className="text-sm font-md-bold hover:text-primary transition-colors">
                 Home
-              </Link>
-              <Link to="/shop" className="text-1xl font-bold hover:text-primary transition-colors">
-                Shop All Product 
               </Link>
               <Link to="/about" className="text-sm font-medium hover:text-primary transition-colors">
                 About
@@ -78,11 +75,11 @@ const Header = () => {
               </Link>
               
               {/* ADDED: My Orders link in Desktop Nav (Conditionally visible if user is logged in) */}
-              {user && (
+              {/* {user && (
                 <Link to="/orders" className="text-sm font-medium hover:text-primary transition-colors">
                   My Orders
                 </Link>
-              )}
+              )} */}
               
               {/* STEP 3A: Conditionally render Admin link in Desktop Nav */}
               {isAdmin && (

@@ -1841,6 +1841,121 @@
       "https://www.yellowclothing.net/cdn/shop/files/DSC01094.jpg?v=1752056527",
 	    "https://www.yellowclothing.net/cdn/shop/files/DSC01097.jpg?v=1752056527"
       ]
+    },
+    {
+      "id": 33,
+      "slug": "BoysPolo1",
+      "name": "Boys Polo (2-4 Years)",
+      "price": 995.00,
+      "originalPrice":  "",
+      "category": "Kids winter",
+      "categorySlug": "kids-winter",
+      "badge": " Available",
+      "description": "Boys' polo shirt features a crisp white base made from breathable cotton fabric",
+      "features": [
+        "Paired with a stylish black contrast collar and sleeve accents Includes a bold 'YELLOW' print on the chest and a three-button placket Designed with short sleeves and a regular fit"
+      ],
+      "ingredients": [
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["2", "4"],
+      "colors": ["SOFT CREAM"],
+      "images": [
+      "https://www.yellowclothing.net/cdn/shop/files/DSC09568_e360ec3a-6a83-4f53-8461-1ba6894afeb2.jpg?v=1756896988",
+      "https://www.yellowclothing.net/cdn/shop/files/DSC09574.jpg?v=1756896988",
+      "https://www.yellowclothing.net/cdn/shop/files/DSC09582.jpg?v=1756896988",
+	    "https://www.yellowclothing.net/cdn/shop/files/DSC09214_a3bdabc9-8880-415e-b17d-1fc09c1d1407.jpg?v=1756896988"
+      ]
+    },
+{
+      "id": 35,
+      "slug": "SBH10",
+      "name": "Laptop and Travelling Minimalist Large Capacity Backpack",
+      "price": 699.00,
+      "originalPrice":  "",
+      "category": "Bag Deals",
+      "categorySlug": "BAG-DEALS",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        "Product name: Minimalist Large Capacity Backpack. Model: SBH10 Warranty: No"
+      ],
+      "ingredients": [
+        {
+          "name": "nformation: Type: Softback Closure ",
+          "benefit": "Type: zipper Interior: Computer Interlayer"
+        },
+        {
+          "name": "Carrying System: Physiological Curve Back Handle/Strap",
+          "benefit": "Type: Soft Handle Material: Oxford Polyester"
+        },
+        {
+          "name": "Color: Black",
+          "benefit": "Compartment: Total chambers: 5 Main Chamber: 1 Fornt Pocket -2 Side Pocket -2"
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["FREE SIZE"],
+      "colors": ["Black"],
+      "images": [
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fb64a4e1fe9c947bc895a351589cbaf0e.png&w=1080&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F865949840ee841cfbbb8f6d464ff78e8.png&w=1080&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fd171842e4768414b9acc5f8b5a2ba81b.png&w=1080&q=75"
+      ]
     }
   ]
 }
