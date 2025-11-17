@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import { X, Gift, ClipboardList } from "lucide-react";
 import { motion } from "framer-motion";
-import slider1 from "@/assets/slider-1.jpg";
+import slider1 from "@/assets/11Sale.png";
 
 type Props = {
   autoCloseSeconds?: number; // auto close after N seconds
@@ -29,7 +29,7 @@ export default function Ads({ autoCloseSeconds = 10, onDismiss }: Props) {
   };
 
   const handleClaim = () => {
-    window.open("/claim", "_blank");
+    window.open("/claimnow", "_blank");
     handleClose();
   };
 
@@ -58,7 +58,7 @@ export default function Ads({ autoCloseSeconds = 10, onDismiss }: Props) {
         className="relative z-10 max-w-3xl w-full bg-white rounded-2xl shadow-2xl overflow-hidden grid grid-cols-1 md:grid-cols-2"
         onClick={(e) => e.stopPropagation()}
       >
-        <div className="hidden md:block">
+        <div className=" md:w-150 md:h-150">
           <img src={slider1} alt="promo" className="w-full h-full object-cover" />
         </div>
 
@@ -77,10 +77,10 @@ export default function Ads({ autoCloseSeconds = 10, onDismiss }: Props) {
           <div className="flex-1">
             <p className="text-sm text-gray-700">এই অফার সীমিত সময়ের জন্য — দ্রুত অংশগ্রহণ করুন।</p>
 
-            <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <div className="mt-4 grid grid-cols-2 sm:grid-cols-2 gap-3">
               <button
                 onClick={handleClaim}
-                className="flex items-center justify-center gap-3 rounded-lg py-3 font-semibold bg-emerald-500 text-white shadow hover:scale-[1.02]"
+                className="flex items-center justify-center gap-3 rounded-lg py-3 font-semibold bg-primary text-white shadow hover:scale-[1.02]"
               >
                 <Gift size={16} />
                 Claim Now

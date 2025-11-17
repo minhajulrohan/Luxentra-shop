@@ -9,7 +9,7 @@ import slider1 from "@/assets/slider-1.jpg";
 import slider2 from "@/assets/slider-2.jpg";
 import slider3 from "@/assets/slider-3.jpg";
 import slider4 from "@/assets/slider-4.jpg";
-import slider5 from "@/assets/slider-5.jpg";
+import slider5 from "@/assets/11Sale.png";
 import { Link } from "react-router-dom";
 
 const slides = [
