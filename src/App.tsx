@@ -2,7 +2,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import { ThemeProvider } from "next-themes";
 import { AuthProvider } from "./hooks/useAuth";
 import { MobileBottomNav } from "@/components/MobileBottomNav";
@@ -29,6 +29,16 @@ import ProductListPage from "./pages/products/ProductListPage";
 import ProductDetailsPage from "./pages/products/ProductDetailsPage";
 import TestConnection from "./test/TestConnection";
 import AdminDashboard from "./pages/admin/AdminDashboard";
+import Ads from "./components/Add";
+
+function PopupController() {
+  const location = useLocation();
+
+  // শুধুমাত্র যখন path হোম তখন popup দেখাও
+  const showPopup = location.pathname === "/";
+
+  return <>{showPopup && <Ads />}</>;
+}
 
 
 
@@ -42,8 +52,10 @@ const App = () => (
         <Toaster />
         <Sonner />
         <BrowserRouter>
+          <PopupController />
           <AuthProvider>
             <Routes>
+            
             <Route path="/" element={<Index />} />
             <Route path="/shop" element={<Shop />} />
             <Route path="/blog" element={<Blog />} />

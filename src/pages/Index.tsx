@@ -11,6 +11,7 @@ import ScrollToTopButton from "@/components/Button";
 import PopularCategories from "@/components/PopularCategories";
 
 
+
 const Index = () => {
   const products = allProductsData.products;
 
@@ -142,7 +143,6 @@ const Index = () => {
           </div>
         </section>
       </main>
-
       <Footer />
       <ScrollToTopButton />
     </div>
