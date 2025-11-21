@@ -1,4 +1,3 @@
-// components/CategoryCard.jsx
 import React from 'react';
 
 const PopulerCategoryMCard = ({ title, image, href }) => {

@@ -2857,6 +2857,2092 @@
       "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F0a4c5a1e630b44bca86673741227b7a9.png&w=1080&q=75",
       "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F27cb9c093f7e4e85b89801f371c814b8.png&w=1080&q=75"
       ]
+    },
+    {
+      "id": 51,
+      "slug": "WOMENS-PARTY-WEAR",
+      "name": "WOMENS PARTY WEAR",
+      "price":  2850.00 ,
+      "originalPrice":  5310.00,
+      "category": "Single ethnics",
+      "categorySlug": "single-ethnic",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        "Brand: Luxentra",
+        "Fabric: Georgette",
+        "Gender: Female",
+        "Color: White printed",
+        "Fit type : Regular fit",
+        "Sleeve:  Half sleeve"
+      ],
+      "ingredients": [
+        {
+          "name": "Note: The color is the same as the picture. However, it may slightly differ due to lighting",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["S", "M", "", "XL", "XXL", "XXL", "XXXL"],
+      "colors": ["White"],
+      "images": [
+      "https://prod.saralifestyle.com/Images/Products/VariationWisetImage/c63f01edfb5e47b794a7a92f176618c8.gif",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fd120be4b4b68487988070ee76c5f4618.png&w=1080&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fb7799e39c89b4bbd87e09da141b8e2da.png&w=256&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F9bbca9a52d8345e1b4a598336bdfaa92.png&w=256&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F2e986996350e4063b4bf9c9ae4eeac3a.png&w=256&q=75"
+      ]
+    },
+    {
+      "id": 52,
+      "slug": "WOMENS-ETHNIC2",
+      "name": "WOMENS ETHNIC",
+      "price":  2750.00 ,
+      "originalPrice":  5310.00,
+      "category": "Single ethnics",
+      "categorySlug": "single-ethnic",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        "Brand: Luxentra",
+        "Fabric: Cotton",
+        "Gender: Female",
+        "Color: Sky blue  ",
+        "Fit type : Regular fit",
+        "Collar/ Neck: Round Collar",
+        "Addition: Embroidery & Screen Print ",
+        "Sleeve:  Quarter sleeve"
+      ],
+      "ingredients": [
+        {
+          "name": "Note: The color is the same as the picture. However, it may slightly differ due to lighting",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["S", "M", "", "XL", "XXL", "XXL", "XXXL"],
+      "colors": ["Sky blue"],
+      "images": [
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F5873c914000e4868881889ed9556306b.jpeg&w=1080&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F5b824c7047d7445f883c8e54a5984bb1.jpeg&w=256&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F1958fe3b0afd4b06b3740212f79737bc.jpeg&w=256&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fbab3f35c7f2a42adbc539c89dc6da8c0.jpeg&w=256&q=75"
+      ]
+    },
+    {
+      "id": 53,
+      "slug": "WOMENS ETHNIC3",
+      "name": "WOMENS ETHNIC",
+      "price":  2545.00 ,
+      "originalPrice":  5310.00,
+      "category": "Single ethnics",
+      "categorySlug": "single-ethnic",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        "Brand: Luxentra",
+        "Fabric: Synthetic",
+        "Gender: Female",
+        "Color: Sky blue  ",
+        "Fit type : Regular fit",
+        "Collar/ Neck: Round Collar",
+        "Addition: Print & Embroidery  ",
+        "Sleeve:  Quarter sleeve"
+      ],
+      "ingredients": [
+        {
+          "name": "Note: The color is the same as the picture. However, it may slightly differ due to lighting",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["S", "M", "", "XL", "XXL", "XXL", "XXXL"],
+      "colors": ["Sky blue"],
+      "images": [
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F98a446a93b3c4d00bb6646c929c5a4b5.jpeg&w=1080&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F829a88bba5944fcfbfab57b4142a5378.jpeg&w=256&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F0820e1d1a03f4327bac680d6330fbffc.jpeg&w=256&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F1a67bd860a234e3c845f1771a96f7362.jpeg&w=256&q=75"
+      ]
+    },
+    {
+      "id": 54,
+      "slug": "WOMENS-ETHNIC4",
+      "name": "WOMENS ETHNIC",
+      "price":  2135.00 ,
+      "originalPrice":  5310.00,
+      "category": "Single ethnics",
+      "categorySlug": "single-ethnic",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        "Brand: Luxentra",
+        "Fabric: Viscose",
+        "Gender: Female",
+        "Color: Blue  ",
+        "Fit type : Regular fit",
+        "Collar/ Neck: Round Collar",
+        "Addition: Print & Embroidery  ",
+        "Sleeve:  Quarter sleeve"
+      ],
+      "ingredients": [
+        {
+          "name": "Note: The color is the same as the picture. However, it may slightly differ due to lighting",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["S", "M", "", "XL", "XXL", "XXL", "XXXL"],
+      "colors": ["Blue"],
+      "images": [
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F60012d05a5e44ad5a8ac627d026f4c5f.jpeg&w=1080&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fd4e7df6778e94fbdb508e56ba7e7cf4c.jpeg&w=1080&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fec9e2703aef0430d8da7b48be96d7b50.jpeg&w=1080&q=75"
+      ]
+    },
+    {
+      "id": 54,
+      "slug": "WOMENS-KURTI45",
+      "name": "WOMENS KURTI",
+      "price":  1520.00 ,
+      "originalPrice":  "",
+      "category": "Single ethnics",
+      "categorySlug": "single-ethnic",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        "Brand: Luxentra",
+        "Fabric: Viscose",
+        "Gender: Female",
+        "Color: Sky  ",
+        "Fit type : Regular fit",
+        "Collar/ Neck: Round Collar",
+        "Addition: Print & Embroidery  ",
+        "Sleeve:  Quarter sleeve"
+      ],
+      "ingredients": [
+        {
+          "name": "Note: The color is the same as the picture. However, it may slightly differ due to lighting",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["S", "M", "", "XL", "XXL", "XXL", "XXXL"],
+      "colors": ["Sky"],
+      "images": [
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F15a6c2433eb642d0a47b373a8bc3d80b.jpeg&w=1080&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Faf3dc071485443109f572b31c47a7331.jpeg&w=1080&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F34c1a7efaa6646e09042decb476c2f98.jpeg&w=1080&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F64e08c06353d43d1b7c4d8df554bd5e6.jpeg&w=1080&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fcc20a32e49c94c4daf09b00bfb03f397.jpeg&w=1080&q=75"
+      ]
+    },
+    {
+      "id": 55,
+      "slug": "WOMENSETHNIC3PCS1",
+      "name": "WOMENS ETHNIC 3 PCS",
+      "price":  1270.00 ,
+      "originalPrice":  "",
+      "category": "Ethnic set",
+      "categorySlug": "ethnic-set",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        "Brand: Luxentra",
+        "Fabric: Cotton",
+        "Gender: Female",
+        "Color: Yellow  ",
+        "Length: Full Length"
+      ],
+      "ingredients": [
+        {
+          "name": "Note: The color is the same as the picture. However, it may slightly differ due to lighting",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["S", "M", "", "XL", "XXL", "XXL", "XXXL"],
+      "colors": ["Yellow"],
+      "images": [
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fef4d8a7de320436f90e528213ab73b82.png&w=1080&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Ff8098324658e4d10bd87f38d9bdae9d8.png&w=1080&q=75"
+      ]
+    },
+    {
+      "id": 56,
+      "slug": "WOMENSETHNIC3PCS2",
+      "name": "WOMENS ETHNIC 3 PCS",
+      "price":  1270.00 ,
+      "originalPrice":  "",
+      "category": "Ethnic set",
+      "categorySlug": "ethnic-set",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        "Brand: Luxentra",
+        "Fabric: Cotton",
+        "Gender: Female",
+        "Color: Printed  ",
+        "Length: Full Length"
+      ],
+      "ingredients": [
+        {
+          "name": "Note: The color is the same as the picture. However, it may slightly differ due to lighting",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["FREE SIZE"],
+      "colors": ["Printed"],
+      "images": [
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Ff3e8dd502100489d8d819b8032c44986.png&w=1080&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fd8c0359e8faf4ce2ae0dd625b700617f.png&w=1080&q=75"
+      ]
+    },
+    {
+      "id": 57,
+      "slug": "WOMENS-ETHNIC3PCS-REGULAR-FIT",
+      "name": "WOMENS ETHNIC 3 PCS - REGULAR FIT",
+      "price":  4090.00 ,
+      "originalPrice":  "",
+      "category": "Ethnic set",
+      "categorySlug": "ethnic-set",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        "Brand: Luxentra",
+        "Fabric: Cotton",
+        "Gender: Female",
+        "Color: Golden Lime  ",
+        "Length: Full Length"
+      ],
+      "ingredients": [
+        {
+          "name": "Note: The color is the same as the picture. However, it may slightly differ due to lighting",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["S", "M", "", "XL", "XXL", "XXL", "XXXL"],
+      "colors": ["Golden Lime"],
+      "images": [
+	  "https://prod.saralifestyle.com/Images/Products/VariationWisetImage/618e297852204bdf8ede19003b19aa0c.gif",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F4543ee13ec5b4f54979caf61fa34dd71.png&w=1080&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F93e3c2a52c91464ab93235c88cb3e2f2.png&w=1080&q=75",
+	  "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fe55edf973993401dbdb784cfb140c18f.png&w=1080&q=75"
+      ]
+    },
+    {
+      "id": 58,
+      "slug": "WOMENS-ETHNIC-3-PCS",
+      "name": "WOMENS ETHNIC 3 PCS - REGULAR FIT",
+      "price":  4850.00 ,
+      "originalPrice":  "",
+      "category": "Ethnic set",
+      "categorySlug": "ethnic-set",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        "Brand: Luxentra",
+        "Fabric: Viscose ",
+        "Gender: Female",
+        "Color: Hot Pink  ",
+		"Collar / Neck: V-Shaped",
+		"Addition: Screen Print & Auto Embroiderry",
+		"Sleeve: Quarter Sleeve",
+		"Set: 3 pcs",
+        "Length: Full Length"
+      ],
+      "ingredients": [
+        {
+          "name": "Note: The color is the same as the picture. However, it may slightly differ due to lighting",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["S", "M", "", "XL", "XXL", "XXL", "XXXL"],
+      "colors": ["Golden Lime"],
+      "images": [
+	  "https://prod.saralifestyle.com/Images/Products/VariationWisetImage/afcf32b0105d4eddbecdc6c1d79871fb.gif",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F5c5e98d808db4e74825f078a5db3f706.png&w=1080&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fc78db517446a4d85bcb9219c66faf46f.png&w=1080&q=75"
+      ]
+    },
+    {
+      "id": 59,
+      "slug": "WOMENS-ETHNIC-3-PCS-5",
+      "name": "WOMENS ETHNIC 3 PCS",
+      "price":  4550.00 ,
+      "originalPrice":  "",
+      "category": "Ethnic set",
+      "categorySlug": "ethnic-set",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        "Brand: Luxentra",
+        "Fabric: Synthetic  ",
+        "Gender: Female",
+        "Color: Printed  ",
+		   "Collar / Neck: Round Collar ",
+		   "Addition: Sublimation Print & Karchupi ",
+		  "Sleeve: Quarter Sleeve",
+		     "Set: 3 pcs",
+        "Length: Full Length"
+      ],
+      "ingredients": [
+        {
+          "name": "Note: The color is the same as the picture. However, it may slightly differ due to lighting",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["S", "M", "", "XL", "XXL", "XXL", "XXXL"],
+      "colors": ["Printed"],
+      "images": [
+	  "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fc5ab7f5aec2240a2823cb8550b2ddbe9.png&w=1080&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Faf85a0acedec445e88ccd4fe812811f8.png&w=1080&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F27be6a804b16464f8b8809a12cc5c63a.png&w=1080&q=75"
+      ]
+    },
+    {
+      "id": 60,
+      "slug": "WOMENS-ETHNIC-3-PCS-6",
+      "name": "WOMENS ETHNIC 3 PCS",
+      "price":  5990.00 ,
+      "originalPrice":  "",
+      "category": "Ethnic set",
+      "categorySlug": "ethnic-set",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        "Brand: Luxentra",
+        "Fabric: Synthetic  ",
+        "Gender: Female",
+        "Color: Blue  ",
+		   "Collar / Neck: Round Collar ",
+		   "Addition: Screen Print, Auto Embroidery & Karchupi Sleeve",
+		  "Sleeve: Quarter Sleeve",
+		     "Set: 3 pcs",
+        "Length: Full Length"
+      ],
+      "ingredients": [
+        {
+          "name": "Note: The color is the same as the picture. However, it may slightly differ due to lighting",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["S", "M", "", "XL", "XXL", "XXL", "XXXL"],
+      "colors": ["Blue"],
+      "images": [
+	  "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fce6c22bd91d742b182331c51fbe36071.png&w=1080&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F5616c153355a48139fa7bc73a9da4a16.png&w=1080&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F4e35936c96e04fe68c53f9ed41fd6093.png&w=1080&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Ff91728882ac849ffbb23ba6e52dbc11a.png&w=1080&q=75"
+      ]
+    },
+    {
+      "id": 61,
+      "slug": "WOMENS-ETHNIC-3-PCS-7",
+      "name": "WOMENS ETHNIC 3 PCS",
+      "price":  5780.00 ,
+      "originalPrice":  "",
+      "category": "Ethnic set",
+      "categorySlug": "ethnic-set",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        "Brand: Luxentra",
+        "Fabric: Synthetic  ",
+        "Gender: Female",
+        "Color: Coral  ",
+		   "Collar / Neck: Round Collar ",
+		   "Addition: Screen Print, Auto Embroidery & Karchupi Sleeve",
+		  "Sleeve: Quarter Sleeve",
+		     "Set: 3 pcs",
+        "Length: Full Length"
+      ],
+      "ingredients": [
+        {
+          "name": "Note: The color is the same as the picture. However, it may slightly differ due to lighting",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "colors": ["Coral"],
+      "images": [
+	  "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F07d0e52750c248ec9aecd77baf5fc189.png&w=1080&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fa5a77164fe3f4e66864547efddc1bbfa.png&w=1080&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F626a8121d898417a9e4f187fdf6db46d.png&w=1080&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F16ec18cd16334892ab7b660e551efeae.png&w=1080&q=75"
+      ]
+    },
+    {
+      "id": 62,
+      "slug": "WOMENS-FASHION-TOPS1",
+      "name": "WOMENS FASHION TOPS",
+      "price":  1450.00 ,
+      "originalPrice":  "",
+      "category": "Fashion tops",
+      "categorySlug": "fashion-tops",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        "Brand: Luxentra",
+        "Fabric: Synthetic  ",
+        "Gender: Female",
+        "Color: Blue Depth  ",
+		   "Collar / Neck: Round Collar ",
+		   "Addition: Screen Print, Auto Embroidery & Karchupi Sleeve",
+		  "Sleeve: Quarter Sleeve",
+		     "Set: 3 pcs",
+        "Length: Full Length"
+      ],
+      "ingredients": [
+        {
+          "name": "Note: The color is the same as the picture. However, it may slightly differ due to lighting",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "colors": ["Blue Depth"],
+      "images": [
+	  "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Faeefbf472b8f427e864e4d6fbc497f99.png&w=1080&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F6dd3931f911744ccae0eaa9a92472e43.png&w=1080&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fefb477dfbb5446c3b3c067f86c00cd9f.png&w=1080&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F8b24fbc13d3145e58a9038f81659ab6c.png&w=1080&q=75"
+      ]
+    },
+    {
+      "id": 63,
+      "slug": "WOMENS-FASHION-TOPS-2",
+      "name": "WOMENS FASHION TOPS",
+      "price":  1990.00 ,
+      "originalPrice":  "",
+      "category": "Fashion tops",
+      "categorySlug": "fashion-tops",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        "Brand: Luxentra",
+        "Fabric: Synthetic  ",
+        "Gender: Female",
+        "Color: BOTTLE GREEEN",
+		   "Collar / Neck: Round Collar ",
+		   "Addition: Screen Print, Auto Embroidery & Karchupi Sleeve",
+		  "Sleeve: Quarter Sleeve",
+		     "Set: 3 pcs",
+        "Length: Full Length"
+      ],
+      "ingredients": [
+        {
+          "name": "Note: The color is the same as the picture. However, it may slightly differ due to lighting",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "colors": ["BOTTLE GREEEN"],
+      "images": [
+        "https://prod.saralifestyle.com/Images/Products/VariationWisetImage/751a124960f24c57a402ab065eca19aa.gif",
+	  "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F3e5feede9e3544968a1373b8fe0da38d.png&w=1080&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F78cd78ecd44e42d288942a01404bcb2e.png&w=1080&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Faeca7099a6de425db95a4ad6a609a1d5.png&w=1080&q=75"
+      ]
+    },
+    {
+      "id": 64,
+      "slug": "WOMENS-FASHION-TOPS-3",
+      "name": "WOMENS FASHION TOPS",
+      "price":  2290.00 ,
+      "originalPrice":  "",
+      "category": "Fashion tops",
+      "categorySlug": "fashion-tops",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        "Brand: Luxentra",
+        "Fabric: Synthetic  ",
+        "Gender: Female",
+        "Color: Printed",
+		   "Collar / Neck: Round Collar ",
+		   "Addition: Screen Print, Auto Embroidery & Karchupi Sleeve",
+		  "Sleeve: Quarter Sleeve",
+		     "Set: 3 pcs",
+        "Length: Full Length"
+      ],
+      "ingredients": [
+        {
+          "name": "Note: The color is the same as the picture. However, it may slightly differ due to lighting",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "colors": ["Printed"],
+      "images": [
+        "https://prod.saralifestyle.com/Images/Products/VariationWisetImage/87a6e27b2a324d5784aac6217e0bb2e6.gif",
+	  "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F006889008ee5421d9d99fb1cbf62bf72.png&w=1080&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Faa2f58b1f3444d3580a59c9979312ae1.png&w=1080&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F0a1f30e28c7a4cfb9ae44d1aa873c86a.png&w=1080&q=75"
+      ]
+    },
+    {
+      "id": 65,
+      "slug": "WOMENS-FORMAL-SHIRT",
+      "name": "WOMENS FORMAL SHIRT",
+      "price":  1010.00 ,
+      "originalPrice":  "",
+      "category": "Womens shirts",
+      "categorySlug": "womens-shirts",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        "Brand: Luxentra",
+        "Fabric: L. GEORGETTE  ",
+        "Gender: Female",
+        "Color: White",
+		   "Fit Type: Regular Fit",
+		   "Length: Short",
+		   "Collar/ Neck: Band collar",
+        "Sleeve: Full Sleeve"
+      ],
+      "ingredients": [
+        {
+          "name": "Note: The color is the same as the picture. However, it may slightly differ due to lighting",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "colors": ["White"],
+      "images": [
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fb9a9b56b241d452f8bd788cdf5f468d4.png&w=1080&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fd2a0d641c53443a69a5ddb90129497b5.png&w=1080&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fb22937ff658f4b9c9a42c67f4ce0dd92.png&w=1080&q=75"
+      ]
+    },
+    {
+      "id": 66,
+      "slug": "WOMENS-FORMAL-SHIRT-3",
+      "name": "WOMENS FORMAL SHIRT",
+      "price":  1115.00 ,
+      "originalPrice":  "",
+      "category": "Womens shirts",
+      "categorySlug": "womens-shirts",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        "Brand: Luxentra",
+        "Fabric:Double Jorget Print",
+        "Gender: Female",
+        "Color: Aquamarine with Red Floral Print",
+		   "Length: Mid Length",
+		   "Collar/ Neck: Band collar with inside contrast",
+		   "Collar/ Neck: Band collar",
+        "Sleeve: Full Sleeve"
+      ],
+      "ingredients": [
+        {
+          "name": "Note: The color is the same as the picture. However, it may slightly differ due to lighting",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "colors": ["Aquamarine with Red Floral Print"],
+      "images": [
+        "https://prod.saralifestyle.com/Images/Products/VariationWisetImage/30a2f29b98ac412783027149cd07bea1.gif",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F9205aaa3e21a4babb260a4a1412e7f09.png&w=1080&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F7571f09f72d74d69a9828777d8f8931b.png&w=1080&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F10d14ad06ce54088b33763ee2d88082a.png&w=1080&q=75"
+      ]
+    },
+    {
+      "id": 67,
+      "slug": "WOMENS-FORMAL-SHIRT-4",
+      "name": "WOMENS FORMAL SHIRT",
+      "price":  2035.00 ,
+      "originalPrice":  "",
+      "category": "Womens shirts",
+      "categorySlug": "womens-shirts",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        "Brand: Luxentra",
+        "Fabric:Synthetic",
+        "Gender: Female",
+        "Color: Multicolor Print",
+		   "Length: Long",
+		   "Collar/ Neck: Collar",
+        "Sleeve: Full Sleeve"
+      ],
+      "ingredients": [
+        {
+          "name": "Note: The color is the same as the picture. However, it may slightly differ due to lighting",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "colors": ["Multicolor Print"],
+      "images": [
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fb72acf6a69f549cfb8d5cddbd0d5dd47.png&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fb72acf6a69f549cfb8d5cddbd0d5dd47.png&w=1080&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F1a1869f6e72c4f899857703c42bccf74.png&w=1080&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fa96fc208002347d981d49c643a898a37.png&w=1080&q=75"
+      ]
+    },
+    {
+      "id": 68,
+      "slug": "WOMENS-CASUAL-SHIRT",
+      "name": "WOMENS CASUAL SHIRT",
+      "price":  1520.00 ,
+      "originalPrice":  "",
+      "category": "Womens shirts",
+      "categorySlug": "womens-shirts",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        "Brand: Luxentra",
+        "Fabric:Viscose",
+        "Gender: Female",
+        "Color: Orange print ",
+		   "Length: Long",
+		   "Collar/ Neck: Collar",
+        "Sleeve: Full Sleeve"
+      ],
+      "ingredients": [
+        {
+          "name": "Note: The color is the same as the picture. However, it may slightly differ due to lighting",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "colors": ["Orange print "],
+      "images": [
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F7c4aca747eb34531a0ac17835051e5e3.jpeg&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F5adbc47a79cc487d9baf3fe225bb9b77.jpeg&w=1080&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Faf59d634e7e04f9aae55d832025fe526.jpeg&w=1080&q=75"
+      ]
+    },
+    {
+      "id": 69,
+      "slug": "WOMENS-HIJAB1",
+      "name": "WOMENS HIJAB",
+      "price":  630.00 ,
+      "originalPrice":  "750.00",
+      "category": "Scarf",
+      "categorySlug": "scarf",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        "Brand: Luxentra",
+        "Fabric: Synthetic",
+        "Gender: Female",
+        "Color: Black",
+        "Fit Type: Regular Fit"
+      ],
+      "ingredients": [
+        {
+          "name": "Note: The color is the same as the picture. However, it may slightly differ due to lighting",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["FREE SIZE"],
+      "colors": ["Black"],
+      "images": [
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Ff9f41af7e8824c55a08a23b09886c6a8.png&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F81908577ed3c4231b364559bc9485429.png&w=1080&q=75"
+      ]
+    },
+    {
+      "id": 70,
+      "slug": "WOMENS-HIJAB2",
+      "name": "WOMENS HIJAB",
+      "price":  415.00 ,
+      "originalPrice":  "650.00",
+      "category": "Scarf",
+      "categorySlug": "scarf",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        "Brand: Luxentra",
+        "Fabric: Synthetic",
+        "Gender: Female",
+        "Color: Black & White Print",
+        "Fit Type: Regular Fit"
+      ],
+      "ingredients": [
+        {
+          "name": "Note: The color is the same as the picture. However, it may slightly differ due to lighting",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["FREE SIZE"],
+      "colors": ["Black & White Print"],
+      "images": [
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F5c06a612d98844e1aba081444675d353.png&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Ffa937e7623774a748af543783356fa34.png&w=1080&q=75"
+      ]
+    },
+    {
+      "id": 71,
+      "slug": "WOMENS-HIJAB3",
+      "name": "WOMENS HIJAB",
+      "price":  395.00 ,
+      "originalPrice":  "550.00",
+      "category": "Scarf",
+      "categorySlug": "scarf",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        "Brand: Luxentra",
+        "Fabric: Synthetic",
+        "Gender: Female",
+        "Color: Ash Printed",
+        "Fit Type: Regular Fit"
+      ],
+      "ingredients": [
+        {
+          "name": "Note: The color is the same as the picture. However, it may slightly differ due to lighting",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["FREE SIZE"],
+      "colors": ["Black & White Print"],
+      "images": [
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F530f92f243c543eca29af869d5c6cfea.jpeg&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fb6d5300a0ee043f9b8a58c0e87b28522.jpeg&w=1080&q=75"
+      ]
+    },
+    {
+      "id": 72,
+      "slug": "Womens Scarf",
+      "name": "WOMENS HIJAB",
+      "price":  395.00 ,
+      "originalPrice":  "550.00",
+      "category": "Scarf",
+      "categorySlug": "scarf",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        "Brand: Luxentra",
+        "Fabric: Synthetic",
+        "Gender: Female",
+        "Color: White Printed",
+        "Fit Type: Regular Fit"
+      ],
+      "ingredients": [
+        {
+          "name": "Note: The color is the same as the picture. However, it may slightly differ due to lighting",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["FREE SIZE"],
+      "colors": ["White Printed"],
+      "images": [
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F81539ce4faa1439b8f65dea3df313c85.jpeg&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F20e2be26036e44f9b45302a6966c8731.jpeg&w=1080&q=75"
+      ]
+    },
+    {
+      "id": 73,
+      "slug": "Womens Saree1",
+      "name": "WOMENS SAREE",
+      "price":  2490.00 ,
+      "originalPrice":  "550.00",
+      "category": "WOMENS SAREE",
+      "categorySlug": "saree",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        "Brand: Luxentra",
+        "Fabric: Soft Silk",
+        "Gender: Female",
+        "Color: Purple",
+        "Size: 14 Haat With Blouse Piece",
+        "Fit Type: Regular Fit"
+      ],
+      "ingredients": [
+        {
+          "name": "Note: The color is the same as the picture. However, it may slightly differ due to lighting",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["FREE SIZE"],
+      "colors": ["Purple"],
+      "images": [
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Ff4c1c5cb1c684c1b8cd0de6f53efbbb1.png&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fd9e5398d095d4accb33b746af2a0da5d.png&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F5f9793f1a9b0468ea86e95040917b23a.png&w=1080&q=75"
+      ]
+    },
+    {
+      "id": 74,
+      "slug": "Womens Saree2",
+      "name": "WOMENS SAREE",
+      "price":  2050.00 ,
+      "originalPrice":  "2550.00",
+      "category": "WOMENS SAREE",
+      "categorySlug": "saree",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        "Brand: Luxentra",
+        "Fabric: Cotton",
+        "Gender: Female",
+        "Color: Light Grey",
+        "Size: 13.50 Haat With Blouse Piece",
+        "Fit Type: Regular Fit"
+      ],
+      "ingredients": [
+        {
+          "name": "Note: The color is the same as the picture. However, it may slightly differ due to lighting",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["FREE SIZE"],
+      "colors": ["Light Grey"],
+      "images": [
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F42d635559bf74d69a83f9dc0d26bb79a.png&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F980baeeee0e44fe2ac4064fa76647cea.png&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F8d3b066ac7514da987f75cf45a069ea3.png&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F680376bfad72411b932a11ba91db25f0.png&w=1080&q=75"
+      ]
+    },
+    {
+      "id": 75,
+      "slug": "Womens Saree3",
+      "name": "WOMENS SAREE",
+      "price":  2350.00 ,
+      "originalPrice":  "2500.00",
+      "category": "WOMENS SAREE",
+      "categorySlug": "saree",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        "Brand: Luxentra",
+        "Fabric: Half Silk",
+        "Gender: Female",
+        "Color: Red",
+        "Size: 13.50 Haat With Blouse Piece",
+        "Fit Type: Regular Fit"
+      ],
+      "ingredients": [
+        {
+          "name": "Note: The color is the same as the picture. However, it may slightly differ due to lighting",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["FREE SIZE"],
+      "colors": ["Red"],
+      "images": [
+        "https://prod.saralifestyle.com/Images/Products/VariationWisetImage/d1efcbca2c4741d3b002100bad2e9d9d.gif",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fbc25ed6973cf4f30b8f47b2416162673.png&w=1080&q=75"
+      ]
+    },
+    {
+      "id": 76,
+      "slug": "Womens Saree4",
+      "name": "WOMENS SAREE",
+      "price":  2350.00 ,
+      "originalPrice":  "2500.00",
+      "category": "WOMENS SAREE",
+      "categorySlug": "saree",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        "Brand: Luxentra",
+        "Fabric: Cotton",
+        "Gender: Female",
+        "Color: Khoyeri",
+        "Size: 13.50 Haat With Blouse Piece",
+        "Fit Type: Regular Fit"
+      ],
+      "ingredients": [
+        {
+          "name": "Note: The color is the same as the picture. However, it may slightly differ due to lighting",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["FREE SIZE"],
+      "colors": ["Khoyeri"],
+      "images": [
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F3f95baf3ca7040efacb0b792e44cf721.png&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F7f01ceb1cb104c18a97fac171f199a31.png&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F593037c2428f43ef92ea69d4da44d55a.png&w=1080&q=75"
+      ]
+    },
+    {
+      "id": 76,
+      "slug": "Womens Saree5",
+      "name": "WOMENS SAREE",
+      "price":  3320.00 ,
+      "originalPrice":  "3800.00",
+      "category": "WOMENS SAREE",
+      "categorySlug": "saree",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        "Brand: Luxentra",
+        "Fabric: Cotton",
+        "Gender: Female",
+        "Color: Sky",
+        "Size: 13.50 Haat With Blouse Piece",
+        "Fit Type: Regular Fit"
+      ],
+      "ingredients": [
+        {
+          "name": "Note: The color is the same as the picture. However, it may slightly differ due to lighting",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["FREE SIZE"],
+      "colors": ["Sky"],
+      "images": [
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F1eff541a181c41f090d26cbd301ae180.png&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F9d2a7d2a59f44ed2b1826cb13e0beb27.png&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F6367da321e97468784100bffeb60e843.png&w=1080&q=75",
+        "https://prod.saralifestyle.com/Images/Products/VariationWisetImage/4cf28e0eb023406cbc89f01504c46608.gif"
+      ]
+    },
+    {
+      "id": 77,
+      "slug": "Womens Saree6",
+      "name": "WOMENS SAREE",
+      "price":  3320.00 ,
+      "originalPrice":  "3500.00",
+      "category": "WOMENS SAREE",
+      "categorySlug": "saree",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        "Brand: Luxentra",
+        "Fabric: Cotton",
+        "Gender: Female",
+        "Color: Green",
+        "Size: 13.50 Haat With Blouse Piece",
+        "Fit Type: Regular Fit"
+      ],
+      "ingredients": [
+        {
+          "name": "Note: The color is the same as the picture. However, it may slightly differ due to lighting",
+          "benefit": "This is a process where cotton fabric is passed through a flame to remove any fuzzy fibers or protruding threads. This creates a smoother, more even surface. This Gas Cotton Saree comfortable for any season with running Blouse PCs."
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["FREE SIZE"],
+      "colors": ["Green"],
+      "images": [
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F7c2a8f68676e4880820afcd3c5b95a66.png&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F743871794be64b3b93babfae4a5c15cb.png&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F8fd7fe4e7b2c482597e04ca56a46b804.png&w=1080&q=75",
+        "https://prod.saralifestyle.com/Images/Products/VariationWisetImage/4c723ddcdc844f54950a9495fb9f2d2d.gif"
+      ]
+    },
+     {
+      "id": 79,
+      "slug": "Womens Saree7",
+      "name": "WOMENS SAREE",
+      "price":  2450.00 ,
+      "originalPrice":  "2500.00",
+      "category": "WOMENS SAREE",
+      "categorySlug": "saree",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        "Brand: Luxentra",
+        "Fabric: Cotton",
+        "Gender: Female",
+        "Color: Off White",
+        "Size: 13.50 Haat With Blouse Piece",
+        "Fit Type: Regular Fit"
+      ],
+      "ingredients": [
+        {
+          "name": "Note: The color is the same as the picture. However, it may slightly differ due to lighting",
+          "benefit": "Off-white color with intricate patterns in shades of grey, black, and a hint of pink Cotton Kota Saree with running blouse pcs."
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["FREE SIZE"],
+      "colors": ["Off White"],
+      "images": [
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F29ca8986e48847a8828aaac703fe5550.png&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fc2fd67b9555442299b028acccab07258.png&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fc117ef7b2e134bf3804278afbdf5e798.png&w=1080&q=75",
+        "https://prod.saralifestyle.com/Images/Products/VariationWisetImage/d33c0fcc25d540d18d0f6787170fbe32.gif"
+      ]
+    },
+    {
+      "id": 80,
+      "slug": "Womens Saree8",
+      "name": "WOMENS SAREE",
+      "price":  3365.00 ,
+      "originalPrice":  "4000.00",
+      "category": "WOMENS SAREE",
+      "categorySlug": "saree",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        "Brand: Luxentra",
+        "Fabric: Cotton",
+        "Gender: Female",
+        "Color: Mustard",
+        "14 Haat Including Blouse Piece.",
+        "Addition: Embroidery & Screen Print"
+      ],
+      "ingredients": [
+        {
+          "name": "Note: The color is the same as the picture. However, it may slightly differ due to lighting",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["FREE SIZE"],
+      "colors": ["Mustard"],
+      "images": [
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fc6de5cd5273c4887b915b33e83e4d4f4.jpeg&w=1080&q=75"
+      ]
+    },
+    {
+      "id": 81,
+      "slug": "WOMENS PALAZZO",
+      "name": "WOMENS PALAZZO",
+      "price":  865.00 ,
+      "originalPrice":  "1050.00",
+      "category": "WOMENS Pant",
+      "categorySlug": "womens-pant",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        "Brand: Luxentra",
+        "Fabric: Viscose",
+        "Gender: Female",
+        "Color: Black",
+        "Fit Type: Regular Fit",
+        "Length: Long",
+        "Addition: Screen Print",
+        "Waist: Elastic"
+      ],
+      "ingredients": [
+        {
+          "name": "Note: The color is the same as the picture. However, it may slightly differ due to lighting",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["FREE SIZE"],
+      "colors": ["Black"],
+      "images": [
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F70702a3d7f6f4a49a45d54ce95b18582.jpeg&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F3cad5afbdc034614ba348ce9c71d9925.jpeg&w=1080&q=75"
+      ]
+    },
+    {
+      "id": 82,
+      "slug": "WOMENS DENIM PANT",
+      "name": "WOMENS DENIM PANT",
+      "price":  1420.00 ,
+      "originalPrice":  "1500.00",
+      "category": "WOMENS JEANS",
+      "categorySlug": "womens-jeans",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        "Brand: Luxentra",
+        "Fabric: Viscose",
+        "Gender: Female",
+        "Color: Black",
+        "Fit Type: Regular Fit",
+        "Length: Long",
+        "Addition: Screen Print",
+        "Waist: Elastic"
+      ],
+      "ingredients": [
+        {
+          "name": "Note: The color is the same as the picture. However, it may slightly differ due to lighting",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["28", "30", "32", "34", "36"],
+      "colors": ["Indigo"],
+      "images": [
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fa412af9ca2ef40209771829e8ebe2099.png&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F64f1f8a195c245b491d9eba0538c5009.png&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Feb9e27453706447b9adcc88c358da9d7.png&w=1080&q=75"
+      ]
     }
   ]
 }

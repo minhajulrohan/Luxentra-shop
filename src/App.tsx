@@ -32,6 +32,8 @@ import AdminDashboard from "./pages/admin/AdminDashboard";
 import Ads from "./components/Add";
 import { path } from 'path';
 import Marketplace from "./pages/Marketplace";
+import { path } from 'path';
+import HealthCare from "./pages/HealthCare";
 
 
 function PopupController() {
@@ -74,7 +76,8 @@ const App = () => (
             <Route path="/termsconditions" element={<TermsConditions />} />
             <Route path="/blogDetails/:id" element={<BlogDetail />} />
             <Route path="/marketplace" element={<Marketplace />} />
-            
+              <Route path="/healthcare" element={<HealthCare />} />
+              
             {/* Standardized Product Routing */}
             <Route path="/products" element={<CategoryListPage />} />
             <Route path="/products/:categorySlug" element={<ProductListPage />} />
