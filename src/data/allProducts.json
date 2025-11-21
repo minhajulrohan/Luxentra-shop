@@ -1048,7 +1048,7 @@
       "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F04708d500f4f4113b7adcdb60bc8dde9.png&w=1080&q=75"
       ]
     },
-{
+      {
       "id": 20,
       "slug": "WOMENS-SUITSET",
       "name": "WOMENS SUIT SET",
@@ -2735,6 +2735,127 @@
       "colors": [],
       "images": [
       "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F23979556c9354accbfe3cc0088b009b3.png&w=1080&q=75"
+      ]
+    },
+         {
+      "id": 49,
+      "slug": "NOVA-Google-Android-TV-85-NV-8550",
+      "name": "NOVA Google Android TV 85' Model : NV – 8550",
+      "price": 197100.00,
+      "originalPrice":  "",
+      "category": "LED TV",
+      "categorySlug": "LED TV",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        ""
+      ],
+      "ingredients": [
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "Packaging: ",
+          "benefit": "ফুড গ্রেড প্যাক"
+        },
+        {
+          "name": "Origin",
+          "benefit": "Bangladesh"
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["85''"],
+      "colors": [],
+      "images": [
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F23979556c9354accbfe3cc0088b009b3.png&w=1080&q=75"
+      ]
+    },
+    {
+      "id": 50,
+      "slug": "WOMENS-KAPTAN",
+      "name": "WOMENS KAPTAN",
+      "price":  2850.00 ,
+      "originalPrice":  5310.00,
+      "category": "Single ethnics",
+      "categorySlug": "single-ethnic",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        "Brand: Luxentra",
+        "Fabric: Synthetic",
+        "Gender: Female",
+        "Color: Brown",
+        "Fit type : Regular fit",
+        "Length: Long",
+        "Addition: Auto Embroidery",
+        "Collar/ Neck: Blazer Collar",
+        "Sleeve: Full Sleeve"
+      ],
+      "ingredients": [
+        {
+          "name": "Note: The color is the same as the picture. However, it may slightly differ due to lighting",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["S", "M", "", "XL", "XXL"],
+      "colors": ["Brown"],
+      "images": [
+      "https://prod.saralifestyle.com/Images/Products/VariationWisetImage/040584e9208e47189c93a0e7ff329e9b.gif",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fbbfa5361e1be41beb21ee49425e9b134.png&w=1080&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F0a4c5a1e630b44bca86673741227b7a9.png&w=1080&q=75",
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F27cb9c093f7e4e85b89801f371c814b8.png&w=1080&q=75"
       ]
     }
   ]

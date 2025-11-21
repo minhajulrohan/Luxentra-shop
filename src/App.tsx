@@ -79,6 +79,7 @@ const App = () => (
             <Route path="/products" element={<CategoryListPage />} />
             <Route path="/products/:categorySlug" element={<ProductListPage />} />
             <Route path="/products/:categorySlug/:productSlug" element={<ProductDetailsPage />} />
+              
             
             {/* Auth Route */}
             <Route path="/auth" element={<Auth />} />
