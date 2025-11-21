@@ -30,6 +30,9 @@ import ProductDetailsPage from "./pages/products/ProductDetailsPage";
 import TestConnection from "./test/TestConnection";
 import AdminDashboard from "./pages/admin/AdminDashboard";
 import Ads from "./components/Add";
+import { path } from 'path';
+import Marketplace from "./pages/Marketplace";
+
 
 function PopupController() {
   const location = useLocation();
@@ -70,6 +73,7 @@ const App = () => (
             <Route path="/privacypolicy" element={<PrivacyPolicy />} />
             <Route path="/termsconditions" element={<TermsConditions />} />
             <Route path="/blogDetails/:id" element={<BlogDetail />} />
+            <Route path="/marketplace" element={<Marketplace />} />
             
             {/* Standardized Product Routing */}
             <Route path="/products" element={<CategoryListPage />} />

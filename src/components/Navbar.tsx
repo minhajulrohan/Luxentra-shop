@@ -29,7 +29,7 @@ const categories = [
 ];
 
 const navLinks = [
-  { name: "Marketplace", href: "/shop" },
+  { name: "Marketplace", href: "/marketplace" },
   { name: "Shahara's Skin", href: "/products/shahara-skin" },
   { name: "Womens", "href": "/products/womens-winter" },
   { name: "Mens", href: "/products/mens-winter" },

@@ -1308,7 +1308,7 @@
       "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F5849981a4de14f64a38833db8055f237.png&w=1080&q=75"
       ]
     },
-{
+        {
       "id": 26,
       "slug": "COLMI-P28",
       "name": "COLMI P28 Plus Bluetooth Calling Smart Watch",
@@ -1316,6 +1316,8 @@
       "originalPrice":  "",
       "category": "Smart watches",
       "categorySlug": "smart-watches",
+      "subCategorySlug": "Luentra Watches",
+      "subCategoryName": "Luentra Watches",
       "badge": " Available",
       "description": "",
       "features": [
@@ -1900,7 +1902,7 @@
 	    "https://www.yellowclothing.net/cdn/shop/files/DSC09214_a3bdabc9-8880-415e-b17d-1fc09c1d1407.jpg?v=1756896988"
       ]
     },
-{
+    {
       "id": 35,
       "slug": "SBH10",
       "name": "Laptop and Travelling Minimalist Large Capacity Backpack",
@@ -1955,6 +1957,784 @@
       "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fb64a4e1fe9c947bc895a351589cbaf0e.png&w=1080&q=75",
       "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F865949840ee841cfbbb8f6d464ff78e8.png&w=1080&q=75",
       "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fd171842e4768414b9acc5f8b5a2ba81b.png&w=1080&q=75"
+      ]
+    },
+    {
+      "id": 36,
+      "slug": "Cinnamon-Stick",
+      "name": "প্রিমিয়াম দারুচিনি (Cinnamon Stick)",
+      "price": 57.00,
+      "originalPrice":  "66.00",
+      "category": "Dayli-Needs",
+      "categorySlug": "Dayli-Needs",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        "দারুচিনি বা Cinnamon – রান্নায় অপরিহার্য এক সুগন্ধি মসলা। আমাদের দারুচিনি সিলেক্টেড কোয়ালিটির, সাইজে ঘন ঘন সুগন্ধিযুক্ত। রান্না, হেলদি ড্রিংক, কফি বা দুধে ব্যবহার করুন – একদম পারফেক্ট মানের।"
+      ],
+      "ingredients": [
+        {
+          "name": "প্রিমিয়াম গ্রেড (Premium Quality)",
+          "benefit": "সিলেক্টেড বড় স্টিক, ন্যাচারাল গন্ধ ও টেস্ট, ১০০% ভেজালমুক্ত, সংরক্ষণে সহজ"
+        },
+        {
+          "name": "Packaging: ",
+          "benefit": "ফুড গ্রেড প্যাক"
+        },
+        {
+          "name": "Origin",
+          "benefit": "ভিয়েতনাম "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["25g", "50g", "100g", "250g","500g"],
+      "colors": ["Black"],
+      "images": [
+      "https://www.dailyneedsbd.com/storage/app/public/product/2025-05-28-6837142e24030.webp",
+      "https://www.dailyneedsbd.com/storage/app/public/product/2025-05-28-68371451df9ee.webp"
+      ]
+    },
+    {
+      "id": 37,
+      "slug": "কালো-গোল-মরিচ",
+      "name": "Buy Premium Black Pepper (কালো গোল মরিচ) – Hot & Aromatic Bangla Masala",
+      "price": 94.00,
+      "originalPrice":  "99.00",
+      "category": "Dayli-Needs",
+      "categorySlug": "Dayli-Needs",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        "This product is packaged in Bangladesh, using top-quality raw black pepper imported from Vietnam.Black Pepper (কালো গোল মরিচ) is one of the oldest and most widely used spices in Bangladeshi kitchens. Its bold flavor enhances everything from biryani and meat curry to soups and salads. It's not just tasty – it's loaded with health benefits:"
+      ],
+      "ingredients": [
+        {
+          "name": "Improves digestion and boosts metabolism",
+          "benefit": "Improves digestion and boosts metabolism"
+        },
+        {
+          "name": "Packaging: ",
+          "benefit": "ফুড গ্রেড প্যাক"
+        },
+        {
+          "name": "Origin",
+          "benefit": "ভিয়েতনাম "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["25g", "50g", "100g", "250g","500g"],
+      "colors": ["Black"],
+      "images": [
+      "https://www.dailyneedsbd.com/storage/app/public/product/2025-05-22-682f07a28fbad.webp"
+      ]
+    },
+    {
+      "id": 38,
+      "slug": "সাহী-জিরা",
+      "name": "Premium Shahi Jeera (সাহী জিরা) – Royal Bangla Garam Masala",
+      "price": 114.00,
+      "originalPrice":  "120.00",
+      "category": "Dayli-Needs",
+      "categorySlug": "Dayli-Needs",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        "This product is processed and packaged in Bangladesh, with premium raw Shahi Jeera (Royal Cumin) sourced from India. Shahi Jeera, also known as Royal Cumin (সাহী জিরা), has a finer aroma and slightly sweeter flavor than regular cumin. It’s used in rich dishes like biryani, pulao, and korma. This spice not only adds royal taste but also offers some health perks:"
+      ],
+      "ingredients": [
+        {
+          "name": "Improves digestion and boosts metabolism",
+          "benefit": "Improves digestion and boosts metabolism"
+        },
+        {
+          "name": "Packaging: ",
+          "benefit": "ফুড গ্রেড প্যাক"
+        },
+        {
+          "name": "Origin",
+          "benefit": "ভিয়েতনাম "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["50g", "100g", "250g","500g"],
+      "colors": ["Black"],
+      "images": [
+      "https://www.dailyneedsbd.com/storage/app/public/product/2025-05-22-682ef9047383e.webp"
+      ]
+    },
+    {
+      "id": 39,
+      "slug": "জয়ত্রি",
+      "name": "Javitri / Mace (জয়ত্রি) – Premium Garam Masala",
+      "price": 102.00,
+      "originalPrice":  "120.00",
+      "category": "Dayli-Needs",
+      "categorySlug": "Dayli-Needs",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        "This product is manufactured and packed in Bangladesh, with raw Javitri (Mace) imported from India, ensuring purity and rich aroma.Javitri, also known as Mace (জয়ত্রি), is the dried outer covering of nutmeg seed. It has a warm, subtle flavor and is widely used in Bangladeshi biryani, korma, and meat dishes. Besides taste, mace is also loaded with health benefits:"
+      ],
+      "ingredients": [
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "Packaging: ",
+          "benefit": "ফুড গ্রেড প্যাক"
+        },
+        {
+          "name": "Origin",
+          "benefit": "ভিয়েতনাম "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["50g", "100g", "250g","500g"],
+      "colors": ["Black"],
+      "images": [
+      "https://www.dailyneedsbd.com/storage/app/public/product/2025-05-21-682dc25978502.webp"
+      ]
+    },
+    {
+      "id": 40,
+      "slug": "কালো-এলাচ",
+      "name": "Premium Quality Black Cardamom (কালো এলাচ) – Authentic Bangla Masala Spice",
+      "price": 210.00,
+      "originalPrice":  "210.00",
+      "category": "Dayli-Needs",
+      "categorySlug": "Dayli-Needs",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        "This product is proudly manufactured and packaged in Bangladesh, with high-quality raw Black Cardamom (Kala Elach) imported from India. Black cardamom is a flavorful spice known for its bold, smoky aroma and powerful health benefits. Rich in antioxidants, it supports digestion, improves respiratory function, helps detox the body, and may reduce blood pressure. It's an essential spice in biryani, meat curry, and traditional Bangla dishes."
+      ],
+      "ingredients": [
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "Packaging: ",
+          "benefit": "ফুড গ্রেড প্যাক"
+        },
+        {
+          "name": "Origin",
+          "benefit": "ভিয়েতনাম "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["50g", "100g", "250g","500g"],
+      "colors": ["Black"],
+      "images": [
+      "https://www.dailyneedsbd.com/storage/app/public/product/2025-05-21-682db9f9b04d4.webp",
+      "https://www.dailyneedsbd.com/storage/app/public/product/2025-05-21-682db9f9be3bd.webp",
+      "https://www.dailyneedsbd.com/storage/app/public/product/2025-05-21-682dbd5d00e5c.webp"
+      ]
+    },
+    {
+      "id": 41,
+      "slug": "লবঙ্গ",
+      "name": "Premium Quality Cloves (লবঙ্গ / Long) 50G – Authentic Bangla Garam Masala",
+      "price": 31.00,
+      "originalPrice":  "35.00",
+      "category": "Dayli-Needs",
+      "categorySlug": "Dayli-Needs",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        "Shop 100% natural and aromatic Cloves (লবঙ্গ / Long) at DailyNeedsBD – the trusted source for authentic Bangla Garam Masala. Perfect for cooking flavorful Bengali dishes. Sourced fresh, hygienically packed, and delivered across Bangladesh. Order now for the best price!"
+      ],
+      "ingredients": [
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "Packaging: ",
+          "benefit": "ফুড গ্রেড প্যাক"
+        },
+        {
+          "name": "Origin",
+          "benefit": "ভিয়েতনাম "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["30g", "50g", "100g"],
+      "colors": ["Black"],
+      "images": [
+      "https://www.dailyneedsbd.com/storage/app/public/product/2025-05-21-682db7c3b4798.webp"
+      ]
+    },
+    {
+      "id": 42,
+      "slug": "প্রিমিয়াম-কাজু-বাদাম–২০০গ্রাম",
+      "name": "Premium Kaju Badam – 200g | প্রিমিয়াম কাজু বাদাম – ২০০ গ্রাম",
+      "price": 440.00,
+      "originalPrice":  "",
+      "category": "Dayli-Needs",
+      "categorySlug": "Dayli-Needs",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        "Enjoy the delicious, creamy taste of high-quality Kaju Badam (Cashew Nuts)—perfect for daily snacks or cooking! Packed in a clean, airtight glass jar to keep it fresh and crunchy for longer."
+      ],
+      "ingredients": [
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "Packaging: ",
+          "benefit": "ফুড গ্রেড প্যাক"
+        },
+        {
+          "name": "Origin",
+          "benefit": "ভিয়েতনাম "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["30g", "50g", "100g"],
+      "colors": ["Black"],
+      "images": [
+      "https://www.dailyneedsbd.com/storage/app/public/product/2025-05-09-681dc4df0f42e.webp",
+      "https://www.dailyneedsbd.com/storage/app/public/product/2025-05-08-681c98e5d31b3.webp",
+      "https://www.dailyneedsbd.com/storage/app/public/product/2025-05-08-681c98e8f0a96.webp"
+      ]
+    },
+    {
+      "id": 43,
+      "slug": "Walnuts-Without-Shell",
+      "name": "Premium Akhrot Giri (Walnuts Without Shell) – 250g Pack | প্রিমিয়াম আখরোট গিরি",
+      "price": 325.00,
+      "originalPrice":  "350.00",
+      "category": "Dayli-Needs",
+      "categorySlug": "Dayli-Needs",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        "Enjoy the superfood power of Premium Akhrot Giri (Walnuts)—cleaned, shelled, and hygienically packed in a glass jar (boyam). These crunchy walnut kernels are perfect for snacking, baking, and boosting your brain health."
+      ],
+      "ingredients": [
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "Packaging: ",
+          "benefit": "ফুড গ্রেড প্যাক"
+        },
+        {
+          "name": "Origin",
+          "benefit": "ভিয়েতনাম "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["200g"],
+      "colors": [],
+      "images": [
+      "https://www.dailyneedsbd.com/storage/app/public/product/2025-05-08-681cc1b784d51.webp",
+      "https://www.dailyneedsbd.com/storage/app/public/product/2025-05-08-681cc1b7b2a37.webp"
+      ]
+    },
+    {
+      "id": 44,
+      "slug": "প্রিমিয়াম-পেস্তা-বাদাম–২০০গ্র",
+      "name": "Premium Pesta Badam (Pistachios) – 200g Pack | প্রিমিয়াম পেস্তা বাদাম – ২০০ গ্র",
+      "price": 600.00,
+      "originalPrice":  "650.00",
+      "category": "Dayli-Needs",
+      "categorySlug": "Dayli-Needs",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        "Taste the crunch of luxury with our Premium Pesta Badam (Pistachios) – naturally flavorful and packed fresh in a glass jar (boyam) to preserve taste and aroma. Ideal for snacking or enhancing your recipes!"
+      ],
+      "ingredients": [
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "Packaging: ",
+          "benefit": "ফুড গ্রেড প্যাক"
+        },
+        {
+          "name": "Origin",
+          "benefit": "ভিয়েতনাম "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["200g"],
+      "colors": [""],
+      "images": [
+      "https://www.dailyneedsbd.com/storage/app/public/product/2025-05-08-681cb8594c964.webp",
+      "https://www.dailyneedsbd.com/storage/app/public/product/2025-05-08-681cb8597a6db.webp"
+      ]
+    },
+    {
+      "id": 45,
+      "slug": "Organic-Mariyam-Khejur",
+      "name": "Organic Mariyam Khejur – 500 gm (Premium Quality)",
+      "price": 765.00,
+      "originalPrice":  "850.00",
+      "category": "Dayli-Needs",
+      "categorySlug": "Dayli-Needs",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        "Organic Mariyam Khejur (Premium Quality) , Imported from Saudi Arabia. Fresh dates compose of soft, easily digestible fresh and simple sugars like fructose and detrose. when eaten they replenish energy and revitalize the body instantly for these qualities, they are being used to break the fast during Ramadan month since ancient times. The fruit is rich in dietary fiber, which prevents LDL cholesterol absorption in the gut, Additionally, the fiber works as a lasatibe . It, thus, helps to protect the colon mucous membrane by decreasing exposure time and as well as binding to cancer-causing chemicals in the colon."
+      ],
+      "ingredients": [
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "Packaging: ",
+          "benefit": "ফুড গ্রেড প্যাক"
+        },
+        {
+          "name": "Origin",
+          "benefit": "ভিয়েতনাম "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["500g"],
+      "colors": [],
+      "images": [
+      "https://www.dailyneedsbd.com/storage/app/public/product/2025-02-20-67b6f0dc8b469.webp"
+      ]
+    },
+    {
+      "id": 46,
+      "slug": "Rita-Chia-Seed-Orange-Drink-290ml-Vietnam",
+      "name": "Rita Chia Seed Orange Drink – 290ml (Vietnam)",
+      "price": 290.000,
+      "originalPrice":  "",
+      "category": "Dayli-Needs",
+      "categorySlug": "Dayli-Needs",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        "Organic Mariyam Khejur (Premium Quality) , Imported from Saudi Arabia. Fresh dates compose of soft, easily digestible fresh and simple sugars like fructose and detrose. when eaten they replenish energy and revitalize the body instantly for these qualities, they are being used to break the fast during Ramadan month since ancient times. The fruit is rich in dietary fiber, which prevents LDL cholesterol absorption in the gut, Additionally, the fiber works as a lasatibe . It, thus, helps to protect the colon mucous membrane by decreasing exposure time and as well as binding to cancer-causing chemicals in the colon."
+      ],
+      "ingredients": [
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "Packaging: ",
+          "benefit": "ফুড গ্রেড প্যাক"
+        },
+        {
+          "name": "Origin",
+          "benefit": "ভিয়েতনাম "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["500g"],
+      "colors": [],
+      "images": [
+      "https://www.dailyneedsbd.com/storage/app/public/product/2025-03-07-67cac11e56266.webp",
+      "https://www.dailyneedsbd.com/storage/app/public/product/2025-03-07-67cac11e56266.webp"
+      ]
+    },
+    {
+      "id": 47,
+      "slug": "Broiler-Chicken-Leg-Kg",
+      "name": "Broiler Chicken Leg (Kg)",
+      "price": 300.00,
+      "originalPrice":  "",
+      "category": "Dayli-Needs",
+      "categorySlug": "Dayli-Needs",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        ""
+      ],
+      "ingredients": [
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "Packaging: ",
+          "benefit": "ফুড গ্রেড প্যাক"
+        },
+        {
+          "name": "Origin",
+          "benefit": "Bangladesh"
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["500g"],
+      "colors": [],
+      "images": [
+      "https://www.dailyneedsbd.com/storage/app/public/product/2025-03-07-67cac603e138d.webp"
+      ]
+    },
+    {
+      "id": 48,
+      "slug": "smart-tv",
+      "name": "SINGER Primax S55-SLE55GU5000TV 55' 4K Android Google TV ",
+      "price": 70500.00,
+      "originalPrice":  "",
+      "category": "smart-tv",
+      "categorySlug": "smart-tv",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        ""
+      ],
+      "ingredients": [
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "Packaging: ",
+          "benefit": "ফুড গ্রেড প্যাক"
+        },
+        {
+          "name": "Origin",
+          "benefit": "Bangladesh"
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["55''"],
+      "colors": [],
+      "images": [
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Ffbc2acc1d1d9469cb9cc2cf391412b59.png&w=1080&q=75"
+      ]
+    },
+     {
+      "id": 49,
+      "slug": "NOVA-Google-Android-TV-85-NV-8550",
+      "name": "NOVA Google Android TV 85' Model : NV – 8550",
+      "price": 197100.00,
+      "originalPrice":  "",
+      "category": "LED TV",
+      "categorySlug": "LED TV",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        ""
+      ],
+      "ingredients": [
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "Packaging: ",
+          "benefit": "ফুড গ্রেড প্যাক"
+        },
+        {
+          "name": "Origin",
+          "benefit": "Bangladesh"
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["85''"],
+      "colors": [],
+      "images": [
+      "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F23979556c9354accbfe3cc0088b009b3.png&w=1080&q=75"
       ]
     }
   ]
