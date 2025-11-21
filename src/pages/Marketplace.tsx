@@ -93,33 +93,6 @@ const filterButtons = ["Smart TV", "LED TV", "Bags", "Analog Watches", "Smart Wa
           products={fetchedProducts} 
           categories={filterButtons}
         />
-        {/* Best Sellers Section */}
-        <section className="container mx-auto px-4 py-5">
-          <div className="flex items-center justify-between mb-8">
-            <div>
-              <h2 className="text-3xl font-bold mb-2">Best Sellers</h2>
-              <p className="text-muted-foreground">Most popular items this week</p>
-            </div>
-            <Link to="/shop">
-              <Button variant="outline">View All</Button>
-            </Link>
-          </div>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
-            {products.slice(0, 4).map((product) => (
-              <ProductCard
-                key={product.id}
-                id={product.id}
-                name={product.name}
-                price={typeof product.price === 'string' ? parseFloat(product.price) : product.price}
-                originalPrice={product.originalPrice ? (typeof product.originalPrice === 'string' ? parseFloat(product.originalPrice) : product.originalPrice) : undefined}
-                image={product.images[0]}
-                badge={product.badge}
-                categorySlug={product.categorySlug} 
-                productSlug={product.slug}
-              />
-            ))}
-          </div>
-        </section>
       </main>
       <Footer />
       <ScrollToTopButton />
