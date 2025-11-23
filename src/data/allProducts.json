@@ -4262,7 +4262,7 @@
     },
     {
       "id": 72,
-      "slug": "Womens Scarf",
+      "slug": "Womens-Scarf",
       "name": "WOMENS HIJAB",
       "price":  395.00 ,
       "originalPrice":  "550.00",
@@ -4322,7 +4322,7 @@
     },
     {
       "id": 73,
-      "slug": "Womens Saree1",
+      "slug": "Womens-Saree1",
       "name": "WOMENS SAREE",
       "price":  2490.00 ,
       "originalPrice":  "550.00",
@@ -4384,7 +4384,7 @@
     },
     {
       "id": 74,
-      "slug": "Womens Saree2",
+      "slug": "Womens-Saree2",
       "name": "WOMENS SAREE",
       "price":  2050.00 ,
       "originalPrice":  "2550.00",
@@ -4447,7 +4447,7 @@
     },
     {
       "id": 75,
-      "slug": "Womens Saree3",
+      "slug": "Womens-Saree3",
       "name": "WOMENS SAREE",
       "price":  2350.00 ,
       "originalPrice":  "2500.00",
@@ -4508,7 +4508,7 @@
     },
     {
       "id": 76,
-      "slug": "Womens Saree4",
+      "slug": "Womens-Saree4",
       "name": "WOMENS SAREE",
       "price":  2350.00 ,
       "originalPrice":  "2500.00",
@@ -4570,7 +4570,7 @@
     },
     {
       "id": 76,
-      "slug": "Womens Saree5",
+      "slug": "Womens-Saree5",
       "name": "WOMENS SAREE",
       "price":  3320.00 ,
       "originalPrice":  "3800.00",
@@ -4633,7 +4633,7 @@
     },
     {
       "id": 77,
-      "slug": "Womens Saree6",
+      "slug": "Womens-Saree6",
       "name": "WOMENS SAREE",
       "price":  3320.00 ,
       "originalPrice":  "3500.00",
@@ -4696,7 +4696,7 @@
     },
      {
       "id": 79,
-      "slug": "Womens Saree7",
+      "slug": "Womens-Saree7",
       "name": "WOMENS SAREE",
       "price":  2450.00 ,
       "originalPrice":  "2500.00",
@@ -4759,7 +4759,7 @@
     },
     {
       "id": 80,
-      "slug": "Womens Saree8",
+      "slug": "Womens-Saree8",
       "name": "WOMENS SAREE",
       "price":  3365.00 ,
       "originalPrice":  "4000.00",
@@ -4819,7 +4819,7 @@
     },
     {
       "id": 81,
-      "slug": "WOMENS PALAZZO",
+      "slug": "WOMENS-PALAZZO",
       "name": "WOMENS PALAZZO",
       "price":  865.00 ,
       "originalPrice":  "1050.00",
@@ -4882,7 +4882,7 @@
     },
     {
       "id": 82,
-      "slug": "WOMENS DENIM PANT",
+      "slug": "WOMENS-DENIM-PANT",
       "name": "WOMENS DENIM PANT",
       "price":  1420.00 ,
       "originalPrice":  "1500.00",
@@ -4942,6 +4942,1436 @@
         "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fa412af9ca2ef40209771829e8ebe2099.png&w=1080&q=75",
         "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F64f1f8a195c245b491d9eba0538c5009.png&w=1080&q=75",
         "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Feb9e27453706447b9adcc88c358da9d7.png&w=1080&q=75"
+      ]
+    },
+    {
+      "id": 500,
+      "slug": "dhonia-pata",
+      "name": "Dhonia pata",
+      "price":  29.00 ,
+      "originalPrice":  "30.00",
+      "category": "Vegetables",
+      "categorySlug": "vegetables",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        ""
+      ],
+      "ingredients": [
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["50g"],
+      "colors": [],
+      "images": [
+        "https://i.chaldn.com/_mpimage/coriander-leaves-dhonia-pata-10-gm-100-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D28562&q=low&v=1"
+      ]
+    },
+    {
+      "id": 501,
+      "slug": "palong-shak",
+      "name": "Palong Shak",
+      "price":  29.00 ,
+      "originalPrice":  "30.00",
+      "category": "Vegetables",
+      "categorySlug": "vegetables",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        ""
+      ],
+      "ingredients": [
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["1bundle"],
+      "colors": [],
+      "images": [
+        "https://i.chaldn.com/_mpimage/palong-shak-palong-spinach-1-bundle?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D28579&q=low&v=1"
+      ]
+    },
+    {
+      "id": 502,
+      "slug": "badhakopi-shak",
+      "name": "Badhakopi Shak",
+      "price":  50.00 ,
+      "originalPrice":  "60.00",
+      "category": "Vegetables",
+      "categorySlug": "vegetables",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        ""
+      ],
+      "ingredients": [
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["Each"],
+      "colors": [],
+      "images": [
+        "https://i.chaldn.com/_mpimage/badhakopi-cabbage-1-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D5740&q=best&v=1"
+      ]
+    },
+    {
+      "id": 503,
+      "slug": "mula",
+      "name": "Mula",
+      "price":  29.00 ,
+      "originalPrice":  "60.00",
+      "category": "Vegetables",
+      "categorySlug": "vegetables",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        ""
+      ],
+      "ingredients": [
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["500g"],
+      "colors": [],
+      "images": [
+        "https://static.wixstatic.com/media/e5857f_5449590ffffb45ecbde1e0544018bd9b~mv2.png/v1/fill/w_480,h_480,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/e5857f_5449590ffffb45ecbde1e0544018bd9b~mv2.png"
+      ]
+    },
+    {
+      "id": 504,
+      "slug": "malta",
+      "name": "Malta 1KG",
+      "price":  299.00 ,
+      "originalPrice":  "350.00",
+      "category": "Fruits",
+      "categorySlug": "fruits",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        ""
+      ],
+      "ingredients": [
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["500g"],
+      "colors": [],
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgtivZy5naYzalUJCFG01QoE-mmfZiLsJAmA&s"
+      ]
+    },
+    {
+      "id": 506,
+      "slug": "pakapape",
+      "name": "Paka Pape ech 1KG",
+      "price": 150.00 ,
+      "originalPrice":  "150.00",
+      "category": "Fruits",
+      "categorySlug": "fruits",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        ""
+      ],
+      "ingredients": [
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": [],
+      "colors": [],
+      "images": [
+        "https://i.chaldn.com/_mpimage/cherry-pineapple-cherry-anaros-1-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D133271&q=best&v=1"
+      ]
+    },
+    {
+      "id": 507,
+      "slug": "shada-nashpati-50-gm-pear-white",
+      "name": "Shada Nashpati ± 50 gm (Pear White)",
+      "price": 179.00 ,
+      "originalPrice":  "180.00",
+      "category": "Fruits",
+      "categorySlug": "fruits",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        ""
+      ],
+      "ingredients": [
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": [],
+      "colors": [],
+      "images": [
+        "https://chaldn.com/_mpimage/shada-nashpati-50-gm-pear-white-2-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D71168&q=best&v=1&m=400&webp=1"
+      ]
+    },
+    {
+      "id": 508,
+      "slug": "sobuj-angur-green-grapes-imported-12-gm",
+      "name": "Sobuj Angur (Green Grapes) Imported ± 250 gm",
+      "price": 149.00 ,
+      "originalPrice":  "150.00",
+      "category": "Fruits",
+      "categorySlug": "fruits",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        ""
+      ],
+      "ingredients": [
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": [],
+      "colors": [],
+      "images": [
+        "https://chaldn.com/_mpimage/sobuj-angur-green-grapes-imported-12-gm-250-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D183855&q=best&v=1&m=400&webp=1"
+      ]
+    },
+    {
+      "id": 509,
+      "slug": "water-chestnut",
+      "name": "Water Chestnut 500 gm",
+      "price": 35.00 ,
+      "originalPrice":  "35.00",
+      "category": "Fruits",
+      "categorySlug": "fruits",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        ""
+      ],
+      "ingredients": [
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": [],
+      "colors": [],
+      "images": [
+        "https://chaldn.com/_mpimage/water-chestnut-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D71221&q=best&v=1&m=400&webp=1"
+      ]
+    },
+    {
+      "id": 510,
+      "slug": "watermelon-medium-4-kg-tormuj",
+      "name": "Watermelon Medium 4 kg + (Tormuj)",
+      "price": 429.00 ,
+      "originalPrice":  "450.00",
+      "category": "Fruits",
+      "categorySlug": "fruits",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        ""
+      ],
+      "ingredients": [
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": [],
+      "colors": [],
+      "images": [
+        "https://chaldn.com/_mpimage/watermelon-medium-4-kg-tormuj-1-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D34711&q=best&v=1&m=400&m=400&webp=1"
+      ]
+    },
+    {
+      "id": 510,
+      "slug": "broiler-chicken-skin-on",
+      "name": "Broiler Chicken Skin On 1 kg",
+      "price": 279.00 ,
+      "originalPrice":  "279.00",
+      "category": "Meat & Chicken",
+      "categorySlug": "Meat-Chicken",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        ""
+      ],
+      "ingredients": [
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": [],
+      "colors": [],
+      "images": [
+        "https://chaldn.com/_mpimage/broiler-chicken-skin-on-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D163138&q=best&v=1&m=400&webp=1"
+      ]
+    },
+    {
+      "id": 511,
+      "slug": "broiler-chicken-skin-off",
+      "name": "Broiler Chicken Skin Off 1 kg",
+      "price": 299.00 ,
+      "originalPrice":  "299.00",
+      "category": "Meat & Chicken",
+      "categorySlug": "Meat-Chicken",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        ""
+      ],
+      "ingredients": [
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": [],
+      "colors": [],
+      "images": [
+        "https://chaldn.com/_mpimage/broiler-chicken-skin-off-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D163139&q=best&v=1&m=400&webp=1"
+      ]
+    },
+    {
+      "id": 512,
+      "slug": "Broiler-Chicken-Breast-Boneless",
+      "name": "Broiler Chicken Breast Boneless 1 kg",
+      "price": 559.00 ,
+      "originalPrice":  "559.00",
+      "category": "Meat & Chicken",
+      "categorySlug": "Meat-Chicken",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        ""
+      ],
+      "ingredients": [
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": [],
+      "colors": [],
+      "images": [
+        "https://chaldn.com/_mpimage/broiler-chicken-breast-boneless-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D74660&q=best&v=1&m=400&webp=1"
+      ]
+    },
+    {
+      "id": 513,
+      "slug": "Chicken-Liver-(Kolija)",
+      "name": "Chicken Liver (Kolija) 500 gm",
+      "price": 139.00 ,
+      "originalPrice":  "199.00",
+      "category": "Meat & Chicken",
+      "categorySlug": "Meat-Chicken",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        ""
+      ],
+      "ingredients": [
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": [],
+      "colors": [],
+      "images": [
+        "https://chaldn.com/_mpimage/chicken-liver-kolija-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D167892&q=best&v=1&m=400&webp=1"
+      ]
+    },
+    {
+      "id": 514,
+      "slug": "Broiler-Chicken-Breast-Boneless",
+      "name": "Broiler Chicken Breast Boneless 500 gm",
+      "price": 279.00 ,
+      "originalPrice":  "300.00",
+      "category": "Meat & Chicken",
+      "categorySlug": "Meat-Chicken",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        ""
+      ],
+      "ingredients": [
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": [],
+      "colors": [],
+      "images": [
+        "https://chaldn.com/_mpimage/broiler-chicken-breast-boneless-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D167900&q=best&v=1&m=400&webp=1"
+      ]
+    },
+    {
+      "id": 515,
+      "slug": "Bengal-Meat-whole-Chicken-Curry-Cut",
+      "name": "Bengal Meat Whole Chicken Curry Cut 1 kg",
+      "price": 465.00 ,
+      "originalPrice":  "465.00",
+      "category": "Meat & Chicken",
+      "categorySlug": "Meat-Chicken",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        ""
+      ],
+      "ingredients": [
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": [],
+      "colors": [],
+      "images": [
+        "https://chaldn.com/_mpimage/bengal-meat-whole-chicken-curry-cut-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D74653&q=best&v=1&m=400&webp=1"
+      ]
+    },
+    {
+      "id": 516,
+      "slug": "Broiler-Chicken-Drumsticks-50-gm-9-12-pcs",
+      "name": "Broiler Chicken Drumsticks ± 50 gm (9-12 pcs)",
+      "price": 459.00 ,
+      "originalPrice":  "460.00",
+      "category": "Meat & Chicken",
+      "categorySlug": "Meat-Chicken",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        ""
+      ],
+      "ingredients": [
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["1 kg"],
+      "colors": [],
+      "images": [
+        "https://chaldn.com/_mpimage/broiler-chicken-drumsticks-50-gm-9-12-pcs-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D74667&q=best&v=1&m=400&webp=1"
+      ]
+    },
+    {
+      "id": 517,
+      "slug": "Chicken-Liver-Gizzard-Mix",
+      "name": "Chicken Liver Gizzard Mix",
+      "price": 269.00 ,
+      "originalPrice":  "280.00",
+      "category": "Meat & Chicken",
+      "categorySlug": "Meat-Chicken",
+      "badge": " 5% Off",
+      "description": "",
+      "features": [
+        ""
+      ],
+      "ingredients": [
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["1 kg"],
+      "colors": [],
+      "images": [
+        "https://chaldn.com/_mpimage/chicken-liver-gizzard-mix-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D95190&q=best&v=1&m=400&m=400&webp=1"
+      ]
+    },
+    {
+      "id": 518,
+      "slug": "Chicken-Keema-Net-Weight-50-gm",
+      "name": "Chicken Keema (Net Weight ± 50 gm)",
+      "price": 699.00 ,
+      "originalPrice":  "699.00",
+      "category": "Meat & Chicken",
+      "categorySlug": "Meat-Chicken",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        ""
+      ],
+      "ingredients": [
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["1 kg"],
+      "colors": [],
+      "images": [
+        "https://chaldn.com/_mpimage/chicken-keema-net-weight-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D74669&q=best&v=1&m=400&webp=1"
+      ]
+    },
+    {
+      "id": 519,
+      "slug": "Cock-Chicken-Skin-Off",
+      "name": "Cock Chicken Skin Off",
+      "price": 289.00 ,
+      "originalPrice":  "305.00",
+      "category": "Meat & Chicken",
+      "categorySlug": "Meat-Chicken",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        ""
+      ],
+      "ingredients": [
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["500 gm"],
+      "colors": [],
+      "images": [
+        "https://chaldn.com/_mpimage/cock-chicken-skin-off-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D74651&q=best&v=1&m=400&webp=1"
+      ]
+    },
+    {
+      "id": 520,
+      "slug": "Bengal-Meat-Beef-Bone-In",
+      "name": "Bengal Meat Beef Bone In",
+      "price": 860.00 ,
+      "originalPrice":  "860.00",
+      "category": "Meat & Chicken",
+      "categorySlug": "Meat-Chicken",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        ""
+      ],
+      "ingredients": [
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["1 kg"],
+      "colors": [],
+      "images": [
+        "https://chaldn.com/_mpimage/bengal-meat-beef-bone-in-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D77384&q=low&v=1&m=400&webp=1"
+      ]
+    },
+    {
+      "id": 521,
+      "slug": "Beef-Liver-Kolija",
+      "name": "Beef Liver (Kolija)",
+      "price": 389.00 ,
+      "originalPrice":  "389.00",
+      "category": "Meat & Chicken",
+      "categorySlug": "Meat-Chicken",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        ""
+      ],
+      "ingredients": [
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["500 gm"],
+      "colors": [],
+      "images": [
+        "https://chaldn.com/_mpimage/bengal-meat-beef-bone-in-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D77384&q=low&v=1&m=400&webp=1"
+      ]
+    },
+    {
+      "id": 522,
+      "slug": "Beef-Bone-In",
+      "name": "Beef Bone In",
+      "price": 779.00 ,
+      "originalPrice":  "779.00",
+      "category": "Meat & Chicken",
+      "categorySlug": "Meat-Chicken",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        ""
+      ],
+      "ingredients": [
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["1 kg"],
+      "colors": [],
+      "images": [
+        "https://chaldn.com/_mpimage/beef-bone-in-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D73985&q=low&v=1&m=400&webp=1"
+      ]
+    },
+    {
+      "id": 523,
+      "slug": "Beef-Brain-Mogoz",
+      "name": "Beef Brain (Mogoz)",
+      "price": 469.00 ,
+      "originalPrice":  "469.00",
+      "category": "Meat & Chicken",
+      "categorySlug": "Meat-Chicken",
+      "badge": " Available",
+      "description": "",
+            "features": [
+        ""
+      ],
+      "ingredients": [
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["each"],
+      "colors": [],
+      "images": [
+        "https://chaldn.com/_mpimage/beef-brain-mogoz-1-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D95196&q=best&v=1&m=400&webp=1"
+      ]
+    },
+    {
+      "id": 524,
+      "slug": "Beef Ribs (Shinar Mangsho)",
+      "name": "Beef Ribs (Shinar Mangsho)",
+      "price": 779.00 ,
+      "originalPrice":  "779.00",
+      "category": "Meat & Chicken",
+      "categorySlug": "Meat-Chicken",
+      "badge": " Available",
+      "description": "",
+      "features": [
+        ""
+      ],
+      "ingredients": [
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["1 KG"],
+      "colors": [],
+      "images": [
+        "https://chaldn.com/_mpimage/beef-ribs-shinar-mangsho-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D95195&q=best&v=1&m=400&webp=1"
+      ]
+    },
+    {
+      "id": 525,
+      "slug": "Cow-Lungs",
+      "name": "Cow Lungs",
+      "price": 249.00 ,
+      "originalPrice":  "249.00",
+      "category": "Meat & Chicken",
+      "categorySlug": "Meat-Chicken",
+      "badge": " Available",
+      "description": "",
+            "features": [
+        ""
+      ],
+      "ingredients": [
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": ""
+        },
+        {
+          "name": "",
+          "benefit": " "
+        }
+      ],
+      "fullIngredients": "",
+      "howToUse": [
+        {
+          "step": 1,
+          "title": "Step - 1",
+          "description": ""
+        },
+        {
+          "step": 2,
+          "title": "Step - 2",
+          "description": ""
+        },
+        {
+          "step": 3,
+          "title": "Step - 3",
+          "description": ""
+        }
+      ],
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        ""
+      ],
+      "sizes": ["500 gm"],
+      "colors": [],
+      "images": [
+        "https://chaldn.com/_mpimage/cow-lungs-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D167903&q=best&v=1&m=400&webp=1"
       ]
     }
   ]

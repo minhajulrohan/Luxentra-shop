@@ -133,7 +133,7 @@ const navLinks = [
   { name: "Daily Needs", href: "/products/Dayli-Needs", subCategories: subCategoryData["Daily Needs"] },
   { name: "BAG DEALS", href: "/products/BAG-DEALS" },
   { name: "Health Care", href: "/healthcare", subCategories: subCategoryData["Health Care"] },
-  { name: "Grocery Shop", href: "/products/grocery-shop" },
+  { name: "Grocery Shop", href: "/food" },
 ];
 
 // --- Navbar Component ---
@@ -141,11 +141,11 @@ export function Navbar() {
   const [hoveredLink, setHoveredLink] = useState(/** @type {string|null} */ (null));
 
   const essentialNavLinks = navLinks.filter((link) =>
-    ["Marketplace"].includes(link.name)
+    ["Marketplace", "Shahara's Skin", "Womens"].includes(link.name)
   );
 
   const secondaryNavLinks = navLinks.filter((link) =>
-    !["Marketplace"].includes(link.name)
+    !["Marketplace", "Shahara's Skin", "Womens"].includes(link.name)
   );
 
   const handleMouseEnter = (linkName) => {

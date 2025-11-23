@@ -143,7 +143,6 @@ const OrderSuccess = () => {
               <h1 className="text-3xl font-bold mb-2">Order Placed Successful</h1>
               <p className="text-lg text-gray-600 mb-6">
                 ✅ ধন্যবাদ! আপনার অর্ডার সফলভাবে সম্পন্ন হয়েছে।
-                🚚 শিপিং সময়: ৩–৭ কর্মদিবস
               </p>
 
               <Button 

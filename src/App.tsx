@@ -34,6 +34,8 @@ import { path } from 'path';
 import Marketplace from "./pages/Marketplace";
 import { path } from 'path';
 import HealthCare from "./pages/HealthCare";
+import Foods from "./pages/Foods";
+
 
 
 function PopupController() {
@@ -76,7 +78,9 @@ const App = () => (
             <Route path="/termsconditions" element={<TermsConditions />} />
             <Route path="/blogDetails/:id" element={<BlogDetail />} />
             <Route path="/marketplace" element={<Marketplace />} />
-              <Route path="/healthcare" element={<HealthCare />} />
+            <Route path="/healthcare" element={<HealthCare />} />
+            <Route path="/food" element={<Foods />} />
+
               
             {/* Standardized Product Routing */}
             <Route path="/products" element={<CategoryListPage />} />

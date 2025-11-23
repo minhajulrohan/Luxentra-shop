@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
-import { Minus, Plus, Trash2, ShoppingBag, ArrowLeft } from "lucide-react";
+import { Minus, Plus, Trash2, ShoppingBag, ArrowLeft, Info } from "lucide-react";
 import { toast } from "sonner";
 import ScrollToTopButton from "@/components/Button";
 
@@ -13,7 +13,7 @@ interface CartItem {
   id: number;
   name: string;
   price: number;
-  images: string[]; // ধরে নেওয়া হলো ProductDetailsPage এই ফরম্যাট সেভ করে
+  images: string;
   selectedSize: string;
   selectedColor: string;
   quantity: number;
@@ -24,7 +24,6 @@ const Cart = () => {
   const [cartItems, setCartItems] = useState<CartItem[]>([]);
 
   const loadCart = () => {
-    // JSON.parse(null) দিলে এরর হয়, তাই || "[]" ব্যবহার করা জরুরি।
     const cart = JSON.parse(localStorage.getItem("cart") || "[]");
     setCartItems(cart);
   };
@@ -36,14 +35,12 @@ const Cart = () => {
       loadCart();
     };
     
-    // গ্লোবাল ইভেন্ট লিসেনার সেটআপ করা
     window.addEventListener("cartUpdated", handleCartUpdate);
     return () => window.removeEventListener("cartUpdated", handleCartUpdate);
   }, []);
 
   const updateQuantity = (index: number, newQuantity: number) => {
     if (newQuantity < 1) {
-      // কোয়ান্টিটি ০ বা মাইনাস হলে, আইটেমটি রিমুভ করে দেওয়া উচিত
       removeItem(index); 
       return;
     }
@@ -63,22 +60,24 @@ const Cart = () => {
     toast.success("Item removed from cart");
   };
 
+  // Calculations
   const subtotal = cartItems.reduce(
     (sum, item) => sum + item.price * item.quantity,
     0
   );
+
+  // Default shipping logic for Cart view (Actual calculation happens at Checkout based on City)
   const shipping = subtotal > 5999 ? 0 : 120;
+  
   const tax = subtotal * 0.015;
   const total = subtotal + shipping + tax;
 
-  // Checkout বাটনে ক্লিক করার হ্যান্ডলার
   const handleCheckout = () => {
     if (cartItems.length === 0) {
       toast.error("Your cart is empty");
       return;
     }
-    // toast.success("Proceeding to checkout..."); // এটি Checkout পেইজে দরকার নেই
-    navigate("/checkout"); // ✅ Checkout পেইজে নেভিগেট করা
+    navigate("/checkout");
   };
 
   if (cartItems.length === 0) {
@@ -119,15 +118,14 @@ const Cart = () => {
         <h1 className="text-4xl font-bold mb-8">Shopping Cart</h1>
 
         <div className="grid lg:grid-cols-3 gap-8">
-          {/* Cart Items */}
+          {/* Cart Items List */}
           <div className="lg:col-span-2 space-y-4">
             {cartItems.map((item, index) => (
               <Card key={index}>
                 <CardContent className="p-6">
                   <div className="flex gap-6">
                     <img
-                      // ✅ সুরক্ষিত রেন্ডারিং: নিশ্চিত করা হলো যে images অ্যারেতে অন্তত একটি উপাদান আছে
-                      src={item.images && item.images.length > 0 ? item.images[0] : 'https://via.placeholder.com/128x128?text=No+Image'}
+                      src={item.image ? item.image : 'https://via.placeholder.com/128x128?text=No+Image'}
                       alt={item.name}
                       className="w-32 h-32 object-cover rounded-md"
                     />
@@ -156,9 +154,7 @@ const Cart = () => {
                               variant="ghost"
                               size="icon"
                               className="h-8 w-8"
-                              onClick={() =>
-                                updateQuantity(index, item.quantity - 1)
-                              }
+                              onClick={() => updateQuantity(index, item.quantity - 1)}
                             >
                               <Minus className="w-4 h-4" />
                             </Button>
@@ -169,9 +165,7 @@ const Cart = () => {
                               variant="ghost"
                               size="icon"
                               className="h-8 w-8"
-                              onClick={() =>
-                                updateQuantity(index, item.quantity + 1)
-                              }
+                              onClick={() => updateQuantity(index, item.quantity + 1)}
                             >
                               <Plus className="w-4 h-4" />
                             </Button>
@@ -207,11 +201,16 @@ const Cart = () => {
                   </div>
                   
                   <div className="flex justify-between">
-                    <span className="text-muted-foreground">Shipping</span>
+                    <div className="flex items-center gap-1 text-muted-foreground">
+                      <span>Shipping (Est.)</span>
+                    </div>
                     <span className="font-semibold">
                       {shipping === 0 ? "FREE" : `TK ${shipping.toFixed(2)}`}
                     </span>
                   </div>
+                  <p className="text-xs text-muted-foreground -mt-3 text-right">
+                   *Final shipping calculated at checkout
+                  </p>
                   
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">Tax (1.5%)</span>
@@ -228,17 +227,21 @@ const Cart = () => {
                   </div>
                 </div>
                 
-                {subtotal < 50 && (
-                  <p className="text-sm text-muted-foreground mt-4 p-3 bg-secondary rounded-md">
-                    Add TK {(50 - subtotal).toFixed(2)} more for free shipping!
-                  </p>
+                {/* Free Shipping Banner Logic Fixed */}
+                {subtotal < 5999 && (
+                  <div className="mt-4 p-3 bg-secondary/50 rounded-md border border-secondary flex items-start gap-2">
+                     <Info className="w-4 h-4 mt-0.5 text-primary" />
+                     <p className="text-sm text-muted-foreground">
+                      Add <span className="font-bold text-foreground">TK {(5999 - subtotal).toFixed(2)}</span> more for free shipping!
+                    </p>
+                  </div>
                 )}
                 
                 <Button
                   variant="shop"
                   size="lg"
                   className="w-full mt-6"
-                  onClick={handleCheckout} // ✅ সংশোধিত: handleCheckout ফাংশন ব্যবহার করা হয়েছে
+                  onClick={handleCheckout}
                 >
                   Proceed to Checkout
                 </Button>

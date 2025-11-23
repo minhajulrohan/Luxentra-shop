@@ -56,7 +56,20 @@ const Checkout = () => {
     (sum, item) => sum + item.price * item.quantity,
     0
   );
-  const shipping = subtotal > 5999 ? 0 : 120;
+
+  // --- Shipping Logic Update Start ---
+  let shipping = 120; // Default shipping charge
+  
+  // Check if the city is Kurigram (case-insensitive)
+  const isKurigram = formData.city.trim().toLowerCase() === 'kurigram';
+
+  if (subtotal > 5999) {
+    shipping = 0; // Free shipping logic
+  } else if (isKurigram) {
+    shipping = 50; // Special rate for Kurigram
+  }
+  // --- Shipping Logic Update End ---
+
   const tax = subtotal * 0.015;
   
   // Calculate coupon discount
@@ -194,19 +207,19 @@ const Checkout = () => {
 
       // Save bill summary for payment page
       const billSummary = {
-      subTotal: subtotal,
-      discount: couponDiscount,
-      shippingCharge: shipping,
-      total: total,
-        };
+        subTotal: subtotal,
+        discount: couponDiscount,
+        shippingCharge: shipping,
+        total: total,
+      };
 
-sessionStorage.setItem('finalBillSummary', JSON.stringify(billSummary));
+      sessionStorage.setItem('finalBillSummary', JSON.stringify(billSummary));
 
-// Save order ID
-sessionStorage.setItem('currentOrderId', order.id);
+      // Save order ID
+      sessionStorage.setItem('currentOrderId', order.id);
 
-toast.success("Order created successfully!");
-navigate("/payment");
+      toast.success("Order created successfully!");
+      navigate("/payment");
 
     } catch (error: any) {
       console.error('Error creating order:', error);
@@ -272,7 +285,7 @@ navigate("/payment");
                   </div>
                   <div>
                     <Label htmlFor="city">City</Label>
-                    <Input id="city" value={formData.city} onChange={handleInputChange} required />
+                    <Input id="city" value={formData.city} onChange={handleInputChange} required placeholder="e.g. Kurigram" />
                   </div>
                   <div>
                     <Label htmlFor="state">State</Label>
@@ -303,7 +316,7 @@ navigate("/payment");
                 {cartItems.map((item, index) => (
                   <div key={index} className="flex gap-4">
                     <img
-                      src={item.images && item.images.length > 0 ? item.images[0] : 'https://via.placeholder.com/64x64?text=No+Image'}
+                      src={item.image ? item.image : 'https://via.placeholder.com/64x64?text=No+Image'}
                       alt={item.name}
                       className="w-16 h-16 object-cover rounded"
                     />

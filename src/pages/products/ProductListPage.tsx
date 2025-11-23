@@ -39,21 +39,23 @@ const ProductListPage = () => {
         <section className="py-12">
           <div className="container mx-auto px-4">
             {filteredProducts.length > 0 ? (
-              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
                 {filteredProducts.map((product) => (
                   <Link
                     key={product.id}
                     to={`/products/${categorySlug}/${product.slug}`}
                   >
-                    <ProductCard
+                <ProductCard
                 id={product.id}
                 name={product.name}
                 price={typeof product.price === 'string' ? parseFloat(product.price) : product.price}
                 originalPrice={product.originalPrice ? (typeof product.originalPrice === 'string' ? parseFloat(product.originalPrice) : product.originalPrice) : undefined}
                 image={product.images[0]}
                 badge={product.badge}
-                      categorySlug={categorySlug} 
-                      productSlug={product.slug}
+                colors={product.colors}
+                sizes={product.sizes}
+               categorySlug={categorySlug} 
+                productSlug={product.slug}
                     />
                   </Link>
                 ))}

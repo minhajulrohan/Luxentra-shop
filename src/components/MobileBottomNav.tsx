@@ -113,8 +113,8 @@ const allTopLevel = [
   { name: "Kids", href: "/products/kids-winter", key: "Kids" },
   { name: "Daily Needs", href: "/products/daily-needs", key: "Daily Needs" },
   { name: "BEST DEALS", href: "/products/BEST-DEALS" },
-  { name: "Health & Beauty", href: "/products/health-beauty" },
-  { name: "Luxentra FOOD", href: "/products/FOOD" },
+  { name: "Health Care", href: "/healthcare" },
+  { name: "Grocery Shop", href: "/food" },
   { name: "Wishlist", href: "/wishlist" },
   { name: "My Orders", href: "/orders" },
 ];
