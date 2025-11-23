@@ -127,7 +127,7 @@ const subCategoryData = {
 const navLinks = [
   { name: "Marketplace", href: "/marketplace" },
   { name: "Shahara's Skin", href: "/products/shahara-skin", subCategories: subCategoryData["Shahara's Skin"] },
-  { name: "Womens", href: "/products/womens/", subCategories: subCategoryData.Womens },
+  { name: "Womens", href: "/products/womens-jacket", subCategories: subCategoryData.Womens },
   { name: "Mens", href: "/products/mens-winter", subCategories: subCategoryData.Mens },
   { name: "Kids", href: "/products/kids-winter", subCategories: subCategoryData.Kids },
   { name: "Daily Needs", href: "/products/Dayli-Needs", subCategories: subCategoryData["Daily Needs"] },

@@ -15,9 +15,9 @@ interface CartItem {
   id: number;
   name: string;
   price: number;
-  images?: string[];
-  selectedSize?: string;
-  selectedColor?: string;
+  image: string;
+  size: string;
+  color: string;
   quantity: number;
 }
 
@@ -47,49 +47,31 @@ const Checkout = () => {
     }
 
     const cart = localStorage.getItem("cart");
-    if (cart) {
-      setCartItems(JSON.parse(cart));
-    }
+    if (cart) setCartItems(JSON.parse(cart));
   }, [user, navigate]);
 
-  const subtotal = cartItems.reduce(
-    (sum, item) => sum + item.price * item.quantity,
-    0
-  );
+  const subtotal = cartItems.reduce((sum, item) => sum + item.price * item.quantity, 0);
 
-  // --- Shipping Logic Update Start ---
-  let shipping = 120; // Default shipping charge
-  
-  // Check if the city is Kurigram (case-insensitive)
-  const isKurigram = formData.city.trim().toLowerCase() === 'kurigram';
-
-  if (subtotal > 5999) {
-    shipping = 0; // Free shipping logic
-  } else if (isKurigram) {
-    shipping = 50; // Special rate for Kurigram
-  }
-  // --- Shipping Logic Update End ---
+  let shipping = 120;
+  const isKurigram = formData.city.trim().toLowerCase() === "kurigram";
+  if (subtotal > 5999) shipping = 0;
+  else if (isKurigram) shipping = 50;
 
   const tax = subtotal * 0.015;
-  
-  // Calculate coupon discount
+
   let couponDiscount = 0;
   if (appliedCoupon) {
-    if (appliedCoupon.discount_type === 'percentage') {
+    if (appliedCoupon.discount_type === "percentage") {
       couponDiscount = (subtotal * appliedCoupon.discount_value) / 100;
-      if (appliedCoupon.max_discount_amount) {
-        couponDiscount = Math.min(couponDiscount, appliedCoupon.max_discount_amount);
-      }
-    } else {
-      couponDiscount = appliedCoupon.discount_value;
-    }
+      if (appliedCoupon.max_discount_amount) couponDiscount = Math.min(couponDiscount, appliedCoupon.max_discount_amount);
+    } else couponDiscount = appliedCoupon.discount_value;
   }
-  
+
   const total = subtotal + shipping + tax - couponDiscount;
 
   const handleInputChange = useCallback((e: React.ChangeEvent<HTMLInputElement>) => {
     const { id, value } = e.target;
-    setFormData(prev => ({ ...prev, [id]: value }));
+    setFormData((prev) => ({ ...prev, [id]: value }));
   }, []);
 
   const handleApplyCoupon = async () => {
@@ -97,14 +79,13 @@ const Checkout = () => {
       toast.error("Please enter a coupon code");
       return;
     }
-
     setCouponLoading(true);
     try {
       const { data: coupon, error } = await supabase
-        .from('coupons')
-        .select('*')
-        .eq('code', couponCode.toUpperCase())
-        .eq('is_active', true)
+        .from("coupons")
+        .select("*")
+        .eq("code", couponCode.toUpperCase())
+        .eq("is_active", true)
         .single();
 
       if (error || !coupon) {
@@ -112,19 +93,16 @@ const Checkout = () => {
         return;
       }
 
-      // Check if coupon is still valid
       if (coupon.valid_until && new Date(coupon.valid_until) < new Date()) {
         toast.error("This coupon has expired");
         return;
       }
 
-      // Check minimum purchase amount
       if (coupon.min_purchase_amount && subtotal < coupon.min_purchase_amount) {
         toast.error(`Minimum purchase of TK ${coupon.min_purchase_amount} required`);
         return;
       }
 
-      // Check usage limit
       if (coupon.usage_limit && coupon.used_count >= coupon.usage_limit) {
         toast.error("This coupon has reached its usage limit");
         return;
@@ -133,7 +111,7 @@ const Checkout = () => {
       setAppliedCoupon(coupon);
       toast.success("Coupon applied successfully!");
     } catch (error) {
-      console.error('Error applying coupon:', error);
+      console.error("Error applying coupon:", error);
       toast.error("Failed to apply coupon");
     } finally {
       setCouponLoading(false);
@@ -148,28 +126,27 @@ const Checkout = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     if (!user) {
       toast.error("Please log in to complete your order");
       navigate("/auth");
       return;
     }
-    
+
     if (!formData.fullName || !formData.email || !formData.phone || !formData.address || !formData.city || !formData.state || !formData.zipCode) {
       toast.error("Please fill in all fields");
       return;
     }
 
     setLoading(true);
-
     try {
-      const { data: orderNumberData, error: orderNumberError } = await supabase
-        .rpc('generate_order_number');
-
+      // 1️⃣ Generate order number
+      const { data: orderNumberData, error: orderNumberError } = await supabase.rpc("generate_order_number");
       if (orderNumberError) throw orderNumberError;
 
+      // 2️⃣ Insert order
       const { data: order, error: orderError } = await supabase
-        .from('orders')
+        .from("orders")
         .insert({
           user_id: user.id,
           order_number: orderNumberData,
@@ -186,43 +163,37 @@ const Checkout = () => {
           total,
           coupon_code: appliedCoupon?.code || null,
           coupon_discount: couponDiscount,
-          order_status: 'pending',
-          payment_status: 'pending'
+          order_status: "pending",
+          payment_status: "pending",
         })
         .select()
         .single();
-
       if (orderError) throw orderError;
 
-      const orderItems = cartItems.map(item => ({
+      // 3️⃣ Insert order items
+      const orderItems = cartItems.map((item) => ({
         order_id: order.id,
         product_id: String(item.id),
         product_name: item.name,
-        product_image: item.images && item.images.length > 0 ? item.images[0] : '',
+        product_image: item.image,
         quantity: item.quantity,
         price: item.price,
-        selected_size: item.selectedSize,
-        selected_color: item.selectedColor
+        selected_size: item.size,
+        selected_color: item.color,
       }));
 
-      // Save bill summary for payment page
-      const billSummary = {
-        subTotal: subtotal,
-        discount: couponDiscount,
-        shippingCharge: shipping,
-        total: total,
-      };
+      const { error: orderItemsError } = await supabase.from("order_items").insert(orderItems);
+      if (orderItemsError) throw orderItemsError;
 
-      sessionStorage.setItem('finalBillSummary', JSON.stringify(billSummary));
-
-      // Save order ID
-      sessionStorage.setItem('currentOrderId', order.id);
+      // 4️⃣ Save summary and order id
+      const billSummary = { subTotal: subtotal, discount: couponDiscount, shippingCharge: shipping, total };
+      sessionStorage.setItem("finalBillSummary", JSON.stringify(billSummary));
+      sessionStorage.setItem("currentOrderId", order.id);
 
       toast.success("Order created successfully!");
       navigate("/payment");
-
     } catch (error: any) {
-      console.error('Error creating order:', error);
+      console.error("Error creating order:", error);
       toast.error(error.message || "Failed to create order");
     } finally {
       setLoading(false);
@@ -236,9 +207,7 @@ const Checkout = () => {
         <main className="flex-1 flex items-center justify-center">
           <div className="text-center">
             <h2 className="text-2xl font-bold mb-4">Your cart is empty</h2>
-            <Button onClick={() => navigate("/shop")}>
-              Continue Shopping
-            </Button>
+            <Button onClick={() => navigate("/shop")}>Continue Shopping</Button>
           </div>
         </main>
         <Footer />
@@ -250,11 +219,7 @@ const Checkout = () => {
     <div className="min-h-screen flex flex-col">
       <Header />
       <main className="flex-1 container mx-auto px-4 py-12">
-        <Button
-          variant="ghost"
-          onClick={() => navigate("/cart")}
-          className="mb-6"
-        >
+        <Button variant="ghost" onClick={() => navigate("/cart")} className="mb-6">
           <ArrowLeft className="w-4 h-4 mr-2" />
           Back to Cart
         </Button>
@@ -298,12 +263,7 @@ const Checkout = () => {
                 </div>
               </div>
 
-              <Button 
-                type="submit" 
-                className="w-full" 
-                size="lg"
-                disabled={loading}
-              >
+              <Button type="submit" className="w-full" size="lg" disabled={loading}>
                 {loading ? "Creating Order..." : `Proceed to Payment - TK ${total.toFixed(2)}`}
               </Button>
             </form>
@@ -315,26 +275,17 @@ const Checkout = () => {
               <div className="space-y-4 mb-6">
                 {cartItems.map((item, index) => (
                   <div key={index} className="flex gap-4">
-                    <img
-                      src={item.image ? item.image : 'https://via.placeholder.com/64x64?text=No+Image'}
-                      alt={item.name}
-                      className="w-16 h-16 object-cover rounded"
-                    />
+                    <img src={item.image || "https://via.placeholder.com/64"} alt={item.name} className="w-16 h-16 object-cover rounded" />
                     <div className="flex-1">
                       <p className="font-medium text-sm">{item.name}</p>
-                      <p className="text-sm text-muted-foreground">
-                        Qty: {item.quantity}
-                      </p>
-                      {item.selectedSize && (
-                        <p className="text-xs text-muted-foreground">Size: {item.selectedSize}</p>
-                      )}
+                      <p className="text-sm text-muted-foreground">Qty: {item.quantity}</p>
+                      {item.size && <p className="text-xs text-muted-foreground">Size: {item.size}</p>}
                     </div>
                     <p className="font-semibold">TK {(item.price * item.quantity).toFixed(2)}</p>
                   </div>
                 ))}
               </div>
-              
-              {/* Coupon Code Section */}
+
               <div className="border-t pt-4 mb-4">
                 <Label htmlFor="coupon" className="mb-2 block">Coupon Code</Label>
                 <div className="flex gap-2">
@@ -346,19 +297,9 @@ const Checkout = () => {
                     disabled={!!appliedCoupon}
                   />
                   {appliedCoupon ? (
-                    <Button 
-                      type="button" 
-                      variant="outline" 
-                      onClick={handleRemoveCoupon}
-                    >
-                      Remove
-                    </Button>
+                    <Button type="button" variant="outline" onClick={handleRemoveCoupon}>Remove</Button>
                   ) : (
-                    <Button 
-                      type="button" 
-                      onClick={handleApplyCoupon}
-                      disabled={couponLoading}
-                    >
+                    <Button type="button" onClick={handleApplyCoupon} disabled={couponLoading}>
                       {couponLoading ? "Checking..." : "Apply"}
                     </Button>
                   )}

@@ -104,8 +104,10 @@ const Shop = () => {
               originalPrice={product.originalPrice ? (typeof product.originalPrice === 'string' ? parseFloat(product.originalPrice) : product.originalPrice) : undefined}
               image={product.images[0]}
               badge={product.badge}
-                  categorySlug={product.categorySlug} 
-                  productSlug={product.slug}
+              categorySlug={product.categorySlug} 
+              productSlug={product.slug}
+              colors={product.colors}
+              sizes={product.sizes}
                 />
               ))}
             </div>

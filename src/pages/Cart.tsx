@@ -9,13 +9,15 @@ import { Minus, Plus, Trash2, ShoppingBag, ArrowLeft, Info } from "lucide-react"
 import { toast } from "sonner";
 import ScrollToTopButton from "@/components/Button";
 
+// ✅ ফিক্স: CartItem ইন্টারফেস আপডেট করা হলো
+// এটি প্রোডাক্ট ডিটেইলস পেজ থেকে localStorage এ সেভ হওয়া ডেটা স্ট্রাকচারের সাথে মিলিয়ে দেওয়া হলো।
 interface CartItem {
   id: number;
   name: string;
   price: number;
-  images: string;
-  selectedSize: string;
-  selectedColor: string;
+  image: string; // আপনার product detail page এ 'image' হিসেবে সেভ হয়েছে, 'images' নয়।
+  size: string;   // পূর্বে ছিল selectedSize
+  color: string;  // পূর্বে ছিল selectedColor
   quantity: number;
 }
 
@@ -24,6 +26,7 @@ const Cart = () => {
   const [cartItems, setCartItems] = useState<CartItem[]>([]);
 
   const loadCart = () => {
+    // localStorage থেকে ডেটা লোড
     const cart = JSON.parse(localStorage.getItem("cart") || "[]");
     setCartItems(cart);
   };
@@ -31,6 +34,7 @@ const Cart = () => {
   useEffect(() => {
     loadCart();
     
+    // Custom event listener for real-time cart update across components
     const handleCartUpdate = () => {
       loadCart();
     };
@@ -69,6 +73,7 @@ const Cart = () => {
   // Default shipping logic for Cart view (Actual calculation happens at Checkout based on City)
   const shipping = subtotal > 5999 ? 0 : 120;
   
+  // Tax calculation (1.5%)
   const tax = subtotal * 0.015;
   const total = subtotal + shipping + tax;
 
@@ -80,6 +85,7 @@ const Cart = () => {
     navigate("/checkout");
   };
 
+  // --- Empty Cart View ---
   if (cartItems.length === 0) {
     return (
       <div className="min-h-screen flex flex-col">
@@ -101,6 +107,7 @@ const Cart = () => {
     );
   }
 
+  // --- Cart with Items View ---
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
@@ -125,27 +132,31 @@ const Cart = () => {
                 <CardContent className="p-6">
                   <div className="flex gap-6">
                     <img
+                      // ✅ Fix: item.image ব্যবহার করা হলো
                       src={item.image ? item.image : 'https://via.placeholder.com/128x128?text=No+Image'}
                       alt={item.name}
                       className="w-32 h-32 object-cover rounded-md"
                     />
                     
                     <div className="flex-1">
+                      {/* Link to Product Detail Page (using item.id is generic, ideally use slug) */}
                       <Link
-                        to={`/product/${item.id}`}
+                        to={`/product/${item.id}`} 
                         className="text-xl font-semibold hover:text-primary transition-colors"
                       >
                         {item.name}
                       </Link>
                       
                       <div className="flex gap-4 mt-2 text-sm text-muted-foreground">
-                        <span>Size: <strong>{item.selectedSize}</strong></span>
-                        <span>Color: <strong>{item.selectedColor}</strong></span>
+                        {/* ✅ Fix: item.size এবং item.color ব্যবহার করা হলো */}
+                        {item.size && <span>Size: <strong>{item.size}</strong></span>}
+                        {item.color && <span>Color: <strong>{item.color}</strong></span>}
+                        {/* যদি সাইজ বা কালার না থাকে (যেমন: স্কিনকেয়ার), তবে এই স্প্যানগুলি রেন্ডার হবে না */}
                       </div>
                       
                       <div className="flex items-center justify-between mt-4">
                         <span className="text-2xl font-bold text-primary">
-                          TK {item.price.toFixed(2)}
+                          TK {(item.price * item.quantity).toFixed(2)}
                         </span>
                         
                         <div className="flex items-center gap-4">
@@ -209,7 +220,7 @@ const Cart = () => {
                     </span>
                   </div>
                   <p className="text-xs text-muted-foreground -mt-3 text-right">
-                   *Final shipping calculated at checkout
+                    *Final shipping calculated at checkout
                   </p>
                   
                   <div className="flex justify-between">

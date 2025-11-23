@@ -29,7 +29,7 @@ import ProductListPage from "./pages/products/ProductListPage";
 import ProductDetailsPage from "./pages/products/ProductDetailsPage";
 import TestConnection from "./test/TestConnection";
 import AdminDashboard from "./pages/admin/AdminDashboard";
-import Ads from "./components/Add";
+// import Ads from "./components/Add";
 import { path } from 'path';
 import Marketplace from "./pages/Marketplace";
 import { path } from 'path';
@@ -38,14 +38,14 @@ import Foods from "./pages/Foods";
 
 
 
-function PopupController() {
-  const location = useLocation();
+// function PopupController() {
+//   const location = useLocation();
 
-  // শুধুমাত্র যখন path হোম তখন popup দেখাও
-  const showPopup = location.pathname === "/";
+//   // শুধুমাত্র যখন path হোম তখন popup দেখাও
+//   const showPopup = location.pathname === "/";
 
-  return <>{showPopup && <Ads />}</>;
-}
+//   return <>{showPopup && <Ads />}</>;
+// }
 
 
 
@@ -59,7 +59,7 @@ const App = () => (
         <Toaster />
         <Sonner />
         <BrowserRouter>
-          <PopupController />
+          {/* <PopupController /> */}
           <AuthProvider>
             <Routes>
             
