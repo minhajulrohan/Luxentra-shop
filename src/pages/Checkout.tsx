@@ -253,7 +253,7 @@ const Checkout = () => {
                     <Input id="city" value={formData.city} onChange={handleInputChange} required placeholder="e.g. Kurigram" />
                   </div>
                   <div>
-                    <Label htmlFor="state">State</Label>
+                    <Label htmlFor="state">Division</Label>
                     <Input id="state" value={formData.state} onChange={handleInputChange} required />
                   </div>
                   <div>

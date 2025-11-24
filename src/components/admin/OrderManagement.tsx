@@ -1,24 +1,35 @@
 import { useState, useEffect } from "react";
 import { supabase } from "@/integrations/supabase/client";
+// নিশ্চিত করুন যে path সঠিক আছে। যদি OrderManagement.tsx টি components/admin/ এ থাকে এবং Modal টি components/ এ থাকে, তবে "../OrderDetailsModal" ব্যবহার করুন।
+import { OrderDetailsModal } from "./OrderDetailsModal"; 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button"; // <--- ত্রুটি ২: Button Import করা হলো
 import { toast } from "sonner";
-import { format, subDays, subMonths, startOfWeek, startOfMonth } from "date-fns";
-import { Calendar, TrendingUp, Package } from "lucide-react";
+import { format, startOfWeek, startOfMonth } from "date-fns";
+import { Calendar, TrendingUp, Package, CheckCheck } from "lucide-react"; // <--- ত্রুটি ২: CheckCheck Icon Import করা হলো
 
+
+// 👇👇👇 ত্রুটি ১: Order Interface আপডেট করা হয়েছে 👇👇👇
 interface Order {
   id: string;
   order_number: string;
   full_name: string;
   email: string;
+  phone: string;         // <--- নতুন যোগ করা হয়েছে
+  address_line1: string; // <--- নতুন যোগ করা হয়েছে
+  address_line2: string | null; // Nullable হিসেবে যোগ করা হয়েছে (যদি প্রয়োজন হয়)
+  city: string;          // <--- নতুন যোগ করা হয়েছে
   total: number;
   order_status: string;
   payment_status: string;
   created_at: string;
 }
+// 👆👆👆 Order Interface আপডেট করা হয়েছে 👆👆👆
+
 
 export const OrderManagement = () => {
   const [allOrders, setAllOrders] = useState<Order[]>([]);
@@ -33,26 +44,28 @@ export const OrderManagement = () => {
   const fetchOrders = async () => {
     setLoading(true);
     try {
+      // NOTE: RLS বাইপাস করে সকল অর্ডার Fetch করার জন্য এডমিন কনটেক্সট নিশ্চিত করুন।
+      // সমস্ত কলাম সিলেক্ট করা হচ্ছে যাতে phone, address_line1 ইত্যাদি পাওয়া যায়।
       const { data, error } = await supabase
         .from("orders")
-        .select("*")
+        .select("*") 
         .order("created_at", { ascending: false });
 
       if (error) throw error;
 
-      const orders = data || [];
+      const orders = data as Order[] || []; // Type Assertion ব্যবহার করা হলো
       setAllOrders(orders);
 
       // Filter weekly orders
-      const weekStart = startOfWeek(new Date());
-      const weekly = orders.filter((order: Order) => 
+      const weekStart = startOfWeek(new Date(), { weekStartsOn: 0 }); // Sunday as start of week
+      const weekly = orders.filter((order) => 
         new Date(order.created_at) >= weekStart
       );
       setWeeklyOrders(weekly);
 
       // Filter monthly orders
       const monthStart = startOfMonth(new Date());
-      const monthly = orders.filter((order: Order) => 
+      const monthly = orders.filter((order) => 
         new Date(order.created_at) >= monthStart
       );
       setMonthlyOrders(monthly);
@@ -79,6 +92,23 @@ export const OrderManagement = () => {
       console.error(error);
     }
   };
+// 👇👇👇 নতুন ফাংশন ঠিক আছে 👇👇👇
+  const handlePaymentStatusChange = async (orderId: string, newStatus: string) => {
+    try {
+      const { error } = await supabase
+        .from("orders")
+        .update({ payment_status: newStatus as any })
+        .eq("id", orderId);
+
+      if (error) throw error;
+      toast.success("Payment status updated to Paid (Completed)");
+      fetchOrders(); 
+    } catch (error: any) {
+      toast.error("Failed to update payment status");
+      console.error(error);
+    }
+  };
+// 👆👆👆 নতুন ফাংশন ঠিক আছে 👆👆👆
 
   const getStatusColor = (status: string) => {
     const colors: Record<string, string> = {
@@ -94,7 +124,7 @@ export const OrderManagement = () => {
   const getPaymentStatusColor = (status: string) => {
     const colors: Record<string, string> = {
       pending: "bg-yellow-100 text-yellow-800",
-      paid: "bg-green-100 text-green-800",
+      completed: "bg-green-100 text-green-800", 
       failed: "bg-red-100 text-red-800",
     };
     return colors[status] || "bg-gray-100 text-gray-800";
@@ -102,7 +132,7 @@ export const OrderManagement = () => {
 
   const calculateStats = (orders: Order[]) => {
     const total = orders.reduce((sum, order) => sum + Number(order.total), 0);
-    const paid = orders.filter(o => o.payment_status === 'paid').length;
+    const paid = orders.filter(o => o.payment_status === 'completed').length;
     return { count: orders.length, total, paid };
   };
 
@@ -114,11 +144,13 @@ export const OrderManagement = () => {
             <TableHead>Order #</TableHead>
             <TableHead>Customer Name</TableHead>
             <TableHead>Email</TableHead>
+            <TableHead>Phone</TableHead> 
+            <TableHead>Address</TableHead>
             <TableHead>Total (TK)</TableHead>
             <TableHead>Payment</TableHead>
             <TableHead>Status</TableHead>
             <TableHead>Date</TableHead>
-            <TableHead>Action</TableHead>
+            <TableHead className="text-center min-w-[250px]">Action</TableHead> {/* কলামের প্রস্থ বাড়ানো হলো */}
           </TableRow>
         </TableHeader>
         <TableBody>
@@ -127,6 +159,10 @@ export const OrderManagement = () => {
               <TableCell className="font-mono text-sm">{order.order_number}</TableCell>
               <TableCell className="font-medium">{order.full_name}</TableCell>
               <TableCell className="text-sm">{order.email}</TableCell>
+              <TableCell className="text-sm font-medium whitespace-nowrap">{order.phone}</TableCell>
+              <TableCell className="text-xs max-w-[150px] truncate" title={`${order.address_line1}, ${order.city}`}>
+                {order.address_line1}, {order.city}
+              </TableCell>
               <TableCell className="font-semibold">{Number(order.total).toFixed(2)}</TableCell>
               <TableCell>
                 <Badge className={getPaymentStatusColor(order.payment_status)}>
@@ -141,12 +177,28 @@ export const OrderManagement = () => {
               <TableCell className="text-sm">
                 {format(new Date(order.created_at), "MMM dd, yyyy")}
               </TableCell>
-              <TableCell>
+              
+              <TableCell className="flex items-center space-x-2"> 
+                
+                {/* পেমেন্ট স্ট্যাটাস পরিবর্তনের বাটন */}
+                {order.payment_status !== 'completed' && (
+                    <Button 
+                        variant="secondary" 
+                        size="sm" 
+                        className="h-8 flex-shrink-0 bg-green-500 hover:bg-green-600 text-white"
+                        onClick={() => handlePaymentStatusChange(order.id, 'completed')}
+                    >
+                        <CheckCheck className="h-4 w-4 mr-1" />
+                        Mark Paid
+                    </Button>
+                )}
+
+                {/* অর্ডার স্ট্যাটাস পরিবর্তনের Select ট্রিগার */}
                 <Select
                   value={order.order_status}
                   onValueChange={(value) => handleStatusChange(order.id, value)}
                 >
-                  <SelectTrigger className="w-32">
+                  <SelectTrigger className="w-32 flex-shrink-0">
                     <SelectValue />
                   </SelectTrigger>
                   <SelectContent>
@@ -157,6 +209,12 @@ export const OrderManagement = () => {
                     <SelectItem value="cancelled">Cancelled</SelectItem>
                   </SelectContent>
                 </Select>
+                
+                {/* Order Details Modal */}
+                <OrderDetailsModal 
+                    orderId={order.id} 
+                    orderNumber={order.order_number} 
+                />
               </TableCell>
             </TableRow>
           ))}
