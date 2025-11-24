@@ -108,6 +108,120 @@
         "",
         ""
       ]
+    },
+    {
+      "id": 3,
+      "name": "The Ordinary Niacinamide 10% + Zinc 1% 30ml",
+      "slug": "Ordinary-Niacinamide--Zinc-30ml",
+      "category": "Shahara's skin Care",
+      "categorySlug": "shahara-skin",
+      "price": 1100.00,
+      "originalPrice": 1850.00,
+      "stockQuantity": 12, 
+      "description": "",
+      "fullDescription": "",
+      "brand": "DABO",
+      "sku": "FSC_456835ZFBYU28093",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2024/09/99.png",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/09/The-Ordinary-Niacinamide-10-Zinc-1-60ml-3.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/09/The-Ordinary-Niacinamide-10-Zinc-1-60ml-1.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "Country of Origin :", "value": "South Korea" },
+        { "label": "The Ordinary Niacinamide 10% + Zinc 1% 60ml – Your Go-To Solution for Clearer, Healthier Skin", "value": "Unlock the secret to brighter, more balanced skin with The Ordinary Niacinamide 10% + Zinc 1% 60ml. This potent serum is formulated to improve the appearance of skin texture and tone while targeting common skin concerns such as blemishes and excess oil. With a high concentration of niacinamide (vitamin B3) and zinc, this formula provides a multitude of benefits for a clearer, healthier complexion." },
+        { "label": " 1 : Key Benefits of The Ordinary Niacinamide 10% + Zinc 1% ", "value": "Minimizes Blemishe, Niacinamide is known for its ability to reduce the appearance of blemishes and congestion. By regulating oil production, this serum helps keep your pores clear, leading to a more even skin tone." },
+        { "label": "", "value": "2 : Reduces Excess Oil Production The addition of zinc works synergistically with niacinamide to control oil production, making this serum an ideal choice for oily and acne-prone skin types. Enjoy a shine-free complexion without the dryness often associated with oil-control products." },
+        { "label": "", "value": " 3 : Enhances Skin Barrier Function Niacinamide plays a crucial role in maintaining the skin’s natural barrier. This helps to protect the skin from environmental damage while ensuring it stays hydrated, which is vital for overall skin health." },
+        { "label": "", "value": " 4 : Improves Skin Texture Regular use of this serum can lead to smoother, more refined skin texture. The formula works to minimize the appearance of enlarged pores and uneven skin tone, promoting a radiant complexion.." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "Cleanse", "description": "Apply to clean, dry skin after cleansing." },
+        { "step": "2", "title": "Apply", "description": "Dispense 3-4 drops onto your palm and gently massage onto face and neck." }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Anua Niacinamide 10% + TXA 4% Dark Spot Correcting Serum 30ml",
+      "slug": "Anua Niacinamide-ark-Spot-Correcting-Serum-30ml",
+      "category": "Shahara's skin Care",
+      "categorySlug": "shahara-skin",
+      "price": 1890.00,
+      "originalPrice": 2450.00,
+      "stockQuantity": 20, 
+      "description": "",
+      "fullDescription": "",
+      "brand": "DABO",
+      "sku": "FSC_456835ZFBYU28093",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2024/08/ANUA-NIACINAMIDE-10-TXA-4-SERUM-30ml.png",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/08/Anua-1.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/08/Screenshot_20-1.png"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " " },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
     }
   ]
 }
