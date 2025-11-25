@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { Heart, Menu, Search, ShoppingCart, User, Package, Moon, Sun, LogOut } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -17,28 +17,35 @@ import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { Sheet, SheetContent, SheetTrigger, SheetClose } from "@/components/ui/sheet";
 import { Navbar } from "./Navbar";
 
-// ⚠️ STEP 1: DEFINE THE ADMIN EMAIL ADDRESS
-// REPLACE THIS WITH THE ACTUAL EMAIL USED FOR YOUR ADMIN ACCOUNT
-const ADMIN_EMAIL = "minhajulislamrohan123@gmail.com"; 
+// নতুন: Daraz-এর মতো লগইন মডাল ইম্পোর্ট
+import { AuthModal } from "@/components/auth/AuthModal";
 
-const Header = () => {
+// ADMIN ইমেইল ডিফাইন
+const ADMIN_EMAIL = "minhajulislamrohan123@gmail.com";
+
+const Header: React.FC = () => {
   const [cartCount, setCartCount] = useState(0);
   const [searchQuery, setSearchQuery] = useState("");
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
+
   const navigate = useNavigate();
   const { theme, setTheme } = useTheme();
   const { user, signOut } = useAuth();
-  
-  // STEP 2: CHECK IF THE LOGGED-IN USER IS THE ADMIN
-  const isAdmin = user && user.email === ADMIN_EMAIL;
+
+  const isAdmin = !!(user && user.email === ADMIN_EMAIL);
 
   const updateCartCount = () => {
-    const cart = JSON.parse(localStorage.getItem("cart") || "[]");
-    const count = cart.reduce((sum: number, item: any) => sum + item.quantity, 0);
-    setCartCount(count);
+    try {
+      const cart = JSON.parse(localStorage.getItem("cart") || "[]");
+      const count = Array.isArray(cart) ? cart.reduce((sum: number, item: any) => sum + (item.quantity || 0), 0) : 0;
+      setCartCount(count);
+    } catch (err) {
+      setCartCount(0);
+    }
   };
 
-  const handleSearch = (e: React.FormEvent) => {
+  const handleSearch = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     if (searchQuery.trim()) {
       navigate(`/shop?search=${encodeURIComponent(searchQuery)}`);
@@ -48,50 +55,32 @@ const Header = () => {
 
   useEffect(() => {
     updateCartCount();
-    window.addEventListener("cartUpdated", updateCartCount);
-    return () => window.removeEventListener("cartUpdated", updateCartCount);
+    window.addEventListener("cartUpdated", updateCartCount as EventListener);
+    return () => window.removeEventListener("cartUpdated", updateCartCount as EventListener);
   }, []);
 
   return (
     <header className="border-b sticky top-0 bg-background z-50">
-      <div className="container mx-auto px-4 border-b sticky top-0 bg-background z-50">
+      <div className="container mx-auto px-4">
         <div className="flex items-center justify-between py-4">
           <div className="flex items-center gap-8">
             <Link to="/" className="text-2xl font-bold">
               <span className="text-primary">Luxentra</span> Shop
             </Link>
-            <nav className="hidden md:flex items-center justify-center  gap-6 flex-1">
-              <Link to="/" className="text-sm font-md-bold hover:text-primary transition-colors">
-                Home
-              </Link>
-              <Link to="/about" className="text-sm font-medium hover:text-primary transition-colors">
-                About
-              </Link>
-              <Link to="/blog" className="text-sm font-medium hover:text-primary transition-colors">
-                Blog
-              </Link>
-              <Link to="/contact" className="text-sm font-medium hover:text-primary transition-colors">
-                Contact
-              </Link>
-              
-              {/* ADDED: My Orders link in Desktop Nav (Conditionally visible if user is logged in) */}
-              {/* {user && (
-                <Link to="/orders" className="text-sm font-medium hover:text-primary transition-colors">
-                  My Orders
-                </Link>
-              )} */}
-              
-              {/* STEP 3A: Conditionally render Admin link in Desktop Nav */}
+
+            <nav className="hidden md:flex items-center justify-center gap-6 flex-1">
+              <Link to="/" className="text-sm font-md-bold hover:text-primary transition-colors">Home</Link>
+              <Link to="/about" className="text-sm font-medium hover:text-primary transition-colors">About</Link>
+              <Link to="/blog" className="text-sm font-medium hover:text-primary transition-colors">Blog</Link>
+              <Link to="/contact" className="text-sm font-medium hover:text-primary transition-colors">Contact</Link>
+
               {isAdmin && (
-                <Link to="/admin" className="text-sm font-medium hover:text-primary transition-colors">
-                  Admin
-                </Link>
+                <Link to="/admin" className="text-sm font-medium hover:text-primary transition-colors">Admin</Link>
               )}
             </nav>
           </div>
 
           <div className="flex items-center gap-4">
-            {/* Search Form */}
             <form onSubmit={handleSearch} className="hidden lg:flex items-center gap-2 border rounded-md px-3 py-2 w-64">
               <Search className="w-4 h-4 text-muted-foreground" />
               <Input
@@ -102,24 +91,21 @@ const Header = () => {
                 className="border-0 p-0 h-auto focus-visible:ring-0"
               />
             </form>
-            
-            {/* Theme Toggle */}
-            <Button 
-              variant="ghost" 
-              size="icon" 
+
+            <Button
+              variant="ghost"
+              size="icon"
               onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
             >
               {theme === "dark" ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
             </Button>
 
-            {/* Wishlist */}
             <Link to="/wishlist">
               <Button variant="ghost" size="icon" className="hidden md:inline-flex">
                 <Heart className="w-5 h-5" />
               </Button>
             </Link>
-            
-            {/* Cart */}
+
             <Link to="/cart">
               <Button variant="ghost" size="icon" className="relative">
                 <ShoppingCart className="w-5 h-5" />
@@ -131,7 +117,6 @@ const Header = () => {
               </Button>
             </Link>
 
-            {/* User Dropdown / Login Button */}
             {user ? (
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
@@ -143,143 +128,109 @@ const Header = () => {
                     </Avatar>
                   </Button>
                 </DropdownMenuTrigger>
+
                 <DropdownMenuContent align="end" className="w-56">
                   <DropdownMenuLabel>
                     <div className="flex flex-col space-y-1">
                       <p className="text-sm font-medium leading-none">My Account</p>
-                      <p className="text-xs leading-none text-muted-foreground">
-                        {user.email}
-                      </p>
+                      <p className="text-xs leading-none text-muted-foreground">{user.email}</p>
                     </div>
                   </DropdownMenuLabel>
+
                   <DropdownMenuSeparator />
+
                   <DropdownMenuItem onClick={() => navigate("/profile")}>
-                    <User className="mr-2 h-4 w-4" />
-                    Profile
+                    <User className="mr-2 h-4 w-4" /> Profile
                   </DropdownMenuItem>
-                  
-                  {/* ADDED: My Orders link in User Dropdown */}
+
                   <DropdownMenuItem onClick={() => navigate("/orders")}>
-                    <Package className="mr-2 h-4 w-4" />
-                    My Orders
+                    <Package className="mr-2 h-4 w-4" /> My Orders
                   </DropdownMenuItem>
-                  
-                  {/* STEP 3B: Conditionally render Admin link in User Dropdown */}
+
                   {isAdmin && (
                     <DropdownMenuItem onClick={() => navigate("/admin")}>
-                        <Package className="mr-2 h-4 w-4" />
-                        Admin Dashboard
+                      <Package className="mr-2 h-4 w-4" /> Admin Dashboard
                     </DropdownMenuItem>
                   )}
-                  <DropdownMenuItem onClick={signOut}>
-                    <LogOut className="mr-2 h-4 w-4" />
-                    Logout
+
+                  <DropdownMenuItem onClick={() => signOut()}>
+                    <LogOut className="mr-2 h-4 w-4" /> Logout
                   </DropdownMenuItem>
                 </DropdownMenuContent>
               </DropdownMenu>
             ) : (
-              <Link to="/auth">
-                <Button variant="default" size="sm" className="hidden md:inline-flex">
-                  Login
-                </Button>
-              </Link>
+              <Button
+                variant="default"
+                size="sm"
+                className="hidden md:inline-flex"
+                onClick={() => setIsAuthModalOpen(true)}
+              >
+                Login
+              </Button>
             )}
 
-            {/* Mobile Menu */}
             <Sheet open={mobileMenuOpen} onOpenChange={setMobileMenuOpen}>
               <SheetTrigger asChild>
                 <Button variant="ghost" size="icon" className="md:hidden">
                   <Menu className="w-5 h-5" />
                 </Button>
               </SheetTrigger>
+
               <SheetContent side="left" className="w-[300px]">
                 <nav className="flex flex-col gap-4 mt-8">
-                  <Link 
-                    to="/" 
-                    className="text-lg font-medium hover:text-primary transition-colors"
-                    onClick={() => setMobileMenuOpen(false)}
-                  >
-                    Home
-                  </Link>
-                  <Link 
-                    to="/shop" 
-                    className="text-lg font-medium hover:text-primary transition-colors"
-                    onClick={() => setMobileMenuOpen(false)}
-                  >
-                    Shop All Product
-                  </Link>
-                  <Link 
-                    to="/about" 
-                    className="text-lg font-medium hover:text-primary transition-colors"
-                    onClick={() => setMobileMenuOpen(false)}
-                  >
-                    About
-                  </Link>
-                  <Link 
-                    to="/blog" 
-                    className="text-lg font-medium hover:text-primary transition-colors"
-                    onClick={() => setMobileMenuOpen(false)}
-                  >
-                    Blog
-                  </Link>
-                  <Link 
-                    to="/contact" 
-                    className="text-lg font-medium hover:text-primary transition-colors"
-                    onClick={() => setMobileMenuOpen(false)}
-                  >
-                    Contact
-                  </Link>
-                  {/* STEP 3C: Conditionally render Admin link in Mobile Menu */}
+                  <Link to="/" className="text-lg font-medium hover:text-primary transition-colors" onClick={() => setMobileMenuOpen(false)}>Home</Link>
+
+                  <Link to="/shop" className="text-lg font-medium hover:text-primary transition-colors" onClick={() => setMobileMenuOpen(false)}>Shop All Product</Link>
+
+                  <Link to="/about" className="text-lg font-medium hover:text-primary transition-colors" onClick={() => setMobileMenuOpen(false)}>About</Link>
+
+                  <Link to="/blog" className="text-lg font-medium hover:text-primary transition-colors" onClick={() => setMobileMenuOpen(false)}>Blog</Link>
+
+                  <Link to="/contact" className="text-lg font-medium hover:text-primary transition-colors" onClick={() => setMobileMenuOpen(false)}>Contact</Link>
+
                   {isAdmin && (
-                    <Link 
-                      to="/admin" 
-                      className="text-lg font-medium hover:text-primary transition-colors"
-                      onClick={() => setMobileMenuOpen(false)}
-                    >
-                      Admin
-                    </Link>
+                    <Link to="/admin" className="text-lg font-medium hover:text-primary transition-colors" onClick={() => setMobileMenuOpen(false)}>Admin</Link>
                   )}
-                  
-                  <div className="mt-4 border-t pt-4"> {/* Separator for utilities */}
-                      {/* MOVED/UPDATED: My Orders link in Mobile Menu (now a full button/link) */}
-                      {user && (
-                          <SheetClose asChild>
-                              <Link
-                                  to="/orders"
-                                  className="flex items-center gap-3 px-4 py-3 hover:bg-accent rounded-md transition-colors"
-                                  onClick={() => setMobileMenuOpen(false)}
-                              >
-                                  <Package className="h-5 w-5" />
-                                  <span>My Orders</span>
-                              </Link>
-                          </SheetClose>
-                      )}
-                      
+
+                  <div className="mt-4 border-t pt-4">
+                    {user && (
                       <SheetClose asChild>
-                          <Link
-                            to="/wishlist"
-                            className="flex items-center gap-3 px-4 py-3 hover:bg-accent rounded-md transition-colors"
-                            onClick={() => setMobileMenuOpen(false)}
-                          >
-                            <Heart className="h-5 w-5" />
-                            <span>Wishlist</span>
-                          </Link>
+                        <Link to="/orders" className="flex items-center gap-3 px-4 py-3 hover:bg-accent rounded-md transition-colors" onClick={() => setMobileMenuOpen(false)}>
+                          <Package className="h-5 w-5" />
+                          <span>My Orders</span>
+                        </Link>
                       </SheetClose>
+                    )}
+
+                    <SheetClose asChild>
+                      <Link to="/wishlist" className="flex items-center gap-3 px-4 py-3 hover:bg-accent rounded-md transition-colors" onClick={() => setMobileMenuOpen(false)}>
+                        <Heart className="h-5 w-5" />
+                        <span>Wishlist</span>
+                      </Link>
+                    </SheetClose>
                   </div>
-                  
+
                   {!user && (
-                    <Link to="/auth" onClick={() => setMobileMenuOpen(false)}>
-                      <Button className="w-full mt-4">Login</Button>
-                    </Link>
+                    <Button
+                      className="w-full mt-4"
+                      onClick={() => {
+                        setMobileMenuOpen(false);
+                        setIsAuthModalOpen(true);
+                      }}
+                    >
+                      Login
+                    </Button>
                   )}
                 </nav>
               </SheetContent>
             </Sheet>
           </div>
         </div>
-        
       </div>
+
       <Navbar />
+
+      <AuthModal isOpen={isAuthModalOpen} onClose={() => setIsAuthModalOpen(false)} />
     </header>
   );
 };

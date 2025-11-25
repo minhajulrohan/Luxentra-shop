@@ -222,6 +222,65 @@
         "",
         ""
       ]
+    },
+    {
+      "id": 4,
+      "name": "Super beautiful chic bow sweater coat women's spring and autumn loose lazy retro fashion sweet sweater",
+      "slug": "Super-beautiful-chic-bow-sweater-lazy-retro-fashion-sweet-sweater",
+      "category": "Womens",
+      "categorySlug": "womens-jacket",
+      "price": 1390.00,
+      "originalPrice": 1500.00,
+      "stockQuantity": 14, 
+      "description": "",
+      "fullDescription": "",
+      "brand": "Luxentra",
+      "sku": "1538",
+      "images": [
+        "../assets/sweater.png",
+        "../assets/sweater2.png",
+        "../assets/sweater3.png",
+        "../assets/sweaterPink.png",
+        "../assets/sweaterRed.png"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " " },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
     }
   ]
 }
