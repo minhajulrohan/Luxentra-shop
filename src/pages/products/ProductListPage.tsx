@@ -39,7 +39,7 @@ const ProductListPage = () => {
         <section className="py-12">
           <div className="container mx-auto px-4">
             {filteredProducts.length > 0 ? (
-              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-5">
                 {filteredProducts.map((product) => (
                   <Link
                     key={product.id}

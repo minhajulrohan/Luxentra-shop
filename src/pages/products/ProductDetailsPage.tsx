@@ -625,19 +625,6 @@ useEffect(() => {
       Specification
     </TabsTrigger>
   )}
-  {(product as any).howToUse && (product as any).howToUse.length > 0 && (
-    <TabsTrigger value="usage" className="uppercase text-xs md:text-sm py-3 flex-shrink-0">
-      How to Use
-    </TabsTrigger>
-  )}
-  {/* <TabsTrigger value="reviews" className="uppercase text-xs md:text-sm py-3 flex-shrink-0">
-    Reviews
-  </TabsTrigger> */}
-  {((product as any).bengaliDescription || (product as any).bengaliFeatures) && (
-    <TabsTrigger value="bengali" className="uppercase text-xs md:text-sm py-3 flex-shrink-0">
-      Bengali
-    </TabsTrigger>
-  )}
   <TabsTrigger value="disclaimer" className="uppercase text-xs md:text-sm py-3 flex-shrink-0">
     Disclaimer
   </TabsTrigger>
@@ -694,21 +681,6 @@ useEffect(() => {
                 </div>
               </TabsContent>
               )}
-
-                
-                {/* Usage Tab (Show only if howToUse data exists) */}
-                {(product as any).howToUse && (product as any).howToUse.length > 0 && (
-                    <TabsContent value="usage" className="mt-6">
-                        <div className="space-y-6">
-                            <h3 className="text-2xl font-bold">How to Use</h3>
-                            <div className="grid md:grid-cols-3 gap-6">
-                                {/* ... (How to Use rendering) ... */}
-                            </div>
-                        </div>
-                    </TabsContent>
-                )}
-
-
                 {/* Reviews Tab (Placeholder) */}
                 <TabsContent value="reviews" className="mt-6">
                     <h3 className="text-xl font-bold mb-4">Customer Reviews</h3>
@@ -717,18 +689,6 @@ useEffect(() => {
                         {/* Review form placeholder */}
                     </div>
                 </TabsContent>
-
-                {/* Bengali Tab (Show only if bengali data exists) */}
-                {((product as any).bengaliDescription || (product as any).bengaliFeatures) && (
-                    <TabsContent value="bengali" className="mt-6">
-                        <h3 className="text-xl font-bold mb-4">বাংলায় বিস্তারিত</h3>
-                        <p className="text-muted-foreground leading-relaxed">
-                            {(product as any).bengaliDescription}
-                        </p>
-                        {/* Bengali Features rendering */}
-                    </TabsContent>
-                )}
-
                 {/* Disclaimer Tab (Placeholder) */}
                 <TabsContent value="disclaimer" className="mt-6">
                     <h3 className="text-xl font-bold mb-4">Product Disclaimer</h3>
