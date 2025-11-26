@@ -4,8 +4,8 @@
       "id": 1,
       "name": "DHEU WOMEN'S Jacket",
       "slug": "dheu-womens-jacket",
-      "category": "Womens Jacket",
-      "categorySlug": "womens-jacket",
+      "category": "Womens",
+      "categorySlug": "womens-winter",
       "price": 2390.00,
       "originalPrice": 2500.00,
       "stockQuantity": 50,  
@@ -225,23 +225,254 @@
     },
     {
       "id": 4,
-      "name": "Super beautiful chic bow sweater coat women's spring and autumn loose lazy retro fashion sweet sweater",
-      "slug": "Super-beautiful-chic-bow-sweater-lazy-retro-fashion-sweet-sweater",
+      "name": "Autumn and Winter Men's Coat with Lamb Wool Lining, Thickened Corduroy Workwear, Fashionable Casual Loose Men'",
+      "slug": "Autumn-and-Winter-Men's-Coat-with-Lamb-Wool-Lining'",
       "category": "Womens",
-      "categorySlug": "womens-jacket",
-      "price": 1390.00,
-      "originalPrice": 1500.00,
+      "categorySlug": "womens-winter",
+      "price": 1590.00,
+      "originalPrice": 2000.00,
+      "badge":"Save ৳ 410",
       "stockQuantity": 14, 
       "description": "",
       "fullDescription": "",
       "brand": "Luxentra",
       "sku": "1538",
       "images": [
-        "../assets/sweater.png",
-        "../assets/sweater2.png",
-        "../assets/sweater3.png",
-        "../assets/sweaterPink.png",
-        "../assets/sweaterRed.png"
+        "https://img.alicdn.com/img/ibank/O1CN01Ld1gMn1yYjSvE5lnX_!!2217469126591-0-cib.jpg",
+        "https://img.alicdn.com/img/ibank/O1CN01fvxXEJ1yYjSy6Gd7f_!!2217469126591-0-cib.jpg",
+        "https://img.alicdn.com/img/ibank/O1CN01BQ52wW1yYjSwW0Mja_!!2217469126591-0-cib.jpg",
+        "https://img.alicdn.com/img/ibank/O1CN01WONPRJ1yYjSx10EY2_!!2217469126591-0-cib.jpg"
+      ],
+
+      "sizes": ["M", "L", "XL", "XXL", "XXXL"], 
+      "colors": ["green", "khaki","black", "gray"],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "Material function", "value": "Wear-resistant" },
+        { "label": "Product category", "value": "Jacket" },
+        { "label": "Taobao category ", "value": "Fashionable city (24-35 years old)" },
+        { "label": "Collar type", "value": "Stand collar" },
+        { "label": "Placket", "value": "Zipper " },
+        { "label": "Hooded or not", "value": " No hooded" },
+        { "label": "Applicable gender", "value": "Male" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 5,
+      "name": "AXIS-Y Dark Spot Correcting Glow Serum 50 ml",
+      "slug": "AXIS-Y-DarkSpotCorrectingGlowSerum50ml",
+      "category": "Acne",
+      "categorySlug": "acne",
+      "price": 1080.00 ,
+      "originalPrice": 1800.00,
+	    "badge":"Save ৳  720",
+      "stockQuantity": 20, 
+      "description": "Discover the secret to a brighter, more even complexion with the AXIS-Y Dark Spot Correcting Glow Serum, available at Fashionskincarebd. This powerful serum features 5% Niacinamide to fade dark spots and hyperpigmentation, while Squalane and Papaya Fruit Extract provide deep hydration and gentle exfoliation. Suitable for all skin types, this vegan and cruelty-free formula is free from parabens, sulfates, and artificial fragrances. Achieve radiant, glowing skin with the AXIS-Y Dark Spot Correcting Glow Serum today!",
+      "fullDescription": "",
+      "brand": "AXIS-Y",
+      "sku": "FSC_456835EFDSI21877 ",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2024/08/AXIS-Y-Dark-Spot-Correcting-Glow-Serum-3.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/08/AXIS-Y-Dark-Spot-Correcting-Glow-Serum-2.jpg"
+      ],
+
+      "sizes": ["50ml"], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "Serum Benefits:", "value": "Targets hyperpigmentation and dark spots , Evens skin tone, Enhances skin luminosity , Lightweight and absorbent, Suitable for all skin types, Cream Benefits:"},
+        { "label": "Cream Benefits:", "value": "Targets hyperpigmentation and dark spots, Provides intense hydration, Nourishes and plumps the skin, Lightweight texture, Suitable for all skin types" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " " },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 6,
+      "name": "AXIS-Y Dark Spot Correcting Glow Combo",
+      "slug": "AXIS-Y-Dark-Spot-Correcting-Glow-Combo",
+      "category": "Acne",
+      "categorySlug": "acne",
+      "price": 2340.00 ,
+      "originalPrice": 2900.00,
+	    "badge":"Save ৳ 560",
+      "stockQuantity": 11, 
+      "description": "AXIS-Y Dark Spot Correcting Glow Serum & Cream Combo is a powerful duo designed to target hyperpigmentation and uneven skin tone. This comprehensive set includes both the Dark Spot Correcting Glow Serum and the Dark Spot Correcting Glow Cream, offering a complete solution for brighter, more radiant skin.",
+      "fullDescription": "",
+      "brand": "AXIS-Y",
+      "sku": "FSC_456835GOIOV34969 ",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2025/02/9.png",
+        "https://fashionskincarebd.com/wp-content/uploads/2025/02/AXIS-Y-Dark-Spot-Correcting-Glow-Combo-1.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2025/02/AXIS-Y-Dark-Spot-Correcting-Glow-Combo-3.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "Serum Benefits:", "value": "Targets hyperpigmentation and dark spots , Evens skin tone, Enhances skin luminosity , Lightweight and absorbent, Suitable for all skin types, Cream Benefits:"},
+        { "label": "Cream Benefits:", "value": "Targets hyperpigmentation and dark spots, Provides intense hydration, Nourishes and plumps the skin, Lightweight texture, Suitable for all skin types" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " " },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Bonajour Green Multi-Vitamin Vital Nutrition Cream 50ml",
+      "slug": "Bonajour-Green-Multi-Vitamin-Vita",
+      "category": "Acne",
+      "categorySlug": "acne",
+      "price": 1280.00 ,
+      "originalPrice": 1900.00,
+	    "badge":"Save ৳ 620",
+      "stockQuantity": 9, 
+      "description": "Revitalize your skin with the Bonajour Green Multi-Vitamin Vital Nutrition Cream, a luxurious skincare solution designed to nourish and rejuvenate. Infused with a potent blend of vitamins and antioxidants, this cream enhances your skin’s vitality, leaving it luminous and deeply hydrated. Its green complex, featuring vitamins C, E, and B5, works to brighten dull skin, improve texture, and provide essential nutrients. Ideal for daily use, this cream helps reduce signs of aging and protects against environmental stressors. For top-quality Korean skincare products, visit Fashionskincarebd to experience the ultimate in skincare excellence.",
+      "fullDescription": "",
+      "brand": "AXIS-Y",
+      "sku": "FSC_456835FIHME17273 ",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2024/02/BONAJOUR-GREEN-MULTI-VITAMIN-VITAL-NUTRITION-CREAM-50M-L.jpg",
+        "hhttps://fashionskincarebd.com/wp-content/uploads/2024/02/BONAJOUR-GREEN-MULTI-VITAMIN-VITAL-NUTRITION-CREAM-50ML.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/02/%E2%95%9D%E2%95%A2%E2%94%82%E2%95%AB%E2%94%94%E2%95%A7_%E2%94%9C%E2%95%A9%E2%95%96%E2%95%A7%E2%95%91%C2%B1%E2%94%BC%E2%95%95%E2%95%A3%E2%95%AC%E2%94%BC%E2%8C%90%E2%95%95%E2%96%93_1-600x600-1.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": ""},
+        { "label": ":", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " " },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Bonajour Green Tea Foam Cleansing 150ml",
+      "slug": "Bonajour-Green-Tea-Foam-Cleansing-150ml",
+      "category": "Acne",
+      "categorySlug": "acne",
+      "price": 1100,
+      "originalPrice": 950,
+	    "badge":"Save ৳ 150",
+      "stockQuantity":39 , 
+      "description": "Bonajour Green Tea Foam Cleansing 150ml – Elevate your skincare routine with this invigorating foam cleanser, featuring a blend of green tea extract for its powerful antioxidant benefits. This gentle yet effective formula thoroughly cleanses your skin, removing impurities and makeup while maintaining hydration. Perfect for all skin types, it leaves your face feeling refreshed and balanced. Discover this must-have product and more at Fashionskincarebd, your destination for premium Korean skincare in Bangladesh. Bonajour Green Tea Foam Cleansing 150ml quantity",
+      "fullDescription": "",
+      "brand": "",
+      "sku": "",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2024/02/BONAJOUR-GREEN-TEA-FOAM-CLEANSING-150-ML.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2025/09/Bonajour-Green-Tea-Foam-Cleansing-150ml.png",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/02/BONAJOUR-GREEN-TEA-FOAM-CLEANSI-NG-150ML.jpg"
       ],
 
       "sizes": [], 
@@ -273,6 +504,4374 @@
       "howToUse": [
         { "step": "1", "title": "", "description": "" },
         { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 9,
+      "name": " Bonajour Propolis Serum 100ml",
+      "slug": " Bonajour-Propolis-Serum-100ml",
+      "category": "Acne",
+      "categorySlug": "acne",
+      "price": 1620,
+      "originalPrice": 1900,
+	  "badge":"Save ৳  180",
+      "stockQuantity": 12, 
+      "description": "Elevate your skincare routine with the Bonajour Propolis Serum. Enriched with 100% pure propolis extract, this serum delivers deep hydration, soothes irritated skin, and provides antioxidant protection. It helps enhance skin radiance, reduces redness, and strengthens your skin barrier for a youthful, glowing complexion. Ideal for daily use, this serum is a must-have for vibrant, healthy skin.",
+      "fullDescription": "",
+      "brand": "",
+      "sku": "FSC_456835TORLR17267 ",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2025/09/Bonajour-Propolis-Serum-100ml.png",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/02/BONAJOUR-PROPOLIS-SERUM-100ML3.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/02/BONAJOUR-PROPOLIS-SERUM-100ML2.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " " },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Care:Nel Anti-Melasma Cica Cream 40ml",
+      "slug": "Care:Nel-Anti-Melasma-Cica-Cream-40ml",
+      "category": "Acne",
+      "categorySlug": "acne",
+      "price": 1080,
+      "originalPrice": 1200,
+	  "badge":"Save ৳ 120",
+      "stockQuantity": 23, 
+      "description": "",
+      "fullDescription": "    CARE NEL Anti-Melasma Cica Cream is a premium whitening functional cream containing 5% of niacinamide and 2% of Centella Asiatica extract. Helps to relieve spots and freckles. Contains tranexamic acid to brighten the dull skin.",
+      "brand": "",
+      "sku": "",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2025/09/CareNel-Anti-Melasma-Cica-Cream-40ml.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " " },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Cos De Baha M.A. Peptide Serum 30ml",
+      "slug": "Cos-De-Baha-Peptide-Serum-30ml",
+      "category": "Acne",
+      "categorySlug": "acne",
+      "price": 950,
+      "originalPrice": 1100,
+	  "badge":"Save ৳ 150",
+      "stockQuantity": 44, 
+      "description": "Enhance your skin with Cos De Baha M.A. Peptide Serum. This advanced formula, featuring Matrixyl 3000 and Argireline, reduces wrinkles, boosts elasticity, and hydrates. Perfect for youthful, radiant skin.",
+      "fullDescription": "",
+      "brand": "",
+      "sku": "",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2025/09/Cos-De-Baha-M.A.-Peptide-Serum-30ml.png",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/03/4-30.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/03/2-30.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " " },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Cos De Baha Vitamin C 15% Serum 30ml",
+      "slug": "Cos-De-Baha-Vitamin-C-Serum",
+      "category": "Acne",
+      "categorySlug": "acne",
+      "price": 950,
+      "originalPrice": 1100,
+	  "badge":"Save ৳ 150",
+      "stockQuantity": 17, 
+      "description": "Brighten your complexion with Cos De Baha Vitamin C 15% Serum. Formulated with high-potency Vitamin C, Hyaluronic Acid, and Ferulic Acid, this serum reduces dark spots, evens skin tone, and hydrates for a youthful glow. Ideal for all skin types.",
+      "fullDescription": "",
+      "brand": "",
+      "sku": "",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2025/09/Cos-De-Baha-Vitamin-C-15_-Serum-30ml-VA.png",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/03/4-24.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/03/3-24.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " " },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 13,
+      "name": "COSRX Hyaluronic Acid Intensive Cream 100 g",
+      "slug": "cosrx-hyaluronic-acid-intensive-cream-100-g",
+      "category": "Acne",
+      "categorySlug": "acne",
+      "price": 1680,
+      "originalPrice": 2500,
+	  "badge":"Save ৳ 820",
+      "stockQuantity": 13, 
+      "description": "COSRX Hyaluronic Acid Intensive Cream 100g – Experience deep hydration and renewed skin with this intensive cream. Formulated with high-concentration hyaluronic acid, it delivers lasting moisture and boosts skin elasticity, leaving your complexion plump and youthful. Free from harsh additives and perfect for daily use, it’s ideal for all skin types.",
+      "fullDescription": "",
+      "brand": "COSRX",
+      "sku": "FSC_456835WSBNR20228 ",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2024/07/Fashion-Skin-Care-BD-2-1.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/07/eeada7685168cbb8236a08a5f72f35fb.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/07/Fashion-Skin-Care-BD-1-1.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " " },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "Apply a generous amount of the cream to a cleansed face and neck. Gently massage in upward motions until fully absorbed. For best results, use it as part of your daily skincare routine, especially during dry or cold seasons." },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Cosrx Advanced Snail 96 Mucin Power Essence",
+      "slug": "cosrx-advanced-snail-96-mucin-power-essence",
+      "category": "Acne",
+      "categorySlug": "acne",
+      "price": 1400,
+      "originalPrice": 1500,
+	  "badge":"Save ৳ 100",
+      "stockQuantity": 5, 
+      "description": "Experience the power of snail mucin with Cosrx Advanced Snail 96 Mucin Power Essence. This lightweight essence hydrates, repairs, and rejuvenates skin, leaving it glowing and youthful. Perfect for all skin types.",
+      "fullDescription": "",
+      "brand": "COSRX",
+      "sku": "FSC_456835WSBNR20228 ",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2024/04/sdfsdf.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/04/sdfsdf-1.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2025/07/Screenshot_6.png"
+      ],
+
+      "sizes": ["100ml"], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " " },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Dabo Charcoal Cleansing Foam 150 ml",
+      "slug": "dabo-charcoal-cleansing-foam-150-ml",
+      "category": "Acne",
+      "categorySlug": "acne",
+      "price": 700,
+      "originalPrice": "",
+	  "badge":"Save ৳ 100",
+      "stockQuantity": 5, 
+      "description": "Dabo Charcoal Cleansing Foam is a deep-cleansing face wash specially formulated to remove excess oil, dirt, and impurities from the skin. Enriched with charcoal extract, it penetrates deep into the pores to draw out impurities, leaving your skin fresh, clear, and healthy.",
+      "fullDescription": "",
+      "brand": "COSRX",
+      "sku": "FSC_456835JGFMC37422 ",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2025/09/Dabo-Charcoal-Cleansing-Foam-150-ml.png"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " " },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Some By mi Aha.Bha.Pha 30 Days Miracle Starter Kit",
+      "slug": "some-by-mi-aha-bha-pha-30-days-miracle-starter-kit",
+      "category": "Acne",
+      "categorySlug": "acne",
+      "price": 1700,
+      "originalPrice": "",
+	    "badge":"Out Of Stock",
+      "stockQuantity": 0, 
+      "description": "Transform your skin in 30 days with the Some By Mi Aha.Bha.Pha Starter Kit. This set includes a toner, serum, and cream, enriched with AHA, BHA, and PHA to exfoliate, cleanse, and hydrate. Achieve clearer, smoother skin with regular use.",
+      "fullDescription": "",
+      "brand": "COSRX",
+      "sku": "FSC_456835JGFMC37422 ",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2024/08/Some-By-mi-Aha.Bha_.Pha-30-Days-Miracle-Starter-Kit.png",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/03/3-106.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/03/Untitled-1-105.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " " },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Some By Mi Snail Truecica Miracle Repair Toner 135ml",
+      "slug": "some-by-mi-snail-truecica-miracle-repair-toner-135ml",
+      "category": "Acne",
+      "categorySlug": "acne",
+      "price": 1500,
+      "originalPrice": "",
+	    "badge":"Available",
+      "stockQuantity": 70, 
+      "description": "Revitalize your skin with Some By Mi Snail Truecica Miracle Repair Toner. This toner combines snail mucin and Truecica™ to deeply hydrate, repair, and soothe your skin, promoting a radiant and even complexion. Ideal for all skin types, it’s available now at Fashionskincarebd.",
+      "fullDescription": "",
+      "brand": "COSRX",
+      "sku": "FSC_456835DLTLS18400 ",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2024/03/2-129.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/03/XXL_p0117655549.webp",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/03/3-127.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "Categories: Acne, Korean Toner, SKIN CARE", "value": "Tags: Acne, All Skin Types, Some By Mi Snail Truecica Miracle Repair Toner, Some By Mi Snail Truecica Miracle Repair Toner 135ml, Some By Mi Snail Truecica Miracle Repair Toner 135ml (In Bangladesh), Toner" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " " },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Some By Mi Yuja Niacin Anti Blemish Cream 60ml",
+      "slug": "some-by-mi-yuja-niacin-anti-blemish-cream-60ml",
+      "category": "Acne",
+      "categorySlug": "acne",
+      "price": 1800,
+      "originalPrice":2150,
+	    "badge":"Save ৳  350",
+      "stockQuantity": 30, 
+      "description": "Brighten and clear your skin with Some By Mi Yuja Niacin Anti Blemish Cream. Infused with Niacinamide and Yuja extract, this cream reduces blemishes, dark spots, and uneven tone while providing deep hydration. Perfect for all skin types.",
+      "fullDescription": "",
+      "brand": "COSRX",
+      "sku": "FSC_456835XUIHI18272 ",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2024/08/Some-By-Mi-Yuja-Niacin-Anti-Blemish-Cream-60ml.png",
+                "https://fashionskincarebd.com/wp-content/uploads/2024/03/2-110.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "Categories: Acne, Korean Day Cream, Korean Moisturizer, SKIN CARE", "value": "Tags: All Skin Types, Cream/Moisturizer, Dry, Sensitive, Some By Mi Yuja Niacin Anti Blemish Cream, Some By Mi Yuja Niacin Anti Blemish Cream 60ml, Some By Mi Yuja Niacin Anti Blemish Cream 60ml (In Bangladesh)" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " " },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Some By Mi Yuja Niacin Anti-Blemish Serum 50ml",
+      "slug": "some-by-mi-yuja-niacin-anti-blemish-cream-60ml",
+      "category": "Acne",
+      "categorySlug": "acne",
+      "price": 1680,
+      "originalPrice":1700,
+	    "badge":"Available",
+      "stockQuantity": 15, 
+      "description": "Brighten and clear your skin with Some By Mi Yuja Niacin Anti-Blemish Serum. Infused with Yuja extract and Niacinamide, it reduces blemishes, dark spots, and uneven skin tone while providing deep hydration. Perfect for a radiant complexion.",
+      "fullDescription": "",
+      "brand": "COSRX",
+      "sku": "FSC_456835KBZWY18246 ",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2024/03/2-106.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/03/61SuYmhnwWL._SL1500_750x-600x600-1.webp",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/03/4-104.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "Categories: Acne, Korean Serum, Serum, SKIN CARE", "value": "Tags: Acne, All Skin Types, Serum/Ampoule, Some By Mi Yuja Niacin Anti-Blemish Serum, Some By Mi Yuja Niacin Anti-Blemish Serum 50ml, Some By Mi Yuja Niacin Anti-Blemish Serum 50ml (In Bangladesh)" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " " },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Tiam Anti Blemish Body Lotion 200ml",
+      "slug": "tiam-anti-blemish-body-lotion-200ml",
+      "category": "Acne",
+      "categorySlug": "acne",
+      "price": 1700,
+      "originalPrice":"",
+	    "badge":"Available",
+      "stockQuantity": 15, 
+      "description": "Achieve clear, smooth skin with Tiam Anti Blemish Body Lotion. Formulated with Niacinamide, Centella Asiatica extract, and Tea Tree Oil, it targets blemishes, dark spots, and uneven skin tone. This lightweight lotion absorbs quickly, hydrating without greasiness. Ideal for all skin types, including sensitive skin. Available now at Fashionskincarebd for comprehensive body skincare.",
+      "fullDescription": "",
+      "brand": "COSRX",
+      "sku": "FSC_456835WDCUH18551 ",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2024/03/3-152.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/03/Untitled-1-151.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/03/2-154.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "Categories: Acne, Korean Body Lotion, SKIN CARE", "value": "Tags: Acne, All Skin Types, Lotion, Tiam Anti Blemish Body Lotion, Tiam Anti Blemish Body Lotion 200ml, Tiam Anti Blemish Body Lotion 200ml (In Bangladesh)" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " " },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+     {
+      "id": 21,
+      "name": "Some By Mi Snail Truecica Miracle Repair Low Ph Gel Cleanser 100ml",
+      "slug": "some-by-mi-snail-truecica-miracle-repair-low-ph-gel-cleanser-100ml",
+      "category": "Acne",
+      "categorySlug": "acne",
+      "price": 950,
+      "originalPrice":1100,
+	    "badge":"Out of stock",
+      "stockQuantity": 15, 
+      "description": "Experience gentle yet effective cleansing with Some By Mi Snail Truecica Miracle Repair Low pH Gel Cleanser. Enriched with snail mucin and Truecica™ complex, it repairs and soothes the skin while maintaining its natural pH balance. Ideal for all skin types, it cleanses without stripping moisture.",
+      "fullDescription": "",
+      "brand": "COSRX",
+      "sku": "FSC_456835ORDYV18353 ",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2024/03/2-121.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/03/SOME-BY-MI-Snail-Truecica-Low-pH-Gel-Cleanser1.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/03/4-118.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "Categories: Acne, Korean Day Cream, Korean Moisturizer, SKIN CARE", "value": "Tags: Acne, All Skin Types, Sensitive, Some By Mi Snail Truecica Miracle Repair Low Ph Gel Cleanser, Some By Mi Snail Truecica Miracle Repair Low Ph Gel Cleanser 100ml, Some By Mi Snail Truecica Miracle Repair Low Ph Gel Cleanser 100ml (In Bangladesh), Water Cleanser" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " " },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 22,
+      "name": "THE ORDINARY NIACINAMIDE 10% + ZINC 1% 60ML",
+      "slug": "the-ordinary-niacinamide-10-zinc-1-60ml",
+      "category": "Acne",
+      "categorySlug": "acne",
+      "price": 1950,
+      "originalPrice":"",
+	    "badge":"Out of stock",
+      "stockQuantity": 15, 
+      "description": "Achieve clearer, smoother skin with The Ordinary Niacinamide 10% + Zinc 1% Serum. This lightweight formula reduces blemishes, balances oil production, and improves skin texture. Perfect for all skin types.",
+      "fullDescription": "",
+      "brand": "COSRX",
+      "sku": "FSC_456835MJHWS19128 ",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2024/05/Fashion-Skin-Care-BD-1.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/05/The-Ordinary-Niacinamide-10-Zinc-1-60ml-4-600x600-1.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/05/Fashion-Skin-Care-BD-3.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "Categories: SKIN CARE, Acne, Korean Serum, Serum", "value": "Tags: 60ml, All Skin Types, Made in USA, THE ORDINARY NIACINAMIDE, THE ORDINARY NIACINAMIDE 10% + ZINC 1% 60ML, THE ORDINARY NIACINAMIDE 10% + ZINC 1% 60ML (In Bangladesh)" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " " },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 23,
+      "name": "3W Clinic Anti-Wrinkle Snail Eye Cream 40ml",
+      "slug": "3w-clinic-anti-wrinkle-snail-eye-cream-40ml",
+      "category": "Korean Eye Cream",
+      "categorySlug": "eye-cream",
+      "price": 550,
+      "originalPrice":280,
+	    "badge":"Save ৳  270",
+      "stockQuantity": 10, 
+      "description": "Revitalize your eyes with 3W Clinic Anti-Wrinkle Snail Eye Cream. Infused with snail secretion filtrate, this cream reduces fine lines and puffiness while deeply hydrating the delicate eye area. Perfect for all skin types. Available at Fashionskincarebd.",
+      "fullDescription": "",
+      "brand": "3W Clinic",
+      "sku": "FSC_456835WLYRI19418 ",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2024/09/3W-Clinic-Anti-Wrinkle-Snail-Eye-Cream-40ml.png",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/06/3-28.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/06/Untitled-1-35.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "Categories: Korean Eye Cream, Korean Eye Gel, SKIN CARE, Special Offer", "value": "Tags: 3W Clinic Anti-Wrinkle Snail Eye Cream, 3W Clinic Anti-Wrinkle Snail Eye Cream 40ml, 3W Clinic Anti-Wrinkle Snail Eye Cream 40ml (In Bangladesh), All Skin Types, Eye Care, Eye Cream" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " " },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 24,
+      "name": "3W Clinic Collagen & Luxury Gold Premium Eye Cream 40ml",
+      "slug": "3w-clinic-collagen-luxury-gold-premium-eye-cream-40ml",
+      "category": "Korean Eye Cream",
+      "categorySlug": "eye-cream",
+      "price": 350,
+      "originalPrice":450,
+	    "badge":"Save ৳  100",
+      "stockQuantity": 13, 
+      "description": "Revitalize your delicate eye area with 3W Clinic Collagen & Luxury Gold Premium Eye Cream 40ml. This luxurious eye cream combines collagen and gold to hydrate, firm, and brighten the skin around your eyes. With its powerful anti-aging properties, it effectively reduces dark circles and puffiness, leaving your eyes looking youthful and refreshed. Suitable for all skin types, this cream is the perfect addition to your daily skincare routine.",
+      "fullDescription": "",
+      "brand": "3W Clinic",
+      "sku": "FSC_456835KAXCH28046  ",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2024/09/3W-Clinic-Collagen-Luxury-Gold-Premium-Eye-Cream-40ml-1.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/09/3W-Clinic-Collagen-Luxury-Gold-Premium-Eye-Cream-40ml-4.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "Categories: Korean Eye Cream, Korean Eye Gel, SKIN CARE", "value": "Tags: 3W Clinic Collagen & Luxury Gold Premium Eye Cream, 3W Clinic Collagen & Luxury Gold Premium Eye Cream 40ml, 3W Clinic Collagen & Luxury Gold Premium Eye Cream 40ml (In Bangladesh), All Skin Types, Made in Korea" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " " },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 25,
+      "name": "3W Clinic Collagen Eye Cream Whitening 40ml",
+      "slug": "3w-clinic-collagen-eye-cream-whitening-40ml",
+      "category": "Korean Eye Cream",
+      "categorySlug": "eye-cream",
+      "price": 400,
+      "originalPrice":"",
+	    "badge":"Available",
+      "stockQuantity": 20, 
+      "description": "Revitalize your eyes with the 3W Clinic Collagen Eye Cream Whitening. This advanced eye cream is enriched with collagen to improve skin elasticity and firmness, while its whitening complex brightens dark circles and evens out skin tone. Infused with hydrating hyaluronic acid, it provides intense moisture and a youthful glow. Suitable for all skin types, this non-greasy formula absorbs quickly for a smooth, refreshed look. Experience radiant and firm eyes by shopping now at Fashionskincarebd.",
+      "fullDescription": "",
+      "brand": "3W Clinic",
+      "sku": "FSC_456835RESWS17502 ",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2024/03/2-5.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/03/3-5.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "Categories: Korean Eye Cream, Korean Eye Gel, SKIN CARE, Special Offer", "value": "Tags: 3W Clinic Collagen Eye Cream Whitening, 3W Clinic Collagen Eye Cream Whitening 40ml, 3W Clinic Collagen Eye Cream Whitening 40ml (In Bangladesh) All Skin Types, Eye Cream" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " " },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 26,
+      "name": "3W Clinic Collagen Retinol Ball Eye Serum 30ml",
+      "slug": "3w-clinic-collagen-retinol-ball-eye-serum-30ml",
+      "category": "Korean Eye Cream",
+      "categorySlug": "eye-cream",
+      "price": 700,
+      "originalPrice":"",
+	    "badge":"Available",
+      "stockQuantity": 20, 
+      "description": "Transform your eye care routine with the 3W Clinic Collagen Retinol Ball Eye Serum. This powerful 30ml serum combines collagen and retinol to effectively reduce fine lines, wrinkles, and dark circles. The innovative ball applicator ensures precise application and gentle massage, promoting better absorption and blood circulation. Enriched with hyaluronic acid and peptides, this serum deeply hydrates and rejuvenates the delicate eye area, leaving it looking youthful and radiant. Suitable for all skin types, including sensitive skin.",
+      "fullDescription": "",
+      "brand": "",
+      "sku": "FSC_456835LKCYB17543  ",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2024/03/3-10.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/03/3-10.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "Categories: Korean Eye Cream, Korean Eye Gel, Serum, SKIN CARE, Special Offer", "value": "Tags: 3W Clinic Collagen Retinol Ball Eye Serum, 3W Clinic Collagen Retinol Ball Eye Serum 30ml, 3W Clinic Collagen Retinol Ball Eye Serum 30ml (In Bangladesh), All Skin Types, Eye Serum" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " " },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 27,
+      "name": "3W Clinic Honey Eye Cream 40ml",
+      "slug": "3w-clinic-collagen-retinol-ball-eye-serum-30ml",
+      "category": "Korean Eye Cream",
+      "categorySlug": "eye-cream",
+      "price": 400,
+      "originalPrice":500,
+	    "badge":"Save ৳  100",
+      "stockQuantity": 24, 
+      "description": "Nourish and brighten your under-eye area with 3W Clinic Honey Eye Cream. This hydrating formula, packed with natural honey, helps reduce the appearance of dark circles and fine lines. Perfect for all skin types, it absorbs quickly without feeling greasy. Experience the sweet benefits of this Korean skincare essential.",
+      "fullDescription": "",
+      "brand": "3W Clinic",
+      "sku": " FSC_456835YAYFL17496  ",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2024/03/Honey-Eye-Cream2.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/03/2-4.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/03/Untitled-1-4.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "Categories: Korean Eye Cream, Korean Eye Gel, SKIN CARE, Special Offer", "value": "Tags: 3W Clinic Honey Eye Cream, 3W Clinic Honey Eye Cream 40ml, 3W Clinic Honey Eye Cream 40ml (In Bangladesh), Eye Care" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " " },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 28,
+      "name": "3W Clinic Rose Eye Cream 40ml",
+      "slug": "3w-clinic-rose-eye-cream-40ml",
+      "category": "Korean Eye Cream",
+      "categorySlug": "eye-cream",
+      "price": 430,
+      "originalPrice":550,
+	    "badge":"Save ৳  120",
+      "stockQuantity": 24, 
+      "description": "Revitalize your eyes with 3W Clinic Rose Eye Cream. This 40ml eye cream features nourishing rose extract, adenosine, and niacinamide to reduce dark circles, puffiness, and fine lines. Its lightweight, hydrating formula absorbs quickly, leaving your eye area refreshed and youthful. Perfect for daily use, it provides long-lasting hydration and a radiant look. Discover the benefits of this premium eye cream at Fashionskincarebd.",
+      "fullDescription": "",
+      "brand": "3W Clinic",
+      "sku": "FSC_456835VOQBO17524",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2024/03/3W-Clinic-Rose-Eye-Cream-40ml.png",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/03/3-7.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/03/4-7.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "Categories: Korean Eye Cream, Korean Eye Gel, SKIN CARE", "value": "Tags: 3W Clinic Rose Eye Cream, 3W Clinic Rose Eye Cream 40ml, 3W Clinic Rose Eye Cream 40ml (In Bangladesh), All Skin Types, Eye Cream" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " " },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 29,
+      "name": "3W Clinic Whitening & Anti-Wrinkle Horse Oil Eye Cream 40ml",
+      "slug": "3w-clinic-whitening-anti-wrinkle-horse-oil-eye-cream-40ml",
+      "category": "Korean Eye Cream",
+      "categorySlug": "eye-cream",
+      "price": 550,
+      "originalPrice":390,
+	    "badge":"Save ৳  160",
+      "stockQuantity": 24, 
+      "description": "Achieve youthful eyes with 3W Clinic Whitening & Anti-Wrinkle Horse Oil Eye Cream. Infused with nourishing horse oil, it hydrates, brightens dark circles, and smooths fine lines. Perfect for all skin types. Available now at Fashionskincarebd.",
+      "fullDescription": "",
+      "brand": "3W Clinic",
+      "sku": "FSC_456835RZBLH19332 ",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2024/06/Untitled-1-18.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/06/3-12.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "Categories: Korean Eye Cream, Korean Eye Gel, SKIN CARE", "value": "Tags: 3W Clinic Rose Eye Cream, 3W Clinic Rose Eye Cream 40ml, 3W Clinic Rose Eye Cream 40ml (In Bangladesh), All Skin Types, Eye Cream" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " " },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 30,
+      "name": "3W Clinic Whitening & Anti-Wrinkle Hyaluronic Eye Cream 40ml",
+      "slug": "3w-clinic-whitening-anti-wrinkle-hyaluronic-eye-cream-40ml",
+      "category": "Korean Eye Cream",
+      "categorySlug": "eye-cream",
+      "price": 550,
+      "originalPrice":390,
+	    "badge":"Save ৳  160",
+      "stockQuantity": 35, 
+      "description": "Refresh tired eyes with 3W Clinic Whitening & Anti-Wrinkle Hyaluronic Eye Cream. Formulated with hyaluronic acid, it hydrates, firms, and brightens the delicate eye area. Available now at Fashionskincarebd.",
+      "fullDescription": "Product Overview: 3W Clinic combines the benefits of whitening and anti-aging in their Hyaluronic Eye Cream, designed to hydrate, firm, and brighten the skin around your eyes. The lightweight formula absorbs quickly, delivering intense moisture without feeling greasy. Perfect for daily use, it helps diminish signs of fatigue and stress, revealing a refreshed and youthful appearance.",
+      "brand": "3W Clinic",
+      "sku": "FSC_456835RZBLH19332 ",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2024/06/3-13.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/06/Untitled-1-19.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "Categories: Korean Eye Cream, Korean Eye Gel, SKIN CARE", "value": "Tags: 3W Clinic Rose Eye Cream, 3W Clinic Rose Eye Cream 40ml, 3W Clinic Rose Eye Cream 40ml (In Bangladesh), All Skin Types, Eye Cream" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " " },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 31,
+      "name": "3W Clinic Whitening & Anti-Wrinkle Placenta Eye Cream 40ml",
+      "slug": "3w-clinic-whitening-anti-wrinkle-placenta-eye-cream-40ml",
+      "category": "Korean Eye Cream",
+      "categorySlug": "eye-cream",
+      "price": 550,
+      "originalPrice":390,
+	    "badge":"Save ৳  160",
+      "stockQuantity": 35, 
+      "description": "Brighten and rejuvenate your under-eye area with 3W Clinic Whitening & Anti-Wrinkle Placenta Eye Cream. Formulated with placenta extract, niacinamide, and hyaluronic acid, it reduces dark circles, fine lines, and puffiness. Experience youthful eyes today at Fashionskincarebd!",
+      "fullDescription": "",
+      "brand": "3W Clinic",
+      "sku": "FSC_456835RZBLH19332 ",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2024/09/3W-Clinic-Whitening-Anti-Wrinkle-Placenta-Eye-Cream-40ml.png",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/06/Untitled-1-17.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/06/3-11.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "Categories: Korean Eye Cream, Korean Eye Gel, SKIN CARE", "value": "Tags: 3W Clinic Whitening & Anti-Wrinkle Placenta Eye Cream, 3W Clinic Whitening & Anti-Wrinkle Placenta Eye Cream 40ml, 3W Clinic Whitening & Anti-Wrinkle Placenta Eye Cream 40ml (In Bangladesh), All Skin Types, Eye, Eye Care, Eye Cream" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " " },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 32,
+      "name": "APLB Glutathione Niacinamide Eye Cream 20ml",
+      "slug": "aplb-glutathione-niacinamide-eye-cream-20ml",
+      "category": "Korean Eye Cream",
+      "categorySlug": "eye-cream",
+      "price": 930,
+      "originalPrice":"",
+	    "badge":"Available",
+      "stockQuantity": 72, 
+      "description": "Boosts skin elasticity and brightens the eye area for a refreshed look. Glutathione & Niacinamide help firm, reduce wrinkles, and smooth fine lines. Cica extract soothes irritation and strengthens the skin barrier.Lightweight formula absorbs quickly for effective delivery of actives. Hypoallergenic, irritation-tested, and made with safe EWG green ingredients, perfect for sensitive skin",
+      "fullDescription": "",
+      "brand": "3W Clinic",
+      "sku": "FSC_456835RZBLH19332 ",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2025/09/APLB-Glutathione-Niacinamide-Eye-Cream-20ml.png"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "Categories: Korean Eye Cream, Korean Eye Gel, SKIN CARE", "value": "Tags: 3W Clinic Whitening & Anti-Wrinkle Placenta Eye Cream, 3W Clinic Whitening & Anti-Wrinkle Placenta Eye Cream 40ml, 3W Clinic Whitening & Anti-Wrinkle Placenta Eye Cream 40ml (In Bangladesh), All Skin Types, Eye, Eye Care, Eye Cream" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " " },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 33,
+      "name": " AXIS-Y Vegan Collagen Eye Serum 10ml",
+      "slug": "axis-y-vegan-collagen-eye-serum-10ml",
+      "category": "Korean Eye Cream",
+      "categorySlug": "eye-cream",
+      "price": 1680,
+      "originalPrice":"",
+	    "badge":"Available",
+      "stockQuantity": 12, 
+      "description": "",
+      "fullDescription": "",
+      "brand": "3W Clinic",
+      "sku": "FSC_456835RZBLH19332 ",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2025/09/AXIS-Y-Vegan-Collagen-Eye-Serum-10ml.png"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "Categories: Korean Eye Cream, Korean Eye Gel, SKIN CARE", "value": "Tags: 3W Clinic Whitening & Anti-Wrinkle Placenta Eye Cream, 3W Clinic Whitening & Anti-Wrinkle Placenta Eye Cream 40ml, 3W Clinic Whitening & Anti-Wrinkle Placenta Eye Cream 40ml (In Bangladesh), All Skin Types, Eye, Eye Care, Eye Cream" },
+        { "label": "", "value": "Reduces fine lines, wrinkles, and puffiness around the eyes." },
+        { "label": " ", "value": "Infused with vegan collagen to improve elasticity and firmness." },
+        { "label": "", "value": "Lightweight, fast-absorbing formula for daily hydration." },
+        { "label": "", "value": " Leaves the eye area smooth, refreshed, and revitalized." },
+        { "label": "", "value": " Suitable for all skin types, including sensitive skin." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 34,
+      "name": " Be The Skin Vitavita Circle Zero Eye Cream 30g",
+      "slug": "be-the-skin-vitavita-circle-zero-eye-cream-30g",
+      "category": "Korean Eye Cream",
+      "categorySlug": "eye-cream",
+      "price": 1500,
+      "originalPrice": 1900,
+	  "badge":"Save ৳ 400",
+      "stockQuantity": 20, 
+      "description": "Revitalize your eye area with Be The Skin Vitavita Circle Zero Eye Cream 30g. This advanced eye cream targets dark circles, puffiness, and fine lines with a potent blend of Vitamin C, Hyaluronic Acid, and Peptides. It brightens, hydrates, and smooths the delicate skin around your eyes, offering a refreshed and youthful appearance. Perfect for daily use, this eye cream is suitable for all skin types. Be The Skin Vitavita Circle Zero Eye Cream 30g quantity",
+      "fullDescription": "",
+      "brand": "Luxentra Shop Importer",
+      "sku": "",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2024/08/Be-The-Skin-Vitavita-Circle-Zero-Eye-Cream-30g-1.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/08/Be-The-Skin-Vitavita-Circle-Zero-Eye-Cream-30g-3.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/08/Be-The-Skin-Vitavita-Circle-Zero-Eye-Cream-30g-2.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " " },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 35,
+      "name": "BEAUTE Melasma-x Collagen Wrinkle Eye Cream 40ml",
+      "slug": "beaute-melasma-x-collagen-wrinkle-eye-cream-40ml",
+      "category": "Korean Eye Cream",
+      "categorySlug": "eye-cream",
+      "price": 1200,
+      "originalPrice": 1800,
+	  "badge":"Save ৳ 600",
+      "stockQuantity": 28, 
+      "description": "BEAUTE Melasma-X Collagen Wrinkle Eye Cream is designed to target wrinkles, melasma, and dark spots while providing deep hydration to the delicate under-eye area. Formulated with collagen to boost skin elasticity and reduce fine lines, and enriched with brightening agents to lighten dark spots, this eye cream leaves your skin looking firmer, smoother, and more radiant. Suitable for all skin types, its lightweight texture absorbs quickly, ensuring long-lasting hydration without irritation.",
+      "fullDescription": "",
+      "brand": "Luxentra Shop Importer",
+      "sku": "",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2024/08/BEAUTE-Melasma-x-Collagen-Wrinkle-Eye-Cream-40ml2.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/08/BEAUTE-Melasma-x-Collagen-Wrinkle-Eye-Cream-40ml-3.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " " },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Celimax Noni Ultimate Eye Cream 20ml",
+      "slug": "celimax-noni-ultimate-eye-cream-20ml",
+      "category": "Korean Eye Cream",
+      "categorySlug": "eye-cream",
+      "price": 1300,
+      "originalPrice": 1900,
+	  "badge":"Save ৳ 600",
+      "stockQuantity": 28, 
+      "description": "Revitalize tired eyes with this nourishing eye cream formulated with noni extract, jojoba seed oil and shea butter.",
+      "fullDescription": "",
+      "brand": "Luxentra Shop Importer",
+      "sku": "",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2025/09/Celimax-Noni-Ultimate-Eye-Cream-20ml-1.png"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " " },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 35,
+      "name": "BEAUTE Melasma-x Collagen Wrinkle Eye Cream 40ml",
+      "slug": "beaute-melasma-x-collagen-wrinkle-eye-cream-40ml",
+      "category": "Korean Eye Cream",
+      "categorySlug": "eye-cream",
+      "price": 1200,
+      "originalPrice": 1800,
+	  "badge":"Save ৳ 600",
+      "stockQuantity": 28, 
+      "description": "BEAUTE Melasma-X Collagen Wrinkle Eye Cream is designed to target wrinkles, melasma, and dark spots while providing deep hydration to the delicate under-eye area. Formulated with collagen to boost skin elasticity and reduce fine lines, and enriched with brightening agents to lighten dark spots, this eye cream leaves your skin looking firmer, smoother, and more radiant. Suitable for all skin types, its lightweight texture absorbs quickly, ensuring long-lasting hydration without irritation.",
+      "fullDescription": "",
+      "brand": "Luxentra Shop Importer",
+      "sku": "",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2024/08/BEAUTE-Melasma-x-Collagen-Wrinkle-Eye-Cream-40ml2.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/08/BEAUTE-Melasma-x-Collagen-Wrinkle-Eye-Cream-40ml-3.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " " },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Celimax The Vita A Retinal Shot Tightening Booster 15ml",
+      "slug": "celimax-the-vita-a-retinal-shot-tightening-booster-15ml",
+      "category": "Korean Eye Cream",
+      "categorySlug": "eye-cream",
+      "price": 1330,
+      "originalPrice": 1500,
+	  "badge":"Save ৳ 170",
+      "stockQuantity": 34, 
+      "description": "Celimax The Vita-A Retinal Shot Tightening Booster contains 0.1% of nano-sized Retinal, which is finely divided into 5 times smaller than pores, stabilized by liposomes, to help with more effective elasticity care.",
+      "fullDescription": "",
+      "brand": "Luxentra Shop Importer",
+      "sku": "",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2025/09/151.png",
+        "https://fashionskincarebd.com/wp-content/uploads/2025/09/Celimax-The-Vita-A-Retinal-Shot-Tightening-Booster-15ml-1.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " " },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Cerave Eye Repair Cream – 14.2 g",
+      "slug": "cerave-eye-repair-cream-14-2-g",
+      "category": "Korean Eye Cream",
+      "categorySlug": "eye-cream",
+      "price": 1900,
+      "originalPrice": 2000,
+	  "badge":"Save ৳ 100",
+      "stockQuantity": 67, 
+      "description": "Revitalize your eyes with CeraVe Eye Repair Cream 14.2g. Formulated with ceramides, hyaluronic acid, and niacinamide, this eye cream deeply hydrates, reduces puffiness, and brightens dark circles. Its lightweight, non-greasy formula absorbs quickly, making it perfect for daily use. Ideal for all skin types, including sensitive skin, it enhances the appearance of the delicate eye area.",
+      "fullDescription": "",
+      "brand": "Luxentra Shop Importer",
+      "sku": "",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2024/08/Cerave-Eye-Repair-Cream-%E2%80%93-14.2-g-1.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/08/Cerave-Eye-Repair-Cream-%E2%80%93-14.2-g-2.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/08/Cerave-Eye-Repair-Cream-%E2%80%93-14.2-g-3.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " " },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 39,
+      "name": " Cerave Skin Renewing Eye Cream 14.2g",
+      "slug": "cerave-skin-renewing-eye-cream-14-2g",
+      "category": "Korean Eye Cream",
+      "categorySlug": "eye-cream",
+      "price": 1680,
+      "originalPrice": 1900,
+	  "badge":"Save ৳ 100",
+      "stockQuantity": 34, 
+      "description": "Revitalize your eye area with the CeraVe Skin Renewing Eye Cream 14.2g. This dermatologist-developed cream is enriched with hyaluronic acid and niacinamide to reduce fine lines, hydrate, and brighten the skin around your eyes. Its ceramide-rich formula restores the skin’s natural barrier, making it ideal for daily use.",
+      "fullDescription": "",
+      "brand": "Luxentra Shop Importer",
+      "sku": "",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2024/08/Cerave-Skin-Renewing-Eye-Cream-14-2.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/08/Cerave-Skin-Renewing-Eye-Cream-14-3.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/08/Cerave-Skin-Renewing-Eye-Cream-14-1.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " " },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 40,
+      "name": " CeraVe Skin Renewing Eye Cream 15 ml",
+      "slug": "cerave-skin-renewing-eye-cream-15-ml",
+      "category": "Korean Eye Cream",
+      "categorySlug": "eye-cream",
+      "price": 1980,
+      "originalPrice": "",
+	  "badge":"Available",
+      "stockQuantity":23, 
+      "description": "The texture is rich yet easily absorbed, making it suitable for use both morning and night under makeup or alone. Formulated with CeraVe’s signature MVE Technology, the cream releases moisture continuously throughout the day for long-lasting hydration and comfort. It is non-comedogenic, fragrance-free, and gentle enough for sensitive skin, ensuring it nourishes without causing redness or puffiness. Ideal for those dealing with fine lines, dryness, dark circles, or a tired-looking eye area, CeraVe Skin Renewing Eye Cream helps restore a smoother, brighter, and more refreshed appearance with consistent use.",
+      "fullDescription": "",
+      "brand": "Luxentra Shop Importer",
+      "sku": "",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2025/11/CeraVe-Skin-Renewing-Eye-Cream-15-ml.png"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " " },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Christian Dean Secret Tone-up Sun Cream SPF50+/PA+++ 70 ml",
+      "slug": "christian-dean-secret-tone-up-sun-cream-spf50-pa-70-ml",
+      "category": "Korean Eye Cream",
+      "categorySlug": "eye-cream",
+      "price": 400,
+      "originalPrice": 500,
+	  "badge":"Save ৳  100",
+      "stockQuantity": 45, 
+      "description": "Protect your skin while achieving a radiant glow with the Christian Dean Secret Tone-up Sun Cream SPF50+/PA+++. This innovative sunscreen offers high-level protection against harmful UVA and UVB rays, boasting an impressive SPF50+/PA+++ rating. Infused with brightening agents and niacinamide, it not only shields your skin but also evens out your complexion for a luminous finish. Its lightweight, non-greasy formula absorbs quickly, making it perfect for daily use. Ideal for women in Bangladesh seeking effective sun protection without sacrificing radiance, this 70 ml sun cream is a must-have for your skincare routine.",
+      "fullDescription": "",
+      "brand": "Luxentra Shop Importer",
+      "sku": "",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2024/09/90.png",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/09/Christian-Dean-Secret-Tone-up-Sun-Cream-SPF50PA-70-ml-3.png",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/09/Christian-Dean-Secret-Tone-up-Sun-Cream-SPF50PA-70-ml-1.png"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " " },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Collagen Combo",
+      "slug": "collagen-combo",
+      "category": "Korean Eye Cream",
+      "categorySlug": "eye-cream",
+      "price": 779,
+      "originalPrice": "",
+	  "badge":"Combo",
+      "stockQuantity": 25, 
+      "description": "স্কিনকে  বাউন্সি ও হাইড্রেটেড রাখে . Fine lines ও dullness কমায় . চোখের চারপাশের ত্বক মসৃণ করে . ঠোঁটকে করে নরম, উজ্জ্বল ও healthy",
+      "fullDescription": "",
+      "brand": "Luxentra Shop Importer",
+      "sku": "",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2025/11/collagen-combo-web.png"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " " },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 43,
+      "name": "COSRX The Peptide Collagen Hydrogel Eye Patch",
+      "slug": "cosrx-the-peptide-collagen-hydrogel-eye-patch",
+      "category": "Korean Eye Cream",
+      "categorySlug": "eye-cream",
+      "price": 1950,
+      "originalPrice": "",
+	    "badge":"",
+      "stockQuantity": 10, 
+      "description": "",
+      "fullDescription": "",
+      "brand": "Luxentra Shop Importer",
+      "sku": "",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2025/09/COSRX-The-Peptide-Collagen-Hydrogel-Eye-Patch-have-to-set-pp.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "✔️ Hydration & Moisture: Provides intense hydration to dry, fatigued under-eyes." },
+        { "label": "", "value": "✔️ Firming & Elasticity: Collagen and peptides boost skin elasticity and smooth fine lines." },
+        { "label": " ", "value": "✔️ Dark Circle Care: Helps brighten dull under-eyes for a more awake appearance." },
+        { "label": "", "value": "✔️ Soothing & Cooling: Calms puffiness and refreshes tired eyes instantly." },
+        { "label": "", "value": "✔️ Multi-use: Can also be applied to smile lines, forehead, or other wrinkle-prone areas. " },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 44,
+      "name": " COXIR Black Snail Collagen Eye Cream 30ml",
+      "slug": "coxir-black-snail-collagen-eye-cream-30ml",
+      "category": "Korean Eye Cream",
+      "categorySlug": "eye-cream",
+      "price": 1580,
+      "originalPrice": 1800,
+	    "badge":"Save ৳  220",
+      "stockQuantity": 11, 
+      "description": "",
+      "fullDescription": "Experience the rejuvenating power of the COXIR Black Snail Collagen Eye Cream 30ml, a Korean skincare essential designed to combat fine lines, dark circles, and puffiness. Infused with Black Snail Extract and Marine Collagen, this lightweight eye cream deeply hydrates and firms the delicate skin around your eyes, leaving it smooth and youthful. Perfect for all skin types, especially mature skin.",
+      "brand": "Luxentra Shop Importer",
+      "sku": "",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2025/09/COXIR-Black-Snail-Collagen-Eye-Cream-30ml.png",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/08/COXIR-Black-Snail-Collagen-Eye-Cream-30ml-2.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/08/COXIR-Black-Snail-Collagen-Eye-Cream-30ml-3.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+     {
+      "id": 45,
+      "name": "Dabo 3 In 1 Collagen Lifting Eye Cream 30 ml",
+      "slug": "dabo-3-in-1-collagen-lifting-eye-cream-30-ml",
+      "category": "Korean Eye Cream",
+      "categorySlug": "eye-cream",
+      "price": 680,
+      "originalPrice": 800,
+	    "badge":"Save ৳  120",
+      "stockQuantity": 11, 
+      "description": "",
+      "fullDescription": "Revitalize your eyes with Dabo 3 In 1 Collagen Lifting Eye Cream. This powerful formula combines collagen, hyaluronic acid, and niacinamide to target fine lines, dark circles, and puffiness. Lightweight and non-greasy, it deeply hydrates and brightens the delicate under-eye area, providing a youthful glow. Suitable for daily use, this eye cream absorbs quickly, making it perfect for layering under makeup or as a part of your nighttime skincare routine.",
+      "sku": "",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2024/09/Screenshot_28.png"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Dabo 3X Vitamin AUX Super Collagen Brightening Eye Cream",
+      "slug": "dabo-3x-vitamin-aux-super-collagen-brightening-eye-cream",
+      "category": "Korean Eye Cream",
+      "categorySlug": "eye-cream",
+      "price": 880,
+      "originalPrice": "",
+	    "badge":"Available",
+      "stockQuantity": 11, 
+      "description": "",
+      "fullDescription": "An advanced multi-care eye cream infused with 3X Vitamin Complex + AUX Super Collagen to target dark circles, puffiness, fine lines, and dull under-eye skin. Lightweight yet nourishing, it absorbs quickly to reveal brighter, firmer, and youthful-looking eyes.",
+      "sku": "",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2025/09/Dabo-Vita-Radian-C-Biome-3X-Vitamin-Aux-Super-Collagen-Brightening-Eye-Cream-40-ml-1-1.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Ekel Collagen Age Recovery Eye Cream 40ml",
+      "slug": "ekel-collagen-age-recovery-eye-cream-40m",
+      "category": "Korean Eye Cream",
+      "categorySlug": "eye-cream",
+      "price": 650,
+      "originalPrice": "",
+	    "badge":"Available",
+      "stockQuantity": 11, 
+      "description": "",
+      "fullDescription": "",
+      "sku": "",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2025/07/Ekel-Collagen-Age-Recovery-Eye-Cream-40ml.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Glow up Combo",
+      "slug": "Glow-up-Combo",
+      "category": "Korean Eye Cream",
+      "categorySlug": "eye-cream",
+      "price": 399.00,
+      "originalPrice": 680.00,
+	    "badge":"Available",
+      "stockQuantity": 11, 
+      "description": "",
+      "fullDescription": "",
+      "sku": "",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2025/11/glow-up-combo-web.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "✔️ Long-lasting glow — মাসে একবার mask use করলেই effect থাকে দীর্ঘস্থায়ী" },
+        { "label": "", "value": "✔️ Snail mucin এর repairing & anti-aging care" },
+        { "label": " ", "value": "✔️ Soft, hydrated & healthy looking skin" },
+        { "label": "", "value": "✔️ Budget-friendly glow combo 💸" },
+        { "label": "", "value": "✨ এক combo-তেই monthly glow + wrinkle care! Your skin deserves this snail-powered love 💕" },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Goodal Green Tangerine Vita C Dark Circle Eye Cream 30ml",
+      "slug": "goodal-green-tangerine-vita-c-dark-circle-eye-cream-30ml",
+      "category": "Korean Eye Cream",
+      "categorySlug": "eye-cream",
+      "price": 1550.00,
+      "originalPrice": 1950.00,
+	    "badge":"Save ৳  400",
+      "stockQuantity": 11, 
+      "description": "Brighten your under-eye area with Goodal Green Tangerine Vita C Dark Circle Eye Cream 30ml, formulated with green tangerine extract and vitamin C. This lightweight eye cream targets dark circles, fine lines, and puffiness while hydrating and nourishing the delicate skin around your eyes. Perfect for daily use, it reduces visible signs of aging and fatigue, leaving your eyes refreshed and radiant. Ideal for sensitive skin and all skin types, this eye cream is free from harsh chemicals.",
+      "fullDescription": "",
+      "sku": "",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2024/08/Goodal-Green-Tangerine-Vita-C-Dark-Circle-Eye-Cream-30ml-1.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/08/Goodal-Green-Tangerine-Vita-C-Dark-Circle-Eye-Cream-30ml-3.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/08/Goodal-Green-Tangerine-Vita-C-Dark-Circle-Eye-Cream-30ml-2.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Goodal Green Tangerine Vita C Eye Gel Patch 60ea 72g",
+      "slug": "goodal-green-tangerine-vita-c-eye-gel-patch-60ea-72g",
+      "category": "Korean Eye Cream",
+      "categorySlug": "eye-cream",
+      "price": 1480.00,
+      "originalPrice": 1700.00,
+	    "badge":"Available",
+      "stockQuantity": 11, 
+      "description": "Green Tangerine Vita C Dark Spot Serum hydrogel sheet made by hardening the active ingredients into a gel. Green Tangerine Vita C Moisture Eye Patch.The moist hydrogel sheet adheres to the skin without worrying about lifting and does not fall off even when applied to curved areas.5-minute hydration + glowing effect ✓Completed evaluation test to improve skin moisture and radiance",
+      "fullDescription": "",
+      "sku": "",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2025/09/Goodal-Green-Tangerine-Vita-C-Eye-Gel-Patch-60ea-72g.png"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Haruharu Wonder Black Rice Bakuchiol Eye Cream 20ml",
+      "slug": "haruharu-wonder-black-rice-bakuchiol-eye-cream-20ml",
+      "category": "Korean Eye Cream",
+      "categorySlug": "eye-cream",
+      "price": 1280.00,
+      "originalPrice": 1750.00,
+	    "badge":"Available",
+      "stockQuantity": 11, 
+      "description": "Revitalize your eye area with the Haruharu Wonder Black Rice Bakuchiol Eye Cream. Infused with antioxidant-rich black rice extract and bakuchiol, a natural retinol alternative, this eye cream hydrates and brightens while reducing the appearance of fine lines and dark circles. Its lightweight formula absorbs quickly, providing intense moisture without greasiness, making it perfect for all skin types. Suitable for daily use, this eye cream is your key to achieving youthful, radiant eyes.",
+      "fullDescription": "",
+      "sku": "",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2024/08/Haruharu-Wonder-Black-Rice-Bakuchiol-Eye-Cream-20ml-3.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/08/Haruharu-Wonder-Black-Rice-Bakuchiol-Eye-Cream-20ml.png",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/08/Haruharu-Wonder-Black-Rice-Bakuchiol-Eye-Cream-20ml-1.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 51,
+      "name": "Heimish Bulgarian Rose Water Hydrogel Eye Patch 60Pcs",
+      "slug": "heimish-bulgarian-rose-water-hydrogel-eye-patch-60pcs",
+      "category": "Korean Eye Cream",
+      "categorySlug": "eye-cream",
+      "price": 1700.00,
+      "originalPrice": 1750.00,
+	    "badge":"Available",
+      "stockQuantity": 11, 
+      "description": "Revitalize tired eyes with Heimish Bulgarian Rose Water Hydrogel Eye Patches. Infused with Bulgarian rose water, these patches soothe, hydrate, and brighten dark circles. Ideal for refreshing your look.",
+      "fullDescription": "",
+      "sku": "",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2024/03/Heimish-Bulgarian-Rose-Water-Hydrogel-Eye-Patch-60Pcs.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/03/3-68.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/03/4-68.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Heimish Dailism Eye Palette Nudie Coral 14G",
+      "slug": "heimish-bulgarian-rose-water-hydrogel-eye-patch-60pcs",
+      "category": "Korean Eye Cream",
+      "categorySlug": "eye-cream",
+      "price": 1600.00,
+      "originalPrice": 1900.00,
+	    "badge":"Available",
+      "stockQuantity": 11, 
+      "description": "Create stunning eye looks with the Heimish Dailism Eye Palette in Nudie Coral. This 14g palette features a blend of nude and coral shades in matte, shimmer, and satin finishes. Perfect for versatile day-to-night makeup.",
+      "fullDescription": "",
+      "sku": "",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2023/09/Heimish-Dailism-Eye-Palette-Nudie-Coral-14G.png",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/03/3-98.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/03/2-100.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 53,
+      "name": " Heimish Marine Care Eye Cream 30ml",
+      "slug": "heimish-marine-care-eye-cream-30ml",
+      "category": "Korean Eye Cream",
+      "categorySlug": "eye-cream",
+      "price": 1600.00,
+      "originalPrice": 1900.00,
+	    "badge":"Available",
+      "stockQuantity": 11, 
+      "description": "Refresh and rejuvenate your eyes with Heimish Marine Care Eye Cream. Infused with marine extracts, peptides, and hyaluronic acid, it reduces dark circles, smooths fine lines, and hydrates. Perfect for daily use",
+      "fullDescription": "",
+      "sku": "",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2023/09/Heimish-Marine-Care-Eye-Cream-30ml.png",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/03/2-69.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/03/4-69.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Heimish Marine Care Retinol Eye Serum 30ml",
+      "slug": "heimish-marine-care-retinol-eye-serum-30ml",
+      "category": "Korean Eye Cream",
+      "categorySlug": "eye-cream",
+      "price": 1620.00,
+      "originalPrice": 1900.00,
+	    "badge":"Available",
+      "stockQuantity": 11, 
+      "description": "Revitalize your eyes with Heimish Marine Care Retinol Eye Serum. Infused with Retinol, Marine Extracts, and Hyaluronic Acid, it reduces fine lines, dark circles, and puffiness. Achieve youthful, refreshed eyes.",
+      "fullDescription": "",
+      "sku": "",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2023/09/Heimish-Marine-Care-Retinol-Eye-Serum-30ml.png",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/03/4-84.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/03/2-84.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Heimish Matcha Biome Hydrogel Eye Patch 60Pcs",
+      "slug": "heimish-matcha-biome-hydrogel-eye-patch-60pcs",
+      "category": "Korean Eye Cream",
+      "categorySlug": "eye-cream",
+      "price": 1620.00,
+      "originalPrice": 1900.00,
+	    "badge":"Available",
+      "stockQuantity": 11, 
+      "description": "Revitalize your eyes with Heimish Marine Care Retinol Eye Serum. Infused with Retinol, Marine Extracts, and Hyaluronic Acid, it reduces fine lines, dark circles, and puffiness. Achieve youthful, refreshed eyes.",
+      "fullDescription": "",
+      "sku": "",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2023/09/Heimish-Matcha-Biome-Hydrogel-Eye-Patch-60Pcs.png",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/03/4-85.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/03/2-85.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Heimish RX RETINOL BAKUCHIOL HYDROGEL EYE PATCH 60ml",
+      "slug": "heimish-rx-retinol-bakuchiol-hydrogel-eye-patch-60ml",
+      "category": "Korean Eye Cream",
+      "categorySlug": "eye-cream",
+      "price": 1700.00,
+      "originalPrice": 1900.00,
+	    "badge":"Available",
+      "stockQuantity": 11, 
+      "description": "Revitalize your eyes with Heimish Marine Care Retinol Eye Serum. Infused with Retinol, Marine Extracts, and Hyaluronic Acid, it reduces fine lines, dark circles, and puffiness. Achieve youthful, refreshed eyes.",
+      "fullDescription": "",
+      "sku": "",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2025/09/HMS23-IRB.png"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 57,
+      "name": "Honey Combo",
+      "slug": "Honey-Combo-eye",
+      "category": "Korean Eye Cream",
+      "categorySlug": "eye-cream",
+      "price": 799.00,
+      "originalPrice": "",
+	    "badge":"Available",
+      "stockQuantity": 11, 
+      "description": "",
+      "fullDescription": "",
+      "sku": "",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2025/11/Honey-combo-web.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "ড্রাই স্কিনে intense hydration দেয়" },
+        { "label": "", "value": "স্কিনে healthy dewy glow আনে" },
+        { "label": " ", "value": "চোখের চারপাশে dark circle কমাতে সহায়তা করে" },
+        { "label": "", "value": "ঠোঁটে দেয় দীর্ঘস্থায়ী softness" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 58,
+      "name": "K-SECRET Seoul 1988 Serum : Retinal Liposome 2% + Black Ginseng 30 ml",
+      "slug": "k-secret-seoul-1988-serum-retinal-liposome-2-black-ginseng-30-ml",
+      "category": "Korean Eye Cream",
+      "categorySlug": "eye-cream",
+      "price": 1470.00,
+      "originalPrice": 1700.00,
+	    "badge":"Available",
+      "stockQuantity": 11, 
+      "description": "KSECRET SEOUL 1988 Serum : Retinal Liposome 2% + Black Ginseng is an anti-aging serum enriched with 2% Rentinal liposome and Black ginseng to promote a youthful, radiant complexion, while addressing skin texture, hydration, and the reduction of wrinkles. Retinal liposome helps to prevent skin aging, such as fine lines, wrinkles, uneven skin tone and skin texture.",
+      "fullDescription": "",
+      "sku": "",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2025/07/121.png",
+        "https://fashionskincarebd.com/wp-content/uploads/2025/07/2.png"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 59,
+      "name": "Snail Combo",
+      "slug": "Snail-Combo",
+      "category": "Korean Eye Cream",
+      "categorySlug": "eye-cream",
+      "price": 699.00,
+      "originalPrice": "",
+	    "badge":"Available",
+      "stockQuantity": 11, 
+      "description": "",
+      "fullDescription": "",
+      "sku": "",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2025/11/Snail-combo-web.png"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "স্কিন রিপেয়ার করে ও scars হালকা করে" },
+        { "label": "", "value": "elasticity ও glow বাড়ায়" },
+        { "label": " ", "value": "চোখের চারপাশের puffiness ও fine line কমায়" },
+        { "label": "", "value": "ঠোঁটকে করে baby soft ও supple" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 60,
+      "name": "3W Clinic Aloe Clear Cleansing Foam 180ml",
+      "slug": "3W Clinic-Aloe-Clear-Cleansing-Foam-180ml",
+      "category": "Face Wash",
+      "categorySlug": "facewash",
+      "price": 700.00,
+      "originalPrice": 1000.00,
+	    "badge":"Available",
+      "stockQuantity": 100, 
+      "description": "Refresh and cleanse your skin with 3W Clinic Aloe Clear Cleansing Foam. Formulated with soothing aloe vera, it gently removes impurities and maintains skin’s natural moisture balance. Perfect for all skin types.",
+      "fullDescription": "",
+      "sku": "",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2024/09/3W-Clinic-Aloe-Clear-Cleansing-Foam-180ml.png",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/06/3-19.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/06/Untitled-1-26.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 61,
+      "name": " 3W Clinic Avocado Cleansing Foam 100ml",
+      "slug": "3w-clinic-avocado-cleansing-foam-100ml",
+      "category": "Face Wash",
+      "categorySlug": "facewash",
+      "price": 500.00,
+      "originalPrice": 850.00,
+	    "badge":"Available",
+      "stockQuantity": 100, 
+      "description": "Cleanse and nourish your skin with 3W Clinic Avocado Cleansing Foam. Enriched with avocado extract, it gently removes impurities while keeping your skin hydrated and refreshed. Perfect for a daily skincare routine.",
+      "fullDescription": "",
+      "sku": "456835FIRHC19381 ",
+      "brand": "3W Clinic",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2024/09/3W-Clinic-Avocado-Cleansing-Foam-100ml.png",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/06/3-21.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/06/Untitled-1-28.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 62,
+      "name": " 3W Clinic Brown Rice Foam Cleansing 100ml",
+      "slug": "3w-clinic-brown-rice-foam-cleansing-100ml",
+      "category": "Face Wash",
+      "categorySlug": "facewash",
+      "price": 420.00,
+      "originalPrice": 700.00,
+	    "badge":"Available",
+      "stockQuantity": 100, 
+      "description": "Experience gentle yet effective cleansing with the 3W Clinic Brown Rice Foam Cleansing 100ml. This Korean skincare gem features nourishing brown rice extract, known for its hydrating and brightening properties. It effectively removes impurities, excess oil, and makeup while soothing and refreshing your skin. Perfect for all skin types, this foam cleanser leaves your skin clean, hydrated, and radiant.",
+      "fullDescription": "",
+      "sku": "456835FIRHC19381 ",
+      "brand": "3W Clinic",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2024/07/6.png",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/07/3W-Clinic-Brown-Rice-Foam-Cleansing-1.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 63,
+      "name": "3W Clinic Charcoal Cleansing Foam 100ml",
+      "slug": "3w-clinic-charcoal-cleansing-foam-100ml",
+      "category": "Face Wash",
+      "categorySlug": "facewash",
+      "price": 420.00,
+      "originalPrice": 700.00,
+	    "badge":"Available",
+      "stockQuantity": 100, 
+      "description": "Purify your skin with 3W Clinic Charcoal Cleansing Foam. Formulated with activated charcoal, it effectively cleanses pores, removes impurities, and balances oil without stripping moisture. Ideal for daily use. Available at Fashionskincarebd.",
+      "fullDescription": "",
+      "sku": "456835FIRHC19381 ",
+      "brand": "3W Clinic",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2024/06/5.png",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/06/3-20.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/06/Untitled-1-27.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 64,
+      "name": " 3W Clinic Collagen Cleansing Foam 100ml",
+      "slug": "3w-clinic-collagen-cleansing-foam-100ml",
+      "category": "Face Wash",
+      "categorySlug": "facewash",
+      "price": 420.00,
+      "originalPrice": 700.00,
+	    "badge":"Available",
+      "stockQuantity": 100, 
+      "description": "Revitalize your skin with 3W Clinic Collagen Cleansing Foam. Enriched with collagen, it gently cleanses and nourishes, leaving your skin refreshed and radiant. Perfect for all skin types. Available at Fashionskincarebd.",
+      "fullDescription": "",
+      "sku": "456835FIRHC19381 ",
+      "brand": "3W Clinic",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2024/06/25.png",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/06/3-30.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/06/Untitled-1-39.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 64,
+      "name": "3W Clinic Green Tea Cleansing Foam- 100ml",
+      "slug": "3w-clinic-green-tea-cleansing-foam-100ml",
+      "category": "Face Wash",
+      "categorySlug": "facewash",
+      "price": 500.00,
+      "originalPrice": 850.00,
+	    "badge":"Available",
+      "stockQuantity": 100, 
+      "description": "Revitalize your skincare routine with 3W Clinic Green Tea Cleansing Foam. Infused with antioxidant-rich green tea extract, this gentle facial cleanser effectively removes impurities, excess oil, and makeup while soothing and hydrating your skin. Its rich, foamy texture provides a deep clean without stripping away essential moisture. Suitable for all skin types, including sensitive skin. Experience a refreshing cleanse and a naturally radiant complexion with the 3W Clinic Green Tea Cleansing Foam.",
+      "fullDescription": "",
+      "sku": "456835FIRHC19381 ",
+      "brand": "3W Clinic",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2024/09/3W-Clinic-Green-Tea-Cleansing-Foam-100ml.png",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/03/2-6.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/03/3-6.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 65,
+      "name": "3W Clinic Rose Water Cleansing Foam 100ml",
+      "slug": "3w-clinic-rose-water-cleansing-foam-100ml",
+      "category": "Face Wash",
+      "categorySlug": "facewash",
+      "price": 420.00,
+      "originalPrice": 700.00,
+	    "badge":"Available",
+      "stockQuantity": 100, 
+      "description": "Experience the gentle yet effective cleansing power of 3W Clinic Rose Water Cleansing Foam. Infused with natural rose water, this 100ml cleanser soothes and hydrates while removing impurities, leaving your skin refreshed and radiant. Ideal for all skin types, its deep cleansing formula maintains the skin’s moisture balance and improves tone and texture. Free from harsh chemicals, this foam is perfect for daily use. Shop now at Fashionskincarebd for the ultimate in Korean skincare.",
+      "fullDescription": "",
+      "sku": "456835FIRHC19381 ",
+      "brand": "3W Clinic",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2024/03/21.png",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/03/3-9.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/03/2-9.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 66,
+      "name": " Aroma Magic Grapefruit Face Wash 100ml",
+      "slug": "aroma-magic-grapefruit-face-wash",
+      "category": "Face Wash",
+      "categorySlug": "facewash",
+      "price": 500.00,
+      "originalPrice": 600.00,
+	    "badge":"Available",
+      "stockQuantity": 100, 
+      "description": "Transform your skincare routine with Aroma Magic Grapefruit Face Wash 100ml. Infused with natural grapefruit extract, it gently cleanses, brightens, and revitalizes your skin. Discover radiant, refreshed skin with every use. Shop now at Fashionskincarebd for a vibrant glow!",
+      "fullDescription": "",
+      "sku": "456835FIRHC19381 ",
+      "brand": "Luxentra Shop Importer",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2024/06/Aroma-Magic-Grapefruit-Face-Wash-100ml.png",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/06/2-89.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/06/Untitled-1-96.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 67,
+      "name": "Axis-Y Sunday Morning Refreshing Cleansing Foam 120ml",
+      "slug": "axis-y-sunday-morning-refreshing-cleansing-foam-120ml",
+      "category": "Face Wash",
+      "categorySlug": "facewash",
+      "price": 1950.00,
+      "originalPrice": 1270.00,
+	    "badge":"Available",
+      "stockQuantity": 100, 
+      "description": "The Axis-Y Sunday Morning Refreshing Cleansing Foam (120ml) gently purifies and refreshes your skin with its lightweight, pH-balanced formula. Infused with nourishing botanical extracts, it removes impurities without stripping away natural moisture, leaving your skin soft, hydrated, and energized—perfect for a fresh start every day, not just Sundays.",
+      "brand": "Luxentra Shop Importer",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2025/09/Axis-Y-Sunday-Morning-Refreshing-Cleansing-Foam-120ml.png"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 68,
+      "name": " Baby Bright Clear & Treat Acne Cleansing Foam 120g",
+      "slug": "baby-bright-clear-treat-acne-cleansing-foam-120g",
+      "category": "Face Wash",
+      "categorySlug": "facewash",
+      "price": 700.00,
+      "originalPrice": 800.00,
+	    "badge":"Available",
+      "stockQuantity": 100, 
+      "description": "Combat acne and achieve a clearer complexion with Baby Bright Clear & Treat Acne Cleansing Foam 120g. Infused with tea tree oil and salicylic acid, this gentle cleansing foam deeply cleanses pores, removes impurities, and reduces breakouts without stripping your skin of moisture. Ideal for oily and combination skin, it balances sebum production while soothing irritation with natural extracts like chamomile and centella asiatica. Perfect for daily use, it leaves your skin feeling refreshed and revitalized.",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2024/07/Untitled-1.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/07/dsffsg.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/07/fsf.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 69,
+      "name": " Cerave Acne Control Cleanser 237ml",
+      "slug": "cerave-acne-control-cleanser-237ml",
+      "category": "Face Wash",
+      "categorySlug": "facewash",
+      "price": 2840.00,
+      "originalPrice": 3110.00,
+	    "badge":"Available",
+      "stockQuantity": 100, 
+      "description": "CeraVe Acne Control Cleanser 237ml is specially formulated for acne-prone skin, featuring 2% salicylic acid to unclog pores and reduce breakouts. Enriched with ceramides and niacinamide, this cleanser hydrates and soothes while maintaining the skin’s natural barrier. Non-comedogenic and fragrance-free, it effectively removes impurities without stripping moisture, leaving your skin clean, clear, and balanced.",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2024/09/3f2f5d5063cc9f24e9c123e593b02e0b.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/09/Cerave-Acne-Control-Cleanser-237ml-2.gif",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/09/Cerave-Acne-Control-Cleanser-237ml-3.gif"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 70,
+      "name": "CeraVe Diabetics Dry Skin Relief Moisturizing Cream 236ml",
+      "slug": "cerave-diabetics-dry-skin-relief-moisturizing-cream-236ml",
+      "category": "Face Wash",
+      "categorySlug": "facewash",
+      "price": 2480.00,
+      "originalPrice": 2600.00,
+	    "badge":"Available",
+      "stockQuantity": 100, 
+      "description": "CeraVe Diabetics Dry Skin Relief Moisturizing Cream 236ml is specifically designed for diabetic skin, providing deep hydration and restoring the skin’s natural barrier. Formulated with three essential ceramides, urea, and bilberry extract, it soothes and softens rough, dry skin without leaving a greasy residue. The MVE Technology ensures 24-hour moisture, making it ideal for daily use.",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2024/08/CeraVe-Diabetics-Dry-Skin-Relief-Moisturizing-Cream-236ml.png",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/08/CeraVe-Diabetics-Dry-Skin-Relief-Moisturizing-Cream-236ml-2.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/08/CeraVe-Diabetics-Dry-Skin-Relief-Moisturizing-Cream-236ml-1.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 71,
+      "name": " Cetaphil Daily Facial Cleanser",
+      "slug": "cetaphil-daily-facial-cleanser",
+      "category": "Face Wash",
+      "categorySlug": "facewash",
+      "price": 1870.00,
+      "originalPrice": "",
+	    "badge":"Available",
+      "stockQuantity": 100, 
+      "description": "",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2025/09/8ce75ff85b434856e2bbb48197f901eb.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "🌿 Key Ingredients", "benefit": "Glycerin – Moisturizes and supports the skin barrier" },
+        { "name": "", "benefit": "Mild Cleansing Agents – Cleanse gently without irritation" },
+        { "name": "", "benefit": "Panthenol – Soothes and protects sensitive skin" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "A gentle, non-irritating facial cleanser suitable for all skin types, including sensitive skin. It effectively removes dirt, oil, and makeup while maintaining the skin’s natural moisture balance." },
+        { "label": "", "value": "Cleanses skin without stripping natural oils" },
+        { "label": " ", "value": "Maintains skin hydration and balance" },
+        { "label": "", "value": "Maintains skin hydration and balance" },
+        { "label": "", "value": "Leaves skin soft, smooth, and refreshed" },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "📌 How to Use", "description": "Apply to damp face, massage gently, and rinse thoroughly. Use daily, morning and night." },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 72,
+      "name": "W. Skin Laboratory Milky Perfect Cleansing Foam 120 ml",
+      "slug": "w-skin-laboratory-milky-perfect-cleansing-foam-120-ml",
+      "category": "Face Wash",
+      "categorySlug": "facewash",
+      "price": 600,
+      "originalPrice":1000,
+	    "badge":"Save ৳  400",
+      "stockQuantity": 24, 
+      "description": "",
+      "fullDescription": "",
+      "brand": "Luxentra Shop Importer",
+      "sku": "FSC_456835VOQBO17524",
+      "images": [
+        "https://euadmin.eurasiasupplies.com/storage/images/product/normal-agkcIWkBK7yGhd9rly2DRJdAeMOPes.png"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "Categories: Korean Eye Cream, Korean Eye Gel, SKIN CARE", "value": "Tags: 3W Clinic Rose Eye Cream, 3W Clinic Rose Eye Cream 40ml, 3W Clinic Rose Eye Cream 40ml (In Bangladesh), All Skin Types, Eye Cream" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " " },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 73,
+      "name": "4711 Echt Kolnisch Wasser Original Eau De Cologne 100ml",
+      "slug": "4711-Echt-Kolnisch-Wasser-Original-Eau-De-Cologne-100ml",
+      "category": "Hair Care",
+      "categorySlug": "hair-care",
+      "price": 1200,
+      "originalPrice": 1500.00,
+	    "badge":"Save ৳  300",
+      "stockQuantity": 32, 
+      "description": "Experience the timeless fragrance of 4711 Echt Kölnisch Wasser Original Eau De Cologne. This classic scent blends citrus notes with aromatic herbs for a refreshing and invigorating aroma. Available now at Fashionskincarebd.",
+      "fullDescription": "",
+      "brand": "Luxentra Shop Importer",
+      "sku": "FSC_456835VOQBO17524",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2024/06/2-42.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/06/Untitled-1-43.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "Product Overview: 4711 Echt Kölnisch Wasser Original Eau De Cologne is a classic fragrance that epitomizes the essence of Cologne, Germany. Founded in 1792, this Eau De Cologne features a harmonious composition of citrus oils, including lemon, orange, and bergamot, balanced with aromatic herbs such as lavender and rosemary. The result is a revitalizing scent that uplifts and refreshes with every spritz." },
+        { "label": "Key Features:", "value": "Citrus Freshness: Immediate burst of citrus notes that awaken the senses." },
+        { "label": " ", "value": "Herbal Undertones: Subtle hints of lavender and rosemary add depth and complexity." },
+        { "label": "", "value": "" },
+        { "label": "", "value": " " },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 74,
+      "name": " Anti-Dandruff Hydrating Shampoo 266ml",
+      "slug": "anti-dandruff-hydrating-shampoo",
+      "category": "Hair Care",
+      "categorySlug": "hair-care",
+      "price": 2000,
+      "originalPrice": 2900.00,
+	    "badge":"Available",
+      "stockQuantity": 32, 
+      "description": "",
+      "fullDescription": "",
+      "brand": "Luxentra Shop Importer",
+      "sku": "FSC_456835VOQBO17524",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2025/09/1736145141_Anti20Dandruff20shampoo.png"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "A gentle yet effective shampoo formulated to combat dandruff while keeping hair hydrated and healthy. It soothes the scalp, reduces flakiness, and strengthens hair from root to tip", "value": "Reduces dandruff and scalp irritation" },
+        { "label": "", "value": "Hydrates and nourishes dry hair" },
+        { "label": " ", "value": "Strengthens hair strands and improves manageability" },
+        { "label": "", "value": "Leaves scalp refreshed and hair soft, smooth, and shiny" },
+        { "label": "", "value": " " },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 75,
+      "name": " ANUA 8 HYALURONIC ACID HYDRATING GENTLE FOAMING CLEANSER 150ml ",
+      "slug": "anua-8-hyaluronic-acid-hydrating-gentle-foaming-cleanser-150ml",
+      "category": "Hair Care",
+      "categorySlug": "hair-care",
+      "price": 1480.00,
+      "originalPrice": 1650.00,
+	    "badge":"Available",
+      "stockQuantity": 32, 
+      "description": "Gentle yet effective everyday cleanser to remove dirt, oil and debris without stripping the skin, this face cleanser is suitable for all skin types, and especially for sensitive skin",
+      "fullDescription": "",
+      "brand": "Luxentra Shop Importer",
+      "sku": "FSC_456835VOQBO17524",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2024/11/ANUA-8-HYALURONIC-ACID-HYDRATING-GENTLE-FOAMING-CLEANSER-150ml-2.png",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/11/A-1.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/11/A-3.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " " },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 76,
+      "name": "BOTANICSENS Ph.D. Regen Formula Deep Rooted Scalp Tonic 150ml",
+      "slug": "botanicsens-ph-d-regen-formula-deep-rooted-scalp-tonic-150ml",
+      "category": "Hair Care",
+      "categorySlug": "hair-care",
+      "price": 1250.00,
+      "originalPrice": "",
+	    "badge":"Available",
+      "stockQuantity": 31, 
+      "description": "",
+      "fullDescription": "",
+      "brand": "Luxentra Shop Importer",
+      "sku": "FSC_456835VOQBO17524",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2025/09/BOTANICSENS-Ph.D.-Regen-Formula-Deep-Rooted-Scalp-Tonic-150ml.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2025/09/BOTANICSENSPh.D.RegenFormulaDeepRootedScalpTonic150ml-1.webp"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "✔️ Strengthens Hair Roots: Provides essential nutrients to support stronger, healthier hair." },
+        { "label": " ", "value": "✔️ Promotes Growth: Stimulates the scalp and encourages natural hair growth." },
+        { "label": "", "value": "✔️ Soothes & Refreshes: Calms scalp irritation and keeps it refreshed all day." },
+        { "label": "", "value": "✔️ Balances Scalp Health: Controls excess oil, dandruff, and dryness. " },
+        { "label": "", "value": " ✔️ Lightweight Formula: Non-sticky, absorbs quickly without residue." },
+        { "label": "", "value": "Perfect for those struggling with hair thinning, weak roots, or scalp concerns. With regular use, it helps restore scalp vitality, leaving hair stronger, fuller, and healthier." },
+        { "label": "", "value": "BOTANICSENS Ph.D. Regen Formula Deep Rooted Scalp Tonic is a premium scalp treatment specially designed to promote healthy hair growth and improve scalp vitality. Formulated with botanical extracts and active nutrients, it penetrates deep into the scalp to strengthen hair roots, reduce hair thinning, and maintain overall scalp balance." }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 77,
+      "name": " Bonajour Tea Tree Scalp Refreshing Shampoo 320ml",
+      "slug": "bonajour-tea-tree-scalp-refreshing-shampoo-320ml",
+      "category": "Hair Care",
+      "categorySlug": "hair-care",
+      "price": 1650.00,
+      "originalPrice": "",
+	    "badge":"Available",
+      "stockQuantity": 11, 
+      "description": "",
+      "fullDescription": "",
+      "brand": "Luxentra Shop Importer",
+      "sku": "FSC_456835VOQBO17524",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2023/12/Bonajour-Tea-Tree-Scalp-Refreshing-Shampoo-320ml-3-fashionskincarebd.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2023/12/Bonajour-Tea-Tree-Scalp-Refreshing-Shampoo-320ml-2-fashionskincarebd.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "Revitalize your scalp with Bonajour Tea Tree Scalp Refreshing Shampoo. This 320ml shampoo features purifying tea tree oil to effectively combat dandruff, excess oil, and irritation, while soothing chamomile and stimulating rosemary extracts promote a healthy, balanced scalp. Ideal for all hair types, this shampoo leaves your hair feeling fresh and rejuvenated." }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 78,
+      "name": "CeraVe Skin Renewing Gel Oil 29ml",
+      "slug": "cerave-skin-renewing-gel-oil-29ml",
+      "category": "Hair Care",
+      "categorySlug": "hair-care",
+      "price": 2300.00,
+      "originalPrice": "",
+	    "badge":"Available",
+      "stockQuantity": 11, 
+      "description": "",
+      "fullDescription": "",
+      "brand": "Luxentra Shop Importer",
+      "sku": "FSC_456835VOQBO17524",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2024/08/CeraVe-Skin-Renewing-Gel-Oil-29ml-3.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/08/CeraVe-Skin-Renewing-Gel-Oil-29ml-2.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "CeraVe Skin Renewing Gel Oil 29ml ", "value": "Transform your skincare routine with CeraVe’s Skin Renewing Gel Oil. This innovative formula combines the lightweight feel of a gel with the deep hydration of an oil, making it perfect for all skin types. Enriched with ceramides, hyaluronic acid, and niacinamide, it strengthens the skin barrier, provides intense moisture, and smooths out fine lines." },
+       { "label": "", "value": "Experience a transformative boost in your skincare routine with CeraVe Skin Renewing Gel Oil. This 29ml gel oil is expertly formulated to provide intense hydration while supporting your skin’s natural barrier. Ideal for women in Bangladesh seeking a high-quality skincare product, this gel oil combines the benefits of both a gel and an oil to offer a lightweight, non-greasy solution that replenishes and revitalizes." },
+      { "label": "Dual Action Formula:", "value": "The unique gel-oil hybrid delivers the deep hydration of an oil with the lightweight feel of a gel. This combination ensures that your skin remains moisturized without feeling heavy or greasy." },
+      { "label": "Ceramide-Infused:", "value": "Enriched with essential ceramides, this product helps to restore and maintain the skin’s natural protective barrier, locking in moisture and preventing dryness." },
+      { "label": "Hyaluronic Acid:", "value": "Known for its exceptional moisture-retention properties, hyaluronic acid works to plump and smooth the skin, reducing the appearance of fine lines and promoting a youthful glow." },
+      { "label": "Niacinamide:", "value": "This powerful ingredient helps to soothe and calm the skin, reducing redness and irritation while improving overall skin tone and texture." }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 80,
+      "name": " Confume Argan Treatment Hair Mist 200ml",
+      "slug": "confume-argan-treatment-hair-mist-200ml",
+      "category": "Hair Care",
+      "categorySlug": "hair-care",
+      "price": 1100,
+      "originalPrice": "",
+	  "badge":"Available",
+      "stockQuantity": 19, 
+      "description": "",
+      "fullDescription": "",
+      "brand": "Luxentra Shop Importer",
+      "sku": "LS_4556778787878",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2024/09/Confume-Argan-Treatment-Hair-Mist-200ml.png"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "Confume Argan Treatment Hair Mist 200ml is a lightweight, non-greasy spray infused with argan oil, designed to deeply hydrate, repair, and smooth dry or damaged hair. This nourishing mist tames frizz, adds shine, and protects against heat damage, making it perfect for everyday use. Ideal for all hair types, it restores softness and moisture without leaving a greasy residue." },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " " },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 81,
+      "name": " Confume Argan Treatment Oil 120 ml + 25 ml free",
+      "slug": "confume-argan-treatment-oil-120-ml-25-ml-free",
+      "category": "Hair Care",
+      "categorySlug": "hair-care",
+      "price": 1200,
+      "originalPrice": "",
+	  "badge":"Available",
+      "stockQuantity": 19, 
+      "description": "",
+      "fullDescription": "",
+      "brand": "",
+      "sku": "",
+      "images": [
+		"https://fashionskincarebd.com/wp-content/uploads/2024/09/Confume-Argan-Treatment-Oil-120-ml-25-ml-free.png"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "Transform dry, damaged hair with Confume Argan Treatment Oil. Infused with pure argan oil, this luxurious hair treatment deeply hydrates, repairs split ends, and restores shine without leaving a greasy residue. Perfect for all hair types, it protects against heat damage and environmental stress, leaving your hair smooth, soft, and glossy. Get 120 ml + 25 ml free for extra nourishment and care!" },
+        { "label": "", "value": "" },
+        { "label": " ", "value": "" },
+        { "label": "", "value": "" },
+        { "label": "", "value": " " },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 82,
+      "name": "Bioderma Sebium Gel Moussant Purifying Cleansing Foaming Gel 200ml",
+      "slug": "bioderma-sebium-gel-moussant-purifying-cleansing-foaming-gel-200ml",
+      "category": "Hair Care",
+      "categorySlug": "hair-care",
+      "price": 1650,
+      "originalPrice": 1750,
+	  "badge":"Available",
+      "stockQuantity": 28, 
+      "description": "",
+      "fullDescription": "",
+      "brand": "",
+      "sku": "",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2024/09/Bioderma-Sebium-Gel-Moussant-Purifying-Cleansing-Foaming-Gel-200ml.png",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/09/Bioderma-Sebium-Gel-Moussant-Purifying-Cleansing-Foaming-Gel-200ml-2.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/09/Bioderma-Sebium-Gel-Moussant-Purifying-Cleansing-Foaming-Gel-200ml-3.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        "s"
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "Bioderma Sebium Gel Moussant is a soap-free, purifying cleansing gel designed for oily and combination skin. Enriched with zinc sulfate and copper sulfate, this gentle foaming gel effectively removes excess oil, dirt, and impurities while preventing blemishes. Its non-drying formula respects the skin’s natural pH balance, leaving it feeling fresh and clean. Ideal for daily use, the Sebium Gel Moussant also contains Bioderma’s patented Fluidactiv® complex, which helps control sebum production and reduces clogged pores. Perfect for acne-prone skin, this foaming gel keeps your skin clear, healthy, and balanced." },
+        { "label": "Bioderma Sebium Gel Moussant Purifying Cleansing Foaming Gel 200ml: Deep Cleansing for Oily and Combination Skin", "value": "The Bioderma Sebium Gel Moussant Purifying Cleansing Foaming Gel is a dermatologist-recommended cleanser specifically formulated to purify and balance oily and combination skin. This gentle yet effective foaming gel works to remove excess oil, dirt, and impurities without drying out the skin, making it perfect for daily use." },
+        { "label": "Why Choose Bioderma Sebium Gel Moussant? ", "value": "If you have oily or acne-prone skin, the Bioderma Sebium Gel Moussant is designed with the needs of your skin in mind. Its soap-free formula respects the skin’s natural balance while regulating sebum production, preventing future breakouts. Say goodbye to excess oil and clogged pores, and hello to clearer, fresher skin." },
+        { "label": "Key Ingredients of Bioderma Sebium Gel Moussant", "value": "    Zinc Sulfate & Copper Sulfate: These purifying agents help regulate oil production and have anti-bacterial properties that reduce the appearance of blemishes. Ginkgo Biloba Extract: This natural ingredient soothes the skin and offers antioxidant protection, keeping the skin calm and refreshed.Patented Fluidactiv® Complex: Bioderma’s exclusive Fluidactiv® complex controls sebum quality, preventing clogged pores that can lead to acne." },
+        { "label": "", "value": " " },
+        { "label": "", "value": " ." },
+        { "label": "", "value": "" }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "", "description": "" },
+        { "step": "2", "title": "", "description": "" }
+      ],
+
+
+      "bengaliDescription": "",
+      "bengaliFeatures": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 83,
+      "name": "3W Clinic Apple Hand Cream 100ml",
+      "slug": "3w-clinic-apple-hand-cream-100ml",
+      "category": "Korean Day Cream",
+      "categorySlug": "moisturizer",
+      "price": 450,
+      "originalPrice":650,
+	  "badge":"Available",
+      "stockQuantity": 34, 
+      "description": "",
+      "fullDescription": "",
+      "brand": "",
+      "sku": "",
+      "images": [
+        "https://fashionskincarebd.com/wp-content/uploads/2024/09/3W-Clinic-Apple-Hand-Cream-100ml.png",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/06/Untitled-1-23.jpg",
+        "https://fashionskincarebd.com/wp-content/uploads/2024/06/2-22.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        ""
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "", "value": "Nourish and protect your hands with 3W Clinic Apple Hand Cream. Enriched with apple extract and natural oils, it moisturizes deeply without greasiness. Treat your hands to luxury" },
+        { "label": "", "value": "Indulge your hands with the refreshing scent of apples and the nourishing benefits of 3W Clinic Apple Hand Cream, now available at Fashionskincarebd. Formulated with natural extracts, this hand cream not only moisturizes but also rejuvenates dry, tired hands." },
+        { "label": " ", "value": "Product Overview: 3W Clinic Apple Hand Cream is enriched with apple extract, known for its antioxidant properties that help protect the skin from environmental stressors. The creamy texture absorbs quickly without leaving a greasy residue, leaving your hands feeling soft, smooth, and delicately scented." },
+        { "label": "Hydration and Nourishment: ", "value": "Infused with shea butter and natural oils, it deeply moisturizes and revitalizes dry skin." },
+        { "label": "Antioxidant Protection", "value": " Apple extract helps to combat free radicals, promoting healthier-looking skin." },
+        { "label": "Quick Absorption:", "value": "Non-sticky formula absorbs instantly, making it perfect for daily use." }
+      ],
+      
+      "howToUse": [
+        { "step": "1", "title": "How to Use:", "description": "Apply a small amount of 3W Clinic Apple Hand Cream onto clean hands and massage gently until fully absorbed. Use as often as needed throughout the day, especially after washing hands or exposure to harsh conditions." }
       ],
 
 

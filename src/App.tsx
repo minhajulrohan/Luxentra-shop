@@ -35,6 +35,9 @@ import Marketplace from "./pages/Marketplace";
 import { path } from 'path';
 import HealthCare from "./pages/HealthCare";
 import Foods from "./pages/Foods";
+import { path } from 'path';
+import SkinCarepage from "./pages/SkinCarepage";
+
 
 
 
@@ -80,6 +83,7 @@ const App = () => (
             <Route path="/marketplace" element={<Marketplace />} />
             <Route path="/healthcare" element={<HealthCare />} />
             <Route path="/food" element={<Foods />} />
+            <Route path="/shaharaskincare" element={<SkinCarepage />} />
 
               
             {/* Standardized Product Routing */}

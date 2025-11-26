@@ -10,122 +10,122 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 
-// --- Subcategories Data ---
-const subCategoryData = {
-  "Shahara's Skin": [
-    { name: "Face Care", href: "/skin/face" },
-    { name: "Body Lotion", href: "/skin/body" },
-    { name: "Serums", href: "/skin/serums" },
-  ],
-  "Womens": [
-    { name: "Womens Top Wear", href: "/womens/top-wear", isHeader: true },
-    { name: "Single Ethnic", href: "/products/single-ethnic" },
-    { name: "Ethnic Set (2 & 3 Pcs)", href: "/products/ethnic-set" },
-    { name: "Fashion Tops", href: "/products/fashion-tops" },
-    { name: "Women Shirt", href: "/products/womens-shirts" },
-    { name: "Womens Tees and Tank", href: "/products/tees" },
-    { name: "Scarf", href: "/products/scarf" },
-    { name: "Saree", href: "/products/saree" },
-    { name: "Maternity Wear", href: "/products/maternity" },
-    { name: "Womens Bottom Wear", href: "/products/bottoms", isHeader: true },
-    { name: "Womens Pant", href: "/products/womens-pant" },
-    { name: "Womens Chino Pant", href: "/products/womens-chino" },
-    { name: "Womens Jeans Pant", href: "/products/womens-jeans" },
-    { name: "Womens Formal Pant", href: "/products/womens-formal-pant" },
-    { name: "Womens Cargo Pant", href: "/products/womens-cargo" },
-    { name: "Womens Joggers", href: "/products/womens-joggers" },
-    { name: "Womens Skirt", href: "/products/womens-skirt" },
-    { name: "Womens Modest Wear", href: "/products/womens-modest", isHeader: true },
-    { name: "Womens Western Set", href: "/products/womens-western-set" },
-    { name: "Womens Sleepwear", href: "/products/womens-sleepwear" },
-    { name: "Womens Jumpsuit", href: "/products/womens-jumpsuit" },
-    { name: "Midi Dress", href: "/products/womens-midi-dress" },
-    { name: "Western Gown", href: "/products/womens-gown" },
-    { name: "Womens Shrug", href: "/products/womens-shrug" },
-    { name: "Womens Party Wear", href: "/products/womens-party-wear" },
-    { name: "Winter Collection", href: "/products/womens-winter", isHighlight: true },
-  ],
-  "Mens": [
-    { name: "Mens Top Wear", href: "/products/mens-top-wear", isHeader: true },
-    { name: "Mens Panjabi", href: "/products/mens-panjabi" },
-    { name: "Mens Casual Shirt", href: "/products/menscasual-shirt" },
-    { name: "Mens Formal Shirt", href: "/products/mens-formal-shirt" },
-    { name: "Mens Katua & Fatua", href: "/products/mens-katua" },
-    { name: "Mens T-Shirt", href: "/products/mens-shirts" },
-    { name: "Mens Polo", href: "/products/mens-polo" },
-    { name: "Mens Coti", href: "/products/mens-coti" },
-    { name: "Mens Bottom Wear", href: "/products/mens-bottoms", isHeader: true },
-    { name: "Mens Formal Pant", href: "/products/mens-formal-pant" },
-    { name: "Mens Chino Pant", href: "/products/mens-chino" },
-    { name: "Mens Jeans Pant", href: "/products/mens-jeans" },
-    { name: "Mens Cargo Pant", href: "/products/mens-cargo" },
-    { name: "Mens Joggers", href: "/products/mens-joggers" },
-    { name: "Mens Shorts", href: "/products/mens-shorts" },
-    { name: "Mens Payjama", href: "/products/mens-payjama" },
-    { name: "Mens Sports Wear", href: "/products/mens-sports", isHeader: true },
-    { name: "Mens Sports Wear Set", href: "/products/mens-sports-set" },
-    { name: "Mens Jersey", href: "/products/mens-jersey" },
-    { name: "Mens Innerwear", href: "/products/mens-innerwear", isHeader: true },
-    { name: "Winter Collection", href: "/products/mens-winter", isHighlight: true },
-  ],
-  "Kids": [
-    { name: "New Born", href: "/products/newborn", isHeader: true },
-    { name: "0-18 Months", href: "/products/0-18mo" },
-    { name: "Boys", href: "/products/boys" },
-    { name: "Girls", href: "/products/girls" },
-    { name: "Baby Boys (2-7Y)", href: "/products/baby-boys" },
-    { name: "Polo & T-Shirt", href: "/products/polo-tshirt" },
-    { name: "Panjabi & Kabli", href: "/products/panjabi" },
-    { name: "Pant & Payjama", href: "/products/pant-payjama" },
-    { name: "Shirt & Katua", href: "/products/shirt-katua" },
-    { name: "Boys Set", href: "/products/boys-set" },
-    { name: "Boys Sleepwear", href: "/products/boys-sleepwear" },
-    { name: "Baby Girls (2-7Y)", href: "/products/baby-girls", isHeader: true },
-    { name: "Girls Kurti", href: "/products/girls-kurti" },
-    { name: "Frock & Dungaree", href: "/products/frock" },
-    { name: "Tops & Skirt", href: "/products/tops-skirt" },
-    { name: "Girls 3 Pcs", href: "/products/girls-3pcs" },
-    { name: "Girls Pant", href: "/products/girls-pant" },
-    { name: "Boys (8-15Y)", href: "/products/boys-8-15", isHeader: true },
-    { name: "Shirt & Katua", href: "/products/boys-shirt" },
-    { name: "Panjabi & Kabli", href: "/products/boys-panjabi" },
-    { name: "Winter Collection", href: "/products/winter", isHighlight: true },
-  ],
-  "Daily Needs": [
-    { name: "Household Items", href: "/products/household" },
-    { name: "Personal Care", href: "/products/personal" },
-    { name: "Snacks", href: "/products/snacks" },
-  ],
-  "Health Care": [
-    { name: "OTC Medicines", href: "/products/otc-medicines" },
-    { name: "Online Doctor's", href: "/products/online-doctors" },
-  ],
-};
+// // --- Subcategories Data ---
+// const subCategoryData = {
+//   "Shahara's Skin": [
+//     { name: "Face Care", href: "/skin/face" },
+//     { name: "Body Lotion", href: "/skin/body" },
+//     { name: "Serums", href: "/skin/serums" },
+//   ],
+//   "Womens": [
+//     { name: "Womens Top Wear", href: "/womens/top-wear", isHeader: true },
+//     { name: "Single Ethnic", href: "/products/single-ethnic" },
+//     { name: "Ethnic Set (2 & 3 Pcs)", href: "/products/ethnic-set" },
+//     { name: "Fashion Tops", href: "/products/fashion-tops" },
+//     { name: "Women Shirt", href: "/products/womens-shirts" },
+//     { name: "Womens Tees and Tank", href: "/products/tees" },
+//     { name: "Scarf", href: "/products/scarf" },
+//     { name: "Saree", href: "/products/saree" },
+//     { name: "Maternity Wear", href: "/products/maternity" },
+//     { name: "Womens Bottom Wear", href: "/products/bottoms", isHeader: true },
+//     { name: "Womens Pant", href: "/products/womens-pant" },
+//     { name: "Womens Chino Pant", href: "/products/womens-chino" },
+//     { name: "Womens Jeans Pant", href: "/products/womens-jeans" },
+//     { name: "Womens Formal Pant", href: "/products/womens-formal-pant" },
+//     { name: "Womens Cargo Pant", href: "/products/womens-cargo" },
+//     { name: "Womens Joggers", href: "/products/womens-joggers" },
+//     { name: "Womens Skirt", href: "/products/womens-skirt" },
+//     { name: "Womens Modest Wear", href: "/products/womens-modest", isHeader: true },
+//     { name: "Womens Western Set", href: "/products/womens-western-set" },
+//     { name: "Womens Sleepwear", href: "/products/womens-sleepwear" },
+//     { name: "Womens Jumpsuit", href: "/products/womens-jumpsuit" },
+//     { name: "Midi Dress", href: "/products/womens-midi-dress" },
+//     { name: "Western Gown", href: "/products/womens-gown" },
+//     { name: "Womens Shrug", href: "/products/womens-shrug" },
+//     { name: "Womens Party Wear", href: "/products/womens-party-wear" },
+//     { name: "Winter Collection", href: "/products/womens-winter", isHighlight: true },
+//   ],
+//   "Mens": [
+//     { name: "Mens Top Wear", href: "/products/mens-top-wear", isHeader: true },
+//     { name: "Mens Panjabi", href: "/products/mens-panjabi" },
+//     { name: "Mens Casual Shirt", href: "/products/menscasual-shirt" },
+//     { name: "Mens Formal Shirt", href: "/products/mens-formal-shirt" },
+//     { name: "Mens Katua & Fatua", href: "/products/mens-katua" },
+//     { name: "Mens T-Shirt", href: "/products/mens-shirts" },
+//     { name: "Mens Polo", href: "/products/mens-polo" },
+//     { name: "Mens Coti", href: "/products/mens-coti" },
+//     { name: "Mens Bottom Wear", href: "/products/mens-bottoms", isHeader: true },
+//     { name: "Mens Formal Pant", href: "/products/mens-formal-pant" },
+//     { name: "Mens Chino Pant", href: "/products/mens-chino" },
+//     { name: "Mens Jeans Pant", href: "/products/mens-jeans" },
+//     { name: "Mens Cargo Pant", href: "/products/mens-cargo" },
+//     { name: "Mens Joggers", href: "/products/mens-joggers" },
+//     { name: "Mens Shorts", href: "/products/mens-shorts" },
+//     { name: "Mens Payjama", href: "/products/mens-payjama" },
+//     { name: "Mens Sports Wear", href: "/products/mens-sports", isHeader: true },
+//     { name: "Mens Sports Wear Set", href: "/products/mens-sports-set" },
+//     { name: "Mens Jersey", href: "/products/mens-jersey" },
+//     { name: "Mens Innerwear", href: "/products/mens-innerwear", isHeader: true },
+//     { name: "Winter Collection", href: "/products/mens-winter", isHighlight: true },
+//   ],
+//   "Kids": [
+//     { name: "New Born", href: "/products/newborn", isHeader: true },
+//     { name: "0-18 Months", href: "/products/0-18mo" },
+//     { name: "Boys", href: "/products/boys" },
+//     { name: "Girls", href: "/products/girls" },
+//     { name: "Baby Boys (2-7Y)", href: "/products/baby-boys" },
+//     { name: "Polo & T-Shirt", href: "/products/polo-tshirt" },
+//     { name: "Panjabi & Kabli", href: "/products/panjabi" },
+//     { name: "Pant & Payjama", href: "/products/pant-payjama" },
+//     { name: "Shirt & Katua", href: "/products/shirt-katua" },
+//     { name: "Boys Set", href: "/products/boys-set" },
+//     { name: "Boys Sleepwear", href: "/products/boys-sleepwear" },
+//     { name: "Baby Girls (2-7Y)", href: "/products/baby-girls", isHeader: true },
+//     { name: "Girls Kurti", href: "/products/girls-kurti" },
+//     { name: "Frock & Dungaree", href: "/products/frock" },
+//     { name: "Tops & Skirt", href: "/products/tops-skirt" },
+//     { name: "Girls 3 Pcs", href: "/products/girls-3pcs" },
+//     { name: "Girls Pant", href: "/products/girls-pant" },
+//     { name: "Boys (8-15Y)", href: "/products/boys-8-15", isHeader: true },
+//     { name: "Shirt & Katua", href: "/products/boys-shirt" },
+//     { name: "Panjabi & Kabli", href: "/products/boys-panjabi" },
+//     { name: "Winter Collection", href: "/products/winter", isHighlight: true },
+//   ],
+//   "Daily Needs": [
+//     { name: "Household Items", href: "/products/household" },
+//     { name: "Personal Care", href: "/products/personal" },
+//     { name: "Snacks", href: "/products/snacks" },
+//   ],
+//   "Health Care": [
+//     { name: "OTC Medicines", href: "/products/otc-medicines" },
+//     { name: "Online Doctor's", href: "/products/online-doctors" },
+//   ],
+// };
 
 // --- Categories for Shop By Category ---
-const categories = [
-  "Electronics",
-  "Fashion & Apparel",
-  "Home & Garden",
-  "Sports & Outdoors",
-  "Health & Beauty",
-  "Toys & Games",
-  "Books & Media",
-  "Automotive",
-  "Jewelry & Watches",
-  "Pet Supplies",
-];
+// const categories = [
+//   "Electronics",
+//   "Fashion & Apparel",
+//   "Home & Garden",
+//   "Sports & Outdoors",
+//   "Health & Beauty",
+//   "Toys & Games",
+//   "Books & Media",
+//   "Automotive",
+//   "Jewelry & Watches",
+//   "Pet Supplies",
+// ];
 
 // --- Navbar Links ---
 const navLinks = [
   { name: "Marketplace", href: "/marketplace" },
-  { name: "Shahara's Skin", href: "/products/shahara-skin", subCategories: subCategoryData["Shahara's Skin"] },
-  { name: "Womens", href: "/products/womens-jacket", subCategories: subCategoryData["Womens"] },
-  { name: "Mens", href: "/products/mens-winter", subCategories: subCategoryData["Mens"] },
-  { name: "Kids", href: "/products/kids-winter", subCategories: subCategoryData["Kids"] },
-  { name: "Daily Needs", href: "/products/Daily-Needs", subCategories: subCategoryData["Daily Needs"] },
+  { name: "Shahara's Skin", href: "/shaharaskincare"},
+  { name: "Womens", href: "/products/womens-winter"},
+  { name: "Mens", href: "/products/mens-winter"},
+  { name: "Kids", href: "/products/kids-winter"},
+  { name: "Daily Needs", href: "/products/Daily-Needs" },
   { name: "BAG DEALS", href: "/products/BAG-DEALS" },
-  { name: "Health Care", href: "/healthcare", subCategories: subCategoryData["Health Care"] },
+  { name: "Health Care", href: "/healthcare"},
   { name: "Grocery Shop", href: "/food" },
 ];
 
@@ -281,7 +281,7 @@ export function Navbar() {
       <div className="container mx-auto px-4">
         <div className="flex h-16 items-center justify-between gap-4">
           {/* Shop By Category */}
-          <div className="hidden sm:block">
+          {/* <div className="hidden sm:block">
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
                 <Button variant="ghost" className="gap-2 text-primary font-semibold">
@@ -300,7 +300,7 @@ export function Navbar() {
                 ))}
               </DropdownMenuContent>
             </DropdownMenu>
-          </div>
+          </div> */}
 
           {/* Primary Navigation */}
           <div className="flex flex-1 items-center justify-center gap-1 overflow-x-auto scrollbar-hide">

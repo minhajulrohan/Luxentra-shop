@@ -136,9 +136,9 @@ const ProductDetailsPage = () => {
   const currentStock = (product as any).stockQuantity ?? 1; 
 
   const deliveryInfoList = [
-    { icon: Truck, text: "Free shipping inside Dhaka city" },
+    { icon: Truck, text: "60 TK shipping inside Dhaka city & Kurigram" },
     { icon: Truck, text: "Home delivery all over Bangladesh" },
-    { icon: ArrowLeftRight, text: "15 Days replacement policy only for Saifa Lifestyle manufacture products" },
+    { icon: ArrowLeftRight, text: "7 Days replacement policy only for Luxentra-shop manufacture products" },
     { icon: Clock, text: "Dedicated Customer Support" },
     { icon: ShieldCheck, text: "Verified and Trusted Sellers" },
   ];
