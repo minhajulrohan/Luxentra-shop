@@ -7,6 +7,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { toast } from "sonner";
 import { Mail, Phone, MapPin } from "lucide-react";
+import { Helmet } from "react-helmet-async";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -24,6 +25,11 @@ const Contact = () => {
 
   return (
     <div className="min-h-screen flex flex-col">
+            <Helmet>
+        <title>Luxentra-shop || Contact US</title>
+        <meta name="description" content="Welcome to MyStore — best products online." />
+        <meta property="og:title" content="Home — MyStore" />
+      </Helmet>
       <Header />
       <main className="flex-1 container mx-auto px-4 py-12">
         <div className="max-w-6xl mx-auto">

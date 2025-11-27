@@ -9,7 +9,7 @@ import Footer from "@/components/Footer";
 import allProductsData from "@/data/allProducts.json";
 import ScrollToTopButton from "@/components/Button";
 import PopularCategories from "@/components/PopularCategories";
-
+import { Helmet } from "react-helmet-async";
 
 
 const Index = () => {
@@ -40,6 +40,11 @@ const Index = () => {
 
   return (
     <div className="min-h-screen flex flex-col">
+      <Helmet>
+              <title>Luxentra Shop – বাংলাদেশের ট্রাস্টেড অনলাইন শপ</title>
+              <meta name="description" content="Welcome to MyStore — best products online." />
+              <meta property="og:title" content="Home — MyStore" />
+      </Helmet>
       <Header />
       <Hero />
       <PopularCategories />
@@ -129,7 +134,7 @@ const Index = () => {
             </Link>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 md:gap-6">
-            {products.slice(0, 6).map((product) => (
+            {products.slice(20, 27).map((product) => (
               <ProductCard
                 key={product.id}
                 id={product.id}

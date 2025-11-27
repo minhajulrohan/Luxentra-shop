@@ -7,7 +7,7 @@ import ShaharaSkinCare from "@/components/Skincare/ShaharaSkinCare";
 import ScrollToTopButton from "@/components/Button";
 // --- নতুন ইম্পোর্ট ---
 import KoreanSkincarePromo from "@/components/Skincare/KoreanSkincarePromo"; 
-
+import { Helmet } from "react-helmet-async";
 const SkinCarepage = () => {
     // লক্ষ্য নির্ধারণ: বর্তমান সময় থেকে 4 দিন পর, বাংলাদেশ সময় অনুযায়ী
     const futureDate = new Date();
@@ -19,6 +19,11 @@ const SkinCarepage = () => {
 
     return (
         <div className="min-h-screen flex flex-col">
+    <Helmet>
+        <title>Luxentra-shop || Shahara's Skin Care</title>
+        <meta name="description" content="Welcome to MyStore — best products online." />
+        <meta property="og:title" content="Home — MyStore" />
+      </Helmet>
             <Header />
             
             <main className="flex-1">

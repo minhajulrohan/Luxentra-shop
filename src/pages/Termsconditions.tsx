@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { Helmet } from "react-helmet-async";
 
 import { 
   Shield, 
@@ -55,6 +56,11 @@ const TermsConditions = () => {
 
   return (
     <div className="min-h-screen bg-background">
+        <Helmet>
+        <title>Luxentra-shop || Terms & Condition</title>
+        <meta name="description" content="Welcome to MyStore — best products online." />
+        <meta property="og:title" content="Home — MyStore" />
+      </Helmet>
       <Header />
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-primary via-primary/90 to-accent py-20 px-4 text-center">

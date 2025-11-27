@@ -5,7 +5,7 @@ import { CheckCircle2, Gift, Package, Shield, TrendingUp, Users } from "lucide-r
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ScrollToTopButton from "@/components/Button";
-
+import { Helmet } from "react-helmet-async";
 
 const About = () => {
   const [countersVisible, setCountersVisible] = useState(false);
@@ -57,6 +57,11 @@ const About = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <Helmet>
+        <title>Luxentra-shop || About</title>
+        <meta name="description" content="Welcome to MyStore — best products online." />
+        <meta property="og:title" content="Home — MyStore" />
+      </Helmet>
       <Header />
       {/* Hero Section */}
       <section className="relative py-20 md:py-32 px-4 overflow-hidden">

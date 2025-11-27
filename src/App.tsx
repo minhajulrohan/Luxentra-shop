@@ -34,29 +34,14 @@ import { path } from 'path';
 import Marketplace from "./pages/Marketplace";
 import { path } from 'path';
 import HealthCare from "./pages/HealthCare";
-import Foods from "./pages/Foods";
-import { path } from 'path';
 import SkinCarepage from "./pages/SkinCarepage";
-
-
-
-
-// function PopupController() {
-//   const location = useLocation();
-
-//   // শুধুমাত্র যখন path হোম তখন popup দেখাও
-//   const showPopup = location.pathname === "/";
-
-//   return <>{showPopup && <Ads />}</>;
-// }
-
-
-
+import { HelmetProvider } from "react-helmet-async";
 
 const queryClient = new QueryClient();
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
+    <HelmetProvider>
     <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
       <TooltipProvider>
         <Toaster />
@@ -82,7 +67,6 @@ const App = () => (
             <Route path="/blogDetails/:id" element={<BlogDetail />} />
             <Route path="/marketplace" element={<Marketplace />} />
             <Route path="/healthcare" element={<HealthCare />} />
-            <Route path="/food" element={<Foods />} />
             <Route path="/shaharaskincare" element={<SkinCarepage />} />
 
               
@@ -107,7 +91,8 @@ const App = () => (
           </AuthProvider>
         </BrowserRouter>
       </TooltipProvider>
-    </ThemeProvider>
+      </ThemeProvider>
+      </HelmetProvider>
   </QueryClientProvider>
 );
 

@@ -9,6 +9,7 @@ import { useAuth } from "@/hooks/useAuth";
 import { useToast } from "@/hooks/use-toast";
 import allProductsData from "@/data/allProducts.json";
 import ScrollToTopButton from "@/components/Button";
+import { Helmet } from "react-helmet-async";
 // ✅ Modal/Dialog কম্পোনেন্টগুলি ইম্পোর্ট করা হলো
 import { 
   Dialog, 
@@ -132,6 +133,11 @@ const Wishlist = () => {
         // ... (Login check UI remains the same)
         return (
             <div className="min-h-screen flex flex-col">
+            <Helmet>
+            <title>Luxentra-shop || Wish List</title>
+            <meta name="description" content="Welcome to MyStore — best products online." />
+            <meta property="og:title" content="Home — MyStore" />
+        </Helmet>
                 <Header />
                 <main className="flex-1 flex items-center justify-center">
                     <div className="text-center">

@@ -9,7 +9,7 @@ import ScrollToTopButton from "@/components/Button";
 import { HeroSlider } from "./HeroSliderM";
 import PopulerCategoryM from "@/components/PopulerCategoryM";
 import NewArrivals from "@/components/NewArivalM";
-
+import { Helmet } from "react-helmet-async";
 
 
 
@@ -48,6 +48,11 @@ const filterButtons = ["Smart TV", "LED TV", "Bags", "Analog Watches", "Smart Wa
 
   return (
     <div className="min-h-screen flex flex-col">
+      <Helmet>
+        <title>Luxentra-shop || Marketplace </title>
+        <meta name="description" content="Welcome to MyStore — best products online." />
+        <meta property="og:title" content="Home — MyStore" />
+      </Helmet>
       <Header />
       <HeroSlider />
      <PopulerCategoryM />

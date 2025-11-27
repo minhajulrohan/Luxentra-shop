@@ -14,6 +14,7 @@ import { toast } from "sonner";
 import { Camera, Plus, MapPin, Heart, ShoppingCart, Trash2 } from "lucide-react";
 import allProductsData from "@/data/allProducts.json";
 import Orders from "./Orders";
+import { Helmet } from "react-helmet-async";
 
 interface Profile {
   full_name: string;
@@ -251,6 +252,11 @@ const Profile = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <Helmet>
+        <title>Luxentra-shop || Profile</title>
+        <meta name="description" content="Welcome to MyStore — best products online." />
+        <meta property="og:title" content="Home — MyStore" />
+      </Helmet>
       <Header />
       
       <main className="container mx-auto px-4 py-8 mt-20">

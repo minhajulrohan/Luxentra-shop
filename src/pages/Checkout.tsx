@@ -10,7 +10,7 @@ import Footer from "@/components/Footer";
 import ScrollToTopButton from "@/components/Button";
 import { supabase } from "@/integrations/supabase/client";
 import { useAuth } from "@/hooks/useAuth";
-
+import { Helmet } from "react-helmet-async";
 interface CartItem {
   id: number;
   name: string;
@@ -203,6 +203,11 @@ const Checkout = () => {
   if (cartItems.length === 0) {
     return (
       <div className="min-h-screen flex flex-col">
+      <Helmet>
+        <title>Luxentra-shop || Check out </title>
+        <meta name="description" content="Welcome to MyStore — best products online." />
+        <meta property="og:title" content="Home — MyStore" />
+      </Helmet>
         <Header />
         <main className="flex-1 flex items-center justify-center">
           <div className="text-center">

@@ -8,6 +8,7 @@ import { Separator } from "@/components/ui/separator";
 import { Minus, Plus, Trash2, ShoppingBag, ArrowLeft, Info } from "lucide-react";
 import { toast } from "sonner";
 import ScrollToTopButton from "@/components/Button";
+import { Helmet } from "react-helmet-async";
 
 // ✅ ফিক্স: CartItem ইন্টারফেস আপডেট করা হলো
 // এটি প্রোডাক্ট ডিটেইলস পেজ থেকে localStorage এ সেভ হওয়া ডেটা স্ট্রাকচারের সাথে মিলিয়ে দেওয়া হলো।
@@ -89,6 +90,11 @@ const Cart = () => {
   if (cartItems.length === 0) {
     return (
       <div className="min-h-screen flex flex-col">
+              <Helmet>
+        <title>Luxentra-shop || Cart</title>
+        <meta name="description" content="Welcome to MyStore — best products online." />
+        <meta property="og:title" content="Home — MyStore" />
+      </Helmet>
         <Header />
         <main className="flex-1 container mx-auto px-4 py-16">
           <Card className="max-w-md mx-auto text-center p-8">

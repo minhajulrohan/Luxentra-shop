@@ -8,7 +8,7 @@ import { toast } from "sonner";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { supabase } from "@/integrations/supabase/client";
-
+import { Helmet } from "react-helmet-async";
 // Define the shape of the bill data
 interface BillSummary {
   subTotal: number;
@@ -172,6 +172,11 @@ const Payment = () => {
 
   return (
     <>
+      <Helmet>
+        <title>Luxentra-shop || Payment</title>
+        <meta name="description" content="Welcome to MyStore — best products online." />
+        <meta property="og:title" content="Home — MyStore" />
+      </Helmet>
       <Header />
       <div className="min-h-[calc(100vh-120px)] bg-background flex items-start justify-center p-4 pt-10">
         <div className="w-full max-w-5xl flex flex-col lg:flex-row gap-8">

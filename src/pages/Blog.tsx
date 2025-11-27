@@ -4,6 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import ScrollToTopButton from "@/components/Button";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 
 // ✅ সমাধান: BlogDetail.jsx-এর জন্য প্রয়োজনীয় পূর্ণাঙ্গ ডেটা যোগ করা হলো।
 export const blogPosts = [
@@ -52,6 +53,11 @@ export const blogPosts = [
 const Blog = () => {
   return (
     <div className="min-h-screen flex flex-col">
+            <Helmet>
+        <title>Luxentra-shop || BLog</title>
+        <meta name="description" content="Welcome to MyStore — best products online." />
+        <meta property="og:title" content="Home — MyStore" />
+      </Helmet>
       <Header />
       
       <main className="flex-1">

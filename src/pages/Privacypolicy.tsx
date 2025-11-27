@@ -4,6 +4,7 @@ import { Shield, Lock, Eye, UserCheck, FileText, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { Helmet } from "react-helmet-async";
 
 const PrivacyPolicy = () => {
   useEffect(() => {
@@ -32,6 +33,11 @@ const PrivacyPolicy = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-background via-secondary/10 to-background">
+      <Helmet>
+        <title>Luxentra-shop || Privacy policy</title>
+        <meta name="description" content="Welcome to MyStore — best products online." />
+        <meta property="og:title" content="Home — MyStore" />
+      </Helmet>
       <Header />
       {/* Hero Section */}
       <header className="bg-gradient-to-r from-primary via-primary/90 to-accent text-white py-16 px-4">

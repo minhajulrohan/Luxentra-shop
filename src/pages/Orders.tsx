@@ -9,6 +9,7 @@ import { supabase } from "@/integrations/supabase/client";
 import { useAuth } from "@/hooks/useAuth";
 import { toast } from "sonner";
 import { Package, Truck, CheckCircle, XCircle, Clock } from "lucide-react";
+import { Helmet } from "react-helmet-async";
 
 // Add these fields to your Order interface in OrderSuccess.tsx
 interface Order {
@@ -100,6 +101,11 @@ const Orders = () => {
 
   return (
     <>
+      <Helmet>
+        <title>Luxentra-shop || Order</title>
+        <meta name="description" content="Welcome to MyStore — best products online." />
+        <meta property="og:title" content="Home — MyStore" />
+      </Helmet>
       <Header />
       <main className="min-h-screen bg-background py-12 px-4">
         <div className="container mx-auto max-w-6xl">
