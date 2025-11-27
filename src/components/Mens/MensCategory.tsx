@@ -4,23 +4,28 @@ import Autoplay from "embla-carousel-autoplay";
 import { useCallback } from "react";
 import MensCategoryCard from "./MensCategoryCard";
 import { Button } from "@/components/ui/button"; // ✅ fixed import
-import Womens1 from "@/assets/Womens1.avif";
-import Womens2 from "@/assets/Womens2.avif";
-import Womens3 from "@/assets/Womens3.avif";
-import Womens4 from "@/assets/Womens4.avif";
-import Womens5 from "@/assets/Womens5.avif";
+import Womens1 from "@/assets/MensCoti.avif";
+import Womens2 from "@/assets/MensLunggi.avif";
+import Womens3 from "@/assets/MensFormalPant.avif";
+import Womens4 from "@/assets/MensPunjabi.avif";
+import Womens5 from "@/assets/MensJeans.avif";
+import MensCasualShirt from "@/assets/MensCasualShirt.avif"
+import MensFormalShirt from "@/assets/MensFormalShirt.avif"
+import MensJoggers from "@/assets/MensJoggers.avif"
+import MensPolo from "@/assets/MensPolo.avif"
+import MensInnerwear from "@/assets/MensInnerwear.avif"
 
 const categories = [
-  { title: "Womens", href: "/products/womens", image: Womens1 },
-  { title: "Ethnic Set (2 & 3 Pcs)", href: "/products/Ethnic", image: Womens5 },
-  { title: "Womens Bottom Wear", href: "/products/Womens-bottom-wear", image: Womens3 },
-  { title: "Comfort Wear / Athleisure", href: "/products/womens-comfort-wear", image: Womens4 },
-  { title: "Tops & Shirts", href: "/products/tops-shirt", image: Womens2 },
-  { title: "Footwear", href: "/products/womens-footwear", image: Womens1 },
-  { title: "Bags", href: "/products/womens-bags", image: Womens5 },
-  { title: "Accessories", href: "/products/accessories", image: Womens3 },
-  { title: "Comfort Wear / Athleisure", href: "/products/comfort-wear", image: Womens4 },
-  { title: "Tops & Shirts", href: "/products/tops-shirts", image: Womens2 },
+  { title: "Mens Coti", href: "/products/womens", image: Womens1 },
+  { title: "Mens Lungi", href: "/products/Ethnic", image: Womens5 },
+  { title: "Mens Formal Pant", href: "/products/Womens-bottom-wear", image: Womens3 },
+  { title: "Mens Punjabi", href: "/products/womens-comfort-wear", image: Womens4 },
+  { title: "Mens Jeans Pant", href: "/products/tops-shirt", image: Womens2 },
+  { title: "Mens Casual Shirt", href: "/products/womens-footwear", image: MensCasualShirt },
+  { title: "Mens Formal Shirt", href: "/products/womens-bags", image: MensFormalShirt },
+  { title: "Mens Joggers", href: "/products/accessories", image: MensJoggers },
+  { title: "Mens Polo", href: "/products/comfort-wear", image: MensPolo },
+  { title: "Mens Innerweare", href: "/products/tops-shirts", image: MensInnerwear },
 ];
 
 const MensCategory = () => {

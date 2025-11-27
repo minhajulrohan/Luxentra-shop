@@ -9,18 +9,18 @@ import Womens2 from "@/assets/Womens2.avif";
 import Womens3 from "@/assets/Womens3.avif";
 import Womens4 from "@/assets/Womens4.avif";
 import Womens5 from "@/assets/Womens5.avif";
+import NokshiBag from "@/assets/Nokshi-Bag1.jpg"
+import Share1 from "@/assets/Share1.avif"
+import WomensShoe from "@/assets/WomensShoe1.jpg"
 
 const categories = [
-  { title: "Womens", href: "/products/womens", image: Womens1 },
-  { title: "Ethnic Set (2 & 3 Pcs)", href: "/products/Ethnic", image: Womens5 },
-  { title: "Womens Bottom Wear", href: "/products/Womens-bottom-wear", image: Womens3 },
+  { title: "Womens", href: "/products/womens", image: Womens2 },
+  { title: "Womens Top Ware & Bottom", href: "/products/Ethnic", image: Womens3 },
+  { title: "Ethnic Set (2 & 3 Pcs)", href: "/products/ethnic", image: Womens5 },
   { title: "Comfort Wear / Athleisure", href: "/products/womens-comfort-wear", image: Womens4 },
-  { title: "Tops & Shirts", href: "/products/tops-shirt", image: Womens2 },
-  { title: "Footwear", href: "/products/womens-footwear", image: Womens1 },
-  { title: "Bags", href: "/products/womens-bags", image: Womens5 },
-  { title: "Accessories", href: "/products/accessories", image: Womens3 },
-  { title: "Comfort Wear / Athleisure", href: "/products/comfort-wear", image: Womens4 },
-  { title: "Tops & Shirts", href: "/products/tops-shirts", image: Womens2 },
+  { title: "Footwear", href: "/products/womens-shoe", image: WomensShoe },
+  { title: "Nokshi Bags", href: "/products/nokshi-bags", image: NokshiBag },
+  { title: "Sharee", href: "/products/comfort-wear", image: Share1 }
 ];
 
 const WomensCategory = () => {

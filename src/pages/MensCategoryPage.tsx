@@ -1,4 +1,4 @@
-// src/pages/Shop.jsx (or wherever your Shop component lives)
+// src/pages/WomenspageCategory.jsx
 import { useState, useEffect, useMemo } from "react";
 import { Helmet } from "react-helmet-async";
 import { useSearchParams } from "react-router-dom";
@@ -19,33 +19,33 @@ import MensCategory from "@/components/Mens/MensCategory";
 
 const ITEMS_PER_PAGE = 40;
 
+// Define the IDs of all Womens products
+const WOMENS_IDS = [
+  111,201, 202, 203, 204, 205, // example IDs
+  210, 215, 220, 250, 300, // add all IDs belonging to Womens
+];
+
 const MensCategoryPage = () => {
   const [sortBy, setSortBy] = useState("featured");
-  const [filterCategory, setFilterCategory] = useState("all");
   const [searchParams, setSearchParams] = useSearchParams();
   const searchQuery = searchParams.get("search") || "";
   const pageParam = parseInt(searchParams.get("page") || "1", 10);
   const [currentPage, setCurrentPage] = useState(Number.isNaN(pageParam) ? 1 : pageParam);
 
-  // categories list
-  const categories = useMemo(
-    () => ["all", ...new Set(allProductsData.products.map((p) => p.category))],
+  // Filter products by ID
+  const womensProducts = useMemo(
+    () => allProductsData.products.filter((p) => WOMENS_IDS.includes(p.id)),
     []
   );
 
-  // filter by search and category
-  let filteredProducts = allProductsData.products;
-
+  // filter by search query
+  let filteredProducts = womensProducts;
   if (searchQuery) {
     filteredProducts = filteredProducts.filter(
       (p) =>
         p.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
         p.category.toLowerCase().includes(searchQuery.toLowerCase())
     );
-  }
-
-  if (filterCategory !== "all") {
-    filteredProducts = filteredProducts.filter((p) => p.category === filterCategory);
   }
 
   // sort
@@ -67,28 +67,24 @@ const MensCategoryPage = () => {
   // total pages
   const totalPages = Math.max(1, Math.ceil(sortedProducts.length / ITEMS_PER_PAGE));
 
-  // make sure currentPage stays in range when filters change
+  // keep currentPage in range
   useEffect(() => {
     const newPage = Math.min(Math.max(1, currentPage), totalPages);
     if (newPage !== currentPage) setCurrentPage(newPage);
-    // reflect in URL param
     setSearchParams((prev) => {
       const next = new URLSearchParams(prev);
       next.set("page", String(newPage));
-      // preserve existing search query param if present
       if (searchQuery) next.set("search", searchQuery);
       return next;
     });
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [totalPages]);
 
-  // sync currentPage when URL page param changes (e.g., user navigates /?page=2)
+  // sync currentPage when URL page param changes
   useEffect(() => {
     const p = parseInt(searchParams.get("page") || "1", 10);
     if (!Number.isNaN(p) && p !== currentPage) {
       setCurrentPage(p);
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [searchParams]);
 
   // slice products for current page
@@ -96,14 +92,14 @@ const MensCategoryPage = () => {
   const endIndex = startIndex + ITEMS_PER_PAGE;
   const pageProducts = sortedProducts.slice(startIndex, endIndex);
 
-  // handler to change page (updates state + URL param)
+  // pagination handlers
   const goToPage = (p) => {
     const pageNum = Math.min(Math.max(1, p), totalPages);
     setCurrentPage(pageNum);
     const next = new URLSearchParams(searchParams);
     next.set("page", String(pageNum));
     setSearchParams(next);
-    // scroll to top of products section (optional)
+
     const productsSection = document.querySelector("section.py-8");
     if (productsSection) productsSection.scrollIntoView({ behavior: "smooth" });
   };
@@ -111,14 +107,12 @@ const MensCategoryPage = () => {
   const prevPage = () => goToPage(currentPage - 1);
   const nextPage = () => goToPage(currentPage + 1);
 
-  // small helper to render page numbers with ellipsis if many pages
   const renderPageNumbers = () => {
     const pages = [];
-    const maxButtons = 7; // show up to 7 buttons including first/last/near current
+    const maxButtons = 7;
     if (totalPages <= maxButtons) {
       for (let i = 1; i <= totalPages; i++) pages.push(i);
     } else {
-      // always show first, last and around current
       pages.push(1);
       let left = Math.max(2, currentPage - 1);
       let right = Math.min(totalPages - 1, currentPage + 1);
@@ -162,18 +156,18 @@ const MensCategoryPage = () => {
 
   return (
     <div className="min-h-screen flex flex-col">
-    <Helmet>
-    <title>Luxentra-shop || Mens Category</title>
-    <meta name="description" content="Welcome to MyStore — best products online." />
-    <meta property="og:title" content="Home — MyStore" />
+      <Helmet>
+        <title>Luxentra-shop || Womens Category</title>
+        <meta name="description" content="Welcome to MyStore — best products online." />
+        <meta property="og:title" content="Home — MyStore" />
       </Helmet>
+
       <Header />
       <MensCategory />
       <main className="flex-1">
-        
         <section className="bg-secondary/30 py-2">
           <div className="container mx-auto px-4">
-            <h1 className="text-2xl font-bold mb-2"> Mens Collection's</h1>
+            <h1 className="text-2xl font-bold mb-2">Womens Collection's</h1>
             <p className="text-muted-foreground">Discover our complete collection</p>
           </div>
         </section>
@@ -181,35 +175,19 @@ const MensCategoryPage = () => {
         <section className="py-8">
           <div className="container mx-auto px-4">
             <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-center justify-between mb-8">
-              <div className="flex items-center gap-4 w-full sm:w-auto">
-                <Select value={filterCategory} onValueChange={(v) => { setFilterCategory(v); goToPage(1); }}>
-                  <SelectTrigger className="w-full sm:w-[220px] h-12 bg-background border-2 border-primary">
-                    <SelectValue placeholder="All Categories" />
-                  </SelectTrigger>
-                  <SelectContent className="max-h-[300px] bg-background border shadow-lg z-50">
-                    {categories.map((cat) => (
-                      <SelectItem key={cat} value={cat} className="cursor-pointer hover:bg-accent">
-                        {cat === "all" ? "All Categories" : cat}
-                      </SelectItem>
-                    ))}
-                  </SelectContent>
-                </Select>
-              </div>
-
               <Select value={sortBy} onValueChange={(v) => { setSortBy(v); goToPage(1); }}>
                 <SelectTrigger className="w-full sm:w-[220px] h-12 bg-background border-2">
                   <SelectValue placeholder="Sort by" />
                 </SelectTrigger>
                 <SelectContent className="bg-background border shadow-lg z-50">
-                  <SelectItem value="featured" className="cursor-pointer hover:bg-accent">Featured</SelectItem>
-                  <SelectItem value="price-low" className="cursor-pointer hover:bg-accent">Price: Low to High</SelectItem>
-                  <SelectItem value="price-high" className="cursor-pointer hover:bg-accent">Price: High to Low</SelectItem>
-                  <SelectItem value="name" className="cursor-pointer hover:bg-accent">Name: A to Z</SelectItem>
+                  <SelectItem value="featured">Featured</SelectItem>
+                  <SelectItem value="price-low">Price: Low to High</SelectItem>
+                  <SelectItem value="price-high">Price: High to Low</SelectItem>
+                  <SelectItem value="name">Name: A to Z</SelectItem>
                 </SelectContent>
               </Select>
             </div>
 
-            {/* Products grid */}
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 md:gap-6">
               {pageProducts.map((product) => (
                 <ProductCard
@@ -234,7 +212,6 @@ const MensCategoryPage = () => {
               ))}
             </div>
 
-            {/* Pagination */}
             <div className="mt-8 flex items-center justify-center space-x-2">
               <button
                 onClick={prevPage}
@@ -255,7 +232,6 @@ const MensCategoryPage = () => {
               </button>
             </div>
 
-            {/* optional: show range info */}
             <div className="mt-3 text-center text-sm text-muted-foreground">
               Showing {Math.min(sortedProducts.length, startIndex + 1)}–{Math.min(sortedProducts.length, endIndex)} of {sortedProducts.length} products
             </div>
