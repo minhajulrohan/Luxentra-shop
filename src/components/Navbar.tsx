@@ -120,7 +120,7 @@ import {
 const navLinks = [
   { name: "Marketplace", href: "/marketplace" },
   { name: "Shahara's Skin", href: "/shaharaskincare"},
-  { name: "Womens", href: "/products/womens-winter"},
+  { name: "Womens", href: "/womens"},
   { name: "Mens", href: "/products/mens-winter"},
   { name: "Kids", href: "/products/kids-winter"},
   { name: "Daily Needs", href: "/products/Daily-Needs" },
