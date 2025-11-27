@@ -40,6 +40,9 @@ import SkinCarepage from "./pages/SkinCarepage";
 import { HelmetProvider } from "react-helmet-async";
 import { path } from 'path';
 import WomenspageCategory from "./pages/WomenspageCategory";
+import MensCategoryPage from "./pages/MensCategoryPage";
+import { path } from 'path';
+import Kidspage from "./pages/Kidspage";
 
 const queryClient = new QueryClient();
 
@@ -74,7 +77,8 @@ const App = () => (
             <Route path="/food" element={<Foods />} />
             <Route path="/shaharaskincare" element={<SkinCarepage />} />
             <Route path="/womens" element={<WomenspageCategory />} />    
-
+            <Route path="/mens" element={<MensCategoryPage />} />
+            <Route path="/kids" element={<Kidspage />} />    
               
             {/* Standardized Product Routing */}
             <Route path="/products" element={<CategoryListPage />} />
