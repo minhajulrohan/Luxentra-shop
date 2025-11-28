@@ -11,7 +11,7 @@ import ScrollToTopButton from "@/components/Button";
 import PopularCategories from "@/components/PopularCategories";
 import { Helmet } from "react-helmet-async";
 import CollectionSection from "@/components/CollectionSection";
-
+import EmailSubscription from './../components/EmailSubscription';
 const Index = () => {
   const navigate = useNavigate();
   const allProducts = allProductsData?.products || [];
@@ -103,6 +103,7 @@ const Index = () => {
       />
 
       {/* Remaining Sections */}
+      <EmailSubscription />
       <Footer />
       <ScrollToTopButton />
     </div>

@@ -6344,6 +6344,453 @@
         { "label": "Collar/ Neck : ", "value": "Band Collar" },
         { "label": "Sleeve:  ", "value": " Full Sleeve" }
       ]
+    },
+   {
+      "id": 116,
+      "name": "Ladies Pullover Sweater",
+      "slug": "Ladies-Pullover-Sweater",
+      "category": "Womens Hudi",
+      "categorySlug": "womens-hudi",
+      "price": 950,
+      "originalPrice": 1100,
+	  "badge":"Available",
+      "stockQuantity": 11, 
+      "description": "",
+      "fullDescription": "",
+      "brand": "Luxentra Shop Importer China",
+      "sku": "LS_0000000XYOTGOCI6",
+      "images": [
+        "https://img.alicdn.com/img/ibank/O1CN01ggf7DN1bhDe5IcSoB_!!2217556723496-0-cib.jpg",
+        "https://img.alicdn.com/img/ibank/O1CN01wkqzKH1bhDe5tRRQS_!!2217556723496-0-cib.jpg",
+        "https://img.alicdn.com/img/ibank/O1CN01d3P0he1bhDe5IbK6G_!!2217556723496-0-cib.jpg",
+        "https://img.alicdn.com/img/ibank/O1CN012jaSoO1bhDe5IeLEQ_!!2217556723496-0-cib.jpg",
+        "https://img.alicdn.com/img/ibank/O1CN01Ea3WKq1bhDe7jMwMN_!!2217556723496-0-cib.jpg",
+        "https://img.alicdn.com/img/ibank/O1CN01NpVwfv1bhDe70qZ7x_!!2217556723496-0-cib.jpg",
+        "https://img.alicdn.com/img/ibank/O1CN01e957Ev1bhDe3B4gjh_!!2217556723496-0-cib.jpg",
+        "https://img.alicdn.com/img/ibank/O1CN01WU3ZYk1bhDdy4B0KP_!!2217556723496-0-cib.jpg"
+      ],
+
+      "sizes": ["S", "M", "L" , "XL" , "XXL"], 
+      "colors": ["White", "Red", "Dark green", "Dark purple", "Black", "Turmeric"],
+      
+
+      "features": [
+        "",
+        "",
+        ""
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "Fabric", "value": "Core-spun yarn" },
+        { "label": "Gender:", "value": "Female" },
+        { "label": "Color", "value": "Solid color ,Fog Blue, Dark Green" },
+        { "label": "Fit Type:", "value": " Regular Fit" },
+        { "label": "Addition: : ", "value": "Auto Embroidery" },
+        { "label": "Collar/ Neck : ", "value": "Round neck" },
+        { "label": "Sleeve:  ", "value": " Full Sleeve" }
+      ]
+    },
+    {
+      "id": 117,
+      "name": "New Laptop Bag / Apple Inner Bag",
+      "slug": "New-Laptop-Bag-Apple-Inner-Bag",
+      "category": "All Bag Pack",
+      "categorySlug": "BAG-DEALS",
+      "price": 1350,
+      "originalPrice": 1500,
+	  "badge":"Available",
+      "stockQuantity": 11, 
+      "description": "",
+      "fullDescription": "",
+      "brand": "Luxentra Shop Importer China",
+      "sku": "LS_0000000KP94GBD8M",
+      "images": [
+        "https://img.alicdn.com/img/ibank/O1CN01N0uPlp1uX7NTfybDi_!!2670546046-0-cib.jpg",
+        "https://img.alicdn.com/img/ibank/O1CN01zwysey1uX7NTfweeO_!!2670546046-0-cib.jpg",
+        "https://img.alicdn.com/img/ibank/O1CN01dcncgc1uX7NafFJ20_!!2670546046-0-cib.jpg",
+        "https://img.alicdn.com/img/ibank/O1CN01iGEGZU1uX7NRP1iFr_!!2670546046-0-cib.jpg",
+        "https://img.alicdn.com/img/ibank/O1CN01ADR62A1uX7QMzBWw6_!!2670546046-0-cib.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": ["Grey"],
+      
+
+      "features": [
+        "",
+        "",
+        ""
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "Function", "value": "Waterproof" },
+        { "label": "Material:", "value": "PU leather" },
+        { "label": "Color", "value": "Grey" }
+      ]
+    },
+    {
+      "id": 118,
+      "name": "Korean Business Casual Backpack",
+      "slug": "Korean-Business-Casual-Backpack",
+      "category": "All Bag Pack",
+      "categorySlug": "BAG-DEALS",
+      "price": 1200,
+      "originalPrice": 1350,
+	  "badge":"Available",
+      "stockQuantity": 5, 
+      "description": "",
+      "fullDescription": "",
+      "brand": "Luxentra Shop Importer China",
+      "sku": "LS_0000000KP94GBD8M",
+      "images": [
+        "https://img.alicdn.com/img/ibank/O1CN01AYezM71zft1y5Opmz_!!2209722856742-0-cib.jpg",
+        "https://img.alicdn.com/img/ibank/O1CN01NpvJFq1zftJPHEbdD_!!2209722856742-0-cib.jpg",
+        "https://img.alicdn.com/img/ibank/O1CN01guNBKI1zftDcFYf9T_!!2209722856742-0-cib.jpg",
+        "https://img.alicdn.com/img/ibank/O1CN01TodC1l1zft1prLlNh_!!2209722856742-0-cib.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": ["Black", "White", "Grey"],
+      
+
+      "features": [
+        "",
+        "",
+        ""
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "Function", "value": "Breathable" },
+        { "label": "Material:", "value": "Polyester" },
+        { "label": "Color", "value": "Grey" }
+      ]
+    },
+     {
+      "id": 119,
+      "name": "Multifunctional Business Briefcase",
+      "slug": "Multifunctional-Business-Briefcase",
+      "category": "All Bag Pack",
+      "categorySlug": "BAG-DEALS",
+      "price": 1250,
+      "originalPrice": 1350,
+	  "badge":"Available",
+      "stockQuantity": 9, 
+      "description": "",
+      "fullDescription": "",
+      "brand": "Luxentra Shop Importer China",
+      "sku": "LS_0000000J46WTVJ7D",
+      "images": [
+        "https://img.alicdn.com/img/ibank/O1CN01IUMnWS1zD2OIs1fEk_!!2217899886679-0-cib.jpg",
+        "https://img.alicdn.com/img/ibank/O1CN01ZS5i831zD2OIDDB2Y_!!2217899886679-0-cib.jpg",
+        "https://img.alicdn.com/img/ibank/O1CN01uZKpJF1zD2OJ5oSAo_!!2217899886679-0-cib.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": ["Black", "White", "Grey"],
+      
+
+      "features": [
+        "",
+        "",
+        ""
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "Function", "value": "Breathable" },
+        { "label": "Material:", "value": "Polyester" },
+        { "label": "Color", "value": "Grey" }
+      ]
+    },
+    {
+      "id": 120,
+      "name": "Multi-functional Travel Business Pack",
+      "slug": "Multi-functional-Travel-Business-Pack",
+      "category": "All Bag Pack",
+      "categorySlug": "BAG-DEALS",
+      "price": 1500,
+      "originalPrice": 1800,
+	  "badge":"Available",
+      "stockQuantity": 12, 
+      "description": "",
+      "fullDescription": "",
+      "brand": "Luxentra",
+      "sku": "LS_0000000ZC5JUJR7J",
+      "images": [
+        "https://img.alicdn.com/img/ibank/O1CN01u5EmJJ20VdrnhJAXa_!!3971766855-0-cib.jpg",
+        "https://img.alicdn.com/img/ibank/O1CN01VTumOz20VdruKb24W_!!3971766855-0-cib.jpg",
+        "https://img.alicdn.com/img/ibank/O1CN010GwmgM20Vdrzy02qH_!!3971766855-0-cib.jpg",
+        "https://img.alicdn.com/img/ibank/O1CN01SFaPqe20VdrtdzQS6_!!3971766855-0-cib.jpg",
+        "https://img.alicdn.com/img/ibank/O1CN01gt00H620Vdzxt5z2n_!!3971766855-0-cib.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": ["Black", "Blue"],
+      
+
+      "features": [
+        "",
+        "",
+        ""
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "Function", "value": "Breathable" },
+        { "label": "Material:", "value": "Polyester" },
+        { "label": "Capacity:", "value": "20-35L" },
+        { "label": "Color", "value": "Grey" }
+      ]
+    },
+    {
+      "id": 121,
+      "name": "Casual Fashion Sports Pack",
+      "slug": "Casual-Fashion-Sports-Pack",
+      "category": "All Bag Pack",
+      "categorySlug": "BAG-DEALS",
+      "price": 1300,
+      "originalPrice": 1850,
+	  "badge":"30%",
+      "stockQuantity": 16, 
+      "description": "",
+      "fullDescription": "",
+      "brand": "Luxentra",
+      "sku": "LS_0000000WGA4H9T7F",
+      "images": [
+        "https://img.alicdn.com/img/ibank/O1CN01r9oa3I1k00tLjWwao_!!2212762114620-0-cib.jpg",
+        "https://img.alicdn.com/img/ibank/O1CN01Oz8s7v1k00tKb1sf1_!!2212762114620-0-cib.jpg",
+        "https://img.alicdn.com/img/ibank/O1CN01oyJzio1k00tMP4LnF_!!2212762114620-0-cib.jpg",
+        "https://img.alicdn.com/img/ibank/O1CN01aiP3xr1k00tLRHw44_!!2212762114620-0-cib.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": ["Black"],
+      
+
+      "features": [
+        "",
+        "",
+        ""
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "Function", "value": "Sunshade" },
+        { "label": "Material:", "value": "Polyester" },
+        { "label": "Capacity:", "value": "20-35L" },
+        { "label": "Color", "value": "Grey" }
+      ]
+    },
+    {
+      "id": 122,
+      "name": "Affordable Commuter Business Pack",
+      "slug": "Affordable-Commuter-Business-Pack",
+      "category": "All Bag Pack",
+      "categorySlug": "BAG-DEALS",
+      "price": 1100,
+      "originalPrice": 1350,
+	  "badge":"Available",
+      "stockQuantity": 16, 
+      "description": "",
+      "fullDescription": "",
+      "brand": "Luxentra",
+      "sku": "LS_0000000WGA4H9T7F",
+      "images": [
+        "https://img.alicdn.com/img/ibank/O1CN01EenhWQ1dTb78HC9Qb_!!2218915953737-0-cib.jpg",
+        "https://img.alicdn.com/img/ibank/O1CN013Jroas1dTb78MKZEp_!!2218915953737-0-cib.jpg",
+        "https://img.alicdn.com/img/ibank/O1CN01oKarCn1dTb77pZY0Z_!!2218915953737-0-cib.jpg",
+        "https://img.alicdn.com/img/ibank/O1CN01IuJmH01dTb76WEnZS_!!2218915953737-0-cib.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": ["Black", "Grey", "Blue"],
+      
+
+      "features": [
+        "",
+        "",
+        ""
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "Function", "value": "Sunshade" },
+        { "label": "Material:", "value": "Polyester" },
+        { "label": "Capacity:", "value": "20-35L" },
+        { "label": "Color", "value": "Grey" }
+      ]
+    },
+    {
+      "id": 123,
+      "name": "Casual Lightweight High School",
+      "slug": "Casual-Lightweight-High-School",
+      "category": "All Bag Pack",
+      "categorySlug": "BAG-DEALS",
+      "price": 950,
+      "originalPrice": 1150,
+	  "badge":"Available",
+      "stockQuantity": 16, 
+      "description": "",
+      "fullDescription": "",
+      "brand": "Luxentra",
+      "sku": "LS_0000000WGA4H9T7F",
+      "images": [
+        "https://img.alicdn.com/img/ibank/O1CN010pM6JJ237mDxQyjD0_!!2204147587209-0-cib.jpg",
+        "https://img.alicdn.com/img/ibank/O1CN01BFoRdl237mDyhtu1F_!!2204147587209-0-cib.jpg",
+        "https://img.alicdn.com/img/ibank/O1CN01nGGLtO237mDzwN8yF_!!2204147587209-0-cib.jpg",
+        "https://img.alicdn.com/img/ibank/O1CN01kblAAO237mDqVQN5M_!!2204147587209-0-cib.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": ["Black", "Grey", "Blue"],
+      
+
+      "features": [
+        "",
+        "",
+        ""
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "Function", "value": "Sunshade" },
+        { "label": "Material:", "value": "Polyester" },
+        { "label": "Capacity:", "value": "20-35L" },
+        { "label": "Color", "value": "Grey" }
+      ]
+    },
+    {
+      "id": 124,
+      "name": "Ultra-Light Folding Pack",
+      "slug": "Ultra-Light-Folding-Pack",
+      "category": "All Bag Pack",
+      "categorySlug": "BAG-DEALS",
+      "price": 950,
+      "originalPrice": 1150,
+	  "badge":"Available",
+      "stockQuantity": 16, 
+      "description": "",
+      "fullDescription": "",
+      "brand": "Luxentra",
+      "sku": "LS_0000000WGA4H9T7F",
+      "images": [
+        "https://img.alicdn.com/img/ibank/O1CN01nuc9ud2JbZorUICQE_!!2139429440-0-cib.jpg",
+        "https://img.alicdn.com/img/ibank/O1CN01d9gDAS2JbZoqdapoZ_!!2139429440-0-cib.jpg",
+        "https://img.alicdn.com/img/ibank/O1CN01P4AuUB2JbZos2WBnP_!!2139429440-0-cib.jpg",
+        "https://img.alicdn.com/img/ibank/O1CN01BRUaVy2JbZot7eSjc_!!2139429440-0-cib.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": ["Oshen Blue"],
+      
+
+      "features": [
+        "",
+        "",
+        ""
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "Function", "value": "Sunshade" },
+        { "label": "Material:", "value": "Polyester" },
+        { "label": "Capacity:", "value": "20-35L" },
+        { "label": "Color", "value": "Grey" }
+      ]
+    },
+    {
+      "id": 125,
+      "name": "Japanese Style Zipper Jacket/Coat",
+      "slug": "Japanese-Style-Zipper-Jacket-Coat",
+      "category": "Mens Jacket",
+      "categorySlug": "mens-jacket",
+      "price": 2850,
+      "originalPrice": 3000,
+	  "badge":"Available",
+      "stockQuantity": 57, 
+      "description": "",
+      "fullDescription": "",
+      "brand": "",
+      "sku": "",
+      "images": [
+        "https://img.alicdn.com/img/ibank/O1CN01ioK1802HefN6p6q6l_!!2212457039176-0-cib.jpg",
+        "https://img.alicdn.com/img/ibank/O1CN01wxYbT42HefN8DjYPC_!!2212457039176-0-cib.jpg",
+        "https://img.alicdn.com/img/ibank/O1CN01UC9axr2HefN7wR0Q0_!!2212457039176-0-cib.jpg"
+      ],
+
+      "sizes": ["S", "M", "L", "XL"], 
+      "colors": ["Black", "OFF White"],
+      
+
+      "features": [
+        "",
+        "",
+        ""
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "Fabric:", "value": "Cotton" },
+        { "label": "Gender:", "value": "Male" },
+        { "label": "Color", "value": "Mystic Harbor" },
+        { "label": "Fit Type:", "value": " Regular Fit" },
+        { "label": "Collar / Neck: ", "value": "lapel" },
+        { "label": "Addition:", "value": "Auto Embroidery" },
+        { "label": "Sleeve:", "value": "Full Sleeve" }
+      ]
     }
   ]
 }

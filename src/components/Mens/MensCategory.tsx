@@ -14,8 +14,10 @@ import MensFormalShirt from "@/assets/MensFormalShirt.avif"
 import MensJoggers from "@/assets/MensJoggers.avif"
 import MensPolo from "@/assets/MensPolo.avif"
 import MensInnerwear from "@/assets/MensInnerwear.avif"
+import MensJacket from "@/assets/MensJacket.png"
 
 const categories = [
+  { title: "Mens Jacket", href: "/products/mens-jacket", image: MensJacket},
   { title: "Mens Coti", href: "/products/womens", image: Womens1 },
   { title: "Mens Lungi", href: "/products/Ethnic", image: Womens5 },
   { title: "Mens Formal Pant", href: "/products/Womens-bottom-wear", image: Womens3 },

@@ -12,14 +12,16 @@ import Womens5 from "@/assets/Womens5.avif";
 import NokshiBag from "@/assets/Nokshi-Bag1.jpg"
 import Share1 from "@/assets/Share1.avif"
 import WomensShoe from "@/assets/WomensShoe1.jpg"
+import hudi from "@/assets/womensHudi.png"
 
 const categories = [
   { title: "Womens", href: "/products/womens", image: Womens2 },
-  { title: "Womens Top Ware & Bottom", href: "/products/Ethnic", image: Womens3 },
+  { title: "Womens", href: "/products/womens-hudi", image: hudi },
+  { title: "Womens Top Ware & Bottom", href: "/products/womens-topwear", image: Womens3 },
   { title: "Ethnic Set (2 & 3 Pcs)", href: "/products/ethnic", image: Womens5 },
   { title: "Comfort Wear / Athleisure", href: "/products/womens-comfort-wear", image: Womens4 },
   { title: "Footwear", href: "/products/womens-shoe", image: WomensShoe },
-  { title: "Nokshi Bags", href: "/products/nokshi-bags", image: NokshiBag },
+  { title: "Nokshi Bags", href: "/products/womens-nokshi-bags", image: NokshiBag },
   { title: "Sharee", href: "/products/womens-saree1245", image: Share1 }
 ];
 
