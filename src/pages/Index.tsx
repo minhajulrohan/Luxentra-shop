@@ -12,50 +12,34 @@ import PopularCategories from "@/components/PopularCategories";
 import { Helmet } from "react-helmet-async";
 import CollectionSection from "@/components/CollectionSection";
 import EmailSubscription from './../components/EmailSubscription';
+
 const Index = () => {
   const navigate = useNavigate();
   const allProducts = allProductsData?.products || [];
 
-  // --- Category Filter Function ---
-  function filterProductsByCategory(category) {
+  // ⭐️ --- THE NEW, SIMPLE FILTER FUNCTION ---
+  /**
+   * Filters products based on the explicit 'collection' field added to the product object.
+   * This prevents products from leaking between sections.
+   */
+  function filterProductsByExplicitCollection(targetCollection) {
+    const requiredCollection = targetCollection.toLowerCase();
+    
     return allProducts.filter((product) => {
-      // specifications theke gender check kora
-      const genderSpec = product.specifications.find(
-        (spec) => spec.label.toLowerCase().includes("gender")
-      )?.value.toLowerCase() || "";
-
-      // categorySlug or categoryName theke category match kora
-      const categorySlug = product.categorySlug?.toLowerCase() || "";
-      const categoryName = product.category?.toLowerCase() || "";
-
-      if (category === "mens") {
-        return (
-          genderSpec.includes("male") ||
-          categoryName.includes("men") ||
-          categorySlug.includes("men")
-        );
-      } else if (category === "womens") {
-        return (
-          genderSpec.includes("female") ||
-          categoryName.includes("women") ||
-          categorySlug.includes("women")
-        );
-      } else if (category === "kids") {
-        return (
-          genderSpec.includes("kids") ||
-          categoryName.includes("kids") ||
-          categorySlug.includes("kids")
-        );
-      } else {
-        return false;
-      }
+      // Check if the product has the exact collection tag.
+      const productCollection = product.collection ? product.collection.toLowerCase() : "";
+      
+      // Exact match check is the most reliable method.
+      return productCollection === requiredCollection;
     });
   }
+  // ------------------------------------------
 
-  // --- Filtered Products ---
-  const mensProducts = filterProductsByCategory("mens").slice(0, 12);
-  const womensProducts = filterProductsByCategory("womens").slice(0, 12);
-  const kidsProducts = filterProductsByCategory("kids").slice(0, 12);
+  // --- Filtered Products (Using the new function) ---
+  // The function now strictly pulls products based on the single 'collection' field value.
+  const mensProducts = filterProductsByExplicitCollection("mens").slice(0, 12);
+  const womensProducts = filterProductsByExplicitCollection("womens").slice(0, 12);
+  const kidsProducts = filterProductsByExplicitCollection("kids").slice(0, 12);
 
   // Navigate helper
   const handleViewAll = (collection) => {
