@@ -20,7 +20,7 @@ const categories = [
   { title: "Comfort Wear / Athleisure", href: "/products/womens-comfort-wear", image: Womens4 },
   { title: "Footwear", href: "/products/womens-shoe", image: WomensShoe },
   { title: "Nokshi Bags", href: "/products/nokshi-bags", image: NokshiBag },
-  { title: "Sharee", href: "/products/comfort-wear", image: Share1 }
+  { title: "Sharee", href: "/products/womens-saree1245", image: Share1 }
 ];
 
 const WomensCategory = () => {

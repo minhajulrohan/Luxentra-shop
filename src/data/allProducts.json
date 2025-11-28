@@ -6157,6 +6157,193 @@
       "specifications": [
         { "label": "", "value": "" }
       ]
+    },
+    {
+      "id": 112,
+      "name": "MENS PANJABI - Regular Fit",
+      "slug": "mens-panjabi-regular-fit",
+      "category": "Mens Punjabi",
+      "categorySlug": "mens-punjabe",
+      "price": 2850,
+      "originalPrice": 3000,
+	  "badge":"Available",
+      "stockQuantity": 34, 
+      "description": "",
+      "fullDescription": "",
+      "brand": "",
+      "sku": "",
+      "images": [
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F97c3e397d4ac47ff915ee28a52a558c2.png&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F3640cee9adb548eb95a1df8aa6291106.png&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fdc8c88a298a24c14ab6f857c3b5fe2e3.png&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fac5f25dd2f8845e8b08ba21453965eb2.png&w=1080&q=75"
+      ],
+
+      "sizes": ["S", "M", "L", "XL"], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        ""
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "Fabric:", "value": "Fabric: 100% SPUN 190 GRAMS 163 CM" },
+        { "label": "Gender:", "value": "Male" },
+        { "label": "Color", "value": "Mystic Harbor" },
+        { "label": "Fit Type:", "value": " Regular Fit" },
+        { "label": "Collar / Neck: ", "value": "Band Collar" },
+        { "label": "Addition:", "value": "Auto Embroidery" },
+        { "label": "Sleeve:", "value": "Full Sleeve" }
+      ]
+    },
+    {
+      "id": 113,
+      "name": "WOMENS SAREE",
+      "slug": "womens-saree1245",
+      "category": "Womens Saree",
+      "categorySlug": "womens-saree1245",
+      "price": 2490,
+      "originalPrice": 2900,
+	  "badge":"Available",
+      "stockQuantity": 39, 
+      "description": "",
+      "fullDescription": "",
+      "brand": "",
+      "sku": "",
+      "images": [
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Ff4c1c5cb1c684c1b8cd0de6f53efbbb1.png&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fd9e5398d095d4accb33b746af2a0da5d.png&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fd9e5398d095d4accb33b746af2a0da5d.png&w=1080&q=75",
+        "https://prod.saralifestyle.com/Images/Products/VariationWisetImage/b3a6ac6211ca4e479eeede8e41aff9ce.gif"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        ""
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "Fabric:", "value": "Soft Silk" },
+        { "label": "Gender:", "value": "Female" },
+        { "label": "Color", "value": "Purple" },
+        { "label": "Fit Type:", "value": " Regular Fit" },
+        { "label": "Size: ", "value": "14 Haat With Blouse Piece" }
+      ]
+    },
+    {
+      "id": 114,
+      "name": "BOYS PANJABI",
+      "slug": "boys-panjabi",
+      "category": "Boys Punjabi",
+      "categorySlug": "boys-panjabi",
+      "price": 1520,
+      "originalPrice": 1700,
+	  "badge":"Available",
+      "stockQuantity": 31, 
+      "description": "",
+      "fullDescription": "",
+      "brand": "",
+      "sku": "",
+      "images": [
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F8eada7d96d4d4f00836bc019ba40933d.png&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F66412c73f08b48fb8666edc9d8ea05ac.png&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F9ad7fe7846454049a183e72e118ecfeb.png&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F131bf1dca51848a88ad4e73dc6a8b7c0.png&w=1080&q=75",
+        "https://prod.saralifestyle.com/Images/Products/VariationWisetImage/92795d0f3814492aa8b75758e60ba657.gif"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        ""
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "Fabric:", "value": "Cotton" },
+        { "label": "Gender:", "value": "Kids" },
+        { "label": "Color", "value": "Maroon" },
+        { "label": "Fit Type:", "value": " Regular Fit" },
+        { "label": "Addition: : ", "value": "Auto Embroidery" },
+        { "label": "Collar/ Neck : ", "value": "Band Collar" },
+        { "label": "Sleeve:  ", "value": " Full Sleeve" }
+      ]
+    },
+    {
+      "id": 115,
+      "name": "BOYS PANJABI",
+      "slug": "boys-panjabi-1",
+      "category": "Boys Punjabi",
+      "categorySlug": "boys-panjabi",
+      "price": 2340,
+      "originalPrice": 2500,
+	  "badge":"Available",
+      "stockQuantity": 45, 
+      "description": "",
+      "fullDescription": "",
+      "brand": "Luxentra Shop Importer",
+      "sku": "LS_455677455667878",
+      "images": [
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fe206957cf51745efbf45c0a61e804457.png&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F5394affdee964cb7b0d50810a7dfc9da.png&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F763335993e474fa4b0a5e392d62dcddf.png&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F061e9b9c465145f58421339e4bce509a.png&w=1080&q=75"
+      ],
+
+      "sizes": [], 
+      "colors": [],
+      
+
+      "features": [
+        "",
+        "",
+        ""
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "Fabric:", "value": "Synthetic & Grams " },
+        { "label": "Gender:", "value": "Kids" },
+        { "label": "Color", "value": "Ash" },
+        { "label": "Fit Type:", "value": " Regular Fit" },
+        { "label": "Addition: : ", "value": "Auto Embroidery" },
+        { "label": "Collar/ Neck : ", "value": "Band Collar" },
+        { "label": "Sleeve:  ", "value": " Full Sleeve" }
+      ]
     }
   ]
 }

@@ -21,7 +21,7 @@ const ITEMS_PER_PAGE = 40;
 
 // Define the IDs of all Womens products
 const WOMENS_IDS = [
-  111,201, 202, 203, 204, 205, // example IDs
+  114,115, 202, 203, 204, 205, // example IDs
   210, 215, 220, 250, 300, // add all IDs belonging to Womens
 ];
 
@@ -157,7 +157,7 @@ const Kidspage = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <Helmet>
-        <title>Luxentra-shop || Womens Category</title>
+        <title>Luxentra-shop || Kids Category</title>
         <meta name="description" content="Welcome to MyStore — best products online." />
         <meta property="og:title" content="Home — MyStore" />
       </Helmet>

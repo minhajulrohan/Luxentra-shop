@@ -4,23 +4,24 @@ import Autoplay from "embla-carousel-autoplay";
 import { useCallback } from "react";
 import KidsCategoryCard from "./KidsCategoryCard";
 import { Button } from "@/components/ui/button"; // ✅ fixed import
-import Womens1 from "@/assets/Womens1.avif";
-import Womens2 from "@/assets/Womens2.avif";
-import Womens3 from "@/assets/Womens3.avif";
-import Womens4 from "@/assets/Womens4.avif";
-import Womens5 from "@/assets/Womens5.avif";
+import CLothings from "@/assets/Clothin-BabyShop.avif"
+import Toys from "@/assets/ToysBaby.jpg"
+import BabySKin from "@/assets/baby-skincare.jpg"
+import BabyFood from "@/assets/BabyFood.jpg"
+import Frock from "@/assets/FrockDungaree.avif"
+import Tops from "@/assets/Tops-Shirt1.avif"
+import Kabli from "@/assets/kablipunjabi.avif"
 
 const categories = [
-  { title: "Womens", href: "/products/womens", image: Womens1 },
-  { title: "Ethnic Set (2 & 3 Pcs)", href: "/products/Ethnic", image: Womens5 },
-  { title: "Womens Bottom Wear", href: "/products/Womens-bottom-wear", image: Womens3 },
-  { title: "Comfort Wear / Athleisure", href: "/products/womens-comfort-wear", image: Womens4 },
-  { title: "Tops & Shirts", href: "/products/tops-shirt", image: Womens2 },
-  { title: "Footwear", href: "/products/womens-footwear", image: Womens1 },
-  { title: "Bags", href: "/products/womens-bags", image: Womens5 },
-  { title: "Accessories", href: "/products/accessories", image: Womens3 },
-  { title: "Comfort Wear / Athleisure", href: "/products/comfort-wear", image: Womens4 },
-  { title: "Tops & Shirts", href: "/products/tops-shirts", image: Womens2 },
+  { title: "Clothing", href: "/products/womens", image: CLothings },
+  { title: "ToysToys", href: "/products/Ethnic", image: Toys },
+  { title: "Baby Skin Care", href: "/products/Womens-bottom-wear", image: BabySKin},
+  { title: "Moms Care", href: "/products/womens-comfort-wear", image: "" },
+  { title: "Baby Food", href: "/products/tops-shirt", image: BabyFood },
+  { title: "Frock & Dungaree", href: "/products/womens-footwear", image: Frock },
+  { title: "Tops & Ethnic", href: "/products/womens-bags", image: Tops },
+  { title: "Kabli Punjabi", href: "/products/boys-panjabi", image: Kabli },
+  { title: "Polo T-Shirt", href: "/products/tops-shirts", image: "" },
 ];
 
 const KidsCategory = () => {

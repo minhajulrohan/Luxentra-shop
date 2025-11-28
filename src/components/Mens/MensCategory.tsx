@@ -19,7 +19,7 @@ const categories = [
   { title: "Mens Coti", href: "/products/womens", image: Womens1 },
   { title: "Mens Lungi", href: "/products/Ethnic", image: Womens5 },
   { title: "Mens Formal Pant", href: "/products/Womens-bottom-wear", image: Womens3 },
-  { title: "Mens Punjabi", href: "/products/womens-comfort-wear", image: Womens4 },
+  { title: "Mens Punjabi", href: "/products/mens-punjabe", image: Womens4 },
   { title: "Mens Jeans Pant", href: "/products/tops-shirt", image: Womens2 },
   { title: "Mens Casual Shirt", href: "/products/womens-footwear", image: MensCasualShirt },
   { title: "Mens Formal Shirt", href: "/products/womens-bags", image: MensFormalShirt },
