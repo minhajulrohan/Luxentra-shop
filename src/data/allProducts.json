@@ -9497,6 +9497,456 @@
         { "label": "Collar/ Neck", "value": "Rib  Stand Collar" },
         { "label": "Sleeve ", "value": "Sleeveless" }
       ]
+    },
+     {
+      "id": 181,
+      "name": "MENS DENIM PANT",
+      "slug": "mens-denim-pant-3",
+      "category": "MENS JEANS PANT",
+      "collection": "mens",
+      "categorySlug": "mens-jeanspant",
+      "price": 1585,
+      "originalPrice": 1600,
+	    "badge":"Available",
+      "stockQuantity": 16, 
+      "description": "",
+      "fullDescription": "",
+      "brand": "Luxentra",
+      "sku": "SRK365RA",
+      "images": [
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F4a4b231a5163493990ae2af8c8b46c5c.png&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Feea662756277429e85f6fe7978e9e8cc.png&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F1a4041c2ba994a299b3a260335322195.png&w=1080&q=75",
+        "https://prod.saralifestyle.com/Images/Products/VariationWisetImage/e00e429423d54175a555f0525a492154.gif"
+      ],
+
+      "sizes": ["28", "30", "32", "34", "36"], 
+      "colors": ["Indigo"],
+      
+
+      "features": [
+        "",
+        "",
+        ""
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "Fabric", "value": "Cotton & Spandex" },
+        { "label": "Gender", "value": "Male" },
+        { "label": "Color", "value": "Indigo" },
+        { "label": "Fit Type ", "value": "Reguler Fit " },
+        { "label": "Length", "value": "Long" }
+      ]
+    },
+    {
+      "id": 182,
+      "name": "MENS DENIM PANT",
+      "slug": "mens-denim-pant-4",
+      "category": "MENS JEANS PANT",
+      "collection": "mens",
+      "categorySlug": "mens-jeanspant",
+      "price": 1625,
+      "originalPrice": 1700,
+	    "badge":"Available",
+      "stockQuantity": 16, 
+      "description": "",
+      "fullDescription": "",
+      "brand": "Luxentra",
+      "sku": "SRK365RA",
+      "images": [
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F9a83621cd5fb4e27a0ed1f8b1ac15910.png&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fb78b4adb475743e08aa62fdf290d5eec.png&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F7f12b37af5174394a35cd26defb45c85.png&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fe162be97f50b4de6934becb60f841351.png&w=1080&q=75",
+        "https://prod.saralifestyle.com/Images/Products/VariationWisetImage/ea86c5cf3486472e98660607f8a39ffe.gif"
+      ],
+
+      "sizes": ["28", "30", "32", "34", "36", "38"], 
+      "colors": ["Indigo"],
+      
+
+      "features": [
+        "",
+        "",
+        ""
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "Fabric", "value": "Cotton & Spandex" },
+        { "label": "Gender", "value": "Male" },
+        { "label": "Color", "value": "Indigo" },
+        { "label": "Fit Type ", "value": "Reguler Fit " },
+        { "label": "Length", "value": "Long" }
+      ]
+    },
+    {
+      "id": 183,
+      "name": "MENS DENIM PANT",
+      "slug": "mens-denim-pant-4",
+      "category": "MENS JEANS PANT",
+      "collection": "mens",
+      "categorySlug": "mens-jeanspant",
+      "price": 1685,
+      "originalPrice": 1700,
+	    "badge":"Available",
+      "stockQuantity": 12, 
+      "description": "",
+      "fullDescription": "",
+      "brand": "Luxentra",
+      "sku": "MPT114FRA",
+      "images": [
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F2a79f0685ff24804904f8acdc31f0cbd.jpeg&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F61662334e9e04cd0ae55329a9a884462.jpeg&w=1080&q=75"
+      ],
+
+      "sizes": ["28", "30", "32", "34", "36", "38", "40"], 
+      "colors": ["Black"],
+      
+
+      "features": [
+        "",
+        "",
+        ""
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "Fabric", "value": "Cotton & Spandex" },
+        { "label": "Gender", "value": "Male" },
+        { "label": "Color", "value": "BLack" },
+        { "label": "Fit Type ", "value": "Reguler Fit " },
+        { "label": "Length", "value": "Long" }
+      ]
+    },
+    {
+      "id": 184,
+      "name": "MENS DENIM PANT",
+      "slug": "mens-denim-pant-5",
+      "category": "MENS JEANS PANT",
+      "collection": "mens",
+      "categorySlug": "mens-jeanspant",
+      "price": 1725,
+      "originalPrice": 1750,
+	    "badge":"Available",
+      "stockQuantity": 15, 
+      "description": "",
+      "fullDescription": "",
+      "brand": "Luxentra",
+      "sku": "MPT104FR",
+      "images": [
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F83f176f7d4e9429aad1d315c07b50194.jpeg&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fc599cabbe1f4488b970de4d53ca4b308.jpeg&w=1080&q=75"
+      ],
+
+      "sizes": ["28", "30", "32", "34", "36", "38", "40"], 
+      "colors": ["Wash Color"],
+      
+
+      "features": [
+        "",
+        "",
+        ""
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "Fabric", "value": "Cotton & Spandex" },
+        { "label": "Gender", "value": "Male" },
+        { "label": "Color", "value": "Wash Color" },
+        { "label": "Fit Type ", "value": "Reguler Fit " },
+        { "label": "Length", "value": "Long" }
+      ]
+    },
+    {
+      "id": 185,
+      "name": "MENS DENIM PANT",
+      "slug": "mens-denim-pant-6",
+      "category": "MENS JEANS PANT",
+      "collection": "mens",
+      "categorySlug": "mens-jeanspant",
+      "price": 1790,
+      "originalPrice": 1900,
+	    "badge":"Available",
+      "stockQuantity": 89, 
+      "description": "",
+      "fullDescription": "",
+      "brand": "Luxentra",
+      "sku": "MPT104FR",
+      "images": [
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F13b167ba4f0c4ae6b45167fa00906c59.jpeg&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fc8ed7dfc69e944938725493295f7395f.jpeg&w=1080&q=75"
+      ],
+
+      "sizes": ["28", "30", "32", "34", "36", "38", "40"], 
+      "colors": ["Dark Wash"],
+      
+
+      "features": [
+        "",
+        "",
+        ""
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "Fabric", "value": "Cotton & Spandex" },
+        { "label": "Gender", "value": "Male" },
+        { "label": "Color", "value": "Dark Wash" },
+        { "label": "Fit Type ", "value": "Reguler Fit " },
+        { "label": "Length", "value": "Long" }
+      ]
+    },
+     {
+      "id": 186,
+      "name": "MENS DENIM PANT",
+      "slug": "mens-denim-pant-7",
+      "category": "MENS JEANS PANT",
+      "collection": "mens",
+      "categorySlug": "mens-jeanspant",
+      "price": 1830,
+      "originalPrice": 1900,
+	    "badge":"Available",
+      "stockQuantity": 24, 
+      "description": "",
+      "fullDescription": "",
+      "brand": "Luxentra",
+      "sku": "MPT104FR",
+      "images": [
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fc038d004d56a47f08c0fe8cf0a81ec0d.jpeg&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F2e46905689e7452c8dd9e1d3a79d795a.jpeg&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fa8f57d292962434697df425070f68145.jpeg&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F9b2d3cd391b04190abf98e441a23bd75.jpeg&w=1080&q=75"
+      ],
+
+      "sizes": ["28", "30", "32", "34", "36", "38", "40"], 
+      "colors": ["Dark sky Wash"],
+      
+
+      "features": [
+        "",
+        "",
+        ""
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "Fabric", "value": "Cotton & Spandex" },
+        { "label": "Gender", "value": "Male" },
+        { "label": "Color", "value": "Dark sky Wash" },
+        { "label": "Fit Type ", "value": "Reguler Fit " },
+        { "label": "Length", "value": "Long" }
+      ]
+    },
+    {
+      "id": 187,
+      "name": "MENS DENIM PANT",
+      "slug": "mens-denim-pant-8",
+      "category": "MENS JEANS PANT",
+      "collection": "mens",
+      "categorySlug": "mens-jeanspant",
+      "price": 1830,
+      "originalPrice": 1900,
+	    "badge":"Available",
+      "stockQuantity": 24, 
+      "description": "",
+      "fullDescription": "",
+      "brand": "Luxentra",
+      "sku": "MPT104FR",
+      "images": [
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F35b66604d64c4de68ca3ff045a8bb7de.jpeg&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F311cf91942dd4f13a7a10d985f40ef06.jpeg&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F73e560c559804827a730dddced98df9b.jpeg&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fb2b52a66506545d9b1ff367b25efcccf.jpeg&w=1080&q=75"
+      ],
+
+      "sizes": ["28", "30", "32", "34", "36", "38", "40"], 
+      "colors": ["Light Wash"],
+      
+
+      "features": [
+        "",
+        "",
+        ""
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "Fabric", "value": "Cotton & Spandex" },
+        { "label": "Gender", "value": "Male" },
+        { "label": "Color", "value": "Light Wash" },
+        { "label": "Fit Type ", "value": "Reguler Fit " },
+        { "label": "Length", "value": "Long" }
+      ]
+    },
+    {
+      "id": 188,
+      "name": "MENS FORMAL PANT",
+      "slug": "mens-formal-pant-1",
+      "category": "MENS FORMAL PANT",
+      "collection": "mens",
+      "categorySlug": "mens-formal-pant",
+      "price": 1990,
+      "originalPrice": 2000,
+	    "badge":"Available",
+      "stockQuantity": 10, 
+      "description": "",
+      "fullDescription": "",
+      "brand": "Luxentra",
+      "sku": "MFP251C",
+      "images": [
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F675d7cd41662461898265f65bb03b8b5.png&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F4c32e42f873844b784ae969ae4d2ceeb.png&w=1080&q=75"
+      ],
+
+      "sizes": ["28", "30", "32", "34", "36", "38"], 
+      "colors": ["Navy"],
+      
+
+      "features": [
+        "",
+        "",
+        ""
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "Fabric", "value": "Sunthetic & Viscose" },
+        { "label": "Gender", "value": "Male" },
+        { "label": "Color", "value": "Navy" },
+        { "label": "Fit Type ", "value": "Reguler Fit " },
+        { "label": "Length", "value": "Long" }
+      ]
+    },
+    {
+      "id": 189,
+      "name": "MENS FORMAL PANT",
+      "slug": "mens-formal-pant-1",
+      "category": "MENS FORMAL PANT",
+      "collection": "mens",
+      "categorySlug": "mens-formal-pant",
+      "price": 1990,
+      "originalPrice": 2000,
+	    "badge":"Available",
+      "stockQuantity": 10, 
+      "description": "",
+      "fullDescription": "",
+      "brand": "Luxentra",
+      "sku": "MFP251A",
+      "images": [
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F49f091fd78604b5db253061f039c14fe.png&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F3eb1e99251234955b46bf5cd7c58bfae.png&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F1b4df69a6f9c4e88828acad0c8ee3ef5.png&w=1080&q=75"
+      ],
+
+      "sizes": ["28", "30", "32", "34", "36", "38"], 
+      "colors": ["Ash"],
+      
+
+      "features": [
+        "",
+        "",
+        ""
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "Fabric", "value": "Sunthetic & Viscose" },
+        { "label": "Gender", "value": "Male" },
+        { "label": "Color", "value": "Ash" },
+        { "label": "Fit Type ", "value": "Reguler Fit " },
+        { "label": "Length", "value": "Long" }
+      ]
+    },
+    {
+      "id": 190,
+      "name": "MENS FORMAL PANT",
+      "slug": "mens-formal-pant-1",
+      "category": "MENS FORMAL PANT",
+      "collection": "mens",
+      "categorySlug": "mens-formal-pant",
+      "price": 1990,
+      "originalPrice": 2000,
+	    "badge":"Available",
+      "stockQuantity": 10, 
+      "description": "",
+      "fullDescription": "",
+      "brand": "Luxentra",
+      "sku": "MFP251A",
+      "images": [
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2Fad8dfb73d87c4e6d8c08965d8714bf3d.png&w=1080&q=75",
+        "https://saralifestyle.com/_next/image?url=https%3A%2F%2Fprod.saralifestyle.com%2FImages%2FProducts%2FVariationWisetImage%2F688dbe6fdb484a02b511f9fc0e324ee9.png&w=1080&q=75"
+      ],
+
+      "sizes": [ "30", "32", "34", "36", "38"], 
+      "colors": ["black"],
+      
+
+      "features": [
+        "",
+        "",
+        ""
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "Fabric", "value": "Sunthetic & Viscose" },
+        { "label": "Gender", "value": "Male" },
+        { "label": "Color", "value": "Black" },
+        { "label": "Fit Type ", "value": "Reguler Fit " },
+        { "label": "Length", "value": "Long" }
+      ]
     }
   ]
 }
