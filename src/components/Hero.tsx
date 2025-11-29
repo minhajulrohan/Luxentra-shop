@@ -6,12 +6,11 @@ import { useCallback, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 import slider1 from "@/assets/slider-1.png";
-import Slider2 from "@/assets/Slider2.png"
-
+import Slider2 from "@/assets/Slider2.png";
 
 const slides = [
   { image: slider1, alt: "Slide 1", link: "/shop" },
-  { image: Slider2, alt: "Slide 2", link: "shaharaskincare" }
+  { image: Slider2, alt: "Slide 2", link: "/shaharaskincare" }
 ];
 
 const Hero = () => {
@@ -21,7 +20,10 @@ const Hero = () => {
   );
   const [selectedIndex, setSelectedIndex] = useState(0);
 
-  const scrollTo = useCallback((index) => emblaApi && emblaApi.scrollTo(index), [emblaApi]);
+  const scrollTo = useCallback(
+    (index) => emblaApi && emblaApi.scrollTo(index),
+    [emblaApi]
+  );
 
   useEffect(() => {
     if (!emblaApi) return;
@@ -34,25 +36,25 @@ const Hero = () => {
   return (
     <section className="relative w-full bg-background overflow-hidden">
       {/* Embla viewport */}
-      <div className="embla h-[320px] sm:h-[380px] lg:h-[600px]" ref={emblaRef}>
-        <div className="embla__container flex h-full">
+      <div ref={emblaRef} className="embla w-full">
+        <div className="embla__container flex w-full">
           {slides.map((slide, index) => (
             <div
               key={index}
-              className="embla__slide flex-[0_0_100%] min-w-0 h-full"
+              className="embla__slide flex-[0_0_100%] min-w-0 relative"
             >
-              <div className="relative w-full h-full">
-                {/* Link wraps image so whole image is clickable */}
-                <Link to={slide.link} className="block w-full h-full">
+              {/* 16:9 aspect ratio container */}
+              <div className="relative w-full pt-[56.25%]">
+                <Link to={slide.link} className="absolute inset-0 block">
                   <img
                     src={slide.image}
                     alt={slide.alt}
-                    className="w-full h-full object-cover object-center cursor-pointer select-none"
+                    className="w-full h-full object-contain object-center cursor-pointer select-none absolute top-0 left-0"
                     draggable={false}
                   />
                 </Link>
 
-                {/* Gradient overlay — pointer-events-none so it doesn't block clicks */}
+                {/* Gradient overlay */}
                 <div
                   aria-hidden="true"
                   className="pointer-events-none absolute inset-0 bg-gradient-to-b from-transparent via-black/10 to-black/25"

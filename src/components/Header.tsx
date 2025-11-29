@@ -17,7 +17,7 @@ import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { Sheet, SheetContent, SheetTrigger, SheetClose } from "@/components/ui/sheet";
 import { Navbar } from "./Navbar";
 
-// নতুন: Daraz-এর মতো লগইন মডাল ইম্পোর্ট
+
 import { AuthModal } from "@/components/auth/AuthModal";
 
 // ADMIN ইমেইল ডিফাইন
