@@ -13,15 +13,15 @@ import Tops from "@/assets/Tops-Shirt1.avif"
 import Kabli from "@/assets/kablipunjabi.avif"
 
 const categories = [
-  { title: "Clothing", href: "/products/womens", image: CLothings },
-  { title: "ToysToys", href: "/products/Ethnic", image: Toys },
-  { title: "Baby Skin Care", href: "/products/Womens-bottom-wear", image: BabySKin},
-  { title: "Moms Care", href: "/products/womens-comfort-wear", image: "" },
-  { title: "Baby Food", href: "/products/tops-shirt", image: BabyFood },
-  { title: "Frock & Dungaree", href: "/products/womens-footwear", image: Frock },
-  { title: "Tops & Ethnic", href: "/products/womens-bags", image: Tops },
-  { title: "Kabli Punjabi", href: "/products/boys-panjabi", image: Kabli },
-  { title: "Polo T-Shirt", href: "/products/tops-shirts", image: "" },
+  { title: "Clothing", href: "/products/kids-clothing", image: CLothings },
+  { title: "ToysToys", href: "/products/kids-toys", image: Toys },
+  { title: "Baby Skin Care", href: "/products/kids-skin-care", image: BabySKin},
+  { title: "Moms Care", href: "/products/kids-moms-care", image: "" },
+  { title: "Baby Food", href: "/products/kids-food", image: BabyFood },
+  { title: "Frock & Dungaree", href: "/products/kids-frock", image: Frock },
+  { title: "Tops & Ethnic", href: "/products/kids-tops", image: Tops },
+  { title: "Kabli Punjabi", href: "/products/kids-punjabi", image: Kabli },
+  { title: "Polo T-Shirt", href: "/products/kids-polo-T-shirt", image: "" },
 ];
 
 const KidsCategory = () => {

@@ -20,8 +20,8 @@ const ITEMS_PER_PAGE = 40;
 
 // Define the IDs of all Womens products
 const WOMENS_IDS = [
-  111,116, 202, 203, 204, 205, // example IDs
-  210, 215, 220, 250, 300, // add all IDs belonging to Womens
+  111,116, 126, 127, 128, 129, // example IDs
+  130, 215, 220, 250, 300, // add all IDs belonging to Womens
 ];
 
 const WomenspageCategory = () => {

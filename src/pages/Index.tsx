@@ -37,9 +37,9 @@ const Index = () => {
 
   // --- Filtered Products (Using the new function) ---
   // The function now strictly pulls products based on the single 'collection' field value.
-  const mensProducts = filterProductsByExplicitCollection("mens").slice(0, 12);
-  const womensProducts = filterProductsByExplicitCollection("womens").slice(0, 12);
-  const kidsProducts = filterProductsByExplicitCollection("kids").slice(0, 12);
+  const mensProducts = filterProductsByExplicitCollection("mens").slice(0, 18);
+  const womensProducts = filterProductsByExplicitCollection("womens").slice(0, 18);
+  const kidsProducts = filterProductsByExplicitCollection("kids").slice(0, 18);
 
   // Navigate helper
   const handleViewAll = (collection) => {

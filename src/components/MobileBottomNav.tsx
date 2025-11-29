@@ -10,7 +10,7 @@ type NavItem = {
   badge?: number;
 };
 
-// --- subcategory data: আপনার দেয়া ডেটা অপরিবর্তিত রাখা হলো ---
+// --- subcategory data: আপনার দেয়া ডেটা অপরিবর্তিত রাখা হলো ---
 const subCategoryData: Record<string, Array<any>> = {
   "Shahara's Skin": [
     { name: "ACNE", href: "/products/acne" },
@@ -24,39 +24,42 @@ const subCategoryData: Record<string, Array<any>> = {
     { name: "Toner", href: "/products/toner" },
   ],
   "Womens": [
-      { name: "Womens", href: "/products/womens"},
-      { name: "Womens Top Ware & Bottom", href: "/products/womenstopware" },
-      { name: "Womens Hudi", href: "/products/womens-hudi"},
-      { name: "Ethnic Set (2 & 3 Pcs)", href: "/products/ethnic"},
-      { name: "Comfort Wear / Athleisure", href: "/products/womens-comfort-wear"},
-      { name: "Footwear", href: "/products/womens-shoe" },
-      { name: "Nokshi Bags", href: "/products/nokshi-bags"},
-      { name: "Sharee", href: "/products/womens-saree1245"}
+    { name: "Ethnic Set (2 & 3 Pcs)", href: "/products/ethnic"},
+    { name: "Kurtis", href: "/products/womens-kurits" },
+    { name: "Sharee", href: "/products/womens-saree1245" },
+    { name: "Abayas", href: "/products/womens-abyas" },
+    { name: "Leggings", href: "/products/womens-leggings" },
+    { name: "Tops", href: "/products/tops" },
+    { name: "Gowns", href: "/products/womens-gowns"},
+    { name: "Handbags", href: "/products/womens-handbags"},
+    { name: "Ladies Shoe", href: "/products/womens-shoe"},
+    { name: "Perfume", href: "/products/womens-perfume"},
+    { name: "Nokshi Bags", href: "/products/womens-nokshi-bags"}
   ],
   "Mens": [
-  { name: "Mens Coti", href: "/products/womens"},
-  { name: "Mens Lungi", href: "/products/Ethnic" },
-  { name: "Mens Formal Pant", href: "/products/Womens-bottom-wear"},
-  { name: "Mens Punjabi", href: "/products/mens-punjabe" },
-  { name: "Mens Jeans Pant", href: "/products/tops-shirt" },
-  { name: "Mens Casual Shirt", href: "/products/womens-footwear" },
-  { name: "Mens Formal Shirt", href: "/products/womens-bags" },
-  { name: "Mens Joggers", href: "/products/accessories" },
-  { name: "Mens Polo", href: "/products/comfort-wear", },
-  { name: "Mens Innerweare", href: "/products/tops-shirts"},
+  { name: "Mens Jeans Pant", href: "/products/mens-jeanspant"},
+  { name: "Mens Punjabi", href: "/products/mens-punjabe"},
+  { name: "Mens Casual Shirt", href: "/products/mens-casual-shirt"},
+  { name: "Mens Formal Shirt", href: "/products/mens-formal-shirt"},
+  { name: "Mens Joggers", href: "/products/mens-joggers"},
+  { name: "Mens Polo", href: "/products/mens-polo" },
+  { name: "Mens Innerweare", href: "/products/mens-innerwear" },
+  { name: "Mens Jacket", href: "/products/mens-jacket"},
+  { name: "Mens Coti", href: "/products/mens-coti" },
+  { name: "Mens Formal Pant", href: "/products/mens-formal-pant" },
   ],
   "Kids": [
-  { name: "Clothing", href: "/products/womens"},
-  { name: "ToysToys", href: "/products/Ethnic"},
-  { name: "Baby Skin Care", href: "/products/Womens-bottom-wear"},
-  { name: "Moms Care", href: "/products/womens-comfort-wear"},
-  { name: "Baby Food", href: "/products/tops-shirt" },
-  { name: "Frock & Dungaree", href: "/products/womens-footwear" },
-  { name: "Tops & Ethnic", href: "/products/womens-bags"},
-  { name: "Kabli Punjabi", href: "/products/boys-panjabi" },
-  { name: "Polo T-Shirt", href: "/products/tops-shirts" },
+    { name: "Clothing", href: "/products/kids-clothing"},
+    { name: "ToysToys", href: "/products/kids-toys" },
+    { name: "Baby Skin Care", href: "/products/kids-skin-care"},
+    { name: "Moms Care", href: "/products/kids-moms-care"},
+    { name: "Baby Food", href: "/products/kids-food" },
+    { name: "Frock & Dungaree", href: "/products/kids-frock" },
+    { name: "Tops & Ethnic", href: "/products/kids-tops"},
+    { name: "Kabli Punjabi", href: "/products/kids-punjabi"},
+    { name: "Polo T-Shirt", href: "/products/kids-polo-T-shirt" },
   ],
-  "Daily Needs": [
+  "Electronics & Gadgets": [
     { name: "Household Items", href: "/daily/household" },
     { name: "Personal Care", href: "/daily/personal" },
     { name: "Snacks", href: "/daily/snacks" },
@@ -69,7 +72,7 @@ const allTopLevel = [
   { name: "Womens", href: "/womens", key : "Womens"},
   { name: "Mens", href: "/products/mens-winter", key: "Mens" },
   { name: "Kids", href: "/products/kids-winter", key: "Kids" },
-  { name: "Daily Needs", href: "/products/daily-needs", key: "Daily Needs" },
+  { name: "Electronics & Gadgets", href: "/products/electronics-gadgets", key:"Electronics & Gadgets" },
   { name: "BEST DEALS", href: "/products/BEST-DEALS" },
   { name: "Health Care", href: "/healthcare" },
   { name: "Grocery Shop", href: "/food" },
@@ -132,41 +135,12 @@ export function MobileBottomNav(): JSX.Element {
       .replace(/\s+/g, "-")
       .replace(/[^a-z0-9-_]/g, "");
 
-  // двухколонное разделение: হেডার এবং সাধারণ আইটেম ঠিকঠাক রাখতে চেষ্টা করে
+  // Return a single column (col1) and keep col2 empty for now (as requested)
   const splitToTwoColumns = (items: Array<any>) => {
-    // exclude highlight from grid (we show highlight separately)
     const nonHighlight = items.filter((i) => !i.isHighlight);
-
-    // We'll distribute items preserving order but balancing count roughly.
-    const total = nonHighlight.length;
-    const targetPerCol = Math.ceil(total / 2);
-
-    const col1: any[] = [];
+    const col1 = nonHighlight;
     const col2: any[] = [];
-    let cur = col1;
-    let countCur = 0;
-
-    for (let i = 0; i < nonHighlight.length; i++) {
-      const item = nonHighlight[i];
-
-      // If current column has reached targetPerCol, switch to col2
-      if (countCur >= targetPerCol && cur === col1) {
-        cur = col2;
-        countCur = col2.length;
-      }
-
-      cur.push(item);
-      countCur++;
-
-      // if item isHeader, keep following items in same column (so header stays with its block)
-      if (item.isHeader) {
-        // lookahead: if next item exists and adding it won't overflow too much, keep it
-        // (we simply continue without switching)
-        continue;
-      }
-    }
-
-    return [col1, col2];
+    return [col1, col2] as const;
   };
 
   const toggleSection = (key: string) => {
@@ -252,7 +226,6 @@ export function MobileBottomNav(): JSX.Element {
                   const isOpen = openSection === key;
                   const items = subCategoryData[key] ?? [];
                   const highlight = items.find((i: any) => i.isHighlight);
-
                   const [col1, col2] = splitToTwoColumns(items);
 
                   return (
@@ -275,32 +248,35 @@ export function MobileBottomNav(): JSX.Element {
                         className={`mt-2 transition-all duration-300 overflow-hidden ${isOpen ? "max-h-[1200px] ease-in p-2 border border-border/80 rounded-lg bg-accent/10" : "max-h-0 ease-out"}`}
                         aria-hidden={!isOpen}
                       >
-                        {/* Grid for subcategories: 2 Columns for Mobile */}
-                        <div className="grid grid-cols-2 gap-x-4 gap-y-1">
-                          {[col1, col2].map((colItems, idx) => (
-                            <div key={idx} className="flex flex-col gap-1">
-                              {colItems.map((sub: any) =>
-                                sub.isHeader ? (
-                                  <div key={sub.name} className="text-sm font-bold text-primary pointer-events-none py-1.5 mt-2">
-                                    {sub.name}
-                                  </div>
-                                ) : (
-                                  <SheetClose asChild key={sub.name}>
-                                    <Link
-                                      to={sub.href}
-                                      className="block text-sm py-1 hover:underline text-muted-foreground hover:text-foreground"
-                                      onClick={() => {
-                                        setMenuOpen(false);
-                                        setOpenSection(null);
-                                      }}
-                                    >
+                        {/* use one-column grid (col2 is intentionally empty) */}
+                        <div className="grid grid-cols-1 gap-x-4 gap-y-1">
+                          {[col1, col2].map((colItems, idx) =>
+                            // only render column if it has items
+                            colItems.length === 0 ? null : (
+                              <div key={idx} className="flex flex-col gap-1">
+                                {colItems.map((sub: any) =>
+                                  sub.isHeader ? (
+                                    <div key={sub.name} className="text-sm font-bold text-primary pointer-events-none py-1.5 mt-2">
                                       {sub.name}
-                                    </Link>
-                                  </SheetClose>
-                                )
-                              )}
-                            </div>
-                          ))}
+                                    </div>
+                                  ) : (
+                                    <SheetClose asChild key={sub.name}>
+                                      <Link
+                                        to={sub.href}
+                                        className="block text-sm py-1 hover:underline text-muted-foreground hover:text-foreground"
+                                        onClick={() => {
+                                          setMenuOpen(false);
+                                          setOpenSection(null);
+                                        }}
+                                      >
+                                        {sub.name}
+                                      </Link>
+                                    </SheetClose>
+                                  )
+                                )}
+                              </div>
+                            )
+                          )}
                         </div>
 
                         {/* highlight button if exists */}

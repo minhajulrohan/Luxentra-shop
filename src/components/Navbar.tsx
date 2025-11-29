@@ -123,7 +123,7 @@ const navLinks = [
   { name: "Womens", href: "/womens"},
   { name: "Mens", href: "/mens"},
   { name: "Kids", href: "/kids"},
-  { name: "Daily Needs", href: "/products/Daily-Needs" },
+  { name: "Electronics & Gadgets", href: "/products/electronics-gadgets" },
   { name: "BAG DEALS", href: "/products/BAG-DEALS" },
   { name: "Health Care", href: "/healthcare"},
   { name: "Grocery Shop", href: "/food" },

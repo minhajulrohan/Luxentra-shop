@@ -17,12 +17,15 @@ import {
 import ScrollToTopButton from "@/components/Button";
 import MensCategory from "@/components/Mens/MensCategory";
 
-const ITEMS_PER_PAGE = 40;
+const ITEMS_PER_PAGE = 30;
 
 // Define the IDs of all Womens products
 const WOMENS_IDS = [
-  112,125, 202, 203, 204, 205, // example IDs
-  210, 215, 220, 250, 300, // add all IDs belonging to Womens
+  112,125, 132, 133, 134, 135, // example IDs
+  136, 137, 138, 139, 140, 141, 142, 143, 145,
+  146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 167, 168, 169, 170,
+  171, 172, 173,174, 175, 176, 177, 178, 179, 180,181,
+  // add all IDs belonging to Womens
 ];
 
 const MensCategoryPage = () => {
@@ -167,7 +170,7 @@ const MensCategoryPage = () => {
       <main className="flex-1">
         <section className="bg-secondary/30 py-2">
           <div className="container mx-auto px-4">
-            <h1 className="text-2xl font-bold mb-2">Womens Collection's</h1>
+            <h1 className="text-2xl font-bold mb-2">Mens Collection's</h1>
             <p className="text-muted-foreground">Discover our complete collection</p>
           </div>
         </section>

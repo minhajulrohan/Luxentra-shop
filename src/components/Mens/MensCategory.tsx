@@ -8,26 +8,25 @@ import Womens1 from "@/assets/MensCoti.avif";
 import Womens2 from "@/assets/MensLunggi.avif";
 import Womens3 from "@/assets/MensFormalPant.avif";
 import Womens4 from "@/assets/MensPunjabi.avif";
-import Womens5 from "@/assets/MensJeans.avif";
 import MensCasualShirt from "@/assets/MensCasualShirt.avif"
 import MensFormalShirt from "@/assets/MensFormalShirt.avif"
 import MensJoggers from "@/assets/MensJoggers.avif"
 import MensPolo from "@/assets/MensPolo.avif"
 import MensInnerwear from "@/assets/MensInnerwear.avif"
 import MensJacket from "@/assets/MensJacket.png"
+import mensJensPant from "@/assets/mensJensPant2.avif"
 
 const categories = [
-  { title: "Mens Jacket", href: "/products/mens-jacket", image: MensJacket},
-  { title: "Mens Coti", href: "/products/womens", image: Womens1 },
-  { title: "Mens Lungi", href: "/products/Ethnic", image: Womens5 },
-  { title: "Mens Formal Pant", href: "/products/Womens-bottom-wear", image: Womens3 },
+  { title: "Mens Jeans Pant", href: "/products/mens-jeanspant", image: mensJensPant },
   { title: "Mens Punjabi", href: "/products/mens-punjabe", image: Womens4 },
-  { title: "Mens Jeans Pant", href: "/products/tops-shirt", image: Womens2 },
-  { title: "Mens Casual Shirt", href: "/products/womens-footwear", image: MensCasualShirt },
-  { title: "Mens Formal Shirt", href: "/products/womens-bags", image: MensFormalShirt },
-  { title: "Mens Joggers", href: "/products/accessories", image: MensJoggers },
-  { title: "Mens Polo", href: "/products/comfort-wear", image: MensPolo },
-  { title: "Mens Innerweare", href: "/products/tops-shirts", image: MensInnerwear },
+  { title: "Mens Casual Shirt", href: "/products/mens-casual-shirt", image: MensCasualShirt },
+  { title: "Mens Formal Shirt", href: "/products/mens-formal-shirt", image: MensFormalShirt },
+  { title: "Mens Joggers", href: "/products/mens-joggers", image: MensJoggers },
+  { title: "Mens Polo", href: "/products/mens-polo", image: MensPolo },
+  { title: "Mens Innerweare", href: "/products/mens-innerwear", image: MensInnerwear },
+  { title: "Mens Jacket", href: "/products/mens-jacket", image: MensJacket},
+  { title: "Mens Coti", href: "/products/mens-coti", image: Womens1 },
+  { title: "Mens Formal Pant", href: "/products/mens-formal-pant", image: Womens3 },
 ];
 
 const MensCategory = () => {
