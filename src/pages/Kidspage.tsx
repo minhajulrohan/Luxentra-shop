@@ -21,8 +21,7 @@ const ITEMS_PER_PAGE = 40;
 
 // Define the IDs of all Womens products
 const WOMENS_IDS = [
-  114,115, 202, 203, 204, 205, // example IDs
-  210, 215, 220, 250, 300, // add all IDs belonging to Womens
+  114,115,  // add all IDs belonging to Womens
 ];
 
 const Kidspage = () => {
@@ -167,7 +166,7 @@ const Kidspage = () => {
       <main className="flex-1">
         <section className="bg-secondary/30 py-2">
           <div className="container mx-auto px-4">
-            <h1 className="text-2xl font-bold mb-2">Womens Collection's</h1>
+            <h1 className="text-2xl font-bold mb-2">Kids Collection's</h1>
             <p className="text-muted-foreground">Discover our complete collection</p>
           </div>
         </section>

@@ -43,6 +43,7 @@ import WomenspageCategory from "./pages/WomenspageCategory";
 import MensCategoryPage from "./pages/MensCategoryPage";
 import { path } from 'path';
 import Kidspage from "./pages/Kidspage";
+import ScrollTop from "./components/ScrollTop";
 
 const queryClient = new QueryClient();
 
@@ -53,7 +54,8 @@ const App = () => (
       <TooltipProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter>
+          <BrowserRouter>
+            <ScrollTop />
           {/* <PopupController /> */}
           <AuthProvider>
             <Routes>

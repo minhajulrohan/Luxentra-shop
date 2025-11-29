@@ -12565,6 +12565,189 @@
         { "label": "Measurment Unit: ", "value": "Inch" },
         { "label": "Care", "value": "Dry Clean" }
       ]
+    },
+    {
+      "id": 249,
+      "name": "The Luxe Mini, Retro Grain, Chic Box, The Textured Square",
+      "slug": "womens-hand-bag-2",
+      "category": "Womens Bags",
+      "collection": "Womens",
+      "categorySlug": "womens-handbags",
+      "price": 1650,
+      "originalPrice": "",
+	    "badge":"Available",
+      "stockQuantity": 13, 
+      "description": "",
+      "fullDescription": "",
+      "brand": "Luxentra",
+      "sku": "LS_0000000J5678WTVJ7D",
+      "images": [
+        "https://img.alicdn.com/img/ibank/O1CN01ZtRM0t1NUwRttNNan_!!2219178551574-0-cib.jpg",
+        "https://img.alicdn.com/img/ibank/O1CN0101BlX31NUwRswYlQw_!!2219178551574-0-cib.jpg",
+        "https://img.alicdn.com/img/ibank/O1CN01mYOsCY1NUwRsnk1FQ_!!2219178551574-0-cib.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": ["Black", "Brown"],
+      
+
+      "features": [
+        "",
+        "",
+        ""
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "Colour: ", "value": "Black & Brown" },
+        { "label": "Gender", "value": "Female" },
+        { "label": "Trendy luggage styles: ", "value": "Small square bag" },
+        { "label": "Outer bag type", "value": "Internal patch pocket" }
+      ]
+    },
+    {
+      "id": 250,
+      "name": " Fashion Big Bag High-end Western Style Tote Bag",
+      "slug": "womens-hand-bag-3",
+      "category": "Womens Bags",
+      "collection": "Womens",
+      "categorySlug": "womens-handbags",
+      "price": 1790,
+      "originalPrice": "",
+	    "badge":"Available",
+      "stockQuantity": 13, 
+      "description": "",
+      "fullDescription": "",
+      "brand": "Luxentra",
+      "sku": "LS_0000000J5678WTVJ7D",
+      "images": [
+        "https://img.alicdn.com/img/ibank/O1CN01KaUuLm25rEnv0a35b_!!2218472977579-0-cib.jpg",
+        "https://img.alicdn.com/img/ibank/O1CN01eMFD0v25rEnS6MjPO_!!2218472977579-0-cib.jpg",
+        "https://img.alicdn.com/img/ibank/O1CN01vagKqF25rEnQJdYFZ_!!2218472977579-0-cib.jpg",
+        "https://img.alicdn.com/img/ibank/O1CN01YpMiM125rEnR407lO_!!2218472977579-0-cib.jpg"
+      ],
+
+      "sizes": [], 
+      "colors": ["Black", "Brown", "White "],
+      
+
+      "features": [
+        "",
+        "",
+        ""
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "Colour: ", "value": "Black & Brown White" },
+        { "label": "Gender", "value": "Female" },
+        { "label": "Trendy luggage styles: ", "value": "Small square bag" },
+        { "label": "Outer bag type", "value": "Internal patch pocket" }
+      ]
+    },
+    {
+      "id": 251,
+      "name": " Powder Blue Printed Cotton Saree",
+      "slug": "powder-blue-printed-cotton-saree-0560000081178",
+      "category": "Womens",
+      "collection": "Womens",
+      "categorySlug": "womens-saree1245",
+      "price": 1950,
+      "originalPrice": "",
+	    "badge":"Available",
+      "stockQuantity": 13, 
+      "description": "",
+      "fullDescription": "",
+      "brand": "Luxentra",
+      "sku": "LS_0000000J5678WTVJ7D",
+      "images": [
+        "https://mcprod.aarong.com/media/catalog/product/0/5/0560000081178.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=&width=",
+        "https://mcprod.aarong.com/media/catalog/product/0/5/0560000081178_1.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=&width=",
+        "https://mcprod.aarong.com/media/catalog/product/0/5/0560000081178_2.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=&width="
+      ],
+
+      "sizes": [], 
+      "colors": ["Blue"],
+      
+
+      "features": [
+        "",
+        "",
+        ""
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "Colour: ", "value": "BLue" },
+        { "label": "Gender", "value": "Female" },
+        { "label": "Fabric ", "value": "Cotton" },
+        { "label": "Value Addition", "value": "Block Print" },
+        { "label": "Aanchal", "value": "Patterned Aanchal" },
+        { "label": "Blouse", "value": "With Blouse Piece" },
+        { "label": "Care", "value": "Hand Wash With Mild Detergent In Cold Water And Starch" }
+      ]
+    },
+    {
+      "id": 252,
+      "name": "  Light Golden Genuine Leather Nagra",
+      "slug": "powder-blue-printed-cotton-saree-0560000081178",
+      "category": "Womens Shoe",
+      "collection": "Womens",
+      "categorySlug": "womens-shoe",
+      "price": 1300,
+      "originalPrice": "",
+	    "badge":"Available",
+      "stockQuantity": 13, 
+      "description": "",
+      "fullDescription": "",
+      "brand": "Luxentra",
+      "sku": "LS_0000000J5678WTVJ7D",
+      "images": [
+        "https://mcprod.aarong.com/media/catalog/product/0/8/0870000106778.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=&width=",
+        "https://mcprod.aarong.com/media/catalog/product/0/8/0870000106778_1.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=&width=",
+        "https://mcprod.aarong.com/media/catalog/product/0/8/0870000106778_2.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=&width="
+      ],
+
+      "sizes": [], 
+      "colors": ["Golden"],
+      
+
+      "features": [
+        "",
+        "",
+        ""
+      ],
+      "ingredients": [
+        { "name": "", "benefit": "" },
+        { "name": "", "benefit": "" }
+      ],
+      "fullIngredients": "",
+
+
+      "specifications": [
+        { "label": "Colour: ", "value": "Golden" },
+        { "label": "Gender", "value": "Female" },
+        { "label": "Material ", "value": "Genuine Leather" },
+        { "label": "Heel", "value": "Cone Heel" },
+        { "label": "Lining", "value": "Genuine Leather Lining" },
+        { "label": "Sole", "value": "Rubber Sole" },
+        { "label": "Care", "value": "Clean With Soft Dry Brush And Keep It In a Dry Place" }
+      ]
     }
   ]
 }
