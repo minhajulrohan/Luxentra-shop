@@ -30,7 +30,7 @@ const subCategoryData: Record<string, Array<any>> = {
     { name: "Abayas", href: "/products/womens-abyas" },
     { name: "Leggings", href: "/products/womens-leggings" },
     { name: "Tops", href: "/products/tops" },
-    { name: "Gowns", href: "/products/womens-gowns"},
+    { name: "Scarves", href: "/products/womens-scarves"},
     { name: "Handbags", href: "/products/womens-handbags"},
     { name: "Ladies Shoe", href: "/products/womens-shoe"},
     { name: "Perfume", href: "/products/womens-perfume"},

@@ -4,27 +4,30 @@ import Autoplay from "embla-carousel-autoplay";
 import { useCallback } from "react";
 import WomensCategoryCard from "./WomensCategoryCard";
 import { Button } from "@/components/ui/button"; // ✅ fixed import
-import Womens1 from "@/assets/Womens1.avif";
-import Womens2 from "@/assets/Womens2.avif";
-import Womens3 from "@/assets/Womens3.avif";
-import Womens4 from "@/assets/Womens4.avif";
-import Womens5 from "@/assets/Womens5.avif";
+import Womens5 from "@/assets/Womens5.avif"; //eita import image
+import Kurtis from "@/assets/womens-kurti.jpg"
+import Abayas from "@/assets/womens-abays.webp"
+import WomensBottomWears from "@/assets/womens-bottom-wears.avif"
+import Tops from "@/assets/womens-tops.webp"
 import NokshiBag from "@/assets/Nokshi-Bag1.jpg"
+import scarves from "@/assets/womens-scarves.webp"
 import Share1 from "@/assets/Share1.avif"
-import WomensShoe from "@/assets/WomensShoe1.jpg"
-import hudi from "@/assets/womensHudi.png"
+import Handbags from "@/assets/womens-hand-bag.jpg"
+import LadiesShoe from "@/assets/womens-ladies-shoe.jpg"
+import WomensPerfume from "@/assets/womens-perfume.jpg"
+
 
 const categories = [
   { title: "Ethnic Set (2 & 3 Pcs)", href: "/products/ethnic", image: Womens5 },
-  { title: "Kurtis", href: "/products/womens-kurits", image: hudi },
+  { title: "Kurtis", href: "/products/womens-kurits", image: Kurtis },
   { title: "Sharee", href: "/products/womens-saree1245",image: Share1 },
-  { title: "Abayas", href: "/products/womens-abyas", image: Womens4 },
-  { title: "Leggings", href: "/products/womens-leggings", image: WomensShoe },
-   { title: "Tops", href: "/products/tops", image: Womens5 },
-  { title: "Gowns", href: "/products/womens-gowns", image: hudi },
-  { title: "Handbags", href: "/products/womens-handbags", image: Womens3 },
-  { title: "Ladies Shoe", href: "/products/womens-shoe", image: Womens4 },
-  { title: "Perfume", href: "/products/womens-perfume", image: WomensShoe },
+  { title: "Abayas", href: "/products/womens-abyas", image: Abayas },
+  { title: "Womens Bottom Wear", href: "/products/womens-bottom-wear", image: WomensBottomWears },
+   { title: "Tops", href: "/products/tops", image: Tops },
+  { title: "Scarves", href: "/products/womens-scarves", image: scarves },
+  { title: "Handbags", href: "/products/womens-handbags", image: Handbags },
+  { title: "Ladies Shoe", href: "/products/womens-shoe", image: LadiesShoe },
+  { title: "Perfume", href: "/products/womens-perfume", image: WomensPerfume },
   { title: "Nokshi Bags", href: "/products/womens-nokshi-bags", image: NokshiBag }
 ];
 
