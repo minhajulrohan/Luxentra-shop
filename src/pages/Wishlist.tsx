@@ -133,12 +133,6 @@ const Wishlist = () => {
         // ... (Login check UI remains the same)
         return (
             <div className="min-h-screen flex flex-col">
-            <Helmet>
-            <title>Luxentra-shop || Wish List</title>
-            <meta name="description" content="Welcome to MyStore — best products online." />
-            <meta property="og:title" content="Home — MyStore" />
-        </Helmet>
-                <Header />
                 <main className="flex-1 flex items-center justify-center">
                     <div className="text-center">
                         <h1 className="text-4xl font-bold mb-4">My Wishlist</h1>
@@ -157,8 +151,6 @@ const Wishlist = () => {
 
     return (
         <div className="min-h-screen flex flex-col">
-            <Header />
-
             <main className="flex-1">
                 <section className="bg-secondary/30 py-12">
                     <div className="container mx-auto px-4">
@@ -247,7 +239,6 @@ const Wishlist = () => {
                 </section>
             </main>
 
-            <Footer />
             <ScrollToTopButton />
 
             {/* --- ✅ Quick Add Modal/Dialog --- */}

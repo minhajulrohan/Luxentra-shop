@@ -29,21 +29,18 @@ import ProductListPage from "./pages/products/ProductListPage";
 import ProductDetailsPage from "./pages/products/ProductDetailsPage";
 import TestConnection from "./test/TestConnection";
 import AdminDashboard from "./pages/admin/AdminDashboard";
-
-import { path } from 'path';
 import Marketplace from "./pages/Marketplace";
-import { path } from 'path';
 import HealthCare from "./pages/HealthCare";
 import Foods from "./pages/Foods";
-import { path } from 'path';
 import SkinCarepage from "./pages/SkinCarepage";
 import { HelmetProvider } from "react-helmet-async";
-import { path } from 'path';
 import WomenspageCategory from "./pages/WomenspageCategory";
 import MensCategoryPage from "./pages/MensCategoryPage";
-import { path } from 'path';
 import Kidspage from "./pages/Kidspage";
 import ScrollTop from "./components/ScrollTop";
+import ProfileLayout from "./components/ProfileLayout";
+import Dashboard from "./pages/profile/Dashboard";
+import ProfileInfo from "./pages/profile/ProfileInfo";
 
 const queryClient = new QueryClient();
 
@@ -90,7 +87,23 @@ const App = () => (
             
             {/* Auth Route */}
             <Route path="/auth" element={<Auth />} />
-            <Route path="/profile" element={<Profile />} />
+            {/* <Route path="/profile" element={<Profile />} /> */}
+                <Route path="/profile"
+                  element={<ProfileLayout>
+                    <Dashboard/>
+                  </ProfileLayout>} />
+                
+                <Route path="/profile/info" element={<ProfileLayout>
+                  <ProfileInfo />
+                </ProfileLayout>} />
+
+                <Route path="/profile/wishlist" element={<ProfileLayout>
+                  <Wishlist />
+                </ProfileLayout>} />
+
+                <Route path="/profile/orders" element={<ProfileLayout>
+                  <Orders />
+                </ProfileLayout>} />
             <Route path="/wishlist" element={<Wishlist />} />
             <Route path="/admin" element={<AdminDashboard />} />
             <Route path="/test" element={ <TestConnection />} />

@@ -100,12 +100,6 @@ const Header: React.FC = () => {
               {theme === "dark" ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
             </Button>
 
-            <Link to="/wishlist">
-              <Button variant="ghost" size="icon" className="hidden md:inline-flex">
-                <Heart className="w-5 h-5" />
-              </Button>
-            </Link>
-
             <Link to="/cart">
               <Button variant="ghost" size="icon" className="relative">
                 <ShoppingCart className="w-5 h-5" />
@@ -141,10 +135,6 @@ const Header: React.FC = () => {
 
                   <DropdownMenuItem onClick={() => navigate("/profile")}>
                     <User className="mr-2 h-4 w-4" /> Profile
-                  </DropdownMenuItem>
-
-                  <DropdownMenuItem onClick={() => navigate("/orders")}>
-                    <Package className="mr-2 h-4 w-4" /> My Orders
                   </DropdownMenuItem>
 
                   {isAdmin && (

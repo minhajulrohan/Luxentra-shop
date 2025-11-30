@@ -11,27 +11,27 @@ import { toast } from "sonner";
 import { Package, Truck, CheckCircle, XCircle, Clock } from "lucide-react";
 import { Helmet } from "react-helmet-async";
 
-// Add these fields to your Order interface in OrderSuccess.tsx
 interface Order {
   id: string;
-  order_number: string;
-  full_name: string;
-  email: string;
-  total: number;
-  subtotal: number;       // Needed for breakdown
-  shipping_cost: number;  // Needed for breakdown
-  tax: number;            // Needed for breakdown
-  coupon_discount: number;// Needed for breakdown
-  created_at: string;
-  order_status: string;
-  payment_method: string; // Crucial for Invoice
-  // Shipping Address Details
-  phone: string;
-  address_line1: string;
-  city: string;
-  state: string;
-  zip_code: string;
+  order_number: string | null;
+  email: string | null;
+  total_amount: number | null;
+  subtotal: number | null;
+  shipping_cost: number | null;
+  tax: number | null;
+  coupon_discount: number | null;
+  created_at: string | null;
+  order_status: string | null;
+  payment_method: string | null;
+  phone: string | null;
+  address_line1: string | null;
+  city: string | null;
+  state: string | null;
+  zip_code: string | null;
+  payment_status: string | null;
+  tracking_number?: string | null;
 }
+
 const Orders = () => {
   const { user } = useAuth();
   const navigate = useNavigate();
@@ -39,74 +39,90 @@ const Orders = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    if (!user) {
+    if (!user?.id) {
       navigate("/auth");
       return;
     }
-
     fetchOrders();
-  }, [user, navigate]);
+  }, [user]);
 
   const fetchOrders = async () => {
     try {
       const { data, error } = await supabase
-        .from('orders')
-        .select('*')
-        .eq('user_id', user?.id)
-        .order('created_at', { ascending: false });
+        .from("orders")
+        .select("*, order_items(*)")
+        .eq("user_id", user.id)
+        .order("created_at", { ascending: false });
 
       if (error) throw error;
-      setOrders(data || []);
-    } catch (error: any) {
-      console.error('Error fetching orders:', error);
+
+      const safeData = data?.map((o) => ({
+        ...o,
+        order_number: o.order_number ?? "N/A",
+        email: o.email ?? "N/A",
+        total_amount: o.total_amount ?? 0,
+        subtotal: o.subtotal ?? 0,
+        shipping_cost: o.shipping_cost ?? 0,
+        tax: o.tax ?? 0,
+        coupon_discount: o.coupon_discount ?? 0,
+        created_at: o.created_at ?? new Date().toISOString(),
+        order_status: o.order_status ?? "pending",
+        payment_method: o.payment_method ?? "cod",
+        phone: o.phone ?? "N/A",
+        address_line1: o.address_line1 ?? "N/A",
+        city: o.city ?? "N/A",
+        state: o.state ?? "N/A",
+        zip_code: o.zip_code ?? "N/A",
+        payment_status: o.payment_status ?? "pending",
+        tracking_number: o.tracking_number ?? null,
+      }));
+
+      setOrders(safeData || []);
+      console.log("Orders Loaded:", safeData);
+    } catch (err: any) {
+      console.error("Error fetching orders:", err);
       toast.error("Failed to load orders");
     } finally {
       setLoading(false);
     }
   };
 
-  const getStatusIcon = (status: string) => {
+  const formatStatus = (s?: string | null) => {
+    return s ? s[0].toUpperCase() + s.slice(1) : "Unknown";
+  };
+
+  const getStatusIcon = (status: string | null) => {
     switch (status) {
-      case 'pending': return <Clock className="w-4 h-4" />;
-      case 'processing': return <Package className="w-4 h-4" />;
-      case 'shipped': return <Truck className="w-4 h-4" />;
-      case 'delivered': return <CheckCircle className="w-4 h-4" />;
-      case 'cancelled': return <XCircle className="w-4 h-4" />;
+      case "pending": return <Clock className="w-4 h-4" />;
+      case "processing": return <Package className="w-4 h-4" />;
+      case "shipped": return <Truck className="w-4 h-4" />;
+      case "delivered": return <CheckCircle className="w-4 h-4" />;
+      case "cancelled": return <XCircle className="w-4 h-4" />;
       default: return <Package className="w-4 h-4" />;
     }
   };
 
-  const getStatusColor = (status: string) => {
+  const getStatusColor = (status: string | null) => {
     switch (status) {
-      case 'pending': return 'bg-yellow-500';
-      case 'processing': return 'bg-blue-500';
-      case 'shipped': return 'bg-purple-500';
-      case 'delivered': return 'bg-green-500';
-      case 'cancelled': return 'bg-red-500';
-      default: return 'bg-gray-500';
+      case "pending": return "bg-yellow-500";
+      case "processing": return "bg-blue-500";
+      case "shipped": return "bg-purple-500";
+      case "delivered": return "bg-green-500";
+      case "cancelled": return "bg-red-500";
+      default: return "bg-gray-500";
     }
   };
 
   if (loading) {
     return (
-      <>
-        <Header />
-        <div className="min-h-screen flex items-center justify-center">
-          <p className="text-lg">Loading orders...</p>
-        </div>
-        <Footer />
-      </>
+      <div className="min-h-screen flex items-center justify-center">
+        <p className="text-lg">Loading orders...</p>
+      </div>
     );
   }
 
   return (
     <>
-      <Helmet>
-        <title>Luxentra-shop || Order</title>
-        <meta name="description" content="Welcome to MyStore — best products online." />
-        <meta property="og:title" content="Home — MyStore" />
-      </Helmet>
-      <Header />
       <main className="min-h-screen bg-background py-12 px-4">
         <div className="container mx-auto max-w-6xl">
           <h1 className="text-3xl font-bold mb-8">My Orders</h1>
@@ -128,29 +144,28 @@ const Orders = () => {
                       <div>
                         <CardTitle className="text-lg">Order #{order.order_number}</CardTitle>
                         <CardDescription>
-                          Placed on {new Date(order.created_at).toLocaleDateString('en-US', {
-                            year: 'numeric',
-                            month: 'long',
-                            day: 'numeric'
-                          })}
+                          Placed on {order.created_at ? new Date(order.created_at).toLocaleDateString("en-US") : "N/A"}
                         </CardDescription>
                       </div>
                       <div className="text-right">
-                        <p className="text-2xl font-bold text-primary">TK {order.total.toFixed(2)}</p>
+                        <p className="text-2xl font-bold text-primary">৳{order.total_amount?.toFixed(2) ?? "0.00"}</p>
                       </div>
                     </div>
                   </CardHeader>
+
                   <CardContent>
                     <div className="flex flex-wrap gap-4 items-center justify-between">
                       <div className="flex gap-4">
                         <Badge className={`${getStatusColor(order.order_status)} text-white`}>
                           <span className="mr-1">{getStatusIcon(order.order_status)}</span>
-                          {order.order_status.charAt(0).toUpperCase() + order.order_status.slice(1)}
+                          {formatStatus(order.order_status)}
                         </Badge>
-                        <Badge variant={order.payment_status === 'completed' ? 'default' : 'secondary'}>
-                          Payment: {order.payment_status.charAt(0).toUpperCase() + order.payment_status.slice(1)}
+
+                        <Badge variant={order.payment_status === "completed" ? "default" : "secondary"}>
+                          Payment: {formatStatus(order.payment_status)}
                         </Badge>
                       </div>
+
                       <div className="flex gap-2">
                         {order.tracking_number && (
                           <Button
@@ -162,6 +177,7 @@ const Orders = () => {
                             Track Order
                           </Button>
                         )}
+
                         <Button
                           variant="outline"
                           size="sm"
@@ -178,6 +194,7 @@ const Orders = () => {
           )}
         </div>
       </main>
+
       <Footer />
     </>
   );
