@@ -16,7 +16,7 @@ import allProductsData from "@/data/allProducts.json";
 import Orders from "./Orders";
 import { Helmet } from "react-helmet-async";
 
-interface Profile {
+interface ProfileType {
   full_name: string;
   username: string;
   email: string;
@@ -40,27 +40,29 @@ const Profile = () => {
   const { user, loading } = useAuth();
   const { wishlist: wishlistItems, removeFromWishlist } = useWishlist();
   const navigate = useNavigate();
-  
-  const [profile, setProfile] = useState<Profile>({
+
+  const [profile, setProfile] = useState<ProfileType>({
     full_name: "",
     username: "",
     email: "",
     phone: "",
     avatar_url: "",
   });
-  
+
   const [addresses, setAddresses] = useState<Address[]>([]);
   const [showAddressForm, setShowAddressForm] = useState(false);
   const [editingAddress, setEditingAddress] = useState<Address | null>(null);
   const [uploading, setUploading] = useState(false);
   const [saving, setSaving] = useState(false);
 
+  // Redirect if not logged in
   useEffect(() => {
     if (!loading && !user) {
       navigate("/auth");
     }
   }, [user, loading, navigate]);
 
+  // Load profile & addresses when user changes
   useEffect(() => {
     if (user) {
       loadProfile();
@@ -68,26 +70,46 @@ const Profile = () => {
     }
   }, [user]);
 
+  // Load profile & auto-create if not exist
   const loadProfile = async () => {
+    if (!user) return;
+
     try {
       const { data, error } = await supabase
         .from("profiles")
         .select("*")
-        .eq("id", user?.id)
+        .eq("id", user.id)
         .single();
 
-      if (error) throw error;
-      if (data) {
+      const metadata = user.user_metadata || {};
+      const full_name = metadata.full_name || "";
+      const avatar_url = metadata.avatar_url || "";
+
+      if (!data) {
+        // Profile does not exist → create
+        const { error: insertError } = await supabase.from("profiles").insert([
+          {
+            id: user.id,
+            full_name,
+            email: user.email,
+            avatar_url,
+          },
+        ]);
+        if (insertError) throw insertError;
+
+        setProfile({ full_name, username: "", email: user.email, phone: "", avatar_url });
+      } else {
+        // Profile exists → load data
         setProfile({
-          full_name: data.full_name || "",
+          full_name: data.full_name || full_name,
           username: data.username || "",
-          email: data.email || "",
+          email: data.email || user.email,
           phone: data.phone || "",
-          avatar_url: data.avatar_url || "",
+          avatar_url: data.avatar_url || avatar_url,
         });
       }
     } catch (error) {
-      console.error("Error loading profile:", error);
+      console.error("Error loading/saving profile:", error);
     }
   };
 
@@ -109,10 +131,7 @@ const Profile = () => {
   const handleAvatarUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
     try {
       setUploading(true);
-      
-      if (!e.target.files || e.target.files.length === 0) {
-        return;
-      }
+      if (!e.target.files || e.target.files.length === 0) return;
 
       const file = e.target.files[0];
       const fileExt = file.name.split(".").pop();
@@ -121,7 +140,6 @@ const Profile = () => {
       const { error: uploadError } = await supabase.storage
         .from("avatars")
         .upload(filePath, file, { upsert: true });
-
       if (uploadError) throw uploadError;
 
       const { data: { publicUrl } } = supabase.storage
@@ -132,7 +150,6 @@ const Profile = () => {
         .from("profiles")
         .update({ avatar_url: publicUrl })
         .eq("id", user?.id);
-
       if (updateError) throw updateError;
 
       setProfile({ ...profile, avatar_url: publicUrl });
@@ -160,11 +177,8 @@ const Profile = () => {
       if (error) throw error;
       toast.success("Profile updated successfully!");
     } catch (error: any) {
-      if (error.code === "23505") {
-        toast.error("Username already taken");
-      } else {
-        toast.error("Error updating profile");
-      }
+      if (error.code === "23505") toast.error("Username already taken");
+      else toast.error("Error updating profile");
       console.error(error);
     } finally {
       setSaving(false);
@@ -174,7 +188,7 @@ const Profile = () => {
   const handleAddressSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const formData = new FormData(e.currentTarget);
-    
+
     try {
       const addressData = {
         user_id: user?.id,
@@ -218,8 +232,8 @@ const Profile = () => {
         .from("addresses")
         .delete()
         .eq("id", id);
-
       if (error) throw error;
+
       toast.success("Address deleted!");
       loadAddresses();
     } catch (error) {
@@ -231,13 +245,10 @@ const Profile = () => {
   const handleAddToCart = (productId: string) => {
     const cart = JSON.parse(localStorage.getItem("cart") || "[]");
     const existingItem = cart.find((item: any) => item.id === productId);
-    
-    if (existingItem) {
-      existingItem.quantity += 1;
-    } else {
-      cart.push({ id: productId, quantity: 1 });
-    }
-    
+
+    if (existingItem) existingItem.quantity += 1;
+    else cart.push({ id: productId, quantity: 1 });
+
     localStorage.setItem("cart", JSON.stringify(cart));
     toast.success("Added to cart!");
   };
@@ -246,9 +257,7 @@ const Profile = () => {
     wishlistItems.includes(product.id.toString())
   );
 
-  if (loading) {
-    return <div>Loading...</div>;
-  }
+  if (loading) return <div>Loading...</div>;
 
   return (
     <div className="min-h-screen bg-background">
@@ -258,11 +267,11 @@ const Profile = () => {
         <meta property="og:title" content="Home — MyStore" />
       </Helmet>
       <Header />
-      
+
       <main className="container mx-auto px-4 py-8 mt-20">
         <h1 className="text-4xl font-bold mb-8">My Profile</h1>
 
-        {/* Profile Information Section */}
+        {/* Profile Info */}
         <Card className="mb-8">
           <CardHeader>
             <CardTitle>Profile Information</CardTitle>
@@ -340,6 +349,7 @@ const Profile = () => {
             {showAddressForm && (
               <form onSubmit={handleAddressSubmit} className="mb-6 p-4 border rounded-lg">
                 <div className="grid gap-4">
+                  {/* Address inputs */}
                   <div>
                     <Label htmlFor="full_name">Full Name</Label>
                     <Input
@@ -458,7 +468,7 @@ const Profile = () => {
           </CardContent>
         </Card>
 
-        {/* Wishlist Section */}
+        {/* Wishlist */}
         <Card>
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
