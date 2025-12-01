@@ -46,21 +46,22 @@ const Contact = () => {
                   <MapPin className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                   <div>
                     <h3 className="font-semibold mb-1">Address</h3>
-                    <p className="text-muted-foreground">123 Commerce Street, City, State 12345</p>
+                    <p className="text-muted-foreground">Avenue #02, Road #14,
+                    Mirpur DOHS, DHAKA-1216, Bangladesh.</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
                   <Phone className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                   <div>
                     <h3 className="font-semibold mb-1">Phone</h3>
-                    <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                    <p className="text-muted-foreground">+880 0178 851 7930</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
                   <Mail className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                   <div>
                     <h3 className="font-semibold mb-1">Email</h3>
-                    <p className="text-muted-foreground">info@openshop.com</p>
+                    <p className="text-muted-foreground">support@luxentra-shop.xyz</p>
                   </div>
                 </div>
               </div>

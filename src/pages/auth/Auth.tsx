@@ -3,6 +3,8 @@ import { LoginForm } from "@/components/auth/LoginForm";
 import { SignUpForm } from "@/components/auth/SignUpForm";
 import { useAuth } from "@/hooks/useAuth";
 import { useNavigate } from "react-router-dom";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 const Auth = () => {
   const [isSignUp, setIsSignUp] = useState(false);
@@ -24,6 +26,8 @@ const Auth = () => {
   }
 
   return (
+    <main>
+      <Header />
     <div className="min-h-screen bg-background flex items-center justify-center p-4">
       <div className="w-full max-w-md animate-fade-in">
         {isSignUp ? (
@@ -32,7 +36,9 @@ const Auth = () => {
           <LoginForm onToggle={() => setIsSignUp(true)} />
         )}
       </div>
-    </div>
+      </div>
+      <Footer />
+       </main>
   );
 };
 

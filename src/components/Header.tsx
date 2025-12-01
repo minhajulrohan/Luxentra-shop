@@ -1,6 +1,16 @@
 import React, { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { Heart, Menu, Search, ShoppingCart, User, Package, Moon, Sun, LogOut } from "lucide-react";
+import {
+  Heart,
+  Menu,
+  Search,
+  ShoppingCart,
+  User as UserIcon,
+  Package,
+  Moon,
+  Sun,
+  LogOut,
+} from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useTheme } from "next-themes";
@@ -12,13 +22,14 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
+  DropdownMenuSeparator as Separator,
 } from "@/components/ui/dropdown-menu";
-import { Avatar, AvatarFallback } from "@/components/ui/avatar";
+import { Avatar } from "@/components/ui/avatar";
 import { Sheet, SheetContent, SheetTrigger, SheetClose } from "@/components/ui/sheet";
 import { Navbar } from "./Navbar";
-
-
 import { AuthModal } from "@/components/auth/AuthModal";
+import { supabase } from "@/integrations/supabase/client";
+import Orders from './../pages/Orders';
 
 // ADMIN ইমেইল ডিফাইন
 const ADMIN_EMAIL = "minhajulislamrohan123@gmail.com";
@@ -29,18 +40,36 @@ const Header: React.FC = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
 
+  const [profile, setProfile] = useState<any>(null); // ✅ profile state added
+
   const navigate = useNavigate();
   const { theme, setTheme } = useTheme();
   const { user, signOut } = useAuth();
 
   const isAdmin = !!(user && user.email === ADMIN_EMAIL);
 
+  // ✅ Load profile when user logs in
+  useEffect(() => {
+    if (user) loadProfile();
+  }, [user]);
+
+  const loadProfile = async () => {
+    const { data, error } = await supabase
+      .from("profiles")
+      .select("full_name, avatar_url")
+      .eq("id", user?.id)
+      .single();
+    if (!error) setProfile(data);
+  };
+
   const updateCartCount = () => {
     try {
       const cart = JSON.parse(localStorage.getItem("cart") || "[]");
-      const count = Array.isArray(cart) ? cart.reduce((sum: number, item: any) => sum + (item.quantity || 0), 0) : 0;
+      const count = Array.isArray(cart)
+        ? cart.reduce((sum: number, item: any) => sum + (item.quantity || 0), 0)
+        : 0;
       setCartCount(count);
-    } catch (err) {
+    } catch {
       setCartCount(0);
     }
   };
@@ -50,6 +79,13 @@ const Header: React.FC = () => {
     if (searchQuery.trim()) {
       navigate(`/shop?search=${encodeURIComponent(searchQuery)}`);
       setSearchQuery("");
+    }
+  };
+
+  const handleLogout = async () => {
+    const { error } = await signOut();
+    if (!error) {
+      navigate("/");
     }
   };
 
@@ -69,7 +105,7 @@ const Header: React.FC = () => {
             </Link>
 
             <nav className="hidden md:flex items-center justify-center gap-6 flex-1">
-              <Link to="/" className="text-sm font-md-bold hover:text-primary transition-colors">Home</Link>
+              <Link to="/" className="text-sm font-medium hover:text-primary transition-colors">Home</Link>
               <Link to="/about" className="text-sm font-medium hover:text-primary transition-colors">About</Link>
               <Link to="/blog" className="text-sm font-medium hover:text-primary transition-colors">Blog</Link>
               <Link to="/contact" className="text-sm font-medium hover:text-primary transition-colors">Contact</Link>
@@ -114,11 +150,14 @@ const Header: React.FC = () => {
             {user ? (
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
-                  <Button variant="ghost" size="icon" className="relative">
-                    <Avatar className="h-8 w-8">
-                      <AvatarFallback className="bg-primary text-primary-foreground">
-                        {user.email?.charAt(0).toUpperCase()}
-                      </AvatarFallback>
+                  <Button variant="ghost" size="icon">
+                    {/* ✅ Fixed Avatar (now loads profile image) */}
+                    <Avatar className="h-10 w-10">
+                      <img
+                        src={profile?.avatar_url || ""}
+                        alt="avatar"
+                        className="h-full w-full rounded-full object-cover"
+                      />
                     </Avatar>
                   </Button>
                 </DropdownMenuTrigger>
@@ -126,15 +165,15 @@ const Header: React.FC = () => {
                 <DropdownMenuContent align="end" className="w-56">
                   <DropdownMenuLabel>
                     <div className="flex flex-col space-y-1">
-                      <p className="text-sm font-medium leading-none">My Account</p>
-                      <p className="text-xs leading-none text-muted-foreground">{user.email}</p>
+                      <p className="text-sm font-medium">My Account</p>
+                      <p className="text-xs text-muted-foreground">{user.email}</p>
                     </div>
                   </DropdownMenuLabel>
 
-                  <DropdownMenuSeparator />
+                  <Separator />
 
                   <DropdownMenuItem onClick={() => navigate("/profile")}>
-                    <User className="mr-2 h-4 w-4" /> Profile
+                    <UserIcon className="mr-2 h-4 w-4" /> Profile
                   </DropdownMenuItem>
 
                   {isAdmin && (
@@ -143,17 +182,16 @@ const Header: React.FC = () => {
                     </DropdownMenuItem>
                   )}
 
-                  <DropdownMenuItem onClick={() => signOut()}>
+                  <DropdownMenuItem onClick={handleLogout}>
                     <LogOut className="mr-2 h-4 w-4" /> Logout
                   </DropdownMenuItem>
                 </DropdownMenuContent>
               </DropdownMenu>
             ) : (
               <Button
-                variant="default"
                 size="sm"
-                className="hidden md:inline-flex"
                 onClick={() => setIsAuthModalOpen(true)}
+                className="hidden md:inline-flex"
               >
                 Login
               </Button>
@@ -168,46 +206,13 @@ const Header: React.FC = () => {
 
               <SheetContent side="left" className="w-[300px]">
                 <nav className="flex flex-col gap-4 mt-8">
-                  <Link to="/" className="text-lg font-medium hover:text-primary transition-colors" onClick={() => setMobileMenuOpen(false)}>Home</Link>
-
-                  <Link to="/shop" className="text-lg font-medium hover:text-primary transition-colors" onClick={() => setMobileMenuOpen(false)}>Shop All Product</Link>
-
-                  <Link to="/about" className="text-lg font-medium hover:text-primary transition-colors" onClick={() => setMobileMenuOpen(false)}>About</Link>
-
-                  <Link to="/blog" className="text-lg font-medium hover:text-primary transition-colors" onClick={() => setMobileMenuOpen(false)}>Blog</Link>
-
-                  <Link to="/contact" className="text-lg font-medium hover:text-primary transition-colors" onClick={() => setMobileMenuOpen(false)}>Contact</Link>
-
-                  {isAdmin && (
-                    <Link to="/admin" className="text-lg font-medium hover:text-primary transition-colors" onClick={() => setMobileMenuOpen(false)}>Admin</Link>
-                  )}
-
-                  <div className="mt-4 border-t pt-4">
-                    {user && (
-                      <SheetClose asChild>
-                        <Link to="/orders" className="flex items-center gap-3 px-4 py-3 hover:bg-accent rounded-md transition-colors" onClick={() => setMobileMenuOpen(false)}>
-                          <Package className="h-5 w-5" />
-                          <span>My Orders</span>
-                        </Link>
-                      </SheetClose>
-                    )}
-
-                    <SheetClose asChild>
-                      <Link to="/wishlist" className="flex items-center gap-3 px-4 py-3 hover:bg-accent rounded-md transition-colors" onClick={() => setMobileMenuOpen(false)}>
-                        <Heart className="h-5 w-5" />
-                        <span>Wishlist</span>
-                      </Link>
-                    </SheetClose>
-                  </div>
+                  <Link to="/" className="text-lg font-medium" onClick={() => setMobileMenuOpen(false)}>Home</Link>
+                  <Link to="/about" className="text-lg font-medium" onClick={() => setMobileMenuOpen(false)}>About</Link>
+                  <Link to="/blog" className="text-lg font-medium" onClick={() => setMobileMenuOpen(false)}>Blog</Link>
+                  <Link to="/contact" className="text-lg font-medium" onClick={() => setMobileMenuOpen(false)}>Contact</Link>
 
                   {!user && (
-                    <Button
-                      className="w-full mt-4"
-                      onClick={() => {
-                        setMobileMenuOpen(false);
-                        setIsAuthModalOpen(true);
-                      }}
-                    >
+                    <Button onClick={() => { setMobileMenuOpen(false); setIsAuthModalOpen(true); }}>
                       Login
                     </Button>
                   )}
@@ -219,7 +224,6 @@ const Header: React.FC = () => {
       </div>
 
       <Navbar />
-
       <AuthModal isOpen={isAuthModalOpen} onClose={() => setIsAuthModalOpen(false)} />
     </header>
   );
